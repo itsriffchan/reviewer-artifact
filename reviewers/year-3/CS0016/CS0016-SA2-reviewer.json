@@ -1,0 +1,3696 @@
+{
+  "schemaVersion": 1,
+  "id": "CS0016-sa2",
+  "subject": {
+    "code": "CS0016",
+    "name": "Network and Communications 2A",
+    "yearLevel": 3
+  },
+  "reviewer": {
+    "title": "SA2 Reviewer",
+    "description": "Comprehensive SA2 reviewer grounded exclusively in Module 3: Software Development and Design and Module 4: Understanding and Using APIs. Fill-in-the-blank questions are excluded.",
+    "coverage": [
+      "Module 3: Software Development and Design",
+      "Module 4: Understanding and Using APIs"
+    ],
+    "shuffleQuestions": true,
+    "shuffleChoices": true
+  },
+  "questions": [
+    {
+      "id": "q001",
+      "type": "multiple-choice",
+      "topic": "Software Development",
+      "question": "Which description best defines the software development life cycle (SDLC)?",
+      "explanation": "SDLC is the process of developing software from an idea through delivery.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 5
+      },
+      "choices": [
+        "A process limited to coding and debugging",
+        "A process of developing software from an idea through delivery",
+        "A process used only after software reaches production",
+        "A process for managing only source-code repositories"
+      ],
+      "correctAnswer": "A process of developing software from an idea through delivery"
+    },
+    {
+      "id": "q002",
+      "type": "multiple-answer",
+      "topic": "Software Development",
+      "question": "Which four activities are explicitly included in SDLC beyond just coding? Select 4 answers.",
+      "explanation": "The module states that SDLC includes gathering requirements, creating a proof of concept, testing, and fixing bugs.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 4
+      },
+      "choices": [
+        "Gathering requirements",
+        "Creating a proof of concept",
+        "Testing",
+        "Fixing bugs",
+        "Creating repository hosting services",
+        "Setting API rate limits"
+      ],
+      "correctAnswers": [
+        "Gathering requirements",
+        "Creating a proof of concept",
+        "Testing",
+        "Fixing bugs"
+      ]
+    },
+    {
+      "id": "q003",
+      "type": "multiple-choice",
+      "topic": "Software Development",
+      "question": "At the conclusion of the requirements and analysis phase, what document does the classic waterfall method suggest creating?",
+      "explanation": "The classic waterfall method suggests creating a Software Requirement Specification (SRS) that states requirements and scope.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 6
+      },
+      "choices": [
+        "High-Level Design (HLD)",
+        "Software Requirement Specification (SRS)",
+        "Low-Level Design (LLD)",
+        "Pull request"
+      ],
+      "correctAnswer": "Software Requirement Specification (SRS)"
+    },
+    {
+      "id": "q004",
+      "type": "multiple-answer",
+      "topic": "Software Development",
+      "question": "After requirements are gathered, which four questions does the team analyze? Select 4 answers.",
+      "explanation": "The requirements and analysis phase evaluates feasibility and budget, schedule risks, testing, and delivery.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 6
+      },
+      "choices": [
+        "Whether development is possible and can be done on-budget",
+        "Whether there are risks to the development schedule",
+        "How the software will be tested",
+        "When and how the software will be delivered",
+        "Which Git transport protocol must be used",
+        "Which webhook provider must be registered"
+      ],
+      "correctAnswers": [
+        "Whether development is possible and can be done on-budget",
+        "Whether there are risks to the development schedule",
+        "How the software will be tested",
+        "When and how the software will be delivered"
+      ]
+    },
+    {
+      "id": "q005",
+      "type": "multiple-choice",
+      "topic": "Software Development",
+      "question": "Which documents are created at the end of the Design phase?",
+      "explanation": "The Design phase produces High-Level Design and Low-Level Design documents.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 7
+      },
+      "choices": [
+        "SRS and backlog",
+        "HLD and LLD",
+        "SRS and HLD",
+        "Backlog and user stories"
+      ],
+      "correctAnswer": "HLD and LLD"
+    },
+    {
+      "id": "q006",
+      "type": "multiple-choice",
+      "topic": "Software Development",
+      "question": "Why is the implementation phase described as the longest phase of the life cycle?",
+      "explanation": "All components and modules are built during implementation.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 7
+      },
+      "choices": [
+        "All components and modules are built during it",
+        "All customer support requests are handled during it",
+        "Every stakeholder requirement is first gathered during it",
+        "The production environment is created during it"
+      ],
+      "correctAnswer": "All components and modules are built during it"
+    },
+    {
+      "id": "q007",
+      "type": "multiple-answer",
+      "topic": "Software Development",
+      "question": "Which four types of testing are explicitly performed during the Testing phase? Select 4 answers.",
+      "explanation": "The module lists functional, integration, performance, and security testing.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 8
+      },
+      "choices": [
+        "Functional testing",
+        "Integration testing",
+        "Performance testing",
+        "Security testing",
+        "Repository testing",
+        "Backlog testing"
+      ],
+      "correctAnswers": [
+        "Functional testing",
+        "Integration testing",
+        "Performance testing",
+        "Security testing"
+      ]
+    },
+    {
+      "id": "q008",
+      "type": "multiple-answer",
+      "topic": "Software Development",
+      "question": "Which four activities occur during the Maintenance phase? Select 4 answers.",
+      "explanation": "Maintenance includes customer support, production bug fixes, software improvements, and gathering new customer requests.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 8
+      },
+      "choices": [
+        "Provide support to customers",
+        "Fix bugs found in production",
+        "Work on software improvements",
+        "Gather new requests from the customer",
+        "Create the initial SRS",
+        "Install code in the test environment"
+      ],
+      "correctAnswers": [
+        "Provide support to customers",
+        "Fix bugs found in production",
+        "Work on software improvements",
+        "Gather new requests from the customer"
+      ]
+    },
+    {
+      "id": "q009",
+      "type": "multiple-choice",
+      "topic": "Software Development",
+      "question": "Which three methodologies are identified as the most popular software development methodologies?",
+      "explanation": "The module identifies Waterfall, Agile, and Lean.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 9
+      },
+      "choices": [
+        "Waterfall, Agile, and Lean",
+        "Scrum, Git, and Lean",
+        "Waterfall, MVC, and Git",
+        "Agile, Observer, and MVC"
+      ],
+      "correctAnswer": "Waterfall, Agile, and Lean"
+    },
+    {
+      "id": "q010",
+      "type": "multiple-answer",
+      "topic": "Software Development",
+      "question": "Which three factors does the module say influence the choice of software development methodology? Select 3 answers.",
+      "explanation": "The choice depends on project type, project length, and team size.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 9
+      },
+      "choices": [
+        "Type of project",
+        "Length of project",
+        "Size of team",
+        "Number of Git branches",
+        "Number of API endpoints"
+      ],
+      "correctAnswers": [
+        "Type of project",
+        "Length of project",
+        "Size of team"
+      ]
+    },
+    {
+      "id": "q011",
+      "type": "multiple-choice",
+      "topic": "Software Development",
+      "question": "Who created the original waterfall model described in the module?",
+      "explanation": "The original waterfall model was created by Winston W. Royce.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 10
+      },
+      "choices": [
+        "Roy Thomas Fielding",
+        "Winston W. Royce",
+        "Erich Gamma",
+        "Ralph Johnson"
+      ],
+      "correctAnswer": "Winston W. Royce"
+    },
+    {
+      "id": "q012",
+      "type": "multiple-answer",
+      "topic": "Software Development",
+      "question": "Which four statements are values of the Agile Manifesto? Select 4 answers.",
+      "explanation": "The Agile Manifesto values individuals and interactions, working software, customer collaboration, and responding to change over their paired alternatives.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 11
+      },
+      "choices": [
+        "Individuals and interactions over processes and tools",
+        "Working software over comprehensive documentation",
+        "Customer collaboration over contract negotiation",
+        "Responding to change over following a plan",
+        "Comprehensive documentation over working software",
+        "Following a plan over responding to change"
+      ],
+      "correctAnswers": [
+        "Individuals and interactions over processes and tools",
+        "Working software over comprehensive documentation",
+        "Customer collaboration over contract negotiation",
+        "Responding to change over following a plan"
+      ]
+    },
+    {
+      "id": "q013",
+      "type": "multiple-choice",
+      "topic": "Software Development",
+      "question": "Which Agile method focuses on small, self-organizing teams that meet daily for short periods and work in iterative sprints?",
+      "explanation": "The module describes Agile Scrum this way.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 12
+      },
+      "choices": [
+        "Feature-Driven Development",
+        "Extreme Programming",
+        "Agile Scrum",
+        "Lean"
+      ],
+      "correctAnswer": "Agile Scrum"
+    },
+    {
+      "id": "q014",
+      "type": "multiple-choice",
+      "topic": "Software Development",
+      "question": "Which Agile method prescribes development in terms of an overall model that is broken out, planned, designed, and built feature-by-feature?",
+      "explanation": "This is the module's description of Feature-Driven Development (FDD).",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 12
+      },
+      "choices": [
+        "Agile Scrum",
+        "Feature-Driven Development (FDD)",
+        "Lean",
+        "Extreme Programming (XP)"
+      ],
+      "correctAnswer": "Feature-Driven Development (FDD)"
+    },
+    {
+      "id": "q015",
+      "type": "multiple-choice",
+      "topic": "Software Development",
+      "question": "A team fixes a 3-week period and selects user stories it believes it can finish during that period. What is this period called?",
+      "explanation": "A sprint is a specific period, usually 2–4 weeks, in which a team takes on tasks or user stories it can accomplish.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 13
+      },
+      "choices": [
+        "Backlog",
+        "Sprint",
+        "Iteration document",
+        "Design phase"
+      ],
+      "correctAnswer": "Sprint"
+    },
+    {
+      "id": "q016",
+      "type": "multiple-choice",
+      "topic": "Software Development",
+      "question": "What is the backlog in Agile development?",
+      "explanation": "The backlog is a prioritized list containing all features of the software.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 13
+      },
+      "choices": [
+        "A prioritized list of all software features",
+        "A list of only completed user stories",
+        "A record of Git merge conflicts",
+        "A collection of testing errors"
+      ],
+      "correctAnswer": "A prioritized list of all software features"
+    },
+    {
+      "id": "q017",
+      "type": "multiple-choice",
+      "topic": "Software Development",
+      "question": "Which statement best describes a user story?",
+      "explanation": "A user story is a simple statement of what a user or role needs and why, and it should be small enough for one team to finish in one sprint.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 13
+      },
+      "choices": [
+        "A detailed record of every source-code change",
+        "A simple statement of what a user or role needs and why",
+        "A list of all defects found in production",
+        "A document describing only software architecture"
+      ],
+      "correctAnswer": "A simple statement of what a user or role needs and why"
+    },
+    {
+      "id": "q018",
+      "type": "true-false",
+      "topic": "Software Development",
+      "question": "A Scrum team should be larger than 10 individuals to remain cross-functional.",
+      "explanation": "The module states that Scrum teams should not be larger than 10 individuals.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 14
+      },
+      "correctAnswer": false
+    },
+    {
+      "id": "q019",
+      "type": "multiple-choice",
+      "topic": "Software Development",
+      "question": "What is the stated maximum duration of a daily Scrum stand-up meeting?",
+      "explanation": "The Scrum master should hold the daily stand-up for not more than 15 minutes.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 14
+      },
+      "choices": [
+        "10 minutes",
+        "15 minutes",
+        "30 minutes",
+        "60 minutes"
+      ],
+      "correctAnswer": "15 minutes"
+    },
+    {
+      "id": "q020",
+      "type": "multiple-choice",
+      "topic": "Lean Software Development",
+      "question": "What is the fundamental focus of Lean software development?",
+      "explanation": "Lean is based on principles focused on minimizing waste and maximizing value to the customer.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 15
+      },
+      "choices": [
+        "Maximizing documentation and minimizing changes",
+        "Minimizing waste and maximizing customer value",
+        "Maximizing team size and minimizing iterations",
+        "Eliminating testing and maximizing deployment speed"
+      ],
+      "correctAnswer": "Minimizing waste and maximizing customer value"
+    },
+    {
+      "id": "q021",
+      "type": "multiple-answer",
+      "topic": "Lean Software Development",
+      "question": "Which seven items are identified as wastes of software development? Select 7 answers.",
+      "explanation": "The module lists partially done work, extra processes, extra features, task switching, waiting, motion, and defects.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 16
+      },
+      "choices": [
+        "Partially done work",
+        "Extra processes",
+        "Extra features",
+        "Task switching",
+        "Waiting",
+        "Motion",
+        "Defects",
+        "Customer feedback",
+        "Working software"
+      ],
+      "correctAnswers": [
+        "Partially done work",
+        "Extra processes",
+        "Extra features",
+        "Task switching",
+        "Waiting",
+        "Motion",
+        "Defects"
+      ]
+    },
+    {
+      "id": "q022",
+      "type": "multiple-answer",
+      "topic": "Lean Software Development",
+      "question": "According to the module, which three outcomes are enabled by frequent short iterations of working software? Select 3 answers.",
+      "explanation": "Short iterations help developers learn faster, let customers give feedback sooner, and allow features to be adjusted for more customer value.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 17
+      },
+      "choices": [
+        "Developers learn faster",
+        "Customers can give feedback sooner",
+        "Features can be adjusted to bring customers more value",
+        "All decisions must be made earlier",
+        "Customer feedback is delayed"
+      ],
+      "correctAnswers": [
+        "Developers learn faster",
+        "Customers can give feedback sooner",
+        "Features can be adjusted to bring customers more value"
+      ]
+    },
+    {
+      "id": "q023",
+      "type": "multiple-choice",
+      "topic": "Lean Software Development",
+      "question": "Why does Lean recommend deciding as late as possible when uncertainty exists?",
+      "explanation": "The module says decisions should be based on facts rather than opinions or speculation.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 17
+      },
+      "choices": [
+        "To avoid customer feedback",
+        "To base decisions on facts rather than opinions or speculation",
+        "To make every sprint longer",
+        "To prevent developers from making decisions"
+      ],
+      "correctAnswer": "To base decisions on facts rather than opinions or speculation"
+    },
+    {
+      "id": "q024",
+      "type": "true-false",
+      "topic": "Lean Software Development",
+      "question": "The Lean principle 'Empower the Team' allows each person to make decisions in the area of their own expertise.",
+      "explanation": "This is the module's description of empowering the team.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 18
+      },
+      "correctAnswer": true
+    },
+    {
+      "id": "q025",
+      "type": "multiple-choice",
+      "topic": "Lean Software Development",
+      "question": "What does 'Optimize the Whole' emphasize?",
+      "explanation": "Software should be built cohesively; experts should consider the effects of their decisions on the rest of the software.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 18
+      },
+      "choices": [
+        "Each expert should focus only on their own area",
+        "Software should be built cohesively with attention to effects across the whole",
+        "Every decision should be delayed indefinitely",
+        "Only customer-facing components should be optimized"
+      ],
+      "correctAnswer": "Software should be built cohesively with attention to effects across the whole"
+    },
+    {
+      "id": "q026",
+      "type": "multiple-choice",
+      "topic": "Software Design Patterns",
+      "question": "What are software design patterns?",
+      "explanation": "They are best-practice solutions for common software development problems.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 21
+      },
+      "choices": [
+        "Language-specific syntax rules",
+        "Best-practice solutions for common software development problems",
+        "Git commands for controlling versions",
+        "Testing scripts that replace design documents"
+      ],
+      "correctAnswer": "Best-practice solutions for common software development problems"
+    },
+    {
+      "id": "q027",
+      "type": "true-false",
+      "topic": "Software Design Patterns",
+      "question": "Software design patterns are language-independent.",
+      "explanation": "The module explicitly states that design patterns are language-independent.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 21
+      },
+      "correctAnswer": true
+    },
+    {
+      "id": "q028",
+      "type": "multiple-answer",
+      "topic": "Software Design Patterns",
+      "question": "Which three main categories did the Gang of Four use for design patterns? Select 3 answers.",
+      "explanation": "The three categories are creational, structural, and behavioral.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 22
+      },
+      "choices": [
+        "Creational",
+        "Structural",
+        "Behavioral",
+        "Synchronous",
+        "Distributed"
+      ],
+      "correctAnswers": [
+        "Creational",
+        "Structural",
+        "Behavioral"
+      ]
+    },
+    {
+      "id": "q029",
+      "type": "multiple-choice",
+      "topic": "Software Design Patterns",
+      "question": "Which commonly used design pattern is identified as a Behavioral design pattern?",
+      "explanation": "The Observer design pattern is identified as Behavioral.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 22
+      },
+      "choices": [
+        "Model-View-Controller",
+        "Observer",
+        "Waterfall",
+        "Scrum"
+      ],
+      "correctAnswer": "Observer"
+    },
+    {
+      "id": "q030",
+      "type": "multiple-answer",
+      "topic": "Software Design Patterns",
+      "question": "Which two capabilities must the subject provide to implement the Observer subscription mechanism? Select 2 answers.",
+      "explanation": "The subject stores a list of observers and provides methods to add and remove observers.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 23
+      },
+      "choices": [
+        "Store a list of all observers",
+        "Provide methods to add and remove observers",
+        "Create a new repository for each observer",
+        "Require observers to poll continuously"
+      ],
+      "correctAnswers": [
+        "Store a list of all observers",
+        "Provide methods to add and remove observers"
+      ]
+    },
+    {
+      "id": "q031",
+      "type": "multiple-choice",
+      "topic": "Software Design Patterns",
+      "question": "What benefit of the Observer pattern is emphasized in the module?",
+      "explanation": "Observers can receive real-time data from the subject when a change occurs.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 23
+      },
+      "choices": [
+        "Observers can receive real-time data when the subject changes",
+        "Observers eliminate the need for subjects",
+        "Observers convert local repositories into remote repositories",
+        "Observers guarantee that code contains no bugs"
+      ],
+      "correctAnswer": "Observers can receive real-time data when the subject changes"
+    },
+    {
+      "id": "q032",
+      "type": "multiple-choice",
+      "topic": "Software Design Patterns",
+      "question": "In MVC, which component manages the application's data, logic, and rules?",
+      "explanation": "The Model is the application's data structure and manages its data, logic, and rules.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 24
+      },
+      "choices": [
+        "View",
+        "Controller",
+        "Model",
+        "Observer"
+      ],
+      "correctAnswer": "Model"
+    },
+    {
+      "id": "q033",
+      "type": "multiple-choice",
+      "topic": "Software Design Patterns",
+      "question": "In MVC, which component acts as the middleman between the model and view?",
+      "explanation": "The Controller takes user input and manipulates it into a format for the model or view.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 24
+      },
+      "choices": [
+        "Controller",
+        "Model",
+        "View",
+        "Subject"
+      ],
+      "correctAnswer": "Controller"
+    },
+    {
+      "id": "q034",
+      "type": "multiple-choice",
+      "topic": "Software Design Patterns",
+      "question": "What development benefit of MVC is stated in the module?",
+      "explanation": "Each MVC component can be built in parallel.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 24
+      },
+      "choices": [
+        "Each component can be built in parallel",
+        "It removes the need for user input",
+        "It stores all application data in the view",
+        "It prevents all design changes"
+      ],
+      "correctAnswer": "Each component can be built in parallel"
+    },
+    {
+      "id": "q035",
+      "type": "multiple-choice",
+      "topic": "Version Control Systems",
+      "question": "What is the primary purpose of version control?",
+      "explanation": "Version control manages changes to files and keeps a history of those changes.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 26
+      },
+      "choices": [
+        "Manage changes to files and keep their history",
+        "Replace software testing",
+        "Generate API credentials",
+        "Create user stories"
+      ],
+      "correctAnswer": "Manage changes to files and keep their history"
+    },
+    {
+      "id": "q036",
+      "type": "multiple-answer",
+      "topic": "Version Control Systems",
+      "question": "Which five benefits of version control are listed? Select 5 answers.",
+      "explanation": "The module lists collaboration, accountability and visibility, work in isolation, safety, and work anywhere.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 26
+      },
+      "choices": [
+        "Enables collaboration",
+        "Accountability and visibility",
+        "Work in isolation",
+        "Safety",
+        "Work anywhere",
+        "Automatic elimination of all bugs",
+        "Automatic deployment"
+      ],
+      "correctAnswers": [
+        "Enables collaboration",
+        "Accountability and visibility",
+        "Work in isolation",
+        "Safety",
+        "Work anywhere"
+      ]
+    },
+    {
+      "id": "q037",
+      "type": "multiple-answer",
+      "topic": "Version Control Systems",
+      "question": "Which three types of version control systems are identified? Select 3 answers.",
+      "explanation": "The module identifies local, centralized, and distributed systems.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 26
+      },
+      "choices": [
+        "Local",
+        "Centralized",
+        "Distributed",
+        "Behavioral",
+        "Layered"
+      ],
+      "correctAnswers": [
+        "Local",
+        "Centralized",
+        "Distributed"
+      ]
+    },
+    {
+      "id": "q038",
+      "type": "multiple-choice",
+      "topic": "Version Control Systems",
+      "question": "What does an LVCS usually store between two versions of a file?",
+      "explanation": "In most cases, an LVCS stores the delta between file versions.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 27
+      },
+      "choices": [
+        "A full remote repository",
+        "The delta between the two versions",
+        "A webhook callback",
+        "An API token"
+      ],
+      "correctAnswer": "The delta between the two versions"
+    },
+    {
+      "id": "q039",
+      "type": "multiple-choice",
+      "topic": "Version Control Systems",
+      "question": "Which model does a centralized version control system use?",
+      "explanation": "CVCS uses a server-client model with a centralized repository.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 28
+      },
+      "choices": [
+        "Peer-to-peer",
+        "Server-client",
+        "Observer-subject",
+        "Model-view-controller"
+      ],
+      "correctAnswer": "Server-client"
+    },
+    {
+      "id": "q040",
+      "type": "multiple-choice",
+      "topic": "Version Control Systems",
+      "question": "Why does a CVCS require a user to check out a file before modifying it?",
+      "explanation": "The module states that only one individual can work on a particular file at a time, so the file is checked out to lock it.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 28
+      },
+      "choices": [
+        "To lock the file while that individual works on it",
+        "To create a remote repository",
+        "To convert the file into a snapshot",
+        "To add the file to a webhook"
+      ],
+      "correctAnswer": "To lock the file while that individual works on it"
+    },
+    {
+      "id": "q041",
+      "type": "multiple-choice",
+      "topic": "Version Control Systems",
+      "question": "Why is file locking not required in a DVCS?",
+      "explanation": "Each individual modifies a local file in a working copy, so multiple individuals can work on a file at the same time.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 29
+      },
+      "choices": [
+        "Only one user is permitted in the repository",
+        "Each user modifies a local working copy",
+        "DVCS does not keep file history",
+        "DVCS prevents users from editing the same file"
+      ],
+      "correctAnswer": "Each user modifies a local working copy"
+    },
+    {
+      "id": "q042",
+      "type": "multiple-choice",
+      "topic": "Version Control Systems",
+      "question": "How does Git primarily store versioned data?",
+      "explanation": "Git stores data as snapshots rather than differences between current and previous files.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 30
+      },
+      "choices": [
+        "As snapshots",
+        "Only as deltas",
+        "Only as compressed text files",
+        "As API responses"
+      ],
+      "correctAnswer": "As snapshots"
+    },
+    {
+      "id": "q043",
+      "type": "true-false",
+      "topic": "Version Control Systems",
+      "question": "If a file has not changed, Git can use a reference link to the last snapshot instead of taking an identical new snapshot.",
+      "explanation": "The module explicitly describes this behavior.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 30
+      },
+      "correctAnswer": true
+    },
+    {
+      "id": "q044",
+      "type": "multiple-answer",
+      "topic": "Version Control Systems",
+      "question": "Which three stages are part of Git's 'organized by 3s' model? Select 3 answers.",
+      "explanation": "Git's three stages are repository, working directory, and staging area.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 31
+      },
+      "choices": [
+        "Repository (.git directory)",
+        "Working directory",
+        "Staging area",
+        "Committed",
+        "Modified"
+      ],
+      "correctAnswers": [
+        "Repository (.git directory)",
+        "Working directory",
+        "Staging area"
+      ]
+    },
+    {
+      "id": "q045",
+      "type": "multiple-answer",
+      "topic": "Version Control Systems",
+      "question": "Which three states are part of Git's 'organized by 3s' model? Select 3 answers.",
+      "explanation": "The three states are committed, modified, and staged.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 31
+      },
+      "choices": [
+        "Committed",
+        "Modified",
+        "Staged",
+        "Repository",
+        "Working directory"
+      ],
+      "correctAnswers": [
+        "Committed",
+        "Modified",
+        "Staged"
+      ]
+    },
+    {
+      "id": "q046",
+      "type": "multiple-choice",
+      "topic": "Version Control Systems",
+      "question": "Where is a local Git repository stored?",
+      "explanation": "A local repository is stored on the file system of the client machine where Git commands are executed.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 32
+      },
+      "choices": [
+        "On the client machine's file system",
+        "Only on a repository hosting service",
+        "Only in the staging area",
+        "Inside the remote server's working directory"
+      ],
+      "correctAnswer": "On the client machine's file system"
+    },
+    {
+      "id": "q047",
+      "type": "true-false",
+      "topic": "Version Control Systems",
+      "question": "After cloning, a local and remote Git repository remain automatically synchronized without manual Git commands.",
+      "explanation": "The module states that the repositories are independent until changes are applied through manual Git command execution.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 32
+      },
+      "correctAnswer": false
+    },
+    {
+      "id": "q048",
+      "type": "multiple-choice",
+      "topic": "Version Control Systems",
+      "question": "What is the main purpose of branching in Git?",
+      "explanation": "Branching lets users work independently without affecting the main code in the repository.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 33
+      },
+      "choices": [
+        "Work on code independently without affecting the main code",
+        "Force all users to edit the same working copy",
+        "Remove the repository history",
+        "Replace commits with deltas"
+      ],
+      "correctAnswer": "Work on code independently without affecting the main code"
+    },
+    {
+      "id": "q049",
+      "type": "true-false",
+      "topic": "Version Control Systems",
+      "question": "When switching Git branches, the repository (.git) directory changes to match the selected branch.",
+      "explanation": "The working directory and staging area change, but the .git repository directory remains unchanged.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 33
+      },
+      "correctAnswer": false
+    },
+    {
+      "id": "q050",
+      "type": "multiple-choice",
+      "topic": "Version Control Systems",
+      "question": "Which statement correctly distinguishes Git from GitHub according to the module?",
+      "explanation": "Git is a distributed version control implementation; GitHub is a repository hosting service that uses Git.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 34
+      },
+      "choices": [
+        "Git is a DVCS implementation, while GitHub is a repository hosting service using Git",
+        "GitHub is a local version control system, while Git is a code review method",
+        "Git and GitHub are two names for the same software",
+        "Git is a hosting service, while GitHub is a command-line DVCS implementation"
+      ],
+      "correctAnswer": "Git is a DVCS implementation, while GitHub is a repository hosting service using Git"
+    },
+    {
+      "id": "q051",
+      "type": "multiple-choice",
+      "topic": "Version Control Systems",
+      "question": "What is a GitHub pull request?",
+      "explanation": "It formalizes a contributor's request to review branch changes for inclusion in a main or curated branch.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 34
+      },
+      "choices": [
+        "A request to review branch changes for possible inclusion in another branch",
+        "A command that deletes a local repository",
+        "A method for creating an SRS",
+        "A request that automatically resolves all merge conflicts"
+      ],
+      "correctAnswer": "A request to review branch changes for possible inclusion in another branch"
+    },
+    {
+      "id": "q052",
+      "type": "multiple-choice",
+      "topic": "Version Control Systems",
+      "question": "Which command creates an empty Git repository or makes an existing folder a Git repository?",
+      "explanation": "The git init command initializes a Git repository.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 35
+      },
+      "choices": [
+        "git clone",
+        "git init",
+        "git status",
+        "git pull"
+      ],
+      "correctAnswer": "git init"
+    },
+    {
+      "id": "q053",
+      "type": "multiple-choice",
+      "topic": "Version Control Systems",
+      "question": "What hidden directory is created when a project becomes a Git repository?",
+      "explanation": "Git creates a hidden .git directory containing repository metadata.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 35
+      },
+      "choices": [
+        ".git",
+        ".stage",
+        ".repo",
+        ".branch"
+      ],
+      "correctAnswer": ".git"
+    },
+    {
+      "id": "q054",
+      "type": "multiple-answer",
+      "topic": "Version Control Systems",
+      "question": "Which four transport protocols does Git support for accessing a repository as listed in the module? Select 4 answers.",
+      "explanation": "The listed protocols are Local, SSH, Git, and HTTP.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 36
+      },
+      "choices": [
+        "Local",
+        "Secure Shell (SSH)",
+        "Git",
+        "HTTP",
+        "SMTP",
+        "JMS"
+      ],
+      "correctAnswers": [
+        "Local",
+        "Secure Shell (SSH)",
+        "Git",
+        "HTTP"
+      ]
+    },
+    {
+      "id": "q055",
+      "type": "multiple-choice",
+      "topic": "Version Control Systems",
+      "question": "Which Git command lists files that differ between the working directory and the parent branch?",
+      "explanation": "git status provides this list.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 37
+      },
+      "choices": [
+        "git diff",
+        "git status",
+        "git add",
+        "git merge"
+      ],
+      "correctAnswer": "git status"
+    },
+    {
+      "id": "q056",
+      "type": "multiple-choice",
+      "topic": "Version Control Systems",
+      "question": "Which Git command is described as a generic file comparison tool?",
+      "explanation": "git diff is the generic file comparison tool.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 37
+      },
+      "choices": [
+        "git diff",
+        "git commit",
+        "git push",
+        "git rm"
+      ],
+      "correctAnswer": "git diff"
+    },
+    {
+      "id": "q057",
+      "type": "multiple-choice",
+      "topic": "Version Control Systems",
+      "question": "Which command stages all changed files?",
+      "explanation": "The module gives git add . for adding all changed files to the staging area.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 38
+      },
+      "choices": [
+        "git add .",
+        "git status .",
+        "git commit .",
+        "git diff ."
+      ],
+      "correctAnswer": "git add ."
+    },
+    {
+      "id": "q058",
+      "type": "multiple-choice",
+      "topic": "Version Control Systems",
+      "question": "What does `git rm --cached <file>` do?",
+      "explanation": "It stages the file's removal from the Git repository without removing the file itself from the working directory.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 40
+      },
+      "choices": [
+        "Stages removal from Git while preserving the file in the working directory",
+        "Deletes the file from both Git and the working directory without staging",
+        "Restores the file from the remote repository",
+        "Moves the file directly into the repository"
+      ],
+      "correctAnswer": "Stages removal from Git while preserving the file in the working directory"
+    },
+    {
+      "id": "q059",
+      "type": "multiple-choice",
+      "topic": "Version Control Systems",
+      "question": "What does `git commit` do with changes in the staging area?",
+      "explanation": "It combines staged content changes into a single commit and updates the local repository.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 41
+      },
+      "choices": [
+        "Combines staged changes into a single commit and updates the local repository",
+        "Uploads working-directory changes directly to a remote repository",
+        "Lists differences between untracked files",
+        "Deletes the current branch"
+      ],
+      "correctAnswer": "Combines staged changes into a single commit and updates the local repository"
+    },
+    {
+      "id": "q060",
+      "type": "multiple-choice",
+      "topic": "Version Control Systems",
+      "question": "Which command updates the master branch of the remote repository from the local repository?",
+      "explanation": "The module gives `git push origin master` for this operation.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 42
+      },
+      "choices": [
+        "git pull origin master",
+        "git push origin master",
+        "git merge origin master",
+        "git status origin master"
+      ],
+      "correctAnswer": "git push origin master"
+    },
+    {
+      "id": "q061",
+      "type": "multiple-choice",
+      "topic": "Version Control Systems",
+      "question": "Which command updates a local copy of a Git repository from the remote repository?",
+      "explanation": "git pull manually updates the local repository and working content.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 43
+      },
+      "choices": [
+        "git pull",
+        "git push",
+        "git add",
+        "git init"
+      ],
+      "correctAnswer": "git pull"
+    },
+    {
+      "id": "q062",
+      "type": "multiple-choice",
+      "topic": "Version Control Systems",
+      "question": "Which command deletes a Git branch?",
+      "explanation": "The module specifies `git branch -d <branch name>`.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 45
+      },
+      "choices": [
+        "git branch -d <branch name>",
+        "git rm <branch name>",
+        "git delete <branch name>",
+        "git checkout -d <branch name>"
+      ],
+      "correctAnswer": "git branch -d <branch name>"
+    },
+    {
+      "id": "q063",
+      "type": "multiple-choice",
+      "topic": "Version Control Systems",
+      "question": "During a Git merge, which branch is modified?",
+      "explanation": "Only the target branch is modified; the source branch remains unchanged.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 46
+      },
+      "choices": [
+        "Only the target branch",
+        "Only the source branch",
+        "Both branches are always modified",
+        "Neither branch"
+      ],
+      "correctAnswer": "Only the target branch"
+    },
+    {
+      "id": "q064",
+      "type": "multiple-choice",
+      "topic": "Version Control Systems",
+      "question": "What is a fast-forward merge as defined in the module?",
+      "explanation": "It occurs when Git can apply source changes to the target automatically without conflicts.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 47
+      },
+      "choices": [
+        "A merge Git can apply automatically without conflicts",
+        "A merge that always deletes the source branch",
+        "A merge that requires manual conflict resolution",
+        "A merge that updates only a remote repository"
+      ],
+      "correctAnswer": "A merge Git can apply automatically without conflicts"
+    },
+    {
+      "id": "q065",
+      "type": "multiple-choice",
+      "topic": "Version Control Systems",
+      "question": "When does a merge conflict occur?",
+      "explanation": "A merge conflict occurs when Git does not know how to automatically apply branch changes together for the files.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 47
+      },
+      "choices": [
+        "When Git cannot automatically combine branch changes for the files",
+        "Whenever a new branch is created",
+        "Whenever git status is executed",
+        "When a repository has no remote"
+      ],
+      "correctAnswer": "When Git cannot automatically combine branch changes for the files"
+    },
+    {
+      "id": "q066",
+      "type": "multiple-choice",
+      "topic": "Version Control Systems",
+      "question": "Which command joins two or more Git branches together?",
+      "explanation": "Git provides the git merge command to join branches.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 48
+      },
+      "choices": [
+        "git merge",
+        "git diff",
+        "git clone",
+        "git init"
+      ],
+      "correctAnswer": "git merge"
+    },
+    {
+      "id": "q067",
+      "type": "multiple-answer",
+      "topic": "Version Control Systems",
+      "question": "In a unified .diff file, which three symbol-to-meaning mappings are correct? Select 3 answers.",
+      "explanation": "A plus indicates an added line, a minus indicates a removed line, and @@ indicates the next information block.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 49
+      },
+      "choices": [
+        "+ means a line was added",
+        "- means a line was removed",
+        "@@ indicates the next block of information",
+        "index means a line was removed",
+        "/dev/null means the commits compared"
+      ],
+      "correctAnswers": [
+        "+ means a line was added",
+        "- means a line was removed",
+        "@@ indicates the next block of information"
+      ]
+    },
+    {
+      "id": "q068",
+      "type": "multiple-choice",
+      "topic": "Coding Basics",
+      "question": "What is the main goal of clean code described in the module?",
+      "explanation": "Clean code is written to be easy for other developers to read and understand.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 53
+      },
+      "choices": [
+        "Make code easy for other developers to read and understand",
+        "Make code depend on one large function",
+        "Avoid standardization",
+        "Eliminate modularity"
+      ],
+      "correctAnswer": "Make code easy for other developers to read and understand"
+    },
+    {
+      "id": "q069",
+      "type": "multiple-answer",
+      "topic": "Coding Basics",
+      "question": "Which four characteristics are emphasized by clean code? Select 4 answers.",
+      "explanation": "The module emphasizes standardization, proper organization, modularity, and inline comments among characteristics that make code self-documenting.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 53
+      },
+      "choices": [
+        "Standardization",
+        "Proper organization",
+        "Modularity",
+        "Inline comments",
+        "Unstructured repetition",
+        "Avoiding reusable components"
+      ],
+      "correctAnswers": [
+        "Standardization",
+        "Proper organization",
+        "Modularity",
+        "Inline comments"
+      ]
+    },
+    {
+      "id": "q070",
+      "type": "multiple-choice",
+      "topic": "Coding Basics",
+      "question": "Which code is especially likely to be a candidate for encapsulation in a method or function?",
+      "explanation": "Task code used more than once should probably be encapsulated.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 54
+      },
+      "choices": [
+        "Task code used more than once",
+        "Only code that can never be reused",
+        "Only comments",
+        "Only class variables"
+      ],
+      "correctAnswer": "Task code used more than once"
+    },
+    {
+      "id": "q071",
+      "type": "true-false",
+      "topic": "Coding Basics",
+      "question": "Methods and functions can be written once and executed as many times as required.",
+      "explanation": "The module explicitly states this as a benefit of methods and functions.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 54
+      },
+      "correctAnswer": true
+    },
+    {
+      "id": "q072",
+      "type": "multiple-choice",
+      "topic": "Coding Basics",
+      "question": "What do arguments and parameters add to methods and functions?",
+      "explanation": "They add flexibility.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 55
+      },
+      "choices": [
+        "Flexibility",
+        "Repository history",
+        "Automatic deployment",
+        "File locking"
+      ],
+      "correctAnswer": "Flexibility"
+    },
+    {
+      "id": "q073",
+      "type": "multiple-choice",
+      "topic": "Coding Basics",
+      "question": "What happens when a Python return statement is executed?",
+      "explanation": "It returns the specified value, ends the function's execution, and skips code below it.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 56
+      },
+      "choices": [
+        "The function ends and code below the return is skipped",
+        "The function restarts from its first line",
+        "The code below it always executes before returning",
+        "The function becomes a method"
+      ],
+      "correctAnswer": "The function ends and code below the return is skipped"
+    },
+    {
+      "id": "q074",
+      "type": "multiple-choice",
+      "topic": "Coding Basics",
+      "question": "How does the module distinguish a method from a function?",
+      "explanation": "Methods are associated with an object, while functions are standalone code blocks.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 57
+      },
+      "choices": [
+        "Methods are associated with an object; functions are standalone",
+        "Functions are associated with an object; methods are standalone",
+        "Methods can never be reused; functions can",
+        "Functions exist only inside classes"
+      ],
+      "correctAnswer": "Methods are associated with an object; functions are standalone"
+    },
+    {
+      "id": "q075",
+      "type": "multiple-choice",
+      "topic": "Coding Basics",
+      "question": "Why do developers typically use modules?",
+      "explanation": "Modules divide large projects into smaller parts that are easier to read and understand.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 58
+      },
+      "choices": [
+        "To divide large projects into smaller, understandable parts",
+        "To eliminate all interfaces between code components",
+        "To force all code into a single file",
+        "To replace classes with Git branches"
+      ],
+      "correctAnswer": "To divide large projects into smaller, understandable parts"
+    },
+    {
+      "id": "q076",
+      "type": "multiple-choice",
+      "topic": "Coding Basics",
+      "question": "How is a module packaged according to the module?",
+      "explanation": "A module is packaged as a single file and is expected to work independently.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 58
+      },
+      "choices": [
+        "As a single file expected to work independently",
+        "As a required set of remote repositories",
+        "As multiple files that cannot work independently",
+        "As a Git branch only"
+      ],
+      "correctAnswer": "As a single file expected to work independently"
+    },
+    {
+      "id": "q077",
+      "type": "multiple-choice",
+      "topic": "Coding Basics",
+      "question": "What does each class declaration define?",
+      "explanation": "Each class declaration defines a new object type.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 59
+      },
+      "choices": [
+        "A new object type",
+        "A new Git repository",
+        "A new API endpoint",
+        "A new test environment"
+      ],
+      "correctAnswer": "A new object type"
+    },
+    {
+      "id": "q078",
+      "type": "true-false",
+      "topic": "Coding Basics",
+      "question": "In Python, a single preceding underscore is conventionally used to indicate methods or variables considered private.",
+      "explanation": "The module notes this convention even though Python does not provide private class variables or internal methods in the same way described for other OOP languages.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 59
+      },
+      "correctAnswer": true
+    },
+    {
+      "id": "q079",
+      "type": "multiple-choice",
+      "topic": "Code Review and Testing",
+      "question": "When does the code review process occur according to the module?",
+      "explanation": "Code review happens after code changes are complete and tested.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 62
+      },
+      "choices": [
+        "After code changes are complete and tested",
+        "Before any code is written",
+        "Only after deployment to end users",
+        "Only before requirements are gathered"
+      ],
+      "correctAnswer": "After code changes are complete and tested"
+    },
+    {
+      "id": "q080",
+      "type": "multiple-answer",
+      "topic": "Code Review and Testing",
+      "question": "Which four code review types are listed? Select 4 answers.",
+      "explanation": "The module lists formal, change-based, over-the-shoulder, and email pass-around reviews.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 63
+      },
+      "choices": [
+        "Formal code review",
+        "Change-based code review",
+        "Over-the-shoulder code review",
+        "Email pass-around",
+        "Integration review",
+        "Sprint review"
+      ],
+      "correctAnswers": [
+        "Formal code review",
+        "Change-based code review",
+        "Over-the-shoulder code review",
+        "Email pass-around"
+      ]
+    },
+    {
+      "id": "q081",
+      "type": "multiple-choice",
+      "topic": "Code Review and Testing",
+      "question": "Which type of code review uses a series of meetings to review the whole codebase?",
+      "explanation": "This is a formal code review.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 63
+      },
+      "choices": [
+        "Formal code review",
+        "Change-based code review",
+        "Over-the-shoulder code review",
+        "Email pass-around"
+      ],
+      "correctAnswer": "Formal code review"
+    },
+    {
+      "id": "q082",
+      "type": "multiple-choice",
+      "topic": "Code Review and Testing",
+      "question": "Which type of code review examines code changed because of a bug, user story, feature, or commit?",
+      "explanation": "This is change-based, or tool-assisted, code review.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 63
+      },
+      "choices": [
+        "Change-based code review",
+        "Formal code review",
+        "Email pass-around",
+        "Integration testing"
+      ],
+      "correctAnswer": "Change-based code review"
+    },
+    {
+      "id": "q083",
+      "type": "multiple-choice",
+      "topic": "Code Review and Testing",
+      "question": "Which testing category asks whether software behaves correctly in a logical sense?",
+      "explanation": "Functional testing determines whether the software works correctly.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 64
+      },
+      "choices": [
+        "Functional testing",
+        "Non-functional testing",
+        "Code review",
+        "Version control"
+      ],
+      "correctAnswer": "Functional testing"
+    },
+    {
+      "id": "q084",
+      "type": "multiple-answer",
+      "topic": "Code Review and Testing",
+      "question": "Which four concerns are examples of non-functional testing listed in the module? Select 4 answers.",
+      "explanation": "Non-functional testing includes usability, performance, security, resiliency, compliance, localization, and other issues.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 64
+      },
+      "choices": [
+        "Usability",
+        "Performance",
+        "Security",
+        "Resiliency",
+        "Git branching",
+        "User stories"
+      ],
+      "correctAnswers": [
+        "Usability",
+        "Performance",
+        "Security",
+        "Resiliency"
+      ]
+    },
+    {
+      "id": "q085",
+      "type": "multiple-choice",
+      "topic": "Code Review and Testing",
+      "question": "What is unit testing?",
+      "explanation": "Unit testing is detailed functional testing of small pieces of code in isolation.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 65
+      },
+      "choices": [
+        "Detailed functional testing of small pieces of code in isolation",
+        "Testing only the complete application after deployment",
+        "Reviewing the entire codebase in meetings",
+        "Checking only software usability"
+      ],
+      "correctAnswer": "Detailed functional testing of small pieces of code in isolation"
+    },
+    {
+      "id": "q086",
+      "type": "multiple-choice",
+      "topic": "Code Review and Testing",
+      "question": "Which Python testing framework automatically executes appropriately named test scripts and functions as described in the module?",
+      "explanation": "PyTest automatically executes scripts and functions that follow the stated test naming conventions.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 65
+      },
+      "choices": [
+        "PyTest",
+        "unittest only",
+        "Git",
+        "YAML"
+      ],
+      "correctAnswer": "PyTest"
+    },
+    {
+      "id": "q087",
+      "type": "multiple-choice",
+      "topic": "Code Review and Testing",
+      "question": "What does Python's unittest framework require according to the module?",
+      "explanation": "For unittest, the tester subclasses the built-in TestCase class and uses or adds methods whose names begin with test_.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 65
+      },
+      "choices": [
+        "Subclass TestCase and use test_ methods",
+        "Name every repository test_",
+        "Store tests only in the staging area",
+        "Use only functions ending in _test.py without a class"
+      ],
+      "correctAnswer": "Subclass TestCase and use test_ methods"
+    },
+    {
+      "id": "q088",
+      "type": "multiple-choice",
+      "topic": "Code Review and Testing",
+      "question": "What is the purpose of integration testing?",
+      "explanation": "Integration testing ensures individual units fit together properly to form a complete application.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 66
+      },
+      "choices": [
+        "Ensure individual units fit together into a complete application",
+        "Test each isolated line without considering other units",
+        "Verify only user-interface appearance",
+        "Review Git commit history"
+      ],
+      "correctAnswer": "Ensure individual units fit together into a complete application"
+    },
+    {
+      "id": "q089",
+      "type": "multiple-choice",
+      "topic": "Code Review and Testing",
+      "question": "In Test-Driven Development, what is written before the application code?",
+      "explanation": "Testing code is written first to express requirements, then application code is written until it passes the tests.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 67
+      },
+      "choices": [
+        "Testing code",
+        "Deployment scripts only",
+        "The final maintenance report",
+        "Git merge conflicts"
+      ],
+      "correctAnswer": "Testing code"
+    },
+    {
+      "id": "q090",
+      "type": "multiple-answer",
+      "topic": "Code Review and Testing",
+      "question": "Which five steps form the repeating TDD process? Select 5 answers.",
+      "explanation": "The module lists creating a test, running tests, writing application code to pass it, running tests again, and refactoring/improving the code.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 67
+      },
+      "choices": [
+        "Create a new test",
+        "Run tests to see if any fail for unexpected reasons",
+        "Write application code to pass the new test",
+        "Run tests to see if any fail",
+        "Refactor and improve application code",
+        "Deploy immediately before testing"
+      ],
+      "correctAnswers": [
+        "Create a new test",
+        "Run tests to see if any fail for unexpected reasons",
+        "Write application code to pass the new test",
+        "Run tests to see if any fail",
+        "Refactor and improve application code"
+      ]
+    },
+    {
+      "id": "q091",
+      "type": "multiple-answer",
+      "topic": "Understanding Data Formats",
+      "question": "Which three formats are identified as the most popular standard formats for exchanging information with remote APIs? Select 3 answers.",
+      "explanation": "The module identifies XML, JSON, and YAML.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 70
+      },
+      "choices": [
+        "XML",
+        "JSON",
+        "YAML",
+        "CSV",
+        "HTML"
+      ],
+      "correctAnswers": [
+        "XML",
+        "JSON",
+        "YAML"
+      ]
+    },
+    {
+      "id": "q092",
+      "type": "multiple-choice",
+      "topic": "Understanding Data Formats",
+      "question": "What is XML?",
+      "explanation": "XML is a generic methodology for wrapping textual data in symmetrical tags to indicate semantics.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 71
+      },
+      "choices": [
+        "A methodology for wrapping textual data in symmetrical tags to indicate semantics",
+        "A version control algorithm",
+        "A rate-limiting method",
+        "A code review process"
+      ],
+      "correctAnswer": "A methodology for wrapping textual data in symmetrical tags to indicate semantics"
+    },
+    {
+      "id": "q093",
+      "type": "multiple-answer",
+      "topic": "Understanding Data Formats",
+      "question": "Which four basic data types does JSON include? Select 4 answers.",
+      "explanation": "The module lists numbers, strings, Booleans, and nulls.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 76
+      },
+      "choices": [
+        "Numbers",
+        "Strings",
+        "Booleans",
+        "Nulls",
+        "Comments",
+        "Branches"
+      ],
+      "correctAnswers": [
+        "Numbers",
+        "Strings",
+        "Booleans",
+        "Nulls"
+      ]
+    },
+    {
+      "id": "q094",
+      "type": "true-false",
+      "topic": "Understanding Data Formats",
+      "question": "JSON supports a standard method for including unparsed comments in code.",
+      "explanation": "The module states that JSON does not support a standard method for comments.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 76
+      },
+      "correctAnswer": false
+    },
+    {
+      "id": "q095",
+      "type": "true-false",
+      "topic": "Understanding Data Formats",
+      "question": "Whitespace in JSON is significant to the meaning of the document.",
+      "explanation": "The module states that whitespace in JSON is not significant.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 76
+      },
+      "correctAnswer": false
+    },
+    {
+      "id": "q096",
+      "type": "multiple-choice",
+      "topic": "Understanding Data Formats",
+      "question": "How is YAML related to JSON according to the module?",
+      "explanation": "YAML is described as a superset of JSON designed for easier human readability.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 77
+      },
+      "choices": [
+        "YAML is a superset of JSON designed for easier human readability",
+        "JSON is a superset of YAML",
+        "YAML and JSON cannot represent similar data",
+        "YAML is a version control format"
+      ],
+      "correctAnswer": "YAML is a superset of JSON designed for easier human readability"
+    },
+    {
+      "id": "q097",
+      "type": "true-false",
+      "topic": "Understanding Data Formats",
+      "question": "YAML parsers can generally parse JSON documents, but JSON parsers cannot generally parse YAML documents.",
+      "explanation": "This follows from the module's description of YAML as a superset of JSON.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 77
+      },
+      "correctAnswer": true
+    },
+    {
+      "id": "q098",
+      "type": "multiple-choice",
+      "topic": "Understanding Data Formats",
+      "question": "How does YAML indicate hierarchy?",
+      "explanation": "YAML indicates hierarchy using indentation.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 78
+      },
+      "choices": [
+        "Using indentation",
+        "Using Git commits",
+        "Using HTTP status codes",
+        "Using only braces"
+      ],
+      "correctAnswer": "Using indentation"
+    },
+    {
+      "id": "q099",
+      "type": "multiple-choice",
+      "topic": "Understanding Data Formats",
+      "question": "Which conventional markers open and close a YAML file as described in the module?",
+      "explanation": "YAML files conventionally open with three dashes and end with three dots.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 78
+      },
+      "choices": [
+        "--- to open and ... to close",
+        "... to open and --- to close",
+        "+++ to open and --- to close",
+        "@@ to open and /dev/null to close"
+      ],
+      "correctAnswer": "--- to open and ... to close"
+    },
+    {
+      "id": "q100",
+      "type": "multiple-choice",
+      "topic": "Understanding Data Formats",
+      "question": "How are YAML comments introduced?",
+      "explanation": "Comments are preceded by a hash sign and a space, except where excluded by the long-string rule described in the module.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 81
+      },
+      "choices": [
+        "With a hash sign and a space",
+        "With two forward slashes",
+        "With @@",
+        "With /dev/null"
+      ],
+      "correctAnswer": "With a hash sign and a space"
+    },
+    {
+      "id": "q101",
+      "type": "multiple-choice",
+      "topic": "Understanding Data Formats",
+      "question": "What does parsing mean?",
+      "explanation": "Parsing analyzes a message, breaks it into component parts, and understands their purposes in context.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 82
+      },
+      "choices": [
+        "Analyzing a message and breaking it into meaningful component parts",
+        "Turning every message into a Git snapshot",
+        "Uploading a local repository to a remote",
+        "Removing comments from YAML"
+      ],
+      "correctAnswer": "Analyzing a message and breaking it into meaningful component parts"
+    },
+    {
+      "id": "q102",
+      "type": "multiple-choice",
+      "topic": "Understanding Data Formats",
+      "question": "What does serialization do in relation to parsing?",
+      "explanation": "Serialization is roughly the opposite: it turns internal data structures into semantically equivalent messages formatted as character strings.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 82
+      },
+      "choices": [
+        "Turns internal data structures into semantically equivalent character-string messages",
+        "Breaks incoming messages into typed internal structures",
+        "Creates a Git branch for each data object",
+        "Converts all API calls to webhooks"
+      ],
+      "correctAnswer": "Turns internal data structures into semantically equivalent character-string messages"
+    },
+    {
+      "id": "q103",
+      "type": "multiple-choice",
+      "topic": "Introducing APIs",
+      "question": "What does an Application Programming Interface (API) allow?",
+      "explanation": "An API allows one piece of software to talk to another.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 4
+      },
+      "choices": [
+        "One piece of software to talk to another",
+        "A Git branch to merge itself automatically",
+        "A server to eliminate all authentication",
+        "A user story to become a sprint"
+      ],
+      "correctAnswer": "One piece of software to talk to another"
+    },
+    {
+      "id": "q104",
+      "type": "multiple-choice",
+      "topic": "Introducing APIs",
+      "question": "What does an API determine about an application?",
+      "explanation": "It determines what data, services, and functionality the application exposes to third parties.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 4
+      },
+      "choices": [
+        "What data, services, and functionality are exposed to third parties",
+        "Which developers must use Git",
+        "Which code review type must be used",
+        "How many Scrum members are allowed"
+      ],
+      "correctAnswer": "What data, services, and functionality are exposed to third parties"
+    },
+    {
+      "id": "q105",
+      "type": "multiple-answer",
+      "topic": "Introducing APIs",
+      "question": "Which three API use cases are listed in the module? Select 3 answers.",
+      "explanation": "The listed use cases are automation tasks, data integration, and functionality integration.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 5
+      },
+      "choices": [
+        "Automation tasks",
+        "Data integration",
+        "Functionality integration",
+        "Git branching",
+        "Code review"
+      ],
+      "correctAnswers": [
+        "Automation tasks",
+        "Data integration",
+        "Functionality integration"
+      ]
+    },
+    {
+      "id": "q106",
+      "type": "true-false",
+      "topic": "Introducing APIs",
+      "question": "APIs are built only for human interaction and cannot be consumed programmatically by applications.",
+      "explanation": "APIs are built to be consumed programmatically, although humans may also interact with them manually.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 5
+      },
+      "correctAnswer": false
+    },
+    {
+      "id": "q107",
+      "type": "multiple-choice",
+      "topic": "Introducing APIs",
+      "question": "Which development change helped non-software engineers build applications and consume APIs?",
+      "explanation": "The module cites simplified coding languages such as Python.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 6
+      },
+      "choices": [
+        "Simplified coding languages such as Python",
+        "Elimination of HTTP",
+        "Removal of API testing",
+        "Replacement of APIs with local files"
+      ],
+      "correctAnswer": "Simplified coding languages such as Python"
+    },
+    {
+      "id": "q108",
+      "type": "multiple-choice",
+      "topic": "API Design Styles",
+      "question": "How does a synchronous API respond to a request?",
+      "explanation": "It responds directly by providing data immediately.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 9
+      },
+      "choices": [
+        "It provides data immediately",
+        "It always sends a response with no data",
+        "It requires the client to register a webhook first",
+        "It delays every response until another request arrives"
+      ],
+      "correctAnswer": "It provides data immediately"
+    },
+    {
+      "id": "q109",
+      "type": "multiple-choice",
+      "topic": "API Design Styles",
+      "question": "When is a synchronous API appropriate according to the module?",
+      "explanation": "APIs are synchronous when requested data is readily available.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 9
+      },
+      "choices": [
+        "When the requested data is readily available",
+        "Only when data is unavailable",
+        "Only when the server requires hours to process the request",
+        "Whenever a webhook is required"
+      ],
+      "correctAnswer": "When the requested data is readily available"
+    },
+    {
+      "id": "q110",
+      "type": "true-false",
+      "topic": "API Design Styles",
+      "question": "With a synchronous API, the requesting application must wait for the response before performing additional code execution tasks.",
+      "explanation": "The module explicitly states this client-side behavior.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 9
+      },
+      "correctAnswer": true
+    },
+    {
+      "id": "q111",
+      "type": "multiple-choice",
+      "topic": "API Design Styles",
+      "question": "What initial response does an asynchronous API provide?",
+      "explanation": "It provides a response with no data to signify that the request has been received.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 10
+      },
+      "choices": [
+        "A response with no data acknowledging receipt",
+        "The completed data in every case",
+        "A Git commit",
+        "A SOAP Fault in every case"
+      ],
+      "correctAnswer": "A response with no data acknowledging receipt"
+    },
+    {
+      "id": "q112",
+      "type": "multiple-choice",
+      "topic": "API Design Styles",
+      "question": "When is an API asynchronous according to the module?",
+      "explanation": "It is asynchronous when processing takes time or the data is not readily available.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 10
+      },
+      "choices": [
+        "When processing takes time or data is not readily available",
+        "Only when data is immediately available",
+        "Only for local repositories",
+        "Only when using XML"
+      ],
+      "correctAnswer": "When processing takes time or data is not readily available"
+    },
+    {
+      "id": "q113",
+      "type": "multiple-choice",
+      "topic": "API Design Styles",
+      "question": "What is a benefit of asynchronous API design?",
+      "explanation": "The application can continue executing without being blocked while the server processes the request.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 10
+      },
+      "choices": [
+        "The application can continue execution without waiting for server processing",
+        "The server always returns completed data immediately",
+        "The client never needs to handle a response",
+        "All requests bypass authentication"
+      ],
+      "correctAnswer": "The application can continue execution without waiting for server processing"
+    },
+    {
+      "id": "q114",
+      "type": "multiple-answer",
+      "topic": "API Architectural Styles",
+      "question": "Which three API architectural styles are identified as the most popular? Select 3 answers.",
+      "explanation": "The module identifies RPC, SOAP, and REST.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 12
+      },
+      "choices": [
+        "RPC",
+        "SOAP",
+        "REST",
+        "MVC",
+        "Scrum"
+      ],
+      "correctAnswers": [
+        "RPC",
+        "SOAP",
+        "REST"
+      ]
+    },
+    {
+      "id": "q115",
+      "type": "multiple-choice",
+      "topic": "API Architectural Styles",
+      "question": "What is Remote Procedure Call (RPC)?",
+      "explanation": "RPC is a request-response model that lets an application make a procedure call to another application.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 13
+      },
+      "choices": [
+        "A request-response model for calling a procedure in another application",
+        "A Git merge algorithm",
+        "A rate-limit counter",
+        "A code review method"
+      ],
+      "correctAnswer": "A request-response model for calling a procedure in another application"
+    },
+    {
+      "id": "q116",
+      "type": "multiple-answer",
+      "topic": "API Architectural Styles",
+      "question": "Which four transport protocols or forms are listed as examples to which the RPC style can be applied? Select 4 answers.",
+      "explanation": "The module lists XML-RPC, JSON-RPC, NFS, and SOAP.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 13
+      },
+      "choices": [
+        "XML-RPC",
+        "JSON-RPC",
+        "NFS",
+        "SOAP",
+        "MVC",
+        "YAML-only RPC"
+      ],
+      "correctAnswers": [
+        "XML-RPC",
+        "JSON-RPC",
+        "NFS",
+        "SOAP"
+      ]
+    },
+    {
+      "id": "q117",
+      "type": "multiple-choice",
+      "topic": "API Architectural Styles",
+      "question": "What type of messaging protocol is SOAP?",
+      "explanation": "SOAP is an XML-based messaging protocol.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 14
+      },
+      "choices": [
+        "XML-based",
+        "YAML-only",
+        "Git-based",
+        "Plain-text-only without structure"
+      ],
+      "correctAnswer": "XML-based"
+    },
+    {
+      "id": "q118",
+      "type": "multiple-answer",
+      "topic": "API Architectural Styles",
+      "question": "Which three characteristics of SOAP are listed? Select 3 answers.",
+      "explanation": "SOAP is described as independent, extensible, and neutral.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 14
+      },
+      "choices": [
+        "Independent",
+        "Extensible",
+        "Neutral",
+        "Stateless only",
+        "Local only"
+      ],
+      "correctAnswers": [
+        "Independent",
+        "Extensible",
+        "Neutral"
+      ]
+    },
+    {
+      "id": "q119",
+      "type": "multiple-answer",
+      "topic": "API Architectural Styles",
+      "question": "Which four elements may appear in a SOAP message? Select 4 answers.",
+      "explanation": "A SOAP XML document may contain Envelope, Header, Body, and Fault.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 14
+      },
+      "choices": [
+        "Envelope",
+        "Header",
+        "Body",
+        "Fault",
+        "Branch",
+        "Backlog"
+      ],
+      "correctAnswers": [
+        "Envelope",
+        "Header",
+        "Body",
+        "Fault"
+      ]
+    },
+    {
+      "id": "q120",
+      "type": "multiple-choice",
+      "topic": "API Architectural Styles",
+      "question": "Which SOAP element is the root element of the XML document?",
+      "explanation": "The Envelope is the root element.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 14
+      },
+      "choices": [
+        "Envelope",
+        "Header",
+        "Body",
+        "Fault"
+      ],
+      "correctAnswer": "Envelope"
+    },
+    {
+      "id": "q121",
+      "type": "multiple-choice",
+      "topic": "API Architectural Styles",
+      "question": "Which SOAP element provides error and/or status information?",
+      "explanation": "The Fault element provides error or status information.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 14
+      },
+      "choices": [
+        "Fault",
+        "Envelope",
+        "Header",
+        "Body"
+      ],
+      "correctAnswer": "Fault"
+    },
+    {
+      "id": "q122",
+      "type": "multiple-choice",
+      "topic": "API Architectural Styles",
+      "question": "Who authored the REST architectural style identified in the module?",
+      "explanation": "REST is described as authored by Roy Thomas Fielding.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 16
+      },
+      "choices": [
+        "Roy Thomas Fielding",
+        "Winston W. Royce",
+        "Erich Gamma",
+        "John Vlissides"
+      ],
+      "correctAnswer": "Roy Thomas Fielding"
+    },
+    {
+      "id": "q123",
+      "type": "multiple-choice",
+      "topic": "API Architectural Styles",
+      "question": "What does the REST client-server constraint require?",
+      "explanation": "Client and server should be independent of each other.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 17
+      },
+      "choices": [
+        "The client and server should be independent",
+        "The server must store every client session state",
+        "The client and server must run on the same platform",
+        "The client must contain the server's data model"
+      ],
+      "correctAnswer": "The client and server should be independent"
+    },
+    {
+      "id": "q124",
+      "type": "multiple-choice",
+      "topic": "API Architectural Styles",
+      "question": "What does REST's stateless constraint require of client requests?",
+      "explanation": "Requests must contain all information the server needs, and the server cannot contain session states.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 17
+      },
+      "choices": [
+        "Requests contain all information needed by the server",
+        "The server stores session state for every client",
+        "Requests omit information already used previously",
+        "Clients depend on server-side sessions"
+      ],
+      "correctAnswer": "Requests contain all information needed by the server"
+    },
+    {
+      "id": "q125",
+      "type": "multiple-choice",
+      "topic": "API Architectural Styles",
+      "question": "Under the REST cache constraint, what must server responses state?",
+      "explanation": "Responses must state whether they are cacheable or non-cacheable.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 18
+      },
+      "choices": [
+        "Whether the response is cacheable or non-cacheable",
+        "Whether the client uses Git",
+        "Whether the server has a staging area",
+        "Whether the API is synchronous"
+      ],
+      "correctAnswer": "Whether the response is cacheable or non-cacheable"
+    },
+    {
+      "id": "q126",
+      "type": "multiple-answer",
+      "topic": "API Architectural Styles",
+      "question": "Which four principles are listed under REST's uniform interface constraint? Select 4 answers.",
+      "explanation": "The module lists identification of resources, manipulation through representations, self-descriptive messages, and hypermedia as the engine of application state.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 18
+      },
+      "choices": [
+        "Identification of resources",
+        "Manipulation of resources through representations",
+        "Self-descriptive messages",
+        "Hypermedia as the engine of application state",
+        "Mandatory server-side sessions",
+        "Repository locking"
+      ],
+      "correctAnswers": [
+        "Identification of resources",
+        "Manipulation of resources through representations",
+        "Self-descriptive messages",
+        "Hypermedia as the engine of application state"
+      ]
+    },
+    {
+      "id": "q127",
+      "type": "multiple-choice",
+      "topic": "API Architectural Styles",
+      "question": "In REST's layered system, what relationship exists between adjacent layers?",
+      "explanation": "Each layer provides services only to the layer above and consumes services from the layer below.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 19
+      },
+      "choices": [
+        "Each layer serves the layer above and consumes services from the layer below",
+        "Every layer communicates only with the client",
+        "Layers cannot consume services from other layers",
+        "Every layer must expose the same functions"
+      ],
+      "correctAnswer": "Each layer serves the layer above and consumes services from the layer below"
+    },
+    {
+      "id": "q128",
+      "type": "true-false",
+      "topic": "API Architectural Styles",
+      "question": "Code-on-demand is an optional REST constraint because executing third-party code can introduce security risks.",
+      "explanation": "The module explicitly gives this reason for making code-on-demand optional.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 19
+      },
+      "correctAnswer": true
+    },
+    {
+      "id": "q129",
+      "type": "multiple-choice",
+      "topic": "Introduction to REST APIs",
+      "question": "Over which protocol does a REST Web service API communicate?",
+      "explanation": "A REST API communicates over HTTP.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 21
+      },
+      "choices": [
+        "HTTP",
+        "Git",
+        "NFS only",
+        "SMTP only"
+      ],
+      "correctAnswer": "HTTP"
+    },
+    {
+      "id": "q130",
+      "type": "multiple-answer",
+      "topic": "Introduction to REST APIs",
+      "question": "Which four major components make up a REST API request? Select 4 answers.",
+      "explanation": "The request components are URI, HTTP Method, Header, and Body.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 22
+      },
+      "choices": [
+        "Uniform Resource Identifier (URI)",
+        "HTTP Method",
+        "Header",
+        "Body",
+        "HTTP Status",
+        "Fault"
+      ],
+      "correctAnswers": [
+        "Uniform Resource Identifier (URI)",
+        "HTTP Method",
+        "Header",
+        "Body"
+      ]
+    },
+    {
+      "id": "q131",
+      "type": "multiple-choice",
+      "topic": "Introduction to REST APIs",
+      "question": "Which URI component specifies whether HTTP or HTTPS should be used?",
+      "explanation": "The scheme specifies the HTTP protocol.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 23
+      },
+      "choices": [
+        "Scheme",
+        "Authority",
+        "Path",
+        "Query"
+      ],
+      "correctAnswer": "Scheme"
+    },
+    {
+      "id": "q132",
+      "type": "multiple-choice",
+      "topic": "Introduction to REST APIs",
+      "question": "Which two parts make up the authority component of a URI?",
+      "explanation": "Authority consists of host and port.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 23
+      },
+      "choices": [
+        "Host and port",
+        "Path and query",
+        "Scheme and path",
+        "Header and body"
+      ],
+      "correctAnswer": "Host and port"
+    },
+    {
+      "id": "q133",
+      "type": "multiple-choice",
+      "topic": "Introduction to REST APIs",
+      "question": "Which URI component represents the location of the resource to be manipulated on the server?",
+      "explanation": "The path identifies the resource location.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 23
+      },
+      "choices": [
+        "Path",
+        "Scheme",
+        "Authority",
+        "Query"
+      ],
+      "correctAnswer": "Path"
+    },
+    {
+      "id": "q134",
+      "type": "multiple-choice",
+      "topic": "Introduction to REST APIs",
+      "question": "Which URI component provides details for scope, filtering, or clarification of a request?",
+      "explanation": "The query component provides those additional details.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 23
+      },
+      "choices": [
+        "Query",
+        "Path",
+        "Scheme",
+        "Authority"
+      ],
+      "correctAnswer": "Query"
+    },
+    {
+      "id": "q135",
+      "type": "multiple-choice",
+      "topic": "Introduction to REST APIs",
+      "question": "Which HTTP method is suggested for creating a new object or resource?",
+      "explanation": "POST maps to Create.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 24
+      },
+      "choices": [
+        "POST",
+        "GET",
+        "PATCH",
+        "DELETE"
+      ],
+      "correctAnswer": "POST"
+    },
+    {
+      "id": "q136",
+      "type": "multiple-choice",
+      "topic": "Introduction to REST APIs",
+      "question": "Which HTTP method retrieves resource details from the system?",
+      "explanation": "GET maps to Read.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 24
+      },
+      "choices": [
+        "GET",
+        "POST",
+        "PUT",
+        "DELETE"
+      ],
+      "correctAnswer": "GET"
+    },
+    {
+      "id": "q137",
+      "type": "multiple-choice",
+      "topic": "Introduction to REST APIs",
+      "question": "Which HTTP method replaces or updates an existing resource?",
+      "explanation": "PUT maps to Update.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 24
+      },
+      "choices": [
+        "PUT",
+        "PATCH",
+        "GET",
+        "DELETE"
+      ],
+      "correctAnswer": "PUT"
+    },
+    {
+      "id": "q138",
+      "type": "multiple-choice",
+      "topic": "Introduction to REST APIs",
+      "question": "Which HTTP method updates only some details of an existing resource?",
+      "explanation": "PATCH maps to Partial Update.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 24
+      },
+      "choices": [
+        "PATCH",
+        "PUT",
+        "POST",
+        "GET"
+      ],
+      "correctAnswer": "PATCH"
+    },
+    {
+      "id": "q139",
+      "type": "multiple-choice",
+      "topic": "Introduction to REST APIs",
+      "question": "Which HTTP method removes a resource from the system?",
+      "explanation": "DELETE maps to Delete.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 24
+      },
+      "choices": [
+        "DELETE",
+        "PATCH",
+        "GET",
+        "POST"
+      ],
+      "correctAnswer": "DELETE"
+    },
+    {
+      "id": "q140",
+      "type": "multiple-choice",
+      "topic": "Introduction to REST APIs",
+      "question": "How are HTTP headers formatted?",
+      "explanation": "Headers are name-value pairs separated by a colon.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 25
+      },
+      "choices": [
+        "As name-value pairs separated by a colon",
+        "As values separated only by spaces",
+        "As XML tags only",
+        "As Git key-value commits"
+      ],
+      "correctAnswer": "As name-value pairs separated by a colon"
+    },
+    {
+      "id": "q141",
+      "type": "multiple-choice",
+      "topic": "Introduction to REST APIs",
+      "question": "Which header key can provide credentials to authorize a request?",
+      "explanation": "The module gives Authorization as the request-header key.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 25
+      },
+      "choices": [
+        "Authorization",
+        "Content-Type",
+        "Cache-Control",
+        "Set-Cookie"
+      ],
+      "correctAnswer": "Authorization"
+    },
+    {
+      "id": "q142",
+      "type": "multiple-choice",
+      "topic": "Introduction to REST APIs",
+      "question": "Which header key specifies the format of data in the request body?",
+      "explanation": "Content-Type is the entity header used to specify the body's data format.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 25
+      },
+      "choices": [
+        "Content-Type",
+        "Authorization",
+        "Set-Cookie",
+        "X-Rate Limit-Reset"
+      ],
+      "correctAnswer": "Content-Type"
+    },
+    {
+      "id": "q143",
+      "type": "multiple-answer",
+      "topic": "Introduction to REST APIs",
+      "question": "Which three HTTP methods typically include a request body? Select 3 answers.",
+      "explanation": "The module states that POST, PUT, and PATCH typically include a body.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 26
+      },
+      "choices": [
+        "POST",
+        "PUT",
+        "PATCH",
+        "GET",
+        "DELETE"
+      ],
+      "correctAnswers": [
+        "POST",
+        "PUT",
+        "PATCH"
+      ]
+    },
+    {
+      "id": "q144",
+      "type": "multiple-answer",
+      "topic": "Introduction to REST APIs",
+      "question": "Which three major components make up a REST API response? Select 3 answers.",
+      "explanation": "REST API responses contain HTTP Status, Header, and Body.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 27
+      },
+      "choices": [
+        "HTTP Status",
+        "Header",
+        "Body",
+        "URI",
+        "HTTP Method"
+      ],
+      "correctAnswers": [
+        "HTTP Status",
+        "Header",
+        "Body"
+      ]
+    },
+    {
+      "id": "q145",
+      "type": "multiple-choice",
+      "topic": "Introduction to REST APIs",
+      "question": "What does the first digit of a three-digit HTTP status code indicate?",
+      "explanation": "The first digit indicates the response category.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 28
+      },
+      "choices": [
+        "The response category",
+        "The HTTP method",
+        "The URI scheme",
+        "The body format"
+      ],
+      "correctAnswer": "The response category"
+    },
+    {
+      "id": "q146",
+      "type": "multiple-answer",
+      "topic": "Introduction to REST APIs",
+      "question": "Which five HTTP status-code category mappings are correct? Select 5 answers.",
+      "explanation": "The module maps 1xx to Informational, 2xx to Success, 3xx to Redirection, 4xx to Client Error, and 5xx to Server Error.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 28
+      },
+      "choices": [
+        "1xx — Informational",
+        "2xx — Success",
+        "3xx — Redirection",
+        "4xx — Client Error",
+        "5xx — Server Error",
+        "3xx — Authentication",
+        "5xx — Client Error"
+      ],
+      "correctAnswers": [
+        "1xx — Informational",
+        "2xx — Success",
+        "3xx — Redirection",
+        "4xx — Client Error",
+        "5xx — Server Error"
+      ]
+    },
+    {
+      "id": "q147",
+      "type": "multiple-choice",
+      "topic": "Introduction to REST APIs",
+      "question": "Which status code indicates that a requested resource was created?",
+      "explanation": "201 Created means the request was fulfilled and the requested resource was created.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 29
+      },
+      "choices": [
+        "201",
+        "200",
+        "202",
+        "404"
+      ],
+      "correctAnswer": "201"
+    },
+    {
+      "id": "q148",
+      "type": "multiple-choice",
+      "topic": "Introduction to REST APIs",
+      "question": "Which status code means a request was accepted for processing and is still in process?",
+      "explanation": "202 Accepted has this meaning.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 29
+      },
+      "choices": [
+        "202",
+        "201",
+        "400",
+        "503"
+      ],
+      "correctAnswer": "202"
+    },
+    {
+      "id": "q149",
+      "type": "multiple-choice",
+      "topic": "Introduction to REST APIs",
+      "question": "Which status code means the request does not have valid authentication credentials?",
+      "explanation": "401 Unauthorized indicates invalid authentication credentials.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 29
+      },
+      "choices": [
+        "401",
+        "403",
+        "404",
+        "500"
+      ],
+      "correctAnswer": "401"
+    },
+    {
+      "id": "q150",
+      "type": "multiple-choice",
+      "topic": "Introduction to REST APIs",
+      "question": "Which status code means the server understood the request but rejected it?",
+      "explanation": "403 Forbidden means the request was understood but rejected.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 29
+      },
+      "choices": [
+        "403",
+        "401",
+        "400",
+        "404"
+      ],
+      "correctAnswer": "403"
+    },
+    {
+      "id": "q151",
+      "type": "multiple-choice",
+      "topic": "Introduction to REST APIs",
+      "question": "Which status code indicates that the requested resource path was not found on the server?",
+      "explanation": "404 Not Found indicates the resource path was not found.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 29
+      },
+      "choices": [
+        "404",
+        "400",
+        "500",
+        "503"
+      ],
+      "correctAnswer": "404"
+    },
+    {
+      "id": "q152",
+      "type": "multiple-choice",
+      "topic": "Introduction to REST APIs",
+      "question": "What is the purpose of response pagination?",
+      "explanation": "Pagination breaks response data into chunks.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 31
+      },
+      "choices": [
+        "Break response data into chunks",
+        "Encrypt every response body",
+        "Authenticate a user",
+        "Merge API resources"
+      ],
+      "correctAnswer": "Break response data into chunks"
+    },
+    {
+      "id": "q153",
+      "type": "multiple-answer",
+      "topic": "Introduction to REST APIs",
+      "question": "Which six values are listed as accepted values for the Accept-Encoding request header? Select 6 answers.",
+      "explanation": "The module lists gzip, compress, deflate, br, identity, and *.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 31
+      },
+      "choices": [
+        "gzip",
+        "compress",
+        "deflate",
+        "br",
+        "identity",
+        "*",
+        "json",
+        "xml"
+      ],
+      "correctAnswers": [
+        "gzip",
+        "compress",
+        "deflate",
+        "br",
+        "identity",
+        "*"
+      ]
+    },
+    {
+      "id": "q154",
+      "type": "multiple-answer",
+      "topic": "Introduction to REST APIs",
+      "question": "Which three sequences are identified in the REST API request sequence diagram? Select 3 answers.",
+      "explanation": "The diagram is described as containing Create session, Get devices, and Create device sequences.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 32
+      },
+      "choices": [
+        "Create session",
+        "Get devices",
+        "Create device",
+        "Delete session",
+        "Merge devices"
+      ],
+      "correctAnswers": [
+        "Create session",
+        "Get devices",
+        "Create device"
+      ]
+    },
+    {
+      "id": "q155",
+      "type": "multiple-choice",
+      "topic": "Authenticating a REST API",
+      "question": "Why do REST APIs generally require authentication?",
+      "explanation": "Authentication prevents random users from accessing or modifying information incorrectly or maliciously.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 34
+      },
+      "choices": [
+        "To prevent unauthorized or malicious access and changes",
+        "To ensure every API is asynchronous",
+        "To replace HTTP status codes",
+        "To make every API read-only"
+      ],
+      "correctAnswer": "To prevent unauthorized or malicious access and changes"
+    },
+    {
+      "id": "q156",
+      "type": "multiple-choice",
+      "topic": "Authenticating a REST API",
+      "question": "What does authentication prove?",
+      "explanation": "Authentication proves the user's identity.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 35
+      },
+      "choices": [
+        "The user's identity",
+        "The user's permissions",
+        "The server's rate limit",
+        "The resource's URI"
+      ],
+      "correctAnswer": "The user's identity"
+    },
+    {
+      "id": "q157",
+      "type": "multiple-choice",
+      "topic": "Authenticating a REST API",
+      "question": "What does authorization define?",
+      "explanation": "Authorization defines user access and permissions to perform an action on a resource.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 35
+      },
+      "choices": [
+        "The user's access and permissions",
+        "The user's identity only",
+        "The API's response format",
+        "The URI's scheme"
+      ],
+      "correctAnswer": "The user's access and permissions"
+    },
+    {
+      "id": "q158",
+      "type": "multiple-choice",
+      "topic": "Authenticating a REST API",
+      "question": "How does Basic authentication transmit credentials?",
+      "explanation": "It uses username/password pairs separated by a colon and encoded using Base64.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 36
+      },
+      "choices": [
+        "Username/password pairs separated by a colon and Base64-encoded",
+        "A bearer token generated by an authentication server",
+        "A public API key only",
+        "An unencoded password without a username"
+      ],
+      "correctAnswer": "Username/password pairs separated by a colon and Base64-encoded"
+    },
+    {
+      "id": "q159",
+      "type": "multiple-choice",
+      "topic": "Authenticating a REST API",
+      "question": "What does Bearer authentication use?",
+      "explanation": "Bearer authentication uses a bearer token generated by an authentication server such as an Identity Service.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 36
+      },
+      "choices": [
+        "A bearer token",
+        "A Git commit",
+        "A SOAP Envelope",
+        "A YAML comment"
+      ],
+      "correctAnswer": "A bearer token"
+    },
+    {
+      "id": "q160",
+      "type": "multiple-choice",
+      "topic": "Authenticating a REST API",
+      "question": "What is an API key as described in the module?",
+      "explanation": "It is a unique alphanumeric string generated by the server and assigned to a user.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 36
+      },
+      "choices": [
+        "A unique alphanumeric string generated by the server and assigned to a user",
+        "A user's password encoded as XML",
+        "A REST constraint",
+        "A Git branch identifier"
+      ],
+      "correctAnswer": "A unique alphanumeric string generated by the server and assigned to a user"
+    },
+    {
+      "id": "q161",
+      "type": "true-false",
+      "topic": "Authenticating a REST API",
+      "question": "OAuth combines authentication with authorization.",
+      "explanation": "The module explicitly states this.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 37
+      },
+      "correctAnswer": true
+    },
+    {
+      "id": "q162",
+      "type": "multiple-choice",
+      "topic": "Authenticating a REST API",
+      "question": "What does OAuth 2.0 enable a third-party application to obtain?",
+      "explanation": "It enables limited access to an HTTP service.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 37
+      },
+      "choices": [
+        "Limited access to an HTTP service",
+        "Unlimited server access without a token",
+        "A local Git repository",
+        "A SOAP-only transport"
+      ],
+      "correctAnswer": "Limited access to an HTTP service"
+    },
+    {
+      "id": "q163",
+      "type": "multiple-choice",
+      "topic": "Authenticating a REST API",
+      "question": "In OAuth, what is the process of obtaining an access token called?",
+      "explanation": "The process is called a flow.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 37
+      },
+      "choices": [
+        "Flow",
+        "Sprint",
+        "Merge",
+        "Callback"
+      ],
+      "correctAnswer": "Flow"
+    },
+    {
+      "id": "q164",
+      "type": "multiple-answer",
+      "topic": "API Rate Limits",
+      "question": "Which three purposes of API rate limiting are listed? Select 3 answers.",
+      "explanation": "Rate limiting helps avoid server overload, improve service/response time for users, and protect against DoS attacks.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 40
+      },
+      "choices": [
+        "Avoid server overload from too many requests",
+        "Provide better service and response time to all users",
+        "Protect against a Denial-of-Service attack",
+        "Guarantee every request is accepted",
+        "Remove the need for authentication"
+      ],
+      "correctAnswers": [
+        "Avoid server overload from too many requests",
+        "Provide better service and response time to all users",
+        "Protect against a Denial-of-Service attack"
+      ]
+    },
+    {
+      "id": "q165",
+      "type": "multiple-choice",
+      "topic": "API Rate Limits",
+      "question": "How does the leaky bucket algorithm process queued requests?",
+      "explanation": "Incoming requests can arrive at any rate, but the server processes the queue at a fixed rate.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 41
+      },
+      "choices": [
+        "At a fixed rate",
+        "At the same rate at which every client sends them",
+        "Only after the queue becomes full",
+        "Without using a queue"
+      ],
+      "correctAnswer": "At a fixed rate"
+    },
+    {
+      "id": "q166",
+      "type": "multiple-choice",
+      "topic": "API Rate Limits",
+      "question": "What happens in the leaky bucket algorithm when the request queue is full?",
+      "explanation": "The request is rejected.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 41
+      },
+      "choices": [
+        "The request is rejected",
+        "The server doubles the queue automatically",
+        "The request bypasses the queue",
+        "The request receives a token"
+      ],
+      "correctAnswer": "The request is rejected"
+    },
+    {
+      "id": "q167",
+      "type": "multiple-choice",
+      "topic": "API Rate Limits",
+      "question": "In the token bucket algorithm, what happens when a request is accepted?",
+      "explanation": "The server checks for a token, removes one, and processes the request.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 42
+      },
+      "choices": [
+        "One token is removed and the request is processed",
+        "A new token is always added",
+        "All remaining tokens are removed",
+        "The request is placed in a fixed-rate queue"
+      ],
+      "correctAnswer": "One token is removed and the request is processed"
+    },
+    {
+      "id": "q168",
+      "type": "multiple-choice",
+      "topic": "API Rate Limits",
+      "question": "What happens when the token bucket contains no available token for a request?",
+      "explanation": "The server rejects the request.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 42
+      },
+      "choices": [
+        "The request is rejected",
+        "The request is always processed",
+        "The bucket becomes a webhook",
+        "The client receives unlimited tokens"
+      ],
+      "correctAnswer": "The request is rejected"
+    },
+    {
+      "id": "q169",
+      "type": "multiple-choice",
+      "topic": "API Rate Limits",
+      "question": "What does a fixed window counter assign to each fixed period of time?",
+      "explanation": "It assigns a counter representing how many requests can be processed during that period.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 43
+      },
+      "choices": [
+        "A counter representing how many requests can be processed",
+        "A Git branch",
+        "A SOAP Fault",
+        "A webhook URI"
+      ],
+      "correctAnswer": "A counter representing how many requests can be processed"
+    },
+    {
+      "id": "q170",
+      "type": "multiple-choice",
+      "topic": "API Rate Limits",
+      "question": "How does the sliding window counter decide whether to process a new request?",
+      "explanation": "It counts requests already made from the beginning of the window to the current time.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 44
+      },
+      "choices": [
+        "It counts requests made from the beginning of the window to the current time",
+        "It checks only whether the previous request succeeded",
+        "It uses a queue processed at a fixed rate",
+        "It always accepts the first request from every client"
+      ],
+      "correctAnswer": "It counts requests made from the beginning of the window to the current time"
+    },
+    {
+      "id": "q171",
+      "type": "multiple-choice",
+      "topic": "API Rate Limits",
+      "question": "What does the `X-Rate Limit-Limit` response header indicate?",
+      "explanation": "It indicates the maximum number of requests allowed in a specified unit of time.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 45
+      },
+      "choices": [
+        "The maximum number of requests in a specified unit of time",
+        "The number of pending requests still available",
+        "The time when the window resets",
+        "The HTTP method used"
+      ],
+      "correctAnswer": "The maximum number of requests in a specified unit of time"
+    },
+    {
+      "id": "q172",
+      "type": "multiple-choice",
+      "topic": "API Rate Limits",
+      "question": "What does the `X-Rate Limit-Remaining` header indicate?",
+      "explanation": "It gives the number of pending requests the requester can still make in the current window.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 45
+      },
+      "choices": [
+        "The number of requests the requester can still make in the current window",
+        "The maximum requests allowed for all time",
+        "The time the window resets",
+        "The number of server errors"
+      ],
+      "correctAnswer": "The number of requests the requester can still make in the current window"
+    },
+    {
+      "id": "q173",
+      "type": "multiple-choice",
+      "topic": "API Rate Limits",
+      "question": "What does the `X-Rate Limit-Reset` header indicate?",
+      "explanation": "It indicates when the rate-limit window will reset.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 45
+      },
+      "choices": [
+        "When the rate-limit window will reset",
+        "How many requests remain",
+        "Which HTTP method to use",
+        "Which authentication mechanism is required"
+      ],
+      "correctAnswer": "When the rate-limit window will reset"
+    },
+    {
+      "id": "q174",
+      "type": "multiple-answer",
+      "topic": "API Rate Limits",
+      "question": "Which two HTTP status codes are identified as the most commonly used when a rate limit is exceeded? Select 2 answers.",
+      "explanation": "The module lists 429 Too Many Requests and 403 Forbidden.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 46
+      },
+      "choices": [
+        "429 Too Many Requests",
+        "403 Forbidden",
+        "201 Created",
+        "202 Accepted"
+      ],
+      "correctAnswers": [
+        "429 Too Many Requests",
+        "403 Forbidden"
+      ]
+    },
+    {
+      "id": "q175",
+      "type": "multiple-choice",
+      "topic": "Working with Webhooks",
+      "question": "What is a webhook?",
+      "explanation": "A webhook is an HTTP callback, or HTTP POST to a specified URL, that notifies an application when a specified activity or event occurs.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 48
+      },
+      "choices": [
+        "An HTTP callback or POST that notifies an application of an event",
+        "A polling loop that repeatedly requests all resources",
+        "A Git command for remote updates",
+        "A SOAP root element"
+      ],
+      "correctAnswer": "An HTTP callback or POST that notifies an application of an event"
+    },
+    {
+      "id": "q176",
+      "type": "multiple-choice",
+      "topic": "Working with Webhooks",
+      "question": "Why can webhooks make applications more efficient?",
+      "explanation": "They remove the need for polling mechanisms.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 48
+      },
+      "choices": [
+        "Polling mechanisms are not required",
+        "They eliminate HTTP",
+        "They eliminate application registration",
+        "They prevent multiple subscribers"
+      ],
+      "correctAnswer": "Polling mechanisms are not required"
+    },
+    {
+      "id": "q177",
+      "type": "true-false",
+      "topic": "Working with Webhooks",
+      "question": "Multiple applications can subscribe to a single webhook server.",
+      "explanation": "The module explicitly states this.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 48
+      },
+      "correctAnswer": true
+    },
+    {
+      "id": "q178",
+      "type": "multiple-answer",
+      "topic": "Working with Webhooks",
+      "question": "Which three requirements must an application meet to consume webhook notifications? Select 3 answers.",
+      "explanation": "It must run continuously to receive POSTs, register a URI with the provider, and handle incoming notifications.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 49
+      },
+      "choices": [
+        "Be running at all times to receive HTTP POST requests",
+        "Register a URI on the webhook provider",
+        "Handle incoming notifications from the webhook server",
+        "Poll the provider continuously",
+        "Create a Git branch for every event"
+      ],
+      "correctAnswers": [
+        "Be running at all times to receive HTTP POST requests",
+        "Register a URI on the webhook provider",
+        "Handle incoming notifications from the webhook server"
+      ]
+    },
+    {
+      "id": "q179",
+      "type": "multiple-answer",
+      "topic": "Troubleshooting API Calls",
+      "question": "Which two resources should be kept handy when troubleshooting REST API issues? Select 2 answers.",
+      "explanation": "The module recommends the API reference guide and API authentication information.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 51
+      },
+      "choices": [
+        "API reference guide",
+        "API authentication information",
+        "Git commit history",
+        "Scrum backlog"
+      ],
+      "correctAnswers": [
+        "API reference guide",
+        "API authentication information"
+      ]
+    },
+    {
+      "id": "q180",
+      "type": "multiple-choice",
+      "topic": "Troubleshooting API Calls",
+      "question": "A REST API URI is missing its scheme. Which type of problem does the module use this to illustrate?",
+      "explanation": "A URI missing its scheme is the module's invalid URI example.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 52
+      },
+      "choices": [
+        "Invalid URI",
+        "Rate-limit exhaustion",
+        "Authorization success",
+        "Server maintenance"
+      ],
+      "correctAnswer": "Invalid URI"
+    },
+    {
+      "id": "q181",
+      "type": "multiple-answer",
+      "topic": "Troubleshooting API Calls",
+      "question": "Which four connectivity-related checks are raised when an API server cannot be reached? Select 4 answers.",
+      "explanation": "The module asks about proxy, firewall, VPN, and SSL issues.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 54
+      },
+      "choices": [
+        "Proxy issues",
+        "Firewall issues",
+        "VPN issues",
+        "SSL errors",
+        "Sprint duration",
+        "Git staging"
+      ],
+      "correctAnswers": [
+        "Proxy issues",
+        "Firewall issues",
+        "VPN issues",
+        "SSL errors"
+      ]
+    },
+    {
+      "id": "q182",
+      "type": "true-false",
+      "topic": "Troubleshooting API Calls",
+      "question": "The invalid-certificate issue described in the module can occur when the REST API URI uses HTTPS.",
+      "explanation": "The module states that this issue can occur with a secure HTTPS connection during SSL handshake.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 54
+      },
+      "correctAnswer": true
+    },
+    {
+      "id": "q183",
+      "type": "multiple-choice",
+      "topic": "Troubleshooting API Calls",
+      "question": "In the module's lab-environment example, which requests-library parameter can turn off certificate verification?",
+      "explanation": "The example adds `verify=False` to the request.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 55
+      },
+      "choices": [
+        "verify=False",
+        "auth=False",
+        "status=False",
+        "ssl=None"
+      ],
+      "correctAnswer": "verify=False"
+    },
+    {
+      "id": "q184",
+      "type": "multiple-choice",
+      "topic": "Troubleshooting API Calls",
+      "question": "What should be done when an API problem is caused by a server-side issue that cannot be resolved from the client side?",
+      "explanation": "The module says to contact the API server administrator.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 57
+      },
+      "choices": [
+        "Contact the API server administrator",
+        "Delete the local Git repository",
+        "Change every request to POST",
+        "Disable all authentication"
+      ],
+      "correctAnswer": "Contact the API server administrator"
+    },
+    {
+      "id": "q185",
+      "type": "multiple-answer",
+      "topic": "Troubleshooting API Calls",
+      "question": "Which three troubleshooting steps are listed for interpreting HTTP errors? Select 3 answers.",
+      "explanation": "The module says to check the return code, check the response body, and use a status-code reference if needed.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 58
+      },
+      "choices": [
+        "Check the return code",
+        "Check the response body",
+        "Use a status-code reference",
+        "Always disable certificate verification",
+        "Always retry without authentication"
+      ],
+      "correctAnswers": [
+        "Check the return code",
+        "Check the response body",
+        "Use a status-code reference"
+      ]
+    },
+    {
+      "id": "q186",
+      "type": "multiple-choice",
+      "topic": "Troubleshooting API Calls",
+      "question": "A request has malformed syntax because a resource is misspelled or a JSON object has a syntax issue. Which status code does the module associate with this situation?",
+      "explanation": "400 Bad Request is associated with malformed syntax, including misspelled resources and JSON syntax issues.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 59
+      },
+      "choices": [
+        "400",
+        "401",
+        "403",
+        "500"
+      ],
+      "correctAnswer": "400"
+    },
+    {
+      "id": "q187",
+      "type": "multiple-choice",
+      "topic": "Troubleshooting API Calls",
+      "question": "A server cannot authenticate a request because the credentials are invalid or missing. Which status code applies?",
+      "explanation": "401 Unauthorized means the server could not authenticate the request.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 61
+      },
+      "choices": [
+        "401",
+        "403",
+        "409",
+        "415"
+      ],
+      "correctAnswer": "401"
+    },
+    {
+      "id": "q188",
+      "type": "multiple-choice",
+      "topic": "Troubleshooting API Calls",
+      "question": "The server recognizes valid credentials, but the user lacks permission for the requested API. Which status code applies?",
+      "explanation": "403 Forbidden means authentication is recognized but the client is not authorized.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 62
+      },
+      "choices": [
+        "403",
+        "401",
+        "400",
+        "404"
+      ],
+      "correctAnswer": "403"
+    },
+    {
+      "id": "q189",
+      "type": "multiple-choice",
+      "topic": "Troubleshooting API Calls",
+      "question": "Which status code indicates that a client must authenticate itself with a proxy?",
+      "explanation": "407 Proxy Authentication Required indicates proxy authentication is required.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 63
+      },
+      "choices": [
+        "407",
+        "409",
+        "415",
+        "503"
+      ],
+      "correctAnswer": "407"
+    },
+    {
+      "id": "q190",
+      "type": "multiple-choice",
+      "topic": "Troubleshooting API Calls",
+      "question": "Multiple users are editing the same resource, producing a conflict with its current state. Which status code is associated with this example?",
+      "explanation": "The module uses an edit conflict as an example of 409.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 63
+      },
+      "choices": [
+        "409",
+        "407",
+        "401",
+        "500"
+      ],
+      "correctAnswer": "409"
+    },
+    {
+      "id": "q191",
+      "type": "multiple-choice",
+      "topic": "Troubleshooting API Calls",
+      "question": "A client sends XML to a server that accepts only JSON. Which status code does the module associate with this problem?",
+      "explanation": "415 Unsupported Media Type applies when the request body format is not supported.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 64
+      },
+      "choices": [
+        "415",
+        "404",
+        "202",
+        "504"
+      ],
+      "correctAnswer": "415"
+    },
+    {
+      "id": "q192",
+      "type": "multiple-choice",
+      "topic": "Troubleshooting API Calls",
+      "question": "Which status code indicates that the server encountered an unexpected condition preventing it from fulfilling the request?",
+      "explanation": "500 is Internal Server Error.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 65
+      },
+      "choices": [
+        "500",
+        "501",
+        "502",
+        "503"
+      ],
+      "correctAnswer": "500"
+    },
+    {
+      "id": "q193",
+      "type": "multiple-choice",
+      "topic": "Troubleshooting API Calls",
+      "question": "Which status code indicates that the server does not support the functionality required to fulfill the request?",
+      "explanation": "501 means Not Implemented.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 65
+      },
+      "choices": [
+        "501",
+        "500",
+        "502",
+        "504"
+      ],
+      "correctAnswer": "501"
+    },
+    {
+      "id": "q194",
+      "type": "multiple-choice",
+      "topic": "Troubleshooting API Calls",
+      "question": "Which status code means a server acting as a gateway or proxy received an invalid response from an inbound server?",
+      "explanation": "502 is Bad Gateway.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 65
+      },
+      "choices": [
+        "502",
+        "503",
+        "504",
+        "409"
+      ],
+      "correctAnswer": "502"
+    },
+    {
+      "id": "q195",
+      "type": "multiple-choice",
+      "topic": "Troubleshooting API Calls",
+      "question": "Which status code means the server is currently unable to handle a request because of overload or scheduled maintenance?",
+      "explanation": "503 is Service Unavailable.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 65
+      },
+      "choices": [
+        "503",
+        "500",
+        "501",
+        "404"
+      ],
+      "correctAnswer": "503"
+    },
+    {
+      "id": "q196",
+      "type": "multiple-choice",
+      "topic": "Troubleshooting API Calls",
+      "question": "Which status code means a gateway or proxy did not receive a timely response from an upstream server?",
+      "explanation": "504 is Gateway Timeout.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 65
+      },
+      "choices": [
+        "504",
+        "502",
+        "503",
+        "415"
+      ],
+      "correctAnswer": "504"
+    }
+  ]
+}

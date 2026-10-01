@@ -1,0 +1,2164 @@
+{
+  "schemaVersion": 1,
+  "id": "CS0025-sa2",
+  "subject": {
+    "code": "CS0025",
+    "name": "Software Engineering 1",
+    "yearLevel": 3
+  },
+  "reviewer": {
+    "title": "SA2 Reviewer",
+    "description": "Reviewer covering Modules 03–04 for SA2, emphasizing exact-module terminology, concepts, comparisons, workflows, modeling tools, and system requirements.",
+    "coverage": [
+      "Module 03: Agile Methodologies and Scrum",
+      "Module 03: Crystal Methodology, DSDM, FDD, Lean Software Development, and Extreme Programming",
+      "Module 04: Modeling Tools and Techniques",
+      "Module 04: System Requirements Checklist"
+    ],
+    "shuffleQuestions": true,
+    "shuffleChoices": true
+  },
+  "questions": [
+    {
+      "id": "q001",
+      "type": "fill-blank",
+      "topic": "Agile Software Development",
+      "question": "The methodology comprises various approaches to software development under which requirements and solutions evolve through the collaborative effort of self-organizing and _____ teams and their customer(s)/end user(s).",
+      "explanation": "The module states this wording directly; the missing term is “cross-functional”.",
+      "source": {
+        "module": "M3S1 - Agile Methodologies and Scrum",
+        "page": 3
+      },
+      "acceptedAnswers": [
+        "cross-functional"
+      ]
+    },
+    {
+      "id": "q002",
+      "type": "fill-blank",
+      "topic": "Agile Software Development",
+      "question": "Agile advocates adaptive planning, evolutionary development, early delivery, and _____.",
+      "explanation": "The module states this wording directly; the missing term is “continual improvement”.",
+      "source": {
+        "module": "M3S1 - Agile Methodologies and Scrum",
+        "page": 3
+      },
+      "acceptedAnswers": [
+        "continual improvement"
+      ]
+    },
+    {
+      "id": "q003",
+      "type": "fill-blank",
+      "topic": "Agile Development Values",
+      "question": "Individuals and Interactions over _____.",
+      "explanation": "The module states this wording directly; the missing term is “processes and tools”.",
+      "source": {
+        "module": "M3S1 - Agile Methodologies and Scrum",
+        "page": 4
+      },
+      "acceptedAnswers": [
+        "processes and tools"
+      ]
+    },
+    {
+      "id": "q004",
+      "type": "fill-blank",
+      "topic": "Agile Development Values",
+      "question": "Working Software over _____.",
+      "explanation": "The module states this wording directly; the missing term is “comprehensive documentation”.",
+      "source": {
+        "module": "M3S1 - Agile Methodologies and Scrum",
+        "page": 4
+      },
+      "acceptedAnswers": [
+        "comprehensive documentation"
+      ]
+    },
+    {
+      "id": "q005",
+      "type": "fill-blank",
+      "topic": "Agile Development Values",
+      "question": "Customer Collaboration over _____.",
+      "explanation": "The module states this wording directly; the missing term is “contract negotiation”.",
+      "source": {
+        "module": "M3S1 - Agile Methodologies and Scrum",
+        "page": 4
+      },
+      "acceptedAnswers": [
+        "contract negotiation"
+      ]
+    },
+    {
+      "id": "q006",
+      "type": "fill-blank",
+      "topic": "Agile Development Values",
+      "question": "Responding to Change over _____.",
+      "explanation": "The module states this wording directly; the missing term is “following a plan”.",
+      "source": {
+        "module": "M3S1 - Agile Methodologies and Scrum",
+        "page": 4
+      },
+      "acceptedAnswers": [
+        "following a plan"
+      ]
+    },
+    {
+      "id": "q007",
+      "type": "fill-blank",
+      "topic": "Agile Principles",
+      "question": "Customer satisfaction by early and continuous delivery of _____ software.",
+      "explanation": "The module states this wording directly; the missing term is “valuable”.",
+      "source": {
+        "module": "M3S1 - Agile Methodologies and Scrum",
+        "page": 7
+      },
+      "acceptedAnswers": [
+        "valuable"
+      ]
+    },
+    {
+      "id": "q008",
+      "type": "fill-blank",
+      "topic": "Agile Principles",
+      "question": "Working software is the primary measure of _____.",
+      "explanation": "The module states this wording directly; the missing term is “progress”.",
+      "source": {
+        "module": "M3S1 - Agile Methodologies and Scrum",
+        "page": 8
+      },
+      "acceptedAnswers": [
+        "progress"
+      ]
+    },
+    {
+      "id": "q009",
+      "type": "fill-blank",
+      "topic": "Agile Principles",
+      "question": "Sustainable development, able to maintain a constant _____.",
+      "explanation": "The module states this wording directly; the missing term is “pace”.",
+      "source": {
+        "module": "M3S1 - Agile Methodologies and Scrum",
+        "page": 8
+      },
+      "acceptedAnswers": [
+        "pace"
+      ]
+    },
+    {
+      "id": "q010",
+      "type": "fill-blank",
+      "topic": "Agile Principles",
+      "question": "Simplicity—the art of maximizing the amount of _____—is essential.",
+      "explanation": "The module states this wording directly; the missing term is “work not done”.",
+      "source": {
+        "module": "M3S1 - Agile Methodologies and Scrum",
+        "page": 9
+      },
+      "acceptedAnswers": [
+        "work not done"
+      ]
+    },
+    {
+      "id": "q011",
+      "type": "fill-blank",
+      "topic": "Agile Development",
+      "question": "Agile breaks product development work into small _____ that minimize the amount of up-front planning and design.",
+      "explanation": "The module states this wording directly; the missing term is “increments”.",
+      "source": {
+        "module": "M3S1 - Agile Methodologies and Scrum",
+        "page": 10
+      },
+      "acceptedAnswers": [
+        "increments"
+      ]
+    },
+    {
+      "id": "q012",
+      "type": "fill-blank",
+      "topic": "Scrum Methodology",
+      "question": "Timeboxed iterations in Scrum are called _____.",
+      "explanation": "The module states this wording directly; the missing term is “sprints”.",
+      "source": {
+        "module": "M3S1 - Agile Methodologies and Scrum",
+        "page": 17
+      },
+      "acceptedAnswers": [
+        "sprints"
+      ]
+    },
+    {
+      "id": "q013",
+      "type": "fill-blank",
+      "topic": "Scrum Methodology",
+      "question": "Scrum teams track progress and re-plan in 15-minute time-boxed daily meetings, called _____.",
+      "explanation": "The module states this wording directly; the missing term is “daily scrums”.",
+      "source": {
+        "module": "M3S1 - Agile Methodologies and Scrum",
+        "page": 17
+      },
+      "acceptedAnswers": [
+        "daily scrums"
+      ]
+    },
+    {
+      "id": "q014",
+      "type": "fill-blank",
+      "topic": "Scrum Roles",
+      "question": "The scrum master is the _____ of the scrum development process.",
+      "explanation": "The module states this wording directly; the missing term is “facilitator”.",
+      "source": {
+        "module": "M3S1 - Agile Methodologies and Scrum",
+        "page": 21
+      },
+      "acceptedAnswers": [
+        "facilitator"
+      ]
+    },
+    {
+      "id": "q015",
+      "type": "fill-blank",
+      "topic": "Scrum Roles",
+      "question": "The product owner administers a scrum _____, a detailed and constantly updated to-do list for the scrum project.",
+      "explanation": "The module states this wording directly; the missing term is “backlog”.",
+      "source": {
+        "module": "M3S1 - Agile Methodologies and Scrum",
+        "page": 22
+      },
+      "acceptedAnswers": [
+        "backlog"
+      ]
+    },
+    {
+      "id": "q016",
+      "type": "fill-blank",
+      "topic": "Scrum Roles",
+      "question": "The scrum team is a self-organized group of _____ to ten individuals.",
+      "explanation": "The module states this wording directly; the missing term is “three”.",
+      "source": {
+        "module": "M3S1 - Agile Methodologies and Scrum",
+        "page": 23
+      },
+      "acceptedAnswers": [
+        "three"
+      ]
+    },
+    {
+      "id": "q017",
+      "type": "fill-blank",
+      "topic": "Sprint",
+      "question": "A sprint (or _____) is the basic unit of development in Scrum.",
+      "explanation": "The module states this wording directly; the missing term is “timebox”.",
+      "source": {
+        "module": "M3S1 - Agile Methodologies and Scrum",
+        "page": 25
+      },
+      "acceptedAnswers": [
+        "timebox"
+      ]
+    },
+    {
+      "id": "q018",
+      "type": "fill-blank",
+      "topic": "Sprint",
+      "question": "Each sprint starts with a _____ event that establishes a sprint goal and the required product backlog items.",
+      "explanation": "The module states this wording directly; the missing term is “sprint planning”.",
+      "source": {
+        "module": "M3S1 - Agile Methodologies and Scrum",
+        "page": 25
+      },
+      "acceptedAnswers": [
+        "sprint planning"
+      ]
+    },
+    {
+      "id": "q019",
+      "type": "fill-blank",
+      "topic": "Sprint Planning",
+      "question": "Agree on a _____, a short description of what they are forecasting to deliver at the end of the sprint.",
+      "explanation": "The module states this wording directly; the missing term is “sprint goal”.",
+      "source": {
+        "module": "M3S1 - Agile Methodologies and Scrum",
+        "page": 26
+      },
+      "acceptedAnswers": [
+        "sprint goal"
+      ]
+    },
+    {
+      "id": "q020",
+      "type": "fill-blank",
+      "topic": "Daily Scrum",
+      "question": "The daily scrum is limited (timeboxed) to _____ minutes.",
+      "explanation": "The module states this wording directly; the missing term is “fifteen”.",
+      "source": {
+        "module": "M3S1 - Agile Methodologies and Scrum",
+        "page": 27
+      },
+      "acceptedAnswers": [
+        "fifteen"
+      ]
+    },
+    {
+      "id": "q021",
+      "type": "fill-blank",
+      "topic": "Sprint Review",
+      "question": "Incomplete work cannot be _____.",
+      "explanation": "The module states this wording directly; the missing term is “demonstrated”.",
+      "source": {
+        "module": "M3S1 - Agile Methodologies and Scrum",
+        "page": 29
+      },
+      "acceptedAnswers": [
+        "demonstrated"
+      ]
+    },
+    {
+      "id": "q022",
+      "type": "fill-blank",
+      "topic": "Sprint Retrospective",
+      "question": "The event is facilitated by the _____.",
+      "explanation": "The module states this wording directly; the missing term is “scrum master”.",
+      "source": {
+        "module": "M3S1 - Agile Methodologies and Scrum",
+        "page": 30
+      },
+      "acceptedAnswers": [
+        "scrum master"
+      ]
+    },
+    {
+      "id": "q023",
+      "type": "fill-blank",
+      "topic": "Backlog Refinement",
+      "question": "Backlog refinement was formerly called _____.",
+      "explanation": "The module states this wording directly; the missing term is “grooming”.",
+      "source": {
+        "module": "M3S1 - Agile Methodologies and Scrum",
+        "page": 31
+      },
+      "acceptedAnswers": [
+        "grooming"
+      ]
+    },
+    {
+      "id": "q024",
+      "type": "fill-blank",
+      "topic": "Backlog Refinement",
+      "question": "Acceptance criteria may be _____.",
+      "explanation": "The module states this wording directly; the missing term is “clarified”.",
+      "source": {
+        "module": "M3S1 - Agile Methodologies and Scrum",
+        "page": 31
+      },
+      "acceptedAnswers": [
+        "clarified"
+      ]
+    },
+    {
+      "id": "q025",
+      "type": "fill-blank",
+      "topic": "Crystal Methodology",
+      "question": "Crystal method focuses primarily on people and their _____ when working on a project rather than on processes and tools.",
+      "explanation": "The module states this wording directly; the missing term is “interactions”.",
+      "source": {
+        "module": "M3S2 - Crystal Methodology, DSDM, LSD, FDD and Extreme Programming",
+        "page": 3
+      },
+      "acceptedAnswers": [
+        "interactions"
+      ]
+    },
+    {
+      "id": "q026",
+      "type": "fill-blank",
+      "topic": "Crystal Methodology",
+      "question": "Crystal Methodology was developed by _____.",
+      "explanation": "The module states this wording directly; the missing term is “Alistair Cockburn”.",
+      "source": {
+        "module": "M3S2 - Crystal Methodology, DSDM, LSD, FDD and Extreme Programming",
+        "page": 4
+      },
+      "acceptedAnswers": [
+        "Alistair Cockburn"
+      ]
+    },
+    {
+      "id": "q027",
+      "type": "fill-blank",
+      "topic": "Crystal Methodology Phases",
+      "question": "The three Crystal Methodology phases are Chartering, Cyclic Delivery, and _____.",
+      "explanation": "The module states this wording directly; the missing term is “Wrap Up”.",
+      "source": {
+        "module": "M3S2 - Crystal Methodology, DSDM, LSD, FDD and Extreme Programming",
+        "page": 6
+      },
+      "acceptedAnswers": [
+        "Wrap Up"
+      ]
+    },
+    {
+      "id": "q028",
+      "type": "fill-blank",
+      "topic": "Cyclic Delivery",
+      "question": "The main development phase consists of two or more delivery _____.",
+      "explanation": "The module states this wording directly; the missing term is “cycles”.",
+      "source": {
+        "module": "M3S2 - Crystal Methodology, DSDM, LSD, FDD and Extreme Programming",
+        "page": 8
+      },
+      "acceptedAnswers": [
+        "cycles"
+      ]
+    },
+    {
+      "id": "q029",
+      "type": "fill-blank",
+      "topic": "DSDM",
+      "question": "DSDM provides an agile project delivery _____.",
+      "explanation": "The module states this wording directly; the missing term is “framework”.",
+      "source": {
+        "module": "M3S2 - Crystal Methodology, DSDM, LSD, FDD and Extreme Programming",
+        "page": 10
+      },
+      "acceptedAnswers": [
+        "framework"
+      ]
+    },
+    {
+      "id": "q030",
+      "type": "fill-blank",
+      "topic": "DSDM Techniques",
+      "question": "Because time and budget are fixed in timeboxing, the only remaining variables are the _____.",
+      "explanation": "The module states this wording directly; the missing term is “requirements”.",
+      "source": {
+        "module": "M3S2 - Crystal Methodology, DSDM, LSD, FDD and Extreme Programming",
+        "page": 11
+      },
+      "acceptedAnswers": [
+        "requirements"
+      ]
+    },
+    {
+      "id": "q031",
+      "type": "fill-blank",
+      "topic": "DSDM Techniques",
+      "question": "MoSCoW stands for Must have, Should have, Could have, and _____.",
+      "explanation": "The module states this wording directly; the missing term is “Won't have”.",
+      "source": {
+        "module": "M3S2 - Crystal Methodology, DSDM, LSD, FDD and Extreme Programming",
+        "page": 12
+      },
+      "acceptedAnswers": [
+        "Won't have"
+      ]
+    },
+    {
+      "id": "q032",
+      "type": "fill-blank",
+      "topic": "DSDM Techniques",
+      "question": "Prototyping enables the early discovery of _____ in the system.",
+      "explanation": "The module states this wording directly; the missing term is “shortcomings”.",
+      "source": {
+        "module": "M3S2 - Crystal Methodology, DSDM, LSD, FDD and Extreme Programming",
+        "page": 13
+      },
+      "acceptedAnswers": [
+        "shortcomings"
+      ]
+    },
+    {
+      "id": "q033",
+      "type": "fill-blank",
+      "topic": "Feature Driven Development",
+      "question": "Feature Driven Development methodology is focused around designing and building _____.",
+      "explanation": "The module states this wording directly; the missing term is “features”.",
+      "source": {
+        "module": "M3S2 - Crystal Methodology, DSDM, LSD, FDD and Extreme Programming",
+        "page": 15
+      },
+      "acceptedAnswers": [
+        "features"
+      ]
+    },
+    {
+      "id": "q034",
+      "type": "fill-blank",
+      "topic": "Lean Software Development",
+      "question": "Lean Software Development is based on the principle “_____”.",
+      "explanation": "The module states this wording directly; the missing term is “Just in time production”.",
+      "source": {
+        "module": "M3S2 - Crystal Methodology, DSDM, LSD, FDD and Extreme Programming",
+        "page": 17
+      },
+      "acceptedAnswers": [
+        "Just in time production"
+      ]
+    },
+    {
+      "id": "q035",
+      "type": "fill-blank",
+      "topic": "Lean Software Development",
+      "question": "Lean aims at increasing speed of software development and decreasing _____.",
+      "explanation": "The module states this wording directly; the missing term is “cost”.",
+      "source": {
+        "module": "M3S2 - Crystal Methodology, DSDM, LSD, FDD and Extreme Programming",
+        "page": 17
+      },
+      "acceptedAnswers": [
+        "cost"
+      ]
+    },
+    {
+      "id": "q036",
+      "type": "fill-blank",
+      "topic": "Lean Phases",
+      "question": "The Lean phase following Amplifying learning is _____.",
+      "explanation": "The module states this wording directly; the missing term is “Defer commitment”.",
+      "source": {
+        "module": "M3S2 - Crystal Methodology, DSDM, LSD, FDD and Extreme Programming",
+        "page": 18
+      },
+      "acceptedAnswers": [
+        "Defer commitment"
+      ]
+    },
+    {
+      "id": "q037",
+      "type": "fill-blank",
+      "topic": "Lean Phases",
+      "question": "Software value is measured in _____ and not in conformance to requirements.",
+      "explanation": "The module states this wording directly; the missing term is “fitness for use”.",
+      "source": {
+        "module": "M3S2 - Crystal Methodology, DSDM, LSD, FDD and Extreme Programming",
+        "page": 19
+      },
+      "acceptedAnswers": [
+        "fitness for use"
+      ]
+    },
+    {
+      "id": "q038",
+      "type": "fill-blank",
+      "topic": "Lean Phases",
+      "question": "In Early Delivery, the sooner the end product is delivered without major defects, the sooner _____ can be received.",
+      "explanation": "The module states this wording directly; the missing term is “feedback”.",
+      "source": {
+        "module": "M3S2 - Crystal Methodology, DSDM, LSD, FDD and Extreme Programming",
+        "page": 20
+      },
+      "acceptedAnswers": [
+        "feedback"
+      ]
+    },
+    {
+      "id": "q039",
+      "type": "fill-blank",
+      "topic": "Lean Phases",
+      "question": "“Think big, act small, fail fast; _____”.",
+      "explanation": "The module states this wording directly; the missing term is “learn rapidly”.",
+      "source": {
+        "module": "M3S2 - Crystal Methodology, DSDM, LSD, FDD and Extreme Programming",
+        "page": 22
+      },
+      "acceptedAnswers": [
+        "learn rapidly"
+      ]
+    },
+    {
+      "id": "q040",
+      "type": "fill-blank",
+      "topic": "Extreme Programming",
+      "question": "XP advocates frequent “releases” of the product in short development _____.",
+      "explanation": "The module states this wording directly; the missing term is “cycles”.",
+      "source": {
+        "module": "M3S2 - Crystal Methodology, DSDM, LSD, FDD and Extreme Programming",
+        "page": 23
+      },
+      "acceptedAnswers": [
+        "cycles"
+      ]
+    },
+    {
+      "id": "q041",
+      "type": "fill-blank",
+      "topic": "XP Phases",
+      "question": "In the Analysis phase, stories are captured in the “_____”.",
+      "explanation": "The module states this wording directly; the missing term is “Parking lot”.",
+      "source": {
+        "module": "M3S2 - Crystal Methodology, DSDM, LSD, FDD and Extreme Programming",
+        "page": 26
+      },
+      "acceptedAnswers": [
+        "Parking lot"
+      ]
+    },
+    {
+      "id": "q042",
+      "type": "fill-blank",
+      "topic": "XP Phases",
+      "question": "The Design phase includes Test Scenario preparation for each _____.",
+      "explanation": "The module states this wording directly; the missing term is “task”.",
+      "source": {
+        "module": "M3S2 - Crystal Methodology, DSDM, LSD, FDD and Extreme Programming",
+        "page": 27
+      },
+      "acceptedAnswers": [
+        "task"
+      ]
+    },
+    {
+      "id": "q043",
+      "type": "fill-blank",
+      "topic": "XP Phases",
+      "question": "The Wrapping phase includes Small Releases, Regression Testing, and Demos and _____.",
+      "explanation": "The module states this wording directly; the missing term is “reviews”.",
+      "source": {
+        "module": "M3S2 - Crystal Methodology, DSDM, LSD, FDD and Extreme Programming",
+        "page": 29
+      },
+      "acceptedAnswers": [
+        "reviews"
+      ]
+    },
+    {
+      "id": "q044",
+      "type": "fill-blank",
+      "topic": "XP Tools",
+      "question": "Story Cardboard collects stories in a board in the form of _____ notes.",
+      "explanation": "The module states this wording directly; the missing term is “stick”.",
+      "source": {
+        "module": "M3S2 - Crystal Methodology, DSDM, LSD, FDD and Extreme Programming",
+        "page": 31
+      },
+      "acceptedAnswers": [
+        "stick"
+      ]
+    },
+    {
+      "id": "q045",
+      "type": "fill-blank",
+      "topic": "System Models",
+      "question": "Modeling a system means identifying its characteristics, states or statuses, and behavior using a _____.",
+      "explanation": "The module states this wording directly; the missing term is “notation”.",
+      "source": {
+        "module": "M4S1 - Modeling Tools and Techniques",
+        "page": 3
+      },
+      "acceptedAnswers": [
+        "notation"
+      ]
+    },
+    {
+      "id": "q046",
+      "type": "fill-blank",
+      "topic": "Functional Modeling",
+      "question": "Functional Modeling is a structured representation of the functions activities, actions, processes, and _____ within the modeled system or subject area.",
+      "explanation": "The module states this wording directly; the missing term is “operations”.",
+      "source": {
+        "module": "M4S1 - Modeling Tools and Techniques",
+        "page": 5
+      },
+      "acceptedAnswers": [
+        "operations"
+      ]
+    },
+    {
+      "id": "q047",
+      "type": "fill-blank",
+      "topic": "Functional Model Diagram",
+      "question": "A functional modeling perspective concentrates on describing the _____ process.",
+      "explanation": "The module states this wording directly; the missing term is “dynamic”.",
+      "source": {
+        "module": "M4S1 - Modeling Tools and Techniques",
+        "page": 6
+      },
+      "acceptedAnswers": [
+        "dynamic"
+      ]
+    },
+    {
+      "id": "q048",
+      "type": "fill-blank",
+      "topic": "Functional Model Symbols",
+      "question": "A Process illustrates transformation from input to _____.",
+      "explanation": "The module states this wording directly; the missing term is “output”.",
+      "source": {
+        "module": "M4S1 - Modeling Tools and Techniques",
+        "page": 7
+      },
+      "acceptedAnswers": [
+        "output"
+      ]
+    },
+    {
+      "id": "q049",
+      "type": "fill-blank",
+      "topic": "Functional Model Symbols",
+      "question": "Movement of data or material in the process is carried by arrow or _____.",
+      "explanation": "The module states this wording directly; the missing term is “flow-lines”.",
+      "source": {
+        "module": "M4S1 - Modeling Tools and Techniques",
+        "page": 7
+      },
+      "acceptedAnswers": [
+        "flow-lines"
+      ]
+    },
+    {
+      "id": "q050",
+      "type": "fill-blank",
+      "topic": "Functional Flow Block Diagram",
+      "question": "FFBD is a multi-tier, time-sequenced, _____ flow diagram of the system’s functional flow.",
+      "explanation": "The module states this wording directly; the missing term is “step-by-step”.",
+      "source": {
+        "module": "M4S1 - Modeling Tools and Techniques",
+        "page": 10
+      },
+      "acceptedAnswers": [
+        "step-by-step"
+      ]
+    },
+    {
+      "id": "q051",
+      "type": "fill-blank",
+      "topic": "System Architecture",
+      "question": "System architecture is the conceptual model that defines the structure, behavior, and more _____ of a system.",
+      "explanation": "The module states this wording directly; the missing term is “views”.",
+      "source": {
+        "module": "M4S1 - Modeling Tools and Techniques",
+        "page": 12
+      },
+      "acceptedAnswers": [
+        "views"
+      ]
+    },
+    {
+      "id": "q052",
+      "type": "fill-blank",
+      "topic": "Business Process Modeling",
+      "question": "BPM represents processes of an enterprise so that the current process may be analyzed, improved, and _____.",
+      "explanation": "The module states this wording directly; the missing term is “automated”.",
+      "source": {
+        "module": "M4S1 - Modeling Tools and Techniques",
+        "page": 14
+      },
+      "acceptedAnswers": [
+        "automated"
+      ]
+    },
+    {
+      "id": "q053",
+      "type": "fill-blank",
+      "topic": "Business Process",
+      "question": "A business process is a collection of related, structured activities or tasks with a goal to produce a specific service or product for a particular _____.",
+      "explanation": "The module states this wording directly; the missing term is “customer”.",
+      "source": {
+        "module": "M4S1 - Modeling Tools and Techniques",
+        "page": 16
+      },
+      "acceptedAnswers": [
+        "customer"
+      ]
+    },
+    {
+      "id": "q054",
+      "type": "fill-blank",
+      "topic": "BPMN",
+      "question": "BPMN specification provides a graphical notation for specifying business processes in a Business Process _____.",
+      "explanation": "The module states this wording directly; the missing term is “Diagram”.",
+      "source": {
+        "module": "M4S1 - Modeling Tools and Techniques",
+        "page": 17
+      },
+      "acceptedAnswers": [
+        "Diagram"
+      ]
+    },
+    {
+      "id": "q055",
+      "type": "fill-blank",
+      "topic": "Enterprise Modeling",
+      "question": "Enterprise Modeling deals with understanding an organization and improving its _____ through creation and analysis of enterprise models.",
+      "explanation": "The module states this wording directly; the missing term is “performance”.",
+      "source": {
+        "module": "M4S1 - Modeling Tools and Techniques",
+        "page": 19
+      },
+      "acceptedAnswers": [
+        "performance"
+      ]
+    },
+    {
+      "id": "q056",
+      "type": "fill-blank",
+      "topic": "Data Modeling",
+      "question": "Data modelling is a technique for defining business requirements for a _____.",
+      "explanation": "The module states this wording directly; the missing term is “database”.",
+      "source": {
+        "module": "M4S1 - Modeling Tools and Techniques",
+        "page": 20
+      },
+      "acceptedAnswers": [
+        "database"
+      ]
+    },
+    {
+      "id": "q057",
+      "type": "fill-blank",
+      "topic": "Design Diagrams",
+      "question": "A design diagram is a graphic or visual representation of a _____.",
+      "explanation": "The module states this wording directly; the missing term is “structure”.",
+      "source": {
+        "module": "M4S1 - Modeling Tools and Techniques",
+        "page": 22
+      },
+      "acceptedAnswers": [
+        "structure"
+      ]
+    },
+    {
+      "id": "q058",
+      "type": "fill-blank",
+      "topic": "Advantages of Design Diagrams",
+      "question": "Design diagrams give a _____ view of major steps and processes.",
+      "explanation": "The module states this wording directly; the missing term is “bird’s-eye”.",
+      "source": {
+        "module": "M4S1 - Modeling Tools and Techniques",
+        "page": 24
+      },
+      "acceptedAnswers": [
+        "bird’s-eye"
+      ]
+    },
+    {
+      "id": "q059",
+      "type": "fill-blank",
+      "topic": "Advantages of Design Diagrams",
+      "question": "A design diagram serves as a _____ of the inner workings of a system.",
+      "explanation": "The module states this wording directly; the missing term is “blueprint”.",
+      "source": {
+        "module": "M4S1 - Modeling Tools and Techniques",
+        "page": 26
+      },
+      "acceptedAnswers": [
+        "blueprint"
+      ]
+    },
+    {
+      "id": "q060",
+      "type": "fill-blank",
+      "topic": "Data Flow Diagram",
+      "question": "A DFD is a graphic illustration that shows the flow of data and _____ within a system.",
+      "explanation": "The module states this wording directly; the missing term is “logic”.",
+      "source": {
+        "module": "M4S1 - Modeling Tools and Techniques",
+        "page": 27
+      },
+      "acceptedAnswers": [
+        "logic"
+      ]
+    },
+    {
+      "id": "q061",
+      "type": "fill-blank",
+      "topic": "DFD Symbols",
+      "question": "Data flow or flow lines are represented by an _____.",
+      "explanation": "The module states this wording directly; the missing term is “arrow”.",
+      "source": {
+        "module": "M4S1 - Modeling Tools and Techniques",
+        "page": 30
+      },
+      "acceptedAnswers": [
+        "arrow"
+      ]
+    },
+    {
+      "id": "q062",
+      "type": "fill-blank",
+      "topic": "DFD Symbols",
+      "question": "Data stores are represented by an open _____.",
+      "explanation": "The module states this wording directly; the missing term is “rectangle”.",
+      "source": {
+        "module": "M4S1 - Modeling Tools and Techniques",
+        "page": 31
+      },
+      "acceptedAnswers": [
+        "rectangle"
+      ]
+    },
+    {
+      "id": "q063",
+      "type": "fill-blank",
+      "topic": "System Requirements",
+      "question": "System requirements are the required _____ a device must have in order to use certain hardware or software.",
+      "explanation": "The module states this wording directly; the missing term is “specifications”.",
+      "source": {
+        "module": "M4S2 - System Requirements Checklist",
+        "page": 3
+      },
+      "acceptedAnswers": [
+        "specifications"
+      ]
+    },
+    {
+      "id": "q064",
+      "type": "fill-blank",
+      "topic": "System Requirements",
+      "question": "Most software defines two sets of system requirements: minimum and _____.",
+      "explanation": "The module states this wording directly; the missing term is “recommended”.",
+      "source": {
+        "module": "M4S2 - System Requirements Checklist",
+        "page": 4
+      },
+      "acceptedAnswers": [
+        "recommended"
+      ]
+    },
+    {
+      "id": "q065",
+      "type": "fill-blank",
+      "topic": "Typical Software Checklist",
+      "question": "A typical software checklist includes minimum system memory (_____).",
+      "explanation": "The module states this wording directly; the missing term is “RAM”.",
+      "source": {
+        "module": "M4S2 - System Requirements Checklist",
+        "page": 5
+      },
+      "acceptedAnswers": [
+        "RAM"
+      ]
+    },
+    {
+      "id": "q066",
+      "type": "fill-blank",
+      "topic": "Typical Hardware Checklist",
+      "question": "A typical hardware checklist includes wireless connectivity (_____).",
+      "explanation": "The module states this wording directly; the missing term is “WiFi”.",
+      "source": {
+        "module": "M4S2 - System Requirements Checklist",
+        "page": 6
+      },
+      "acceptedAnswers": [
+        "WiFi"
+      ]
+    },
+    {
+      "id": "q067",
+      "type": "fill-blank",
+      "topic": "Requirements Analysis",
+      "question": "The first activity in requirements analysis is to do the preliminary _____.",
+      "explanation": "The module states this wording directly; the missing term is “investigation”.",
+      "source": {
+        "module": "M4S2 - System Requirements Checklist",
+        "page": 9
+      },
+      "acceptedAnswers": [
+        "investigation"
+      ]
+    },
+    {
+      "id": "q068",
+      "type": "fill-blank",
+      "topic": "Requirements Analysis",
+      "question": "Requirements engineers and business analysts identify the needs or requirements of a _____.",
+      "explanation": "The module states this wording directly; the missing term is “client”.",
+      "source": {
+        "module": "M4S2 - System Requirements Checklist",
+        "page": 10
+      },
+      "acceptedAnswers": [
+        "client"
+      ]
+    },
+    {
+      "id": "q069",
+      "type": "fill-blank",
+      "topic": "Fact Finding Techniques",
+      "question": "Basic records like reports, bills, policy manuals, regulations, and standard operation procedures can be used for better _____ the system.",
+      "explanation": "The module states this wording directly; the missing term is “understanding”.",
+      "source": {
+        "module": "M4S2 - System Requirements Checklist",
+        "page": 11
+      },
+      "acceptedAnswers": [
+        "understanding"
+      ]
+    },
+    {
+      "id": "q070",
+      "type": "fill-blank",
+      "topic": "Fact Finding Techniques",
+      "question": "Open-ended questionnaires are _____ in nature.",
+      "explanation": "The module states this wording directly; the missing term is “qualitative”.",
+      "source": {
+        "module": "M4S2 - System Requirements Checklist",
+        "page": 12
+      },
+      "acceptedAnswers": [
+        "qualitative"
+      ]
+    },
+    {
+      "id": "q071",
+      "type": "fill-blank",
+      "topic": "Fact Finding Techniques",
+      "question": "Closed-ended questionnaires generate _____ results.",
+      "explanation": "The module states this wording directly; the missing term is “quantitative”.",
+      "source": {
+        "module": "M4S2 - System Requirements Checklist",
+        "page": 12
+      },
+      "acceptedAnswers": [
+        "quantitative"
+      ]
+    },
+    {
+      "id": "q072",
+      "type": "fill-blank",
+      "topic": "Fact Finding Techniques",
+      "question": "Research obtains information from published materials or documents to check and verify _____.",
+      "explanation": "The module states this wording directly; the missing term is “facts”.",
+      "source": {
+        "module": "M4S2 - System Requirements Checklist",
+        "page": 13
+      },
+      "acceptedAnswers": [
+        "facts"
+      ]
+    },
+    {
+      "id": "q073",
+      "type": "multiple-choice",
+      "topic": "Agile Software Development",
+      "question": "Which approach is explicitly advocated by Agile in the module?",
+      "explanation": "According to the module, the correct choice is “Adaptive planning”.",
+      "source": {
+        "module": "M3S1 - Agile Methodologies and Scrum",
+        "page": 3
+      },
+      "choices": [
+        "Adaptive planning",
+        "Detailed phase description",
+        "Fixed requirements prioritization",
+        "Permanent system documentation"
+      ],
+      "correctAnswer": "Adaptive planning"
+    },
+    {
+      "id": "q074",
+      "type": "multiple-choice",
+      "topic": "Importance of Agile Methodology",
+      "question": "According to the module, what is more important than tools and processes?",
+      "explanation": "According to the module, the correct choice is “Competent people working together effectively”.",
+      "source": {
+        "module": "M3S1 - Agile Methodologies and Scrum",
+        "page": 5
+      },
+      "choices": [
+        "Competent people working together effectively",
+        "Comprehensive documentation prepared first",
+        "A rigid project plan",
+        "Separate work between testers and developers"
+      ],
+      "correctAnswer": "Competent people working together effectively"
+    },
+    {
+      "id": "q075",
+      "type": "multiple-choice",
+      "topic": "Agile Development",
+      "question": "What is demonstrated to stakeholders at the end of an iteration?",
+      "explanation": "According to the module, the correct choice is “A working product”.",
+      "source": {
+        "module": "M3S1 - Agile Methodologies and Scrum",
+        "page": 10
+      },
+      "choices": [
+        "A working product",
+        "A preliminary feasibility analysis",
+        "A detailed description of the next phase",
+        "A permanent system blueprint"
+      ],
+      "correctAnswer": "A working product"
+    },
+    {
+      "id": "q076",
+      "type": "multiple-choice",
+      "topic": "Agile vs. Waterfall",
+      "question": "Which description belongs to the Agile model?",
+      "explanation": "According to the module, the correct choice is “Incremental and iterative approach to software design”.",
+      "source": {
+        "module": "M3S1 - Agile Methodologies and Scrum",
+        "page": 11
+      },
+      "choices": [
+        "Incremental and iterative approach to software design",
+        "Development flows sequentially from start to end",
+        "Customer sees the product only at project end",
+        "Design process is not broken into individual models"
+      ],
+      "correctAnswer": "Incremental and iterative approach to software design"
+    },
+    {
+      "id": "q077",
+      "type": "multiple-choice",
+      "topic": "Agile vs. Waterfall",
+      "question": "When does testing occur in the Agile model as described?",
+      "explanation": "According to the module, the correct choice is “Every iteration has its own testing phase”.",
+      "source": {
+        "module": "M3S1 - Agile Methodologies and Scrum",
+        "page": 13
+      },
+      "choices": [
+        "Every iteration has its own testing phase",
+        "Only after the development phase",
+        "Only after all features are delivered",
+        "Only when the customer requests acceptance"
+      ],
+      "correctAnswer": "Every iteration has its own testing phase"
+    },
+    {
+      "id": "q078",
+      "type": "multiple-choice",
+      "topic": "Agile vs. Waterfall",
+      "question": "In Agile testing, when is user acceptance performed?",
+      "explanation": "According to the module, the correct choice is “At the end of every sprint”.",
+      "source": {
+        "module": "M3S1 - Agile Methodologies and Scrum",
+        "page": 14
+      },
+      "choices": [
+        "At the end of every sprint",
+        "At the end of the project",
+        "Before requirements analysis",
+        "After a long implementation phase"
+      ],
+      "correctAnswer": "At the end of every sprint"
+    },
+    {
+      "id": "q079",
+      "type": "multiple-choice",
+      "topic": "Scrum Methodology",
+      "question": "What team size is Scrum designed for according to the module?",
+      "explanation": "According to the module, the correct choice is “Ten or fewer members”.",
+      "source": {
+        "module": "M3S1 - Agile Methodologies and Scrum",
+        "page": 17
+      },
+      "choices": [
+        "Ten or fewer members",
+        "Three to ten members only",
+        "Exactly ten members",
+        "More than ten members"
+      ],
+      "correctAnswer": "Ten or fewer members"
+    },
+    {
+      "id": "q080",
+      "type": "multiple-choice",
+      "topic": "Scrum in Project Management",
+      "question": "Why does Scrum require frequent planning and goal setting according to the module?",
+      "explanation": "According to the module, the correct choice is “To help the team focus on current sprint objectives and increase productivity”.",
+      "source": {
+        "module": "M3S1 - Agile Methodologies and Scrum",
+        "page": 18
+      },
+      "choices": [
+        "To help the team focus on current sprint objectives and increase productivity",
+        "To ensure all features are delivered at once",
+        "To eliminate stakeholder involvement",
+        "To replace sprint goals with project-wide goals"
+      ],
+      "correctAnswer": "To help the team focus on current sprint objectives and increase productivity"
+    },
+    {
+      "id": "q081",
+      "type": "multiple-choice",
+      "topic": "Scrum Master",
+      "question": "Which responsibility belongs to the Scrum Master?",
+      "explanation": "According to the module, the correct choice is “Removing impediments to sprints”.",
+      "source": {
+        "module": "M3S1 - Agile Methodologies and Scrum",
+        "page": 21
+      },
+      "choices": [
+        "Removing impediments to sprints",
+        "Prioritizing goals by stakeholder value",
+        "Self-administering development tasks",
+        "Administering the scrum backlog as product owner"
+      ],
+      "correctAnswer": "Removing impediments to sprints"
+    },
+    {
+      "id": "q082",
+      "type": "multiple-choice",
+      "topic": "Product Owner",
+      "question": "What does the Product Owner use as the basis for prioritizing each sprint's goals?",
+      "explanation": "According to the module, the correct choice is “Value to stakeholders”.",
+      "source": {
+        "module": "M3S1 - Agile Methodologies and Scrum",
+        "page": 22
+      },
+      "choices": [
+        "Value to stakeholders",
+        "Number of developers available",
+        "Length of the daily scrum",
+        "Order in which tasks were proposed"
+      ],
+      "correctAnswer": "Value to stakeholders"
+    },
+    {
+      "id": "q083",
+      "type": "multiple-choice",
+      "topic": "Scrum Development Team",
+      "question": "Which description best matches the Scrum Development Team?",
+      "explanation": "According to the module, the correct choice is “A self-organized group with business, design, analytical and development skills”.",
+      "source": {
+        "module": "M3S1 - Agile Methodologies and Scrum",
+        "page": 23
+      },
+      "choices": [
+        "A self-organized group with business, design, analytical and development skills",
+        "A group that primarily represents stakeholders",
+        "A facilitator responsible for enforcing Scrum rules",
+        "A group that only performs user acceptance"
+      ],
+      "correctAnswer": "A self-organized group with business, design, analytical and development skills"
+    },
+    {
+      "id": "q084",
+      "type": "multiple-choice",
+      "topic": "Sprint",
+      "question": "What is the most common sprint length stated in the module?",
+      "explanation": "According to the module, the correct choice is “Two weeks”.",
+      "source": {
+        "module": "M3S1 - Agile Methodologies and Scrum",
+        "page": 25
+      },
+      "choices": [
+        "Two weeks",
+        "One week",
+        "One month",
+        "Four weeks"
+      ],
+      "correctAnswer": "Two weeks"
+    },
+    {
+      "id": "q085",
+      "type": "multiple-choice",
+      "topic": "Sprint Planning",
+      "question": "For a two-week sprint, what Sprint Planning duration does the module specify?",
+      "explanation": "According to the module, the correct choice is “Four hours”.",
+      "source": {
+        "module": "M3S1 - Agile Methodologies and Scrum",
+        "page": 26
+      },
+      "choices": [
+        "Four hours",
+        "Two hours",
+        "One-and-a-half hours",
+        "Fifteen minutes"
+      ],
+      "correctAnswer": "Four hours"
+    },
+    {
+      "id": "q086",
+      "type": "multiple-choice",
+      "topic": "Daily Scrum",
+      "question": "Who should contribute during the Daily Scrum?",
+      "explanation": "According to the module, the correct choice is “Only development team members”.",
+      "source": {
+        "module": "M3S1 - Agile Methodologies and Scrum",
+        "page": 27
+      },
+      "choices": [
+        "Only development team members",
+        "Anyone attending",
+        "Only the Scrum Master",
+        "Only the Product Owner"
+      ],
+      "correctAnswer": "Only development team members"
+    },
+    {
+      "id": "q087",
+      "type": "multiple-choice",
+      "topic": "Sprint Review",
+      "question": "What does the team do with stakeholders during the Sprint Review?",
+      "explanation": "According to the module, the correct choice is “Collaborates on what to work on next”.",
+      "source": {
+        "module": "M3S1 - Agile Methodologies and Scrum",
+        "page": 29
+      },
+      "choices": [
+        "Collaborates on what to work on next",
+        "Identifies only internal process improvements",
+        "Forecasts tasks by voting",
+        "Fine-tunes the development methodology"
+      ],
+      "correctAnswer": "Collaborates on what to work on next"
+    },
+    {
+      "id": "q088",
+      "type": "multiple-choice",
+      "topic": "Sprint Retrospective",
+      "question": "What is the recommended retrospective duration for a two-week sprint?",
+      "explanation": "According to the module, the correct choice is “One-and-a-half hours”.",
+      "source": {
+        "module": "M3S1 - Agile Methodologies and Scrum",
+        "page": 30
+      },
+      "choices": [
+        "One-and-a-half hours",
+        "Two hours",
+        "Four hours",
+        "Fifteen minutes"
+      ],
+      "correctAnswer": "One-and-a-half hours"
+    },
+    {
+      "id": "q089",
+      "type": "multiple-choice",
+      "topic": "Crystal Methodology",
+      "question": "Which activity belongs to Chartering?",
+      "explanation": "According to the module, the correct choice is “Performing a preliminary feasibility analysis”.",
+      "source": {
+        "module": "M3S2 - Crystal Methodology, DSDM, LSD, FDD and Extreme Programming",
+        "page": 7
+      },
+      "choices": [
+        "Performing a preliminary feasibility analysis",
+        "Deploying into the user environment",
+        "Delivering the integrated product to real users",
+        "Conducting post-deployment reviews"
+      ],
+      "correctAnswer": "Performing a preliminary feasibility analysis"
+    },
+    {
+      "id": "q090",
+      "type": "multiple-choice",
+      "topic": "Crystal Methodology",
+      "question": "Which activity occurs during Cyclic Delivery?",
+      "explanation": "According to the module, the correct choice is “Updating and refining the release plan”.",
+      "source": {
+        "module": "M3S2 - Crystal Methodology, DSDM, LSD, FDD and Extreme Programming",
+        "page": 8
+      },
+      "choices": [
+        "Updating and refining the release plan",
+        "Creating the development team",
+        "Performing post-deployment reflections",
+        "Closing production support"
+      ],
+      "correctAnswer": "Updating and refining the release plan"
+    },
+    {
+      "id": "q091",
+      "type": "multiple-choice",
+      "topic": "Crystal Methodology",
+      "question": "Which activity belongs to Wrap Up?",
+      "explanation": "According to the module, the correct choice is “Deployment into the user environment”.",
+      "source": {
+        "module": "M3S2 - Crystal Methodology, DSDM, LSD, FDD and Extreme Programming",
+        "page": 9
+      },
+      "choices": [
+        "Deployment into the user environment",
+        "Fine-tuning the development methodology",
+        "Updating the release plan",
+        "Performing a preliminary feasibility analysis"
+      ],
+      "correctAnswer": "Deployment into the user environment"
+    },
+    {
+      "id": "q092",
+      "type": "multiple-choice",
+      "topic": "DSDM",
+      "question": "What is an important aspect of DSDM?",
+      "explanation": "According to the module, the correct choice is “Users are required to be involved actively”.",
+      "source": {
+        "module": "M3S2 - Crystal Methodology, DSDM, LSD, FDD and Extreme Programming",
+        "page": 10
+      },
+      "choices": [
+        "Users are required to be involved actively",
+        "Documentation is the top priority",
+        "All decisions remain with management",
+        "Product delivery occurs only at project end"
+      ],
+      "correctAnswer": "Users are required to be involved actively"
+    },
+    {
+      "id": "q093",
+      "type": "multiple-choice",
+      "topic": "DSDM Techniques",
+      "question": "If a timeboxed project is running out of time or money, what does the module say happens?",
+      "explanation": "According to the module, the correct choice is “Requirements with the lowest priority are omitted”.",
+      "source": {
+        "module": "M3S2 - Crystal Methodology, DSDM, LSD, FDD and Extreme Programming",
+        "page": 11
+      },
+      "choices": [
+        "Requirements with the lowest priority are omitted",
+        "The fixed budget is increased",
+        "The delivery date is automatically extended",
+        "All requirements remain fixed"
+      ],
+      "correctAnswer": "Requirements with the lowest priority are omitted"
+    },
+    {
+      "id": "q094",
+      "type": "multiple-choice",
+      "topic": "DSDM Techniques",
+      "question": "What is MoSCoW used to establish with stakeholders?",
+      "explanation": "According to the module, the correct choice is “A common understanding of the importance placed on each requirement”.",
+      "source": {
+        "module": "M3S2 - Crystal Methodology, DSDM, LSD, FDD and Extreme Programming",
+        "page": 12
+      },
+      "choices": [
+        "A common understanding of the importance placed on each requirement",
+        "A fixed technical architecture for the system",
+        "A sequence for automated regression tests",
+        "A list of system hardware requirements"
+      ],
+      "correctAnswer": "A common understanding of the importance placed on each requirement"
+    },
+    {
+      "id": "q095",
+      "type": "multiple-choice",
+      "topic": "DSDM Techniques",
+      "question": "What does prototyping allow future users to do?",
+      "explanation": "According to the module, the correct choice is “Test-drive the system”.",
+      "source": {
+        "module": "M3S2 - Crystal Methodology, DSDM, LSD, FDD and Extreme Programming",
+        "page": 13
+      },
+      "choices": [
+        "Test-drive the system",
+        "Approve only the final release",
+        "Set the fixed budget",
+        "Perform code inspections"
+      ],
+      "correctAnswer": "Test-drive the system"
+    },
+    {
+      "id": "q096",
+      "type": "multiple-choice",
+      "topic": "Feature Driven Development",
+      "question": "How does FDD characterize its phases of work?",
+      "explanation": "According to the module, the correct choice is “Very specific and short, accomplished separately per feature”.",
+      "source": {
+        "module": "M3S2 - Crystal Methodology, DSDM, LSD, FDD and Extreme Programming",
+        "page": 15
+      },
+      "choices": [
+        "Very specific and short, accomplished separately per feature",
+        "Long phases completed for the entire system at once",
+        "Unstructured phases without feature ownership",
+        "Phases centered primarily on user questionnaires"
+      ],
+      "correctAnswer": "Very specific and short, accomplished separately per feature"
+    },
+    {
+      "id": "q097",
+      "type": "multiple-choice",
+      "topic": "Lean Software Development",
+      "question": "According to Eliminating Wastes, which example is explicitly considered waste?",
+      "explanation": "According to the module, the correct choice is “Partially done coding eventually abandoned”.",
+      "source": {
+        "module": "M3S2 - Crystal Methodology, DSDM, LSD, FDD and Extreme Programming",
+        "page": 19
+      },
+      "choices": [
+        "Partially done coding eventually abandoned",
+        "A release plan refined by the team",
+        "A sprint goal agreed in advance",
+        "A product demonstrated to stakeholders"
+      ],
+      "correctAnswer": "Partially done coding eventually abandoned"
+    },
+    {
+      "id": "q098",
+      "type": "multiple-choice",
+      "topic": "Lean Software Development",
+      "question": "What does Defer Commitment recommend?",
+      "explanation": "According to the module, the correct choice is “Delay decisions until they can be based on facts”.",
+      "source": {
+        "module": "M3S2 - Crystal Methodology, DSDM, LSD, FDD and Extreme Programming",
+        "page": 20
+      },
+      "choices": [
+        "Delay decisions until they can be based on facts",
+        "Fix every decision at the start of development",
+        "Prioritize documentation over software",
+        "Deliver all features in one implementation phase"
+      ],
+      "correctAnswer": "Delay decisions until they can be based on facts"
+    },
+    {
+      "id": "q099",
+      "type": "multiple-choice",
+      "topic": "Extreme Programming",
+      "question": "When is XP described as especially helpful?",
+      "explanation": "According to the module, the correct choice is “When customer demands or requirements constantly change”.",
+      "source": {
+        "module": "M3S2 - Crystal Methodology, DSDM, LSD, FDD and Extreme Programming",
+        "page": 23
+      },
+      "choices": [
+        "When customer demands or requirements constantly change",
+        "When requirements must remain fixed",
+        "When users cannot be involved",
+        "When only one final release is planned"
+      ],
+      "correctAnswer": "When customer demands or requirements constantly change"
+    },
+    {
+      "id": "q100",
+      "type": "multiple-choice",
+      "topic": "XP Phases",
+      "question": "Which activity belongs to XP Execution?",
+      "explanation": "According to the module, the correct choice is “Defect Report generation”.",
+      "source": {
+        "module": "M3S2 - Crystal Methodology, DSDM, LSD, FDD and Extreme Programming",
+        "page": 28
+      },
+      "choices": [
+        "Defect Report generation",
+        "Infrastructure Requirements",
+        "Scrubbing of stories for estimation",
+        "Pilot Launch"
+      ],
+      "correctAnswer": "Defect Report generation"
+    },
+    {
+      "id": "q101",
+      "type": "multiple-choice",
+      "topic": "System Models",
+      "question": "What does systems modeling use to conceptualize and construct systems?",
+      "explanation": "According to the module, the correct choice is “Models or diagrams”.",
+      "source": {
+        "module": "M4S1 - Modeling Tools and Techniques",
+        "page": 3
+      },
+      "choices": [
+        "Models or diagrams",
+        "Only textual requirements",
+        "Only source code",
+        "Only questionnaires"
+      ],
+      "correctAnswer": "Models or diagrams"
+    },
+    {
+      "id": "q102",
+      "type": "multiple-choice",
+      "topic": "Functional Model Symbols",
+      "question": "Which symbol represents movement of data or material in a process?",
+      "explanation": "According to the module, the correct choice is “Flow”.",
+      "source": {
+        "module": "M4S1 - Modeling Tools and Techniques",
+        "page": 7
+      },
+      "choices": [
+        "Flow",
+        "Store",
+        "Process",
+        "External Entity"
+      ],
+      "correctAnswer": "Flow"
+    },
+    {
+      "id": "q103",
+      "type": "multiple-choice",
+      "topic": "System Architecture",
+      "question": "What may a system architecture consist of?",
+      "explanation": "According to the module, the correct choice is “System components and sub-systems that work together”.",
+      "source": {
+        "module": "M4S1 - Modeling Tools and Techniques",
+        "page": 12
+      },
+      "choices": [
+        "System components and sub-systems that work together",
+        "Only data stores and external entities",
+        "Only operational processes",
+        "Only business requirements for a database"
+      ],
+      "correctAnswer": "System components and sub-systems that work together"
+    },
+    {
+      "id": "q104",
+      "type": "multiple-choice",
+      "topic": "Business Process Modeling",
+      "question": "Which is stated as a business objective of BPM?",
+      "explanation": "According to the module, the correct choice is “Reduce cycle time”.",
+      "source": {
+        "module": "M4S1 - Modeling Tools and Techniques",
+        "page": 14
+      },
+      "choices": [
+        "Reduce cycle time",
+        "Increase extraneous detail",
+        "Separate technical and business users",
+        "Eliminate process analysis"
+      ],
+      "correctAnswer": "Reduce cycle time"
+    },
+    {
+      "id": "q105",
+      "type": "multiple-choice",
+      "topic": "Business Process",
+      "question": "Which process type constitutes the core business and creates the primary value stream?",
+      "explanation": "According to the module, the correct choice is “Operational Process”.",
+      "source": {
+        "module": "M4S1 - Modeling Tools and Techniques",
+        "page": 16
+      },
+      "choices": [
+        "Operational Process",
+        "Management Process",
+        "Supporting Process",
+        "Enterprise Process"
+      ],
+      "correctAnswer": "Operational Process"
+    },
+    {
+      "id": "q106",
+      "type": "multiple-choice",
+      "topic": "BPMN",
+      "question": "What is the stated objective of BPMN?",
+      "explanation": "According to the module, the correct choice is “Support business process management for both technical and business users”.",
+      "source": {
+        "module": "M4S1 - Modeling Tools and Techniques",
+        "page": 17
+      },
+      "choices": [
+        "Support business process management for both technical and business users",
+        "Define only database integrity rules",
+        "Replace all system architecture descriptions",
+        "Specify minimum hardware requirements"
+      ],
+      "correctAnswer": "Support business process management for both technical and business users"
+    },
+    {
+      "id": "q107",
+      "type": "multiple-choice",
+      "topic": "Data Modeling",
+      "question": "What does a data model normally consist of?",
+      "explanation": "According to the module, the correct choice is “Entity types, attributes, relationships, integrity rules, and object definitions”.",
+      "source": {
+        "module": "M4S1 - Modeling Tools and Techniques",
+        "page": 20
+      },
+      "choices": [
+        "Entity types, attributes, relationships, integrity rules, and object definitions",
+        "Sprints, reviews, backlogs, and goals",
+        "CPU, GPU, RAM, and storage only",
+        "Stories, test cases, tasks, and completion"
+      ],
+      "correctAnswer": "Entity types, attributes, relationships, integrity rules, and object definitions"
+    },
+    {
+      "id": "q108",
+      "type": "multiple-choice",
+      "topic": "Advantages of Design Diagrams",
+      "question": "Why can a design diagram serve as a communications tool?",
+      "explanation": "According to the module, the correct choice is “It provides a concrete visual medium for complex plans or problem solutions”.",
+      "source": {
+        "module": "M4S1 - Modeling Tools and Techniques",
+        "page": 23
+      },
+      "choices": [
+        "It provides a concrete visual medium for complex plans or problem solutions",
+        "It removes the need to describe relationships",
+        "It guarantees all system failures are prevented",
+        "It restricts system information to programmers"
+      ],
+      "correctAnswer": "It provides a concrete visual medium for complex plans or problem solutions"
+    },
+    {
+      "id": "q109",
+      "type": "multiple-choice",
+      "topic": "Advantages of Design Diagrams",
+      "question": "How do design diagrams promote logical procedures?",
+      "explanation": "According to the module, the correct choice is “They make errors in logic easier to see visually”.",
+      "source": {
+        "module": "M4S1 - Modeling Tools and Techniques",
+        "page": 25
+      },
+      "choices": [
+        "They make errors in logic easier to see visually",
+        "They prevent analysts from refining paths and branches",
+        "They hide missing elements from the analyst",
+        "They replace all written descriptions with code"
+      ],
+      "correctAnswer": "They make errors in logic easier to see visually"
+    },
+    {
+      "id": "q110",
+      "type": "multiple-choice",
+      "topic": "DFD Symbols",
+      "question": "What does a DFD process symbol represent?",
+      "explanation": "According to the module, the correct choice is “Transformation or processing of information”.",
+      "source": {
+        "module": "M4S1 - Modeling Tools and Techniques",
+        "page": 29
+      },
+      "choices": [
+        "Transformation or processing of information",
+        "Permanent or temporary information storage",
+        "An external person or place only",
+        "The direction of data movement only"
+      ],
+      "correctAnswer": "Transformation or processing of information"
+    },
+    {
+      "id": "q111",
+      "type": "multiple-choice",
+      "topic": "DFD Symbols",
+      "question": "What distinguishes an automated data store in the module?",
+      "explanation": "According to the module, the correct choice is “An additional vertical line near the closed end”.",
+      "source": {
+        "module": "M4S1 - Modeling Tools and Techniques",
+        "page": 31
+      },
+      "choices": [
+        "An additional vertical line near the closed end",
+        "A circle with a numerical sequence",
+        "Arrowheads at both ends",
+        "A completely closed rectangle"
+      ],
+      "correctAnswer": "An additional vertical line near the closed end"
+    },
+    {
+      "id": "q112",
+      "type": "multiple-choice",
+      "topic": "Minimum vs. Recommended",
+      "question": "What does the module say about a video game using recommended hardware?",
+      "explanation": "According to the module, the correct choice is “It may perform better than with minimum hardware”.",
+      "source": {
+        "module": "M4S2 - System Requirements Checklist",
+        "page": 7
+      },
+      "choices": [
+        "It may perform better than with minimum hardware",
+        "It cannot function with minimum CPU and GPU",
+        "It must use less storage space",
+        "It removes the need for an operating system"
+      ],
+      "correctAnswer": "It may perform better than with minimum hardware"
+    },
+    {
+      "id": "q113",
+      "type": "multiple-choice",
+      "topic": "Minimum vs. Recommended",
+      "question": "Which requirements may vary significantly between minimum and recommended sets?",
+      "explanation": "According to the module, the correct choice is “CPU, GPU, and RAM”.",
+      "source": {
+        "module": "M4S2 - System Requirements Checklist",
+        "page": 8
+      },
+      "choices": [
+        "CPU, GPU, and RAM",
+        "Operating system and installation disk space",
+        "Only available ports",
+        "Only wireless connectivity"
+      ],
+      "correctAnswer": "CPU, GPU, and RAM"
+    },
+    {
+      "id": "q114",
+      "type": "multiple-choice",
+      "topic": "Fact Finding Techniques",
+      "question": "Which fact-finding technique is explicitly described as time consuming?",
+      "explanation": "According to the module, the correct choice is “Interviews”.",
+      "source": {
+        "module": "M4S2 - System Requirements Checklist",
+        "page": 11
+      },
+      "choices": [
+        "Interviews",
+        "Research",
+        "Observation",
+        "Record inspections or reviews"
+      ],
+      "correctAnswer": "Interviews"
+    },
+    {
+      "id": "q115",
+      "type": "multiple-choice",
+      "topic": "Fact Finding Techniques",
+      "question": "Which questionnaire type uses prescribed answers from which a specific response is selected?",
+      "explanation": "According to the module, the correct choice is “Closed-ended questionnaire”.",
+      "source": {
+        "module": "M4S2 - System Requirements Checklist",
+        "page": 12
+      },
+      "choices": [
+        "Closed-ended questionnaire",
+        "Open-ended questionnaire",
+        "Interview",
+        "Observation"
+      ],
+      "correctAnswer": "Closed-ended questionnaire"
+    },
+    {
+      "id": "q116",
+      "type": "multiple-choice",
+      "topic": "Fact Finding Techniques",
+      "question": "Which technique requires the analyst to identify the right information, person, and place?",
+      "explanation": "According to the module, the correct choice is “Observation”.",
+      "source": {
+        "module": "M4S2 - System Requirements Checklist",
+        "page": 13
+      },
+      "choices": [
+        "Observation",
+        "Research",
+        "Record inspection",
+        "Closed-ended questionnaire"
+      ],
+      "correctAnswer": "Observation"
+    },
+    {
+      "id": "q117",
+      "type": "multiple-answer",
+      "topic": "Agile Principles",
+      "question": "Select all Agile principles explicitly listed on this page.",
+      "explanation": "Each selected option is explicitly listed on the cited module page; the remaining option belongs to a different concept or checklist.",
+      "source": {
+        "module": "M3S1 - Agile Methodologies and Scrum",
+        "page": 7
+      },
+      "choices": [
+        "Welcome changing requirements, even in late development",
+        "Deliver working software frequently",
+        "Close, daily cooperation between business people and developers",
+        "Documentation is a top priority"
+      ],
+      "correctAnswers": [
+        "Welcome changing requirements, even in late development",
+        "Deliver working software frequently",
+        "Close, daily cooperation between business people and developers"
+      ]
+    },
+    {
+      "id": "q118",
+      "type": "multiple-answer",
+      "topic": "Benefits of Scrum",
+      "question": "Select all benefits of Scrum explicitly listed in the module.",
+      "explanation": "Each selected option is explicitly listed on the cited module page; the remaining option belongs to a different concept or checklist.",
+      "source": {
+        "module": "M3S1 - Agile Methodologies and Scrum",
+        "page": 19
+      },
+      "choices": [
+        "Flexibility and adaptability",
+        "Quality improvement",
+        "Organizational synergy",
+        "Detailed phase descriptions"
+      ],
+      "correctAnswers": [
+        "Flexibility and adaptability",
+        "Quality improvement",
+        "Organizational synergy"
+      ]
+    },
+    {
+      "id": "q119",
+      "type": "multiple-answer",
+      "topic": "Sprint Planning",
+      "question": "Select all activities explicitly included in Sprint Planning.",
+      "explanation": "Each selected option is explicitly listed on the cited module page; the remaining option belongs to a different concept or checklist.",
+      "source": {
+        "module": "M3S1 - Agile Methodologies and Scrum",
+        "page": 26
+      },
+      "choices": [
+        "Agree on the scope of work",
+        "Prepare a sprint backlog",
+        "Agree on a sprint goal",
+        "Perform post-deployment reviews"
+      ],
+      "correctAnswers": [
+        "Agree on the scope of work",
+        "Prepare a sprint backlog",
+        "Agree on a sprint goal"
+      ]
+    },
+    {
+      "id": "q120",
+      "type": "multiple-answer",
+      "topic": "Sprint Review",
+      "question": "Select all activities performed by the team at the Sprint Review.",
+      "explanation": "Each selected option is explicitly listed on the cited module page; the remaining option belongs to a different concept or checklist.",
+      "source": {
+        "module": "M3S1 - Agile Methodologies and Scrum",
+        "page": 29
+      },
+      "choices": [
+        "Review completed and planned-but-not-completed work",
+        "Present completed work to stakeholders",
+        "Collaborate with stakeholders on what to work on next",
+        "Demonstrate incomplete work"
+      ],
+      "correctAnswers": [
+        "Review completed and planned-but-not-completed work",
+        "Present completed work to stakeholders",
+        "Collaborate with stakeholders on what to work on next"
+      ]
+    },
+    {
+      "id": "q121",
+      "type": "multiple-answer",
+      "topic": "FDD Targets",
+      "question": "Select all items explicitly listed as FDD targets.",
+      "explanation": "Each selected option is explicitly listed on the cited module page; the remaining option belongs to a different concept or checklist.",
+      "source": {
+        "module": "M3S2 - Crystal Methodology, DSDM, LSD, FDD and Extreme Programming",
+        "page": 16
+      },
+      "choices": [
+        "Component/ Class Ownership",
+        "Feature Teams",
+        "Configuration Management",
+        "Sprint Retrospective"
+      ],
+      "correctAnswers": [
+        "Component/ Class Ownership",
+        "Feature Teams",
+        "Configuration Management"
+      ]
+    },
+    {
+      "id": "q122",
+      "type": "multiple-answer",
+      "topic": "Lean Phases",
+      "question": "Select all phases explicitly listed for Lean Software Development.",
+      "explanation": "Each selected option is explicitly listed on the cited module page; the remaining option belongs to a different concept or checklist.",
+      "source": {
+        "module": "M3S2 - Crystal Methodology, DSDM, LSD, FDD and Extreme Programming",
+        "page": 18
+      },
+      "choices": [
+        "Eliminating Waste",
+        "Amplifying learning",
+        "Building Integrity",
+        "Backlog Refinement"
+      ],
+      "correctAnswers": [
+        "Eliminating Waste",
+        "Amplifying learning",
+        "Building Integrity"
+      ]
+    },
+    {
+      "id": "q123",
+      "type": "multiple-answer",
+      "topic": "XP Phases",
+      "question": "Select all items listed under the XP Planning phase.",
+      "explanation": "Each selected option is explicitly listed on the cited module page; the remaining option belongs to a different concept or checklist.",
+      "source": {
+        "module": "M3S2 - Crystal Methodology, DSDM, LSD, FDD and Extreme Programming",
+        "page": 25
+      },
+      "choices": [
+        "Identification of stakeholders and sponsors",
+        "Infrastructure Requirements",
+        "Security related information and gathering",
+        "Scrubbing of stories for estimation"
+      ],
+      "correctAnswers": [
+        "Identification of stakeholders and sponsors",
+        "Infrastructure Requirements",
+        "Security related information and gathering"
+      ]
+    },
+    {
+      "id": "q124",
+      "type": "multiple-answer",
+      "topic": "Systems Modeling Types",
+      "question": "Select all system modeling types explicitly listed in the module.",
+      "explanation": "Each selected option is explicitly listed on the cited module page; the remaining option belongs to a different concept or checklist.",
+      "source": {
+        "module": "M4S1 - Modeling Tools and Techniques",
+        "page": 4
+      },
+      "choices": [
+        "Functional Modeling",
+        "System Architecture",
+        "Business Process Modeling",
+        "Enterprise Modeling"
+      ],
+      "correctAnswers": [
+        "Functional Modeling",
+        "System Architecture",
+        "Business Process Modeling",
+        "Enterprise Modeling"
+      ]
+    },
+    {
+      "id": "q125",
+      "type": "multiple-answer",
+      "topic": "Function Block Diagram",
+      "question": "Select all elements a functional block diagram can picture.",
+      "explanation": "Each selected option is explicitly listed on the cited module page; the remaining option belongs to a different concept or checklist.",
+      "source": {
+        "module": "M4S1 - Modeling Tools and Techniques",
+        "page": 8
+      },
+      "choices": [
+        "Functions of a system pictured by blocks",
+        "Input and output elements pictured with lines",
+        "Relationships between functions",
+        "Minimum CPU and GPU requirements"
+      ],
+      "correctAnswers": [
+        "Functions of a system pictured by blocks",
+        "Input and output elements pictured with lines",
+        "Relationships between functions"
+      ]
+    },
+    {
+      "id": "q126",
+      "type": "multiple-answer",
+      "topic": "Typical Software Checklist",
+      "question": "Select all items explicitly included in the Typical Software Checklist.",
+      "explanation": "Each selected option is explicitly listed on the cited module page; the remaining option belongs to a different concept or checklist.",
+      "source": {
+        "module": "M4S2 - System Requirements Checklist",
+        "page": 5
+      },
+      "choices": [
+        "Minimum CPU or processor speed",
+        "Minimum system memory (RAM)",
+        "Minimum free storage space",
+        "Available ports (USB, Ethernet, etc)"
+      ],
+      "correctAnswers": [
+        "Minimum CPU or processor speed",
+        "Minimum system memory (RAM)",
+        "Minimum free storage space"
+      ]
+    },
+    {
+      "id": "q127",
+      "type": "true-false",
+      "topic": "Agile Principles",
+      "question": "Face-to-face conversation is identified as the best form of communication (co-location).",
+      "explanation": "The statement matches the cited module.",
+      "source": {
+        "module": "M3S1 - Agile Methodologies and Scrum",
+        "page": 8
+      },
+      "correctAnswer": true
+    },
+    {
+      "id": "q128",
+      "type": "true-false",
+      "topic": "Agile vs. Waterfall",
+      "question": "The module states that an Agile error can be fixed in the middle of the project.",
+      "explanation": "The statement matches the cited module.",
+      "source": {
+        "module": "M3S1 - Agile Methodologies and Scrum",
+        "page": 12
+      },
+      "correctAnswer": true
+    },
+    {
+      "id": "q129",
+      "type": "true-false",
+      "topic": "Daily Scrum",
+      "question": "A Daily Scrum should wait to start until every development team member is present.",
+      "explanation": "The statement contradicts the cited module.",
+      "source": {
+        "module": "M3S1 - Agile Methodologies and Scrum",
+        "page": 27
+      },
+      "correctAnswer": false
+    },
+    {
+      "id": "q130",
+      "type": "true-false",
+      "topic": "Sprint Review",
+      "question": "The recommended Sprint Review duration is two hours for a two-week sprint.",
+      "explanation": "The statement matches the cited module.",
+      "source": {
+        "module": "M3S1 - Agile Methodologies and Scrum",
+        "page": 29
+      },
+      "correctAnswer": true
+    },
+    {
+      "id": "q131",
+      "type": "true-false",
+      "topic": "Crystal Methodology",
+      "question": "The module states that projects are unique and dynamic and require specific methods.",
+      "explanation": "The statement matches the cited module.",
+      "source": {
+        "module": "M3S2 - Crystal Methodology, DSDM, LSD, FDD and Extreme Programming",
+        "page": 5
+      },
+      "correctAnswer": true
+    },
+    {
+      "id": "q132",
+      "type": "true-false",
+      "topic": "Lean Software Development",
+      "question": "Lean Software Development is described as adapted from the Toyota Production System.",
+      "explanation": "The statement matches the cited module.",
+      "source": {
+        "module": "M3S2 - Crystal Methodology, DSDM, LSD, FDD and Extreme Programming",
+        "page": 17
+      },
+      "correctAnswer": true
+    },
+    {
+      "id": "q133",
+      "type": "true-false",
+      "topic": "XP Tools",
+      "question": "The module says Story Cardboard is less effort and time than switching to an online form.",
+      "explanation": "The statement contradicts the cited module.",
+      "source": {
+        "module": "M3S2 - Crystal Methodology, DSDM, LSD, FDD and Extreme Programming",
+        "page": 31
+      },
+      "correctAnswer": false
+    },
+    {
+      "id": "q134",
+      "type": "true-false",
+      "topic": "Advantages of Design Diagrams",
+      "question": "Design diagrams can provide an overview of important system elements and relationships free of extraneous details.",
+      "explanation": "The statement matches the cited module.",
+      "source": {
+        "module": "M4S1 - Modeling Tools and Techniques",
+        "page": 24
+      },
+      "correctAnswer": true
+    },
+    {
+      "id": "q135",
+      "type": "true-false",
+      "topic": "System Requirements",
+      "question": "The module states that system requirements tend to decrease over time as newer software versions demand more processing power.",
+      "explanation": "The statement contradicts the cited module.",
+      "source": {
+        "module": "M4S2 - System Requirements Checklist",
+        "page": 4
+      },
+      "correctAnswer": false
+    },
+    {
+      "id": "q136",
+      "type": "true-false",
+      "topic": "Fact Finding Techniques",
+      "question": "Open-ended questionnaires use respondents' own words and are qualitative in nature.",
+      "explanation": "The statement matches the cited module.",
+      "source": {
+        "module": "M4S2 - System Requirements Checklist",
+        "page": 12
+      },
+      "correctAnswer": true
+    }
+  ]
+}

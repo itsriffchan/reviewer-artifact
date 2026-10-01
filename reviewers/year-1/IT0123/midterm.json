@@ -1,0 +1,188 @@
+{
+  "schemaVersion": 1,
+  "id": "it0123-midterm",
+  "subject": {
+    "code": "IT0123",
+    "name": "Networking Fundamentals",
+    "yearLevel": 1
+  },
+  "reviewer": {
+    "title": "Midterm Exam Reviewer",
+    "description": "Comprehensive sample reviewer covering network architectures, OSI layers, transport protocols, and IP addressing. [Demo Seed Content]",
+    "coverage": [
+      "Module 1 - Network Architecture",
+      "Module 2 - OSI & TCP/IP Models",
+      "Module 3 - Transport Protocols",
+      "Module 4 - IP Addressing & DHCP"
+    ],
+    "shuffleQuestions": true,
+    "shuffleChoices": true
+  },
+  "questions": [
+    {
+      "id": "it0123-q01",
+      "type": "multiple-choice",
+      "topic": "OSI Reference Model",
+      "question": "Which layer of the OSI model is responsible for packet forwarding and logical IP addressing?",
+      "choices": [
+        "Data Link Layer",
+        "Network Layer",
+        "Transport Layer",
+        "Physical Layer"
+      ],
+      "correctAnswer": "Network Layer",
+      "explanation": "The Network Layer (Layer 3) handles logical addressing (IPv4/IPv6) and routes packets across internetworks.",
+      "source": {
+        "module": "Module 2",
+        "page": 14
+      }
+    },
+    {
+      "id": "it0123-q02",
+      "type": "multiple-answer",
+      "topic": "Transport Layer Protocols",
+      "question": "Which of the following protocols operate primarily at Layer 4 (Transport Layer) of the OSI model?",
+      "choices": [
+        "TCP (Transmission Control Protocol)",
+        "UDP (User Datagram Protocol)",
+        "IP (Internet Protocol)",
+        "HTTP (Hypertext Transfer Protocol)",
+        "Ethernet"
+      ],
+      "correctAnswers": [
+        "TCP (Transmission Control Protocol)",
+        "UDP (User Datagram Protocol)"
+      ],
+      "explanation": "TCP and UDP are transport-layer protocols providing end-to-end communication services. IP operates at Layer 3, HTTP at Layer 7, and Ethernet at Layer 2.",
+      "source": {
+        "module": "Module 3",
+        "page": 22
+      }
+    },
+    {
+      "id": "it0123-q03",
+      "type": "true-false",
+      "topic": "Connection-Oriented Protocols",
+      "question": "TCP performs a three-way handshake (SYN, SYN-ACK, ACK) before data segments are transmitted.",
+      "correctAnswer": true,
+      "explanation": "True. TCP is connection-oriented and establishes a virtual connection between endpoints using a three-way handshake prior to data exchange.",
+      "source": {
+        "module": "Module 3",
+        "page": 28
+      }
+    },
+    {
+      "id": "it0123-q04",
+      "type": "fill-blank",
+      "topic": "Address Configuration",
+      "question": "The application-layer protocol that automatically allocates dynamic IP configuration settings to host devices is _____.",
+      "acceptedAnswers": [
+        "DHCP",
+        "Dynamic Host Configuration Protocol"
+      ],
+      "explanation": "DHCP (Dynamic Host Configuration Protocol) assigns dynamic IP addresses, subnet masks, default gateways, and DNS servers to client devices.",
+      "source": {
+        "module": "Module 4",
+        "page": 8
+      }
+    },
+    {
+      "id": "it0123-q05",
+      "type": "multiple-choice",
+      "topic": "Physical Topology",
+      "question": "In which network topology is every node connected to a central device such as a switch?",
+      "choices": [
+        "Star Topology",
+        "Bus Topology",
+        "Ring Topology",
+        "Mesh Topology"
+      ],
+      "correctAnswer": "Star Topology",
+      "explanation": "Star topology connects all end devices directly to a central networking device (switch or hub). Failure of one cable only disconnects that specific host.",
+      "source": {
+        "module": "Module 1",
+        "page": 11
+      }
+    },
+    {
+      "id": "it0123-q06",
+      "type": "true-false",
+      "topic": "MAC Addressing",
+      "question": "A standard Media Access Control (MAC) address is 32 bits in length.",
+      "correctAnswer": false,
+      "explanation": "False. A standard MAC address (EUI-48) is 48 bits (6 octets) in length, whereas an IPv4 address is 32 bits.",
+      "source": {
+        "module": "Module 2",
+        "page": 35
+      }
+    },
+    {
+      "id": "it0123-q07",
+      "type": "multiple-answer",
+      "topic": "Private IPv4 Ranges",
+      "question": "According to RFC 1918, which of the following address prefixes are reserved for private internet addresses?",
+      "choices": [
+        "10.0.0.0/8",
+        "172.16.0.0/12",
+        "192.168.0.0/16",
+        "8.8.8.0/24",
+        "127.0.0.0/8"
+      ],
+      "correctAnswers": [
+        "10.0.0.0/8",
+        "172.16.0.0/12",
+        "192.168.0.0/16"
+      ],
+      "explanation": "RFC 1918 defines private address blocks: 10.0.0.0/8 (Class A), 172.16.0.0/12 (Class B), and 192.168.0.0/16 (Class C). 127.0.0.0/8 is reserved for loopback, and 8.8.8.8 is a public DNS IP.",
+      "source": {
+        "module": "Module 4",
+        "page": 40
+      }
+    },
+    {
+      "id": "it0123-q08",
+      "type": "fill-blank",
+      "topic": "Name Resolution",
+      "question": "The hierarchical naming service that translates human-friendly domain names into IP addresses is _____.",
+      "acceptedAnswers": [
+        "DNS",
+        "Domain Name System"
+      ],
+      "explanation": "DNS (Domain Name System) translates hostnames like example.com into numeric IP addresses that routers and switches understand.",
+      "source": {
+        "module": "Module 4",
+        "page": 19
+      }
+    },
+    {
+      "id": "it0123-q09",
+      "type": "multiple-choice",
+      "topic": "Transport Layer Characteristics",
+      "question": "Which protocol provides best-effort, connectionless delivery without flow control or error recovery?",
+      "choices": [
+        "UDP (User Datagram Protocol)",
+        "TCP (Transmission Control Protocol)",
+        "BGP (Border Gateway Protocol)",
+        "SCTP (Stream Control Transmission Protocol)"
+      ],
+      "correctAnswer": "UDP (User Datagram Protocol)",
+      "explanation": "UDP is connectionless, lightweight, and does not guarantee packet delivery or sequencing, making it ideal for streaming and real-time audio/video.",
+      "source": {
+        "module": "Module 3",
+        "page": 15
+      }
+    },
+    {
+      "id": "it0123-q10",
+      "type": "true-false",
+      "topic": "Network Security",
+      "question": "A stateless packet-filtering firewall inspects the payload state and tracks connection handshakes.",
+      "correctAnswer": false,
+      "explanation": "False. Stateless firewalls inspect individual packets in isolation based on headers (IP/ports) without tracking connection state; stateful firewalls track connections.",
+      "source": {
+        "module": "Module 1",
+        "page": 44
+      }
+    }
+  ]
+}

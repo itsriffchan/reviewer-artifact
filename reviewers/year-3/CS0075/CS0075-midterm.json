@@ -1,0 +1,937 @@
+{
+  "schemaVersion": 1,
+  "id": "CS0075-modules-1-2-comprehensive-reviewer",
+  "subject": {
+    "code": "CS0075",
+    "name": "Machine Learning Algorithms",
+    "yearLevel": 3
+  },
+  "reviewer": {
+    "title": "Machine Learning Algorithms — Modules 1–2 Comprehensive Reviewer",
+    "description": "Adaptive full-scope reviewer grounded in the supplied Module 1 Introduction to Machine Learning and Module 2 Supervised Learning materials.",
+    "coverage": [
+      "Module 1: Introduction to Machine Learning",
+      "Module 2: Supervised Learning"
+    ],
+    "shuffleQuestions": true,
+    "shuffleChoices": true
+  },
+  "questions": [
+    {
+      "id": "q001",
+      "type": "multiple-choice",
+      "topic": "Machine Learning Fundamentals",
+      "question": "Which statement best matches the module's description of machine learning?",
+      "explanation": "The module describes machine learning as extracting knowledge from data and enabling computers to learn from data and experience rather than relying only on explicit task-specific programming.",
+      "source": {
+        "module": "Module 1: Introduction to Machine Learning",
+        "section": "What is Machine Learning? (pp. 5–6)"
+      },
+      "choices": [
+        "A field focused only on manually encoding decision rules",
+        "A field concerned with enabling computers to learn from data and experience",
+        "A method used only for storing large datasets",
+        "A visualization technique for plotting statistical data"
+      ],
+      "correctAnswer": "A field concerned with enabling computers to learn from data and experience"
+    },
+    {
+      "id": "q002",
+      "type": "multiple-choice",
+      "topic": "Machine Learning Fundamentals",
+      "question": "In the experience-task-performance formulation of learning, what indicates that a computer program has learned?",
+      "explanation": "A program learns when its performance P on tasks T improves through experience E.",
+      "source": {
+        "module": "Module 1: Introduction to Machine Learning",
+        "section": "What is Machine Learning? (p. 6)"
+      },
+      "choices": [
+        "Its source code becomes shorter",
+        "Its performance on the task improves with experience",
+        "It receives more explicit rules from a programmer",
+        "Its dataset contains no missing values"
+      ],
+      "correctAnswer": "Its performance on the task improves with experience"
+    },
+    {
+      "id": "q003",
+      "type": "true-false",
+      "topic": "Machine Learning Scope",
+      "question": "The module describes machine learning as a field at the intersection of statistics, artificial intelligence, and computer science.",
+      "explanation": "The introductory material explicitly places machine learning at the intersection of statistics, artificial intelligence, and computer science.",
+      "source": {
+        "module": "Module 1: Introduction to Machine Learning",
+        "section": "What is Machine Learning? (p. 5)"
+      },
+      "correctAnswer": true
+    },
+    {
+      "id": "q004",
+      "type": "true-false",
+      "topic": "ML vs Rule-Based Algorithms",
+      "question": "Traditional rule-based algorithms rely on manually specified rules, while machine-learning systems can learn rules from training samples.",
+      "explanation": "The module contrasts explicit/manual rules in traditional algorithms with rules automatically learned from training data in machine learning.",
+      "source": {
+        "module": "Module 1: Introduction to Machine Learning",
+        "section": "Difference between ML Algo and Traditional Rule Based Algo (p. 9)"
+      },
+      "correctAnswer": true
+    },
+    {
+      "id": "q005",
+      "type": "multiple-choice",
+      "topic": "Machine Learning Workflow",
+      "question": "Which sequence best represents the two broad phases shown in the module's ML process?",
+      "explanation": "The module separates the process into a learning phase using training data, preprocessing, learning, and testing, followed by prediction on new data using the trained model.",
+      "source": {
+        "module": "Module 1: Introduction to Machine Learning",
+        "section": "How does ML Work? (pp. 17–18)"
+      },
+      "choices": [
+        "Prediction followed by data collection",
+        "Learning followed by prediction",
+        "Deployment followed by preprocessing",
+        "Visualization followed by rule writing"
+      ],
+      "correctAnswer": "Learning followed by prediction"
+    },
+    {
+      "id": "q006",
+      "type": "true-false",
+      "topic": "Python Tools",
+      "question": "The module identifies NumPy with scientific computing, Matplotlib with scientific plotting, and Pandas with data wrangling and analysis.",
+      "explanation": "These functions are explicitly paired with NumPy, Matplotlib, and Pandas in the module's Python tools table.",
+      "source": {
+        "module": "Module 1: Introduction to Machine Learning",
+        "section": "Why Python? (p. 23)"
+      },
+      "correctAnswer": true
+    },
+    {
+      "id": "q007",
+      "type": "fill-blank",
+      "topic": "Python Tools",
+      "question": "According to the module, the prominent Python library specifically identified as a very popular tool for machine learning is ____.",
+      "explanation": "The module explicitly identifies Scikit-learn as a very popular tool and prominent Python library for machine learning.",
+      "source": {
+        "module": "Module 1: Introduction to Machine Learning",
+        "section": "Why Python? (p. 23)"
+      },
+      "acceptedAnswers": [
+        "Scikit-learn",
+        "scikit-learn",
+        "sklearn"
+      ]
+    },
+    {
+      "id": "q008",
+      "type": "multiple-choice",
+      "topic": "Data Quality",
+      "question": "A dataset contains several absent attribute values. Which data-quality problem from the module does this illustrate?",
+      "explanation": "The module defines incompleteness as data containing missing values or lacking attributes.",
+      "source": {
+        "module": "Module 1: Introduction to Machine Learning",
+        "section": "Data Preprocessing in ML (p. 27)"
+      },
+      "choices": [
+        "Noise",
+        "Incompleteness",
+        "Deployment drift",
+        "Feature scaling"
+      ],
+      "correctAnswer": "Incompleteness"
+    },
+    {
+      "id": "q009",
+      "type": "multiple-choice",
+      "topic": "Data Preprocessing",
+      "question": "What is the primary purpose of data preprocessing as presented in the module?",
+      "explanation": "Preprocessing cleans, alters, reorganizes, and transforms raw data so that it is ready for analysis or modeling.",
+      "source": {
+        "module": "Module 1: Introduction to Machine Learning",
+        "section": "Data Preprocessing in ML (p. 30)"
+      },
+      "choices": [
+        "To replace model evaluation",
+        "To prepare raw data for analysis or modeling",
+        "To eliminate the need for training data",
+        "To deploy a model directly into production"
+      ],
+      "correctAnswer": "To prepare raw data for analysis or modeling"
+    },
+    {
+      "id": "q010",
+      "type": "multiple-answer",
+      "topic": "Data Preprocessing",
+      "question": "(Choose 3) Which activities are listed under data cleansing?",
+      "explanation": "The module lists handling missing data, reducing noisy data, and identifying/removing duplicates as data-cleansing techniques.",
+      "source": {
+        "module": "Module 1: Introduction to Machine Learning",
+        "section": "Data Preprocessing Techniques (p. 32)"
+      },
+      "choices": [
+        "Identify and sort out missing data",
+        "Reduce noisy data",
+        "Identify and remove duplicates",
+        "Configure cloud hardware",
+        "Create prediction APIs"
+      ],
+      "correctAnswers": [
+        "Identify and sort out missing data",
+        "Reduce noisy data",
+        "Identify and remove duplicates"
+      ],
+      "maxChoices": 3
+    },
+    {
+      "id": "q011",
+      "type": "multiple-choice",
+      "topic": "Feature Engineering",
+      "question": "Which activity belongs to feature engineering rather than data cleansing in the module?",
+      "explanation": "Feature encoding is listed under feature engineering; missing-data handling and duplicate removal are listed under data cleansing.",
+      "source": {
+        "module": "Module 1: Introduction to Machine Learning",
+        "section": "Data Preprocessing Techniques (p. 32)"
+      },
+      "choices": [
+        "Removing duplicate records",
+        "Sorting out missing values",
+        "Feature encoding",
+        "Reducing noisy records"
+      ],
+      "correctAnswer": "Feature encoding"
+    },
+    {
+      "id": "q012",
+      "type": "multiple-choice",
+      "topic": "Exploratory Data Analysis",
+      "question": "Which EDA activity examines relationships between variables?",
+      "explanation": "The EDA section names correlation analysis as the activity used to examine relationships between variables.",
+      "source": {
+        "module": "Module 1: Introduction to Machine Learning",
+        "section": "Exploratory Data Analysis (p. 33)"
+      },
+      "choices": [
+        "Correlation analysis",
+        "Deployment monitoring",
+        "Feature deployment",
+        "Version tracking"
+      ],
+      "correctAnswer": "Correlation analysis"
+    },
+    {
+      "id": "q013",
+      "type": "multiple-answer",
+      "topic": "Exploratory Data Analysis",
+      "question": "(Choose 4) Which activities are explicitly listed as EDA activities?",
+      "explanation": "The module lists visualization, summary statistics, outlier detection, correlation analysis, and hypothesis testing as EDA activities; four of those appear among the choices.",
+      "source": {
+        "module": "Module 1: Introduction to Machine Learning",
+        "section": "Exploratory Data Analysis (p. 33)"
+      },
+      "choices": [
+        "Visualization",
+        "Summary statistics",
+        "Outlier detection",
+        "Hypothesis testing",
+        "API configuration",
+        "Model deployment"
+      ],
+      "correctAnswers": [
+        "Visualization",
+        "Summary statistics",
+        "Outlier detection",
+        "Hypothesis testing"
+      ],
+      "maxChoices": 4
+    },
+    {
+      "id": "q014",
+      "type": "true-false",
+      "topic": "Data Preprocessing",
+      "question": "The module presents preprocessing as an important step before analysis or modeling.",
+      "explanation": "The slides explicitly state that preprocessing is important before processing so data can be prepared for analysis or modeling.",
+      "source": {
+        "module": "Module 1: Introduction to Machine Learning",
+        "section": "Data Preprocessing in ML (p. 30)"
+      },
+      "correctAnswer": true
+    },
+    {
+      "id": "q015",
+      "type": "multiple-choice",
+      "topic": "Model Deployment",
+      "question": "What does machine-learning model deployment mean in the module?",
+      "explanation": "Deployment is defined as taking a trained ML model and making it available for use in real-world applications.",
+      "source": {
+        "module": "Module 1: Introduction to Machine Learning",
+        "section": "Model Deployment (p. 40)"
+      },
+      "choices": [
+        "Collecting raw data before any training",
+        "Making a trained model available in real-world applications",
+        "Removing all features from a dataset",
+        "Replacing validation with manual rules"
+      ],
+      "correctAnswer": "Making a trained model available in real-world applications"
+    },
+    {
+      "id": "q016",
+      "type": "multiple-answer",
+      "topic": "Model Deployment",
+      "question": "(Choose 4) Which practices are listed for successful ML model deployment?",
+      "explanation": "The module lists choosing the right infrastructure, effective versioning and tracking, robust testing and validation, and monitoring and alerting.",
+      "source": {
+        "module": "Module 1: Introduction to Machine Learning",
+        "section": "Best Practices for Successful ML Model Deployment (p. 44)"
+      },
+      "choices": [
+        "Choosing the right infrastructure",
+        "Effective versioning and tracking",
+        "Robust testing and validation",
+        "Implementing monitoring and alerting",
+        "Avoiding model evaluation",
+        "Disabling performance monitoring"
+      ],
+      "correctAnswers": [
+        "Choosing the right infrastructure",
+        "Effective versioning and tracking",
+        "Robust testing and validation",
+        "Implementing monitoring and alerting"
+      ],
+      "maxChoices": 4
+    },
+    {
+      "id": "q017",
+      "type": "multiple-choice",
+      "topic": "Model Monitoring",
+      "question": "Why should a deployed model be continuously monitored?",
+      "explanation": "The module notes that real-world data can evolve and model performance can drift; monitoring detects deviations so adjustments can be made.",
+      "source": {
+        "module": "Module 1: Introduction to Machine Learning",
+        "section": "Model Deployment — Monitoring (p. 43)"
+      },
+      "choices": [
+        "Because training data must never be reused",
+        "Because real-world data can evolve and model performance may drift",
+        "Because monitoring removes the need for validation",
+        "Because deployed models cannot make predictions without manual input"
+      ],
+      "correctAnswer": "Because real-world data can evolve and model performance may drift"
+    },
+    {
+      "id": "q018",
+      "type": "multiple-answer",
+      "topic": "Data Ethics",
+      "question": "(Choose 5) Which principles of data ethics are presented in the module?",
+      "explanation": "The module presents five principles: ownership, transparency, privacy, intention, and outcomes.",
+      "source": {
+        "module": "Module 1: Introduction to Machine Learning",
+        "section": "Ethics and Privacy in Data Science — 5 Principles of Data Ethics (pp. 46–47)"
+      },
+      "choices": [
+        "Ownership",
+        "Transparency",
+        "Privacy",
+        "Intention",
+        "Outcomes",
+        "Compression",
+        "Randomization"
+      ],
+      "correctAnswers": [
+        "Ownership",
+        "Transparency",
+        "Privacy",
+        "Intention",
+        "Outcomes"
+      ],
+      "maxChoices": 5
+    },
+    {
+      "id": "q019",
+      "type": "multiple-choice",
+      "topic": "Data Ethics",
+      "question": "Which data-ethics principle emphasizes that data subjects should know how their information will be collected, stored, and used?",
+      "explanation": "The module defines transparency as the data subject's right to know how personal information will be collected, stored, and used.",
+      "source": {
+        "module": "Module 1: Introduction to Machine Learning",
+        "section": "Ethics and Privacy in Data Science — Transparency (p. 46)"
+      },
+      "choices": [
+        "Ownership",
+        "Transparency",
+        "Intention",
+        "Outcomes"
+      ],
+      "correctAnswer": "Transparency"
+    },
+    {
+      "id": "q020",
+      "type": "true-false",
+      "topic": "Data Ethics",
+      "question": "According to the module, good intentions guarantee that data analysis cannot cause harm.",
+      "explanation": "The module explicitly notes that even with good intentions, analysis can inadvertently harm individuals or groups, described as disparate impact.",
+      "source": {
+        "module": "Module 1: Introduction to Machine Learning",
+        "section": "Ethics and Privacy in Data Science — Outcomes (p. 47)"
+      },
+      "correctAnswer": false
+    },
+    {
+      "id": "q021",
+      "type": "multiple-choice",
+      "topic": "Supervised Learning Fundamentals",
+      "question": "What distinguishes supervised learning in the module?",
+      "explanation": "Supervised learning uses labeled training data containing both inputs and corresponding correct outputs.",
+      "source": {
+        "module": "Module 2: Supervised Learning",
+        "section": "Supervised Learning (p. 5)"
+      },
+      "choices": [
+        "It uses only unlabeled inputs",
+        "It uses labeled input-output examples",
+        "It never makes predictions",
+        "It requires manually written rules for every case"
+      ],
+      "correctAnswer": "It uses labeled input-output examples"
+    },
+    {
+      "id": "q022",
+      "type": "multiple-choice",
+      "topic": "Classification vs Regression",
+      "question": "Which task is a classification problem?",
+      "explanation": "Classification predicts categorical class labels. Filtering email into spam or not spam is one of the module's examples.",
+      "source": {
+        "module": "Module 2: Supervised Learning",
+        "section": "Classification and Regression (pp. 6–8)"
+      },
+      "choices": [
+        "Forecasting annual income",
+        "Predicting a continuous temperature value",
+        "Filtering email into spam or not spam",
+        "Forecasting population size"
+      ],
+      "correctAnswer": "Filtering email into spam or not spam"
+    },
+    {
+      "id": "q023",
+      "type": "multiple-choice",
+      "topic": "Classification vs Regression",
+      "question": "Which target type characterizes regression in the module?",
+      "explanation": "Regression is associated with a continuous target and prediction of real-number values.",
+      "source": {
+        "module": "Module 2: Supervised Learning",
+        "section": "Regression (p. 9)"
+      },
+      "choices": [
+        "Categorical class labels",
+        "Continuous real-number values",
+        "Only Boolean values",
+        "Unlabeled clusters"
+      ],
+      "correctAnswer": "Continuous real-number values"
+    },
+    {
+      "id": "q024",
+      "type": "multiple-answer",
+      "topic": "Classification",
+      "question": "(Choose 4) Which algorithms are listed as classification algorithms in the introductory supervised-learning section?",
+      "explanation": "The module lists Random Forest, Decision Tree, Logistic Regression, and Support Vector Machine as classification algorithms.",
+      "source": {
+        "module": "Module 2: Supervised Learning",
+        "section": "Classification (p. 8)"
+      },
+      "choices": [
+        "Random Forest",
+        "Decision Tree",
+        "Logistic Regression",
+        "Support Vector Machine",
+        "K-means clustering",
+        "Principal component analysis"
+      ],
+      "correctAnswers": [
+        "Random Forest",
+        "Decision Tree",
+        "Logistic Regression",
+        "Support Vector Machine"
+      ],
+      "maxChoices": 4
+    },
+    {
+      "id": "q025",
+      "type": "true-false",
+      "topic": "Classification",
+      "question": "Binary classification involves exactly two classes.",
+      "explanation": "The module defines binary classification as classification involving two classes, such as yes/no or positive/negative.",
+      "source": {
+        "module": "Module 2: Supervised Learning",
+        "section": "Classification (p. 8)"
+      },
+      "correctAnswer": true
+    },
+    {
+      "id": "q026",
+      "type": "multiple-choice",
+      "topic": "Supervised Learning Process",
+      "question": "After training and validation, what broad phase follows in the supervised-learning process shown in the module?",
+      "explanation": "The module describes training and validation followed by prediction on new data.",
+      "source": {
+        "module": "Module 2: Supervised Learning",
+        "section": "Supervised Machine Learning Process (p. 11)"
+      },
+      "choices": [
+        "Prediction",
+        "Manual rule encoding",
+        "Data deletion",
+        "Unsupervised clustering"
+      ],
+      "correctAnswer": "Prediction"
+    },
+    {
+      "id": "q027",
+      "type": "multiple-choice",
+      "topic": "Generalization",
+      "question": "What does it mean for a supervised model to generalize?",
+      "explanation": "Generalization means making accurate predictions on new, unseen data with characteristics like the training data.",
+      "source": {
+        "module": "Module 2: Supervised Learning",
+        "section": "Generalization (p. 14)"
+      },
+      "choices": [
+        "It memorizes every training example",
+        "It predicts unseen data accurately",
+        "It always reaches 100% training accuracy",
+        "It uses the maximum possible number of features"
+      ],
+      "correctAnswer": "It predicts unseen data accurately"
+    },
+    {
+      "id": "q028",
+      "type": "multiple-choice",
+      "topic": "Overfitting and Underfitting",
+      "question": "Which pattern most strongly indicates overfitting according to the module?",
+      "explanation": "An overfitted model fits the training data very well but performs poorly on unseen data because it has focused too closely on training-set particularities.",
+      "source": {
+        "module": "Module 2: Supervised Learning",
+        "section": "Overfitting (p. 15)"
+      },
+      "choices": [
+        "Poor performance on both training and unseen data",
+        "Excellent training performance but poor unseen-data performance",
+        "Equal performance on all datasets by definition",
+        "Low training performance but perfect test performance"
+      ],
+      "correctAnswer": "Excellent training performance but poor unseen-data performance"
+    },
+    {
+      "id": "q029",
+      "type": "multiple-choice",
+      "topic": "Overfitting and Underfitting",
+      "question": "Which pattern describes underfitting?",
+      "explanation": "An underfitted model is too simple to capture the data's important variation and therefore performs poorly even on training data and also on new data.",
+      "source": {
+        "module": "Module 2: Supervised Learning",
+        "section": "Underfitting (pp. 16–17)"
+      },
+      "choices": [
+        "Poor performance on both training and new data",
+        "Perfect training performance and poor new-data performance",
+        "Perfect performance on all data",
+        "High variance caused by memorization"
+      ],
+      "correctAnswer": "Poor performance on both training and new data"
+    },
+    {
+      "id": "q030",
+      "type": "multiple-answer",
+      "topic": "Model Complexity",
+      "question": "(Choose 3) Which statements are supported by the module's discussion of model complexity and data?",
+      "explanation": "The slides relate usable complexity to input variation, note that more varied data can support more complex models, and warn that simply duplicating data does not add useful variety.",
+      "source": {
+        "module": "Module 2: Supervised Learning",
+        "section": "Relation of Model Complexity to Dataset Size (p. 12)"
+      },
+      "choices": [
+        "Greater variety in training data can support more complex models without overfitting",
+        "Simply duplicating the same data points does not provide the needed variety",
+        "Larger and more varied datasets can permit more complex models",
+        "Model complexity is unrelated to the training data",
+        "Repeated identical samples always eliminate overfitting"
+      ],
+      "correctAnswers": [
+        "Greater variety in training data can support more complex models without overfitting",
+        "Simply duplicating the same data points does not provide the needed variety",
+        "Larger and more varied datasets can permit more complex models"
+      ],
+      "maxChoices": 3
+    },
+    {
+      "id": "q031",
+      "type": "multiple-choice",
+      "topic": "Bias and Variance",
+      "question": "How does the module define variance?",
+      "explanation": "Variance is described as error resulting from sensitivity to noise or fluctuations in the training data.",
+      "source": {
+        "module": "Module 2: Supervised Learning",
+        "section": "What is a Good Model? (p. 24)"
+      },
+      "choices": [
+        "Error from sensitivity to training-data noise and fluctuations",
+        "Error caused only by missing labels",
+        "The number of classes in a dataset",
+        "The average target value"
+      ],
+      "correctAnswer": "Error from sensitivity to training-data noise and fluctuations"
+    },
+    {
+      "id": "q032",
+      "type": "fill-blank",
+      "topic": "Bias and Variance",
+      "question": "The error caused by wrong or overly simple assumptions in the learning algorithm is called ____.",
+      "explanation": "The module defines bias as error from wrong or too-simple assumptions in the learning algorithm.",
+      "source": {
+        "module": "Module 2: Supervised Learning",
+        "section": "What is a Good Model? (p. 24)"
+      },
+      "acceptedAnswers": [
+        "bias",
+        "Bias"
+      ]
+    },
+    {
+      "id": "q033",
+      "type": "multiple-choice",
+      "topic": "Sample Datasets",
+      "question": "Why is the synthetic wave dataset used in the module?",
+      "explanation": "The wave dataset has one input feature and a continuous target, making it an example for illustrating regression algorithms.",
+      "source": {
+        "module": "Module 2: Supervised Learning",
+        "section": "Sample Dataset (pp. 27–28)"
+      },
+      "choices": [
+        "To illustrate regression algorithms",
+        "To illustrate only binary labels",
+        "To demonstrate deployment monitoring",
+        "To show data privacy regulation"
+      ],
+      "correctAnswer": "To illustrate regression algorithms"
+    },
+    {
+      "id": "q034",
+      "type": "multiple-choice",
+      "topic": "Sample Datasets",
+      "question": "What kind of task is associated with the Wisconsin Breast Cancer dataset in the module?",
+      "explanation": "Tumors are labeled benign or malignant, and the task is to predict the class from tissue measurements, making it a classification task.",
+      "source": {
+        "module": "Module 2: Supervised Learning",
+        "section": "Sample Dataset -2 (pp. 29–32)"
+      },
+      "choices": [
+        "Classification of tumors as benign or malignant",
+        "Regression of continuous stock prices",
+        "Clustering houses without labels",
+        "Prediction of a continuous temperature"
+      ],
+      "correctAnswer": "Classification of tumors as benign or malignant"
+    },
+    {
+      "id": "q035",
+      "type": "multiple-choice",
+      "topic": "Feature Engineering",
+      "question": "In the extended housing example, what does the module call the creation of derived inputs such as products between original features?",
+      "explanation": "The slides call the inclusion of derived features such as feature interactions 'feature engineering.'",
+      "source": {
+        "module": "Module 2: Supervised Learning",
+        "section": "Sample Dataset -3 (pp. 34–35)"
+      },
+      "choices": [
+        "Feature engineering",
+        "Model deployment",
+        "Bootstrap sampling",
+        "Label encoding"
+      ],
+      "correctAnswer": "Feature engineering"
+    },
+    {
+      "id": "q036",
+      "type": "multiple-choice",
+      "topic": "k-Nearest Neighbors",
+      "question": "How does k-nearest-neighbors classification assign a label when k is greater than one?",
+      "explanation": "The module explains that k-NN counts the classes among the selected neighbors and assigns the majority class.",
+      "source": {
+        "module": "Module 2: Supervised Learning",
+        "section": "Classification: k-Nearest Neighbors"
+      },
+      "choices": [
+        "By majority voting among the k nearest neighbors",
+        "By averaging all feature values in the dataset",
+        "By selecting the farthest training point",
+        "By building a hierarchy of if/else tests"
+      ],
+      "correctAnswer": "By majority voting among the k nearest neighbors"
+    },
+    {
+      "id": "q037",
+      "type": "multiple-answer",
+      "topic": "k-Nearest Neighbors",
+      "question": "(Choose 2) Which are identified as important k-NN classifier parameters?",
+      "explanation": "The module highlights the number of neighbors and the distance measure as two important k-NN classifier parameters.",
+      "source": {
+        "module": "Module 2: Supervised Learning",
+        "section": "k-NN — Strengths, Weaknesses, and Parameters"
+      },
+      "choices": [
+        "Number of neighbors",
+        "Distance measure",
+        "Number of decision trees",
+        "Learning rate",
+        "Bootstrap sample count"
+      ],
+      "correctAnswers": [
+        "Number of neighbors",
+        "Distance measure"
+      ],
+      "maxChoices": 2
+    },
+    {
+      "id": "q038",
+      "type": "multiple-choice",
+      "topic": "k-Nearest Neighbors",
+      "question": "What happens to nearest-neighbor regression predictions as more neighbors are considered, according to the module's comparison?",
+      "explanation": "The module notes that more neighbors produce smoother, less complex predictions that fit the training data less closely.",
+      "source": {
+        "module": "Module 2: Supervised Learning",
+        "section": "Analyzing KNeighborsRegressor, Figure 2-10"
+      },
+      "choices": [
+        "They generally become smoother",
+        "They always pass through every training point",
+        "They become categorical labels",
+        "They stop depending on neighboring samples"
+      ],
+      "correctAnswer": "They generally become smoother"
+    },
+    {
+      "id": "q039",
+      "type": "multiple-choice",
+      "topic": "Ridge Regression",
+      "question": "What is the effect of increasing alpha in ridge regression according to the module?",
+      "explanation": "A higher alpha imposes stronger restriction, resulting in coefficients with smaller magnitudes.",
+      "source": {
+        "module": "Module 2: Supervised Learning",
+        "section": "Ridge Regression — Ridge Coefficients"
+      },
+      "choices": [
+        "It makes coefficient magnitudes smaller",
+        "It removes all regularization",
+        "It converts regression into clustering",
+        "It forces every coefficient to increase"
+      ],
+      "correctAnswer": "It makes coefficient magnitudes smaller"
+    },
+    {
+      "id": "q040",
+      "type": "multiple-choice",
+      "topic": "Lasso Regression",
+      "question": "What characteristic of lasso coefficients is emphasized in the module?",
+      "explanation": "The lasso example shows that regularization can drive many coefficients exactly to zero, with stronger regularization producing smaller and sparser coefficients.",
+      "source": {
+        "module": "Module 2: Supervised Learning",
+        "section": "Lasso Coefficients, Figure 2-14"
+      },
+      "choices": [
+        "Many coefficients can become zero",
+        "All coefficients must remain equal",
+        "Coefficients cannot be regularized",
+        "Every coefficient must increase with alpha"
+      ],
+      "correctAnswer": "Many coefficients can become zero"
+    },
+    {
+      "id": "q041",
+      "type": "multiple-choice",
+      "topic": "Linear Classification",
+      "question": "For LogisticRegression and LinearSVC, what does a higher value of C mean in the module?",
+      "explanation": "The module states that higher C corresponds to less regularization and greater emphasis on fitting individual training points correctly.",
+      "source": {
+        "module": "Module 2: Supervised Learning",
+        "section": "LogisticRegression vs LinearSVC"
+      },
+      "choices": [
+        "Less regularization",
+        "More regularization",
+        "Fewer training samples",
+        "More bootstrap sampling"
+      ],
+      "correctAnswer": "Less regularization"
+    },
+    {
+      "id": "q042",
+      "type": "true-false",
+      "topic": "Linear Classification",
+      "question": "A low value of C in LogisticRegression or LinearSVC places more emphasis on a coefficient vector close to zero.",
+      "explanation": "The module states that low C increases the emphasis on finding a coefficient vector close to zero.",
+      "source": {
+        "module": "Module 2: Supervised Learning",
+        "section": "LogisticRegression vs LinearSVC"
+      },
+      "correctAnswer": true
+    },
+    {
+      "id": "q043",
+      "type": "multiple-choice",
+      "topic": "Decision Trees",
+      "question": "How does a decision tree make a prediction for a new data point?",
+      "explanation": "A point is routed from the root through tests until it reaches a region/leaf, where the target associated with that region is predicted.",
+      "source": {
+        "module": "Module 2: Supervised Learning",
+        "section": "Decision Tree Prediction"
+      },
+      "choices": [
+        "By traversing tests from the root to the appropriate region or leaf",
+        "By averaging every target in the entire dataset regardless of features",
+        "By choosing a random label",
+        "By selecting the farthest neighbor"
+      ],
+      "correctAnswer": "By traversing tests from the root to the appropriate region or leaf"
+    },
+    {
+      "id": "q044",
+      "type": "multiple-answer",
+      "topic": "Decision Trees",
+      "question": "(Choose 3) Which statements about decision trees are supported by the module?",
+      "explanation": "The module describes trees as hierarchies of if/else tests, identifies the top node as the root, and notes that scikit-learn provides classifier and regressor implementations.",
+      "source": {
+        "module": "Module 2: Supervised Learning",
+        "section": "Decision Trees; Building Decision Trees; Decision Trees in Scikit-learn"
+      },
+      "choices": [
+        "They learn a hierarchy of if/else questions",
+        "The top node is called the root",
+        "Scikit-learn provides DecisionTreeClassifier and DecisionTreeRegressor",
+        "They require Euclidean distance for every split",
+        "They can only perform classification"
+      ],
+      "correctAnswers": [
+        "They learn a hierarchy of if/else questions",
+        "The top node is called the root",
+        "Scikit-learn provides DecisionTreeClassifier and DecisionTreeRegressor"
+      ],
+      "maxChoices": 3
+    },
+    {
+      "id": "q045",
+      "type": "multiple-choice",
+      "topic": "Decision Tree Regression",
+      "question": "Which limitation of decision-tree regression is explicitly noted in the module?",
+      "explanation": "The module notes that decision-tree regression cannot extrapolate predictions outside the range represented by the training data.",
+      "source": {
+        "module": "Module 2: Supervised Learning",
+        "section": "Decision Tree Regression"
+      },
+      "choices": [
+        "It cannot extrapolate outside the training-data range",
+        "It requires all features to be categorical",
+        "It cannot model nonlinear relationships",
+        "It always requires feature scaling"
+      ],
+      "correctAnswer": "It cannot extrapolate outside the training-data range"
+    },
+    {
+      "id": "q046",
+      "type": "multiple-choice",
+      "topic": "Random Forests",
+      "question": "What is a bootstrap sample in the random-forest construction described in the module?",
+      "explanation": "A bootstrap sample is built by drawing n_samples examples randomly with replacement, producing a dataset the same size as the original with some repeated and some omitted observations.",
+      "source": {
+        "module": "Module 2: Supervised Learning",
+        "section": "Building Random Forests"
+      },
+      "choices": [
+        "A sample drawn randomly with replacement to the original sample size",
+        "A sample containing each observation exactly once",
+        "A sample consisting only of misclassified examples",
+        "A sample created by removing every duplicate"
+      ],
+      "correctAnswer": "A sample drawn randomly with replacement to the original sample size"
+    },
+    {
+      "id": "q047",
+      "type": "multiple-answer",
+      "topic": "Random Forests",
+      "question": "(Choose 3) Which statements describe random forests in the module?",
+      "explanation": "Random forests combine multiple decision trees, inject randomness through data and feature selection, and aggregate tree predictions.",
+      "source": {
+        "module": "Module 2: Supervised Learning",
+        "section": "Random Forests; Building Random Forests"
+      },
+      "choices": [
+        "They combine multiple decision trees",
+        "They inject randomness into tree construction",
+        "They aggregate predictions from multiple trees",
+        "They consist of a single unpruned tree",
+        "They require every tree to use identical samples and feature choices"
+      ],
+      "correctAnswers": [
+        "They combine multiple decision trees",
+        "They inject randomness into tree construction",
+        "They aggregate predictions from multiple trees"
+      ],
+      "maxChoices": 3
+    },
+    {
+      "id": "q048",
+      "type": "true-false",
+      "topic": "Random Forests",
+      "question": "The module states that random forests generally do not require data scaling.",
+      "explanation": "In its listed advantages, the module notes that random forests have no data-scale requirement.",
+      "source": {
+        "module": "Module 2: Supervised Learning",
+        "section": "Random Forests — Strengths, Weaknesses, and Parameters"
+      },
+      "correctAnswer": true
+    },
+    {
+      "id": "q049",
+      "type": "multiple-choice",
+      "topic": "Gradient Boosting",
+      "question": "How does gradient boosting build successive trees according to the module?",
+      "explanation": "The module describes each new shallow tree as compensating for errors made by the previous trees.",
+      "source": {
+        "module": "Module 2: Supervised Learning",
+        "section": "Gradient Boosting"
+      },
+      "choices": [
+        "Each new tree is built to compensate for previous errors",
+        "Every tree is an identical copy of the first",
+        "Trees are created without reference to previous errors",
+        "Only one tree is ever trained"
+      ],
+      "correctAnswer": "Each new tree is built to compensate for previous errors"
+    },
+    {
+      "id": "q050",
+      "type": "multiple-answer",
+      "topic": "Gradient Boosting",
+      "question": "(Choose 3) Which parameters are highlighted for gradient boosting?",
+      "explanation": "The module lists n_estimators, learning rate, and max_depth as important gradient-boosting parameters.",
+      "source": {
+        "module": "Module 2: Supervised Learning",
+        "section": "Gradient Boosting — Strengths, Weaknesses, and Parameters"
+      },
+      "choices": [
+        "n_estimators",
+        "learning rate",
+        "max_depth",
+        "Euclidean distance",
+        "number of classes"
+      ],
+      "correctAnswers": [
+        "n_estimators",
+        "learning rate",
+        "max_depth"
+      ],
+      "maxChoices": 3
+    }
+  ]
+}

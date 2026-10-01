@@ -1,0 +1,89 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg-primary: #0b0914;
+  --color-bg-secondary: #12101d;
+  --color-surface: #181526;
+  --color-surface-elevated: #211c32;
+  --color-surface-border: #2a2440;
+  --color-ink: #f3f0fa;
+  --color-ink-soft: #c4b5fd;
+  --color-purple-primary: #8b5cf6;
+  --color-purple-bright: #a78bfa;
+  --color-purple-soft: #c4b5fd;
+  --color-purple-dark: #6d28d9;
+  --color-green-primary: #34d399;
+  --color-green-bright: #6ee7b7;
+  --color-green-soft: #a7f3d0;
+  --color-green-dark: #059669;
+}
+
+:root {
+  color-scheme: light;
+  --bg-primary: #0b0914;
+  --bg-secondary: #12101d;
+  --surface: #181526;
+  --surface-elevated: #211c32;
+  --surface-border: #2a2440;
+  --ink: #f3f0fa;
+  --ink-soft: #c4b5fd;
+  --purple-primary: #8b5cf6;
+  --purple-bright: #a78bfa;
+  --purple-soft: #c4b5fd;
+  --purple-dark: #6d28d9;
+  --green-primary: #34d399;
+  --green-bright: #6ee7b7;
+  --green-soft: #a7f3d0;
+  --green-dark: #059669;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  background: var(--bg-primary);
+  color: var(--ink);
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.bg-portal-grid {
+  background-color: var(--bg-primary);
+  background-image: radial-gradient(circle at 15% 5%, rgba(139, 92, 246, 0.16), transparent 28%), radial-gradient(circle at 85% 20%, rgba(52, 211, 153, 0.06), transparent 22%), linear-gradient(rgba(167, 139, 250, 0.045) 1px, transparent 1px), linear-gradient(90deg, rgba(167, 139, 250, 0.045) 1px, transparent 1px);
+  background-size: 100% 100%, 100% 100%, 32px 32px, 32px 32px;
+}
+
+/* Solid, tactile surfaces. Decorative blur and translucent panels are intentionally avoided. */
+.surface-card { background: var(--surface); border: 1px solid var(--surface-border); box-shadow: 0 10px 24px -16px rgba(0, 0, 0, 0.8); }
+.surface-card:hover { border-color: var(--purple-primary); box-shadow: 0 14px 28px -18px rgba(139, 92, 246, 0.55); }
+.surface-elevated { background: var(--surface-elevated); border: 1px solid #362e52; box-shadow: 0 12px 26px -18px rgba(0, 0, 0, 0.85); }
+
+.interactive-card { transition: transform 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease; }
+.interactive-card:hover { transform: translateY(-3px); box-shadow: 0 16px 30px -18px rgba(139, 92, 246, 0.7); }
+.btn-tactile { transition: transform 0.12s ease, box-shadow 0.12s ease, filter 0.15s ease; }
+.btn-tactile:hover { transform: translate(-1px, -2px); }
+.btn-tactile:active { transform: translate(1px, 1px); }
+
+/* Compatibility names retained so quiz components keep their interaction semantics. */
+.glow-purple, .glow-purple-sm, .glow-green, .glow-green-sm { box-shadow: none; }
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: var(--bg-primary); }
+::-webkit-scrollbar-thumb { background: var(--surface-elevated); border: 1px solid var(--surface-border); border-radius: 4px; }
+:focus-visible { outline: 2px solid var(--purple-primary); outline-offset: 2px; }
+::selection { background: rgba(139, 92, 246, 0.35); color: white; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; }
+}
+
+/* Flat-surface policy: utility opacity modifiers are kept for semantic color cues,
+   but their panels remain opaque so the interface cannot read as frosted glass. */
+[class*=" bg-[#161224]/"], [class*=" bg-[#181526]/"], [class*=" bg-[#12101D]/"], [class*=" bg-[#211C32]/"] { background-color: #181526 !important; }
+[class*=" bg-[#8B5CF6]/"], [class*=" bg-[#6D28D9]/"] { background-color: #241a45 !important; }
+[class*=" bg-[#34D399]/"], [class*=" bg-[#059669]/"] { background-color: #14382d !important; }
+[class*=" bg-rose-500/"], [class*=" bg-rose-600/"] { background-color: #351821 !important; }
+[class*=" bg-amber-500/"], [class*=" bg-amber-600/"] { background-color: #3b2d12 !important; }
+[class*=" bg-cyan-500/"] { background-color: #12333f !important; }
+[class*=" shadow-black/"], [class*=" shadow-[#8B5CF6]/"], [class*=" shadow-[#34D399]/"] { box-shadow: 0 8px 18px -14px rgba(0, 0, 0, 0.8) !important; }
+

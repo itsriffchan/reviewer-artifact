@@ -1,0 +1,3675 @@
+{
+  "schemaVersion": 1,
+  "id": "CS0016-all-modules-200",
+  "subject": {
+    "code": "CS0016",
+    "name": "Network and Communications 2A",
+    "yearLevel": 3
+  },
+  "reviewer": {
+    "title": "CS0016 Comprehensive Reviewer: Modules 1–4",
+    "description": "A 200-question comprehensive reviewer covering Modules 1–4, with substantial standalone coverage for Modules 1 and 2 and broader coverage of Modules 3 and 4.",
+    "coverage": [
+      "Module 1: Course Introduction",
+      "Module 2: The DevNet Developer Environment",
+      "Module 3: Software Development and Design",
+      "Module 4: Understanding and Using APIs"
+    ],
+    "shuffleQuestions": true,
+    "shuffleChoices": true
+  },
+  "questions": [
+    {
+      "id": "q001",
+      "type": "multiple-choice",
+      "topic": "Virtualization",
+      "question": "In virtualization terminology, what is a virtual computer commonly called?",
+      "choices": [
+        "Host",
+        "Guest",
+        "Repository",
+        "Sandbox"
+      ],
+      "correctAnswer": "Guest",
+      "explanation": "Virtual machines are often called guests, while physical computers are called hosts.",
+      "source": {
+        "module": "Module 1: Course Introduction",
+        "page": 5
+      }
+    },
+    {
+      "id": "q002",
+      "type": "true-false",
+      "topic": "Virtualization",
+      "question": "A physical computer that runs virtual machines is commonly called a host.",
+      "correctAnswer": true,
+      "explanation": "The module calls virtual machines guests and physical computers hosts.",
+      "source": {
+        "module": "Module 1: Course Introduction",
+        "page": 5
+      }
+    },
+    {
+      "id": "q003",
+      "type": "multiple-answer",
+      "topic": "Linux Review",
+      "question": "(Choose 3) Select all objectives included in the Linux Review lab.",
+      "choices": [
+        "Review File Management",
+        "Review Regular Expressions",
+        "Review System Administration",
+        "Configure REST API rate limits"
+      ],
+      "correctAnswers": [
+        "Review File Management",
+        "Review Regular Expressions",
+        "Review System Administration"
+      ],
+      "explanation": "The Linux Review lab includes file management, regular expressions, and system administration.",
+      "source": {
+        "module": "Module 1: Course Introduction",
+        "page": 9
+      }
+    },
+    {
+      "id": "q004",
+      "type": "multiple-choice",
+      "topic": "Linux",
+      "question": "Where are all coding labs in this course performed?",
+      "choices": [
+        "A Linux-based VM",
+        "A centralized Git server",
+        "A DevNet forum",
+        "A SOAP endpoint"
+      ],
+      "correctAnswer": "A Linux-based VM",
+      "explanation": "The module states that all coding labs are performed on a Linux-based VM.",
+      "source": {
+        "module": "Module 1: Course Introduction",
+        "page": 8
+      }
+    },
+    {
+      "id": "q005",
+      "type": "multiple-choice",
+      "topic": "Python",
+      "question": "Which characteristic of Python is specifically cited as making it easy to obtain, install, and deploy?",
+      "choices": [
+        "It is free, open, and multiplatform",
+        "It requires a proprietary operating system",
+        "It only runs inside a browser",
+        "It eliminates the need for testing"
+      ],
+      "correctAnswer": "It is free, open, and multiplatform",
+      "explanation": "The module describes Python as free, open, and multiplatform.",
+      "source": {
+        "module": "Module 1: Course Introduction",
+        "page": 13
+      }
+    },
+    {
+      "id": "q006",
+      "type": "fill-blank",
+      "topic": "Python",
+      "question": "Python provides a solid foundation that can make learning other programming _____ easier and faster.",
+      "acceptedAnswers": [
+        "languages",
+        "programming languages"
+      ],
+      "explanation": "The module says Python provides a solid foundation for learning other programming languages.",
+      "source": {
+        "module": "Module 1: Course Introduction",
+        "page": 13
+      }
+    },
+    {
+      "id": "q007",
+      "type": "multiple-answer",
+      "topic": "Python Review",
+      "question": "(Choose 3) Select all topics explicitly included in the Python Programming Review lab.",
+      "choices": [
+        "Data Types and Variables",
+        "Lists and Dictionaries",
+        "If, For, and While Functions",
+        "API Rate Limits"
+      ],
+      "correctAnswers": [
+        "Data Types and Variables",
+        "Lists and Dictionaries",
+        "If, For, and While Functions"
+      ],
+      "explanation": "These three topics are listed as parts of the Python Programming Review lab.",
+      "source": {
+        "module": "Module 1: Course Introduction",
+        "page": 14
+      }
+    },
+    {
+      "id": "q008",
+      "type": "multiple-choice",
+      "topic": "DevNet Overview",
+      "question": "Which DevNet feature is a repository of sample code written by other developers?",
+      "choices": [
+        "Code Exchange",
+        "Sandbox",
+        "Developer Support",
+        "Learning Labs"
+      ],
+      "correctAnswer": "Code Exchange",
+      "explanation": "Code Exchange is described as a repository of sample code written by other developers.",
+      "source": {
+        "module": "Module 2: The DevNet Developer Environment",
+        "page": 4
+      }
+    },
+    {
+      "id": "q009",
+      "type": "multiple-choice",
+      "topic": "DevNet Overview",
+      "question": "Which DevNet feature provides production-like development and testing environments?",
+      "choices": [
+        "Sandboxes",
+        "Code Exchange",
+        "Developer documentation",
+        "Forums"
+      ],
+      "correctAnswer": "Sandboxes",
+      "explanation": "Sandboxes are described as production-like development and testing environments.",
+      "source": {
+        "module": "Module 2: The DevNet Developer Environment",
+        "page": 4
+      }
+    },
+    {
+      "id": "q010",
+      "type": "multiple-answer",
+      "topic": "DevNet Overview",
+      "question": "(Choose 4) Select all features listed as part of DevNet.",
+      "choices": [
+        "Learning Labs",
+        "Sandboxes",
+        "Code Exchange",
+        "Developer support",
+        "Spreadsheet Exchange"
+      ],
+      "correctAnswers": [
+        "Learning Labs",
+        "Sandboxes",
+        "Code Exchange",
+        "Developer support"
+      ],
+      "explanation": "The module lists Learning Labs, Sandboxes, Code Exchange, developer support, and developer documentation as DevNet features.",
+      "source": {
+        "module": "Module 2: The DevNet Developer Environment",
+        "page": 4
+      }
+    },
+    {
+      "id": "q011",
+      "type": "true-false",
+      "topic": "DevNet Resources",
+      "question": "DevNet provides developers a starting point for Cisco APIs, including API documentation, education, and developer support.",
+      "correctAnswer": true,
+      "explanation": "This is stated in the Getting Started with DevNet Resources section.",
+      "source": {
+        "module": "Module 2: The DevNet Developer Environment",
+        "page": 6
+      }
+    },
+    {
+      "id": "q012",
+      "type": "fill-blank",
+      "topic": "DevNet Learning Labs",
+      "question": "A pre-configured environment already installed with Cisco platforms is called a DevNet _____.",
+      "acceptedAnswers": [
+        "Sandbox",
+        "sandbox"
+      ],
+      "explanation": "The Learning Labs section describes a DevNet Sandbox as a pre-configured environment.",
+      "source": {
+        "module": "Module 2: The DevNet Developer Environment",
+        "page": 7
+      }
+    },
+    {
+      "id": "q013",
+      "type": "multiple-choice",
+      "topic": "DevNet Exchanges",
+      "question": "Which exchange provides network automation use cases with different solutions and toolkits?",
+      "choices": [
+        "Automation Exchange",
+        "Code Exchange",
+        "Ecosystem Exchange",
+        "Learning Exchange"
+      ],
+      "correctAnswer": "Automation Exchange",
+      "explanation": "Automation Exchange provides a collection of network automation use cases with solutions and toolkits.",
+      "source": {
+        "module": "Module 2: The DevNet Developer Environment",
+        "page": 9
+      }
+    },
+    {
+      "id": "q014",
+      "type": "multiple-choice",
+      "topic": "DevNet Exchanges",
+      "question": "Which exchange uses the GitHub API and human moderators to categorize and display related repositories?",
+      "choices": [
+        "Code Exchange",
+        "Automation Exchange",
+        "Ecosystem Exchange",
+        "Sandbox"
+      ],
+      "correctAnswer": "Code Exchange",
+      "explanation": "The module states that Code Exchange uses the GitHub API and human moderators.",
+      "source": {
+        "module": "Module 2: The DevNet Developer Environment",
+        "page": 9
+      }
+    },
+    {
+      "id": "q015",
+      "type": "multiple-answer",
+      "topic": "Automation Exchange",
+      "question": "(Choose 3) Select all infrastructure scenarios explicitly listed for Automation Exchange use cases.",
+      "choices": [
+        "Campus or Branch",
+        "Data Centre",
+        "Service Provider",
+        "Home Gaming"
+      ],
+      "correctAnswers": [
+        "Campus or Branch",
+        "Data Centre",
+        "Service Provider"
+      ],
+      "explanation": "The module lists Campus or Branch, Data Centre, and Service Provider scenarios.",
+      "source": {
+        "module": "Module 2: The DevNet Developer Environment",
+        "page": 10
+      }
+    },
+    {
+      "id": "q016",
+      "type": "multiple-choice",
+      "topic": "Developer Support",
+      "question": "Which support option is described as a case-based ticket for one-on-one support?",
+      "choices": [
+        "Support Case",
+        "Knowledge Base",
+        "Community Forum",
+        "Code Exchange"
+      ],
+      "correctAnswer": "Support Case",
+      "explanation": "A Support Case is described as a case-based ticket used for one-on-one support.",
+      "source": {
+        "module": "Module 2: The DevNet Developer Environment",
+        "page": 12
+      }
+    },
+    {
+      "id": "q017",
+      "type": "true-false",
+      "topic": "Developer Support",
+      "question": "The Knowledge Base consists of troubleshooting articles for reference.",
+      "correctAnswer": true,
+      "explanation": "The developer support section defines the Knowledge Base this way.",
+      "source": {
+        "module": "Module 2: The DevNet Developer Environment",
+        "page": 12
+      }
+    },
+    {
+      "id": "q018",
+      "type": "multiple-choice",
+      "topic": "SDLC",
+      "question": "What does SDLC describe in the module?",
+      "choices": [
+        "The process of developing software from an idea through delivery",
+        "Only the coding phase of software development",
+        "A repository hosting service",
+        "A REST authentication flow"
+      ],
+      "correctAnswer": "The process of developing software from an idea through delivery",
+      "explanation": "SDLC is defined as the software development process from an idea to delivery.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 5
+      }
+    },
+    {
+      "id": "q019",
+      "type": "multiple-answer",
+      "topic": "SDLC",
+      "question": "(Choose 6) Select all phases in the six-phase SDLC presented in the module.",
+      "choices": [
+        "Requirements and Analysis",
+        "Design",
+        "Implementation",
+        "Testing",
+        "Deployment",
+        "Maintenance",
+        "Advertising"
+      ],
+      "correctAnswers": [
+        "Requirements and Analysis",
+        "Design",
+        "Implementation",
+        "Testing",
+        "Deployment",
+        "Maintenance"
+      ],
+      "explanation": "The module identifies these six SDLC phases.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 5
+      }
+    },
+    {
+      "id": "q020",
+      "type": "multiple-choice",
+      "topic": "Requirements and Analysis",
+      "question": "What document does the classic waterfall method suggest creating at the conclusion of requirements and analysis?",
+      "choices": [
+        "Software Requirement Specification (SRS)",
+        "Pull request",
+        "Webhook registration",
+        "Unit test report"
+      ],
+      "correctAnswer": "Software Requirement Specification (SRS)",
+      "explanation": "The module says the classic waterfall method suggests creating an SRS document.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 6
+      }
+    },
+    {
+      "id": "q021",
+      "type": "true-false",
+      "topic": "Design",
+      "question": "The Design phase uses the provided SRS as a basis for designing the software.",
+      "correctAnswer": true,
+      "explanation": "The module states that architects and developers design software based on the provided SRS.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 7
+      }
+    },
+    {
+      "id": "q022",
+      "type": "fill-blank",
+      "topic": "Design",
+      "question": "At the end of the Design phase, the team creates High-Level Design and _____ documents.",
+      "acceptedAnswers": [
+        "Low-Level Design",
+        "LLD",
+        "Low-Level Design (LLD)"
+      ],
+      "explanation": "The Design phase produces HLD and LLD documents.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 7
+      }
+    },
+    {
+      "id": "q023",
+      "type": "multiple-choice",
+      "topic": "Implementation",
+      "question": "Which SDLC phase is also called the coding or development phase?",
+      "choices": [
+        "Implementation",
+        "Testing",
+        "Maintenance",
+        "Requirements and Analysis"
+      ],
+      "correctAnswer": "Implementation",
+      "explanation": "The implementation phase is also called the coding or development phase.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 7
+      }
+    },
+    {
+      "id": "q024",
+      "type": "multiple-choice",
+      "topic": "Deployment",
+      "question": "During which phase is software installed into the production environment?",
+      "choices": [
+        "Deployment",
+        "Testing",
+        "Design",
+        "Requirements and Analysis"
+      ],
+      "correctAnswer": "Deployment",
+      "explanation": "The deployment phase installs the software into the production environment.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 8
+      }
+    },
+    {
+      "id": "q025",
+      "type": "multiple-answer",
+      "topic": "Maintenance",
+      "question": "(Choose 4) Select all activities listed for the Maintenance phase.",
+      "choices": [
+        "Provide support to customers",
+        "Fix bugs found in production",
+        "Work on software improvements",
+        "Gather new customer requests",
+        "Create the initial SRS"
+      ],
+      "correctAnswers": [
+        "Provide support to customers",
+        "Fix bugs found in production",
+        "Work on software improvements",
+        "Gather new customer requests"
+      ],
+      "explanation": "These four activities are listed under Maintenance.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 8
+      }
+    },
+    {
+      "id": "q026",
+      "type": "multiple-choice",
+      "topic": "Development Methodologies",
+      "question": "Which three methodologies are identified as the most popular?",
+      "choices": [
+        "Waterfall, Agile, and Lean",
+        "Scrum, Git, and REST",
+        "MVC, Observer, and Lean",
+        "XML, JSON, and YAML"
+      ],
+      "correctAnswer": "Waterfall, Agile, and Lean",
+      "explanation": "The module names Waterfall, Agile, and Lean as the three most popular methodologies.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 9
+      }
+    },
+    {
+      "id": "q027",
+      "type": "multiple-choice",
+      "topic": "Agile",
+      "question": "Which Agile value favors responding to change?",
+      "choices": [
+        "Responding to change over following a plan",
+        "Processes and tools over individuals",
+        "Contract negotiation over collaboration",
+        "Documentation over working software"
+      ],
+      "correctAnswer": "Responding to change over following a plan",
+      "explanation": "This is one of the four Agile Manifesto values shown in the module.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 11
+      }
+    },
+    {
+      "id": "q028",
+      "type": "multiple-answer",
+      "topic": "Agile Methods",
+      "question": "(Choose 4) Select all methods listed as popular Agile methods.",
+      "choices": [
+        "Agile Scrum",
+        "Lean",
+        "Extreme Programming (XP)",
+        "Feature-Driven Development (FDD)",
+        "Centralized Version Control"
+      ],
+      "correctAnswers": [
+        "Agile Scrum",
+        "Lean",
+        "Extreme Programming (XP)",
+        "Feature-Driven Development (FDD)"
+      ],
+      "explanation": "The module lists Scrum, Lean, XP, and FDD as popular Agile methods.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 12
+      }
+    },
+    {
+      "id": "q029",
+      "type": "fill-blank",
+      "topic": "Agile",
+      "question": "A specific period, usually 2–4 weeks, during which a team takes on user stories is called a _____.",
+      "acceptedAnswers": [
+        "sprint",
+        "Sprint"
+      ],
+      "explanation": "The module defines a sprint as a specific period, usually 2–4 weeks.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 13
+      }
+    },
+    {
+      "id": "q030",
+      "type": "multiple-choice",
+      "topic": "Agile",
+      "question": "What does the backlog contain?",
+      "choices": [
+        "All software features in a prioritized list",
+        "Only completed user stories",
+        "Only unresolved bugs",
+        "The Git commit history"
+      ],
+      "correctAnswer": "All software features in a prioritized list",
+      "explanation": "The backlog consists of all software features in a prioritized list.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 13
+      }
+    },
+    {
+      "id": "q031",
+      "type": "multiple-choice",
+      "topic": "Scrum",
+      "question": "According to the module, how long should a daily stand-up meeting last at most?",
+      "choices": [
+        "15 minutes",
+        "30 minutes",
+        "45 minutes",
+        "60 minutes"
+      ],
+      "correctAnswer": "15 minutes",
+      "explanation": "The scrum master should hold the daily stand-up for not more than 15 minutes.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 14
+      }
+    },
+    {
+      "id": "q032",
+      "type": "multiple-answer",
+      "topic": "Lean",
+      "question": "(Choose 4) Select all principles of Lean software development listed in the module.",
+      "choices": [
+        "Eliminate waste",
+        "Amplify learning",
+        "Empower the team",
+        "Optimize the whole",
+        "Maximize task switching"
+      ],
+      "correctAnswers": [
+        "Eliminate waste",
+        "Amplify learning",
+        "Empower the team",
+        "Optimize the whole"
+      ],
+      "explanation": "These are among the seven Lean principles listed in the module.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 15
+      }
+    },
+    {
+      "id": "q033",
+      "type": "true-false",
+      "topic": "Lean",
+      "question": "Task switching is listed as one of the seven wastes of software development.",
+      "correctAnswer": true,
+      "explanation": "Task switching appears in the module's list of seven wastes.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 16
+      }
+    },
+    {
+      "id": "q034",
+      "type": "multiple-choice",
+      "topic": "Lean",
+      "question": "Why does the module recommend delaying decisions when there is uncertainty?",
+      "choices": [
+        "To base decisions on facts rather than opinions or speculation",
+        "To eliminate all customer feedback",
+        "To prevent developers from learning",
+        "To make sprints longer"
+      ],
+      "correctAnswer": "To base decisions on facts rather than opinions or speculation",
+      "explanation": "The module says decisions should be delayed so they can be based on facts.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 17
+      }
+    },
+    {
+      "id": "q035",
+      "type": "multiple-choice",
+      "topic": "Design Patterns",
+      "question": "What are software design patterns?",
+      "choices": [
+        "Best-practice solutions for common software-development problems",
+        "Mandatory programming languages",
+        "Version-control repositories",
+        "HTTP status categories"
+      ],
+      "correctAnswer": "Best-practice solutions for common software-development problems",
+      "explanation": "The module defines design patterns as best-practice solutions for common problems.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 21
+      }
+    },
+    {
+      "id": "q036",
+      "type": "true-false",
+      "topic": "Design Patterns",
+      "question": "Software design patterns are language-independent.",
+      "correctAnswer": true,
+      "explanation": "The module explicitly states that design patterns are language-independent.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 21
+      }
+    },
+    {
+      "id": "q037",
+      "type": "multiple-answer",
+      "topic": "Design Patterns",
+      "question": "(Choose 3) Select all three main Gang of Four pattern categories.",
+      "choices": [
+        "Creational",
+        "Structural",
+        "Behavioral",
+        "Procedural"
+      ],
+      "correctAnswers": [
+        "Creational",
+        "Structural",
+        "Behavioral"
+      ],
+      "explanation": "The Gang of Four divided patterns into Creational, Structural, and Behavioral categories.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 22
+      }
+    },
+    {
+      "id": "q038",
+      "type": "multiple-choice",
+      "topic": "Observer Pattern",
+      "question": "What is a key benefit of the Observer design pattern?",
+      "choices": [
+        "Observers can receive real-time data when the subject changes",
+        "It requires polling for every change",
+        "It removes the need to store observers",
+        "It combines all MVC components"
+      ],
+      "correctAnswer": "Observers can receive real-time data when the subject changes",
+      "explanation": "The module states that observers can get real-time data from the subject when a change occurs.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 23
+      }
+    },
+    {
+      "id": "q039",
+      "type": "multiple-choice",
+      "topic": "MVC",
+      "question": "Which MVC component is the application's data structure and manages data, logic, and rules?",
+      "choices": [
+        "Model",
+        "View",
+        "Controller",
+        "Observer"
+      ],
+      "correctAnswer": "Model",
+      "explanation": "The Model is described as the application's data structure responsible for data, logic, and rules.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 24
+      }
+    },
+    {
+      "id": "q040",
+      "type": "multiple-choice",
+      "topic": "MVC",
+      "question": "Which MVC component acts as the middleman between the model and the view?",
+      "choices": [
+        "Controller",
+        "Model",
+        "View",
+        "Subject"
+      ],
+      "correctAnswer": "Controller",
+      "explanation": "The Controller is described as the middleman between Model and View.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 24
+      }
+    },
+    {
+      "id": "q041",
+      "type": "fill-blank",
+      "topic": "MVC",
+      "question": "In MVC, the visual representation of the data is the _____.",
+      "acceptedAnswers": [
+        "View",
+        "view"
+      ],
+      "explanation": "The View is the visual representation of the data.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 24
+      }
+    },
+    {
+      "id": "q042",
+      "type": "multiple-choice",
+      "topic": "Version Control",
+      "question": "What is the purpose of version control?",
+      "choices": [
+        "Manage file changes while keeping a history of those changes",
+        "Convert XML into JSON automatically",
+        "Authenticate REST users",
+        "Run only one file version forever"
+      ],
+      "correctAnswer": "Manage file changes while keeping a history of those changes",
+      "explanation": "Version control manages changes to files and keeps their history.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 26
+      }
+    },
+    {
+      "id": "q043",
+      "type": "multiple-answer",
+      "topic": "Version Control",
+      "question": "(Choose 3) Select all types of version control systems listed in the module.",
+      "choices": [
+        "Local",
+        "Centralized",
+        "Distributed",
+        "Synchronous"
+      ],
+      "correctAnswers": [
+        "Local",
+        "Centralized",
+        "Distributed"
+      ],
+      "explanation": "The module lists local, centralized, and distributed version control systems.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 26
+      }
+    },
+    {
+      "id": "q044",
+      "type": "multiple-choice",
+      "topic": "CVCS",
+      "question": "Where is the repository stored in a centralized version control system?",
+      "choices": [
+        "In a centralized location on a server",
+        "Only in each user's working directory",
+        "Inside an HTTP response body",
+        "In a webhook provider"
+      ],
+      "correctAnswer": "In a centralized location on a server",
+      "explanation": "CVCS stores the repository in a centralized location on a server.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 28
+      }
+    },
+    {
+      "id": "q045",
+      "type": "true-false",
+      "topic": "DVCS",
+      "question": "In a distributed version control system, locking is not required because individuals modify local files in their working copies.",
+      "correctAnswer": true,
+      "explanation": "The DVCS section explicitly states that locking is not required.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 29
+      }
+    },
+    {
+      "id": "q046",
+      "type": "multiple-choice",
+      "topic": "Git",
+      "question": "How does Git primarily store data according to the module?",
+      "choices": [
+        "As snapshots",
+        "Only as deltas",
+        "As SOAP envelopes",
+        "As rate-limit counters"
+      ],
+      "correctAnswer": "As snapshots",
+      "explanation": "The module contrasts Git with systems that store differences and says Git stores snapshots.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 30
+      }
+    },
+    {
+      "id": "q047",
+      "type": "multiple-answer",
+      "topic": "Git",
+      "question": "(Choose 3) Select all three Git stages listed in the module.",
+      "choices": [
+        "Repository (.git directory)",
+        "Working directory",
+        "Staging area",
+        "Webhook queue"
+      ],
+      "correctAnswers": [
+        "Repository (.git directory)",
+        "Working directory",
+        "Staging area"
+      ],
+      "explanation": "Git is organized around the repository, working directory, and staging area.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 31
+      }
+    },
+    {
+      "id": "q048",
+      "type": "fill-blank",
+      "topic": "Git",
+      "question": "The three Git states are committed, modified, and _____.",
+      "acceptedAnswers": [
+        "staged",
+        "Staged"
+      ],
+      "explanation": "The module lists committed, modified, and staged as Git's three states.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 31
+      }
+    },
+    {
+      "id": "q049",
+      "type": "multiple-choice",
+      "topic": "Git Branching",
+      "question": "What is the main purpose of branching?",
+      "choices": [
+        "Work independently without affecting the main code",
+        "Delete all repository history",
+        "Force one user to lock every file",
+        "Replace the staging area"
+      ],
+      "correctAnswer": "Work independently without affecting the main code",
+      "explanation": "Branching enables independent work without affecting the main repository code.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 33
+      }
+    },
+    {
+      "id": "q050",
+      "type": "multiple-choice",
+      "topic": "GitHub",
+      "question": "What does a pull request formalize?",
+      "choices": [
+        "A request to review a contributor's changes for possible inclusion",
+        "A request to delete the .git directory",
+        "A request to authenticate a REST API",
+        "A request to create an SRS"
+      ],
+      "correctAnswer": "A request to review a contributor's changes for possible inclusion",
+      "explanation": "The module describes a pull request as formalizing a request to review changes for inclusion.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 34
+      }
+    },
+    {
+      "id": "q051",
+      "type": "multiple-choice",
+      "topic": "Git Commands",
+      "question": "Which command creates an empty Git repository or makes an existing folder a Git repository?",
+      "choices": [
+        "git init",
+        "git status",
+        "git diff",
+        "git pull"
+      ],
+      "correctAnswer": "git init",
+      "explanation": "The module assigns this function to git init.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 35
+      }
+    },
+    {
+      "id": "q052",
+      "type": "multiple-choice",
+      "topic": "Git Commands",
+      "question": "Which command lists files that differ between the working directory and the parent branch?",
+      "choices": [
+        "git status",
+        "git push",
+        "git clone",
+        "git rm"
+      ],
+      "correctAnswer": "git status",
+      "explanation": "The module says git status lists files with differences in the working directory.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 37
+      }
+    },
+    {
+      "id": "q053",
+      "type": "multiple-choice",
+      "topic": "Git Commands",
+      "question": "Which command adds specified changes to the staging area?",
+      "choices": [
+        "git add",
+        "git pull",
+        "git diff",
+        "git config"
+      ],
+      "correctAnswer": "git add",
+      "explanation": "git add is used to add files to the staging area.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 38
+      }
+    },
+    {
+      "id": "q054",
+      "type": "multiple-choice",
+      "topic": "Git Commands",
+      "question": "Which command combines staged content changes into a commit and updates the local repository?",
+      "choices": [
+        "git commit",
+        "git push",
+        "git status",
+        "git clone"
+      ],
+      "correctAnswer": "git commit",
+      "explanation": "The module states that git commit combines staged changes and updates the local repository.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 41
+      }
+    },
+    {
+      "id": "q055",
+      "type": "multiple-choice",
+      "topic": "Git Commands",
+      "question": "Which command updates a remote repository with content from the local repository?",
+      "choices": [
+        "git push",
+        "git pull",
+        "git diff",
+        "git init"
+      ],
+      "correctAnswer": "git push",
+      "explanation": "The Updating the Remote Repository section identifies git push.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 42
+      }
+    },
+    {
+      "id": "q056",
+      "type": "true-false",
+      "topic": "Git Commands",
+      "question": "A local Git repository is automatically updated whenever another contributor updates the remote repository.",
+      "correctAnswer": false,
+      "explanation": "The module says local copies do not update automatically; updating is a manual step.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 43
+      }
+    },
+    {
+      "id": "q057",
+      "type": "multiple-choice",
+      "topic": "Clean Code",
+      "question": "Which description best matches clean code in the module?",
+      "choices": [
+        "Code made easy for other developers to read and understand",
+        "Code with no functions or modules",
+        "Code that cannot be unit tested",
+        "Code stored only on a remote repository"
+      ],
+      "correctAnswer": "Code made easy for other developers to read and understand",
+      "explanation": "Clean code is described as code developers make easy for others to read and understand.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 53
+      }
+    },
+    {
+      "id": "q058",
+      "type": "multiple-answer",
+      "topic": "Clean Code",
+      "question": "(Choose 4) Select all characteristics emphasized by clean code.",
+      "choices": [
+        "Standardization",
+        "Proper organization",
+        "Modularity",
+        "Inline comments",
+        "Intentional duplication everywhere"
+      ],
+      "correctAnswers": [
+        "Standardization",
+        "Proper organization",
+        "Modularity",
+        "Inline comments"
+      ],
+      "explanation": "The module emphasizes standardization, organization, modularity, and inline comments.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 53
+      }
+    },
+    {
+      "id": "q059",
+      "type": "true-false",
+      "topic": "Methods and Functions",
+      "question": "Methods and functions are blocks of code that perform tasks when executed.",
+      "correctAnswer": true,
+      "explanation": "This is the module's definition of methods and functions.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 54
+      }
+    },
+    {
+      "id": "q060",
+      "type": "fill-blank",
+      "topic": "Data Formats",
+      "question": "The three popular standard formats for exchanging information with remote APIs are XML, JSON, and _____.",
+      "acceptedAnswers": [
+        "YAML",
+        "yaml"
+      ],
+      "explanation": "The module identifies XML, JSON, and YAML as the three popular formats.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 70
+      }
+    },
+    {
+      "id": "q061",
+      "type": "multiple-choice",
+      "topic": "API Fundamentals",
+      "question": "What does an API allow?",
+      "choices": [
+        "One piece of software to talk to another",
+        "Only humans to access a file system",
+        "A Git branch to merge itself",
+        "A VM to become a physical host"
+      ],
+      "correctAnswer": "One piece of software to talk to another",
+      "explanation": "The module defines an API as allowing one piece of software to talk to another.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 4
+      }
+    },
+    {
+      "id": "q062",
+      "type": "multiple-answer",
+      "topic": "API Use Cases",
+      "question": "(Choose 3) Select all API use cases listed in the module.",
+      "choices": [
+        "Automation tasks",
+        "Data integration",
+        "Functionality integration",
+        "Replacing every network protocol"
+      ],
+      "correctAnswers": [
+        "Automation tasks",
+        "Data integration",
+        "Functionality integration"
+      ],
+      "explanation": "The module lists automation, data integration, and functionality integration as API use cases.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 5
+      }
+    },
+    {
+      "id": "q063",
+      "type": "true-false",
+      "topic": "API Fundamentals",
+      "question": "Modern APIs can be consumed programmatically by applications and can also be used manually by humans.",
+      "correctAnswer": true,
+      "explanation": "The module states both forms of use.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 5
+      }
+    },
+    {
+      "id": "q064",
+      "type": "multiple-choice",
+      "topic": "API Design Styles",
+      "question": "When is a synchronous API appropriate according to the module?",
+      "choices": [
+        "When requested data is readily available",
+        "Only when data is unavailable",
+        "Only when the client must never wait",
+        "Only for webhook registration"
+      ],
+      "correctAnswer": "When requested data is readily available",
+      "explanation": "The module says APIs are synchronous when data for the request is readily available.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 9
+      }
+    },
+    {
+      "id": "q065",
+      "type": "multiple-choice",
+      "topic": "API Design Styles",
+      "question": "What must an application making a synchronous API request do before additional code execution tasks?",
+      "choices": [
+        "Wait for the response",
+        "Delete its local repository",
+        "Register a webhook",
+        "Reset the rate limit"
+      ],
+      "correctAnswer": "Wait for the response",
+      "explanation": "The client must wait for the synchronous response before additional execution.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 9
+      }
+    },
+    {
+      "id": "q066",
+      "type": "multiple-choice",
+      "topic": "API Design Styles",
+      "question": "When is an asynchronous API appropriate?",
+      "choices": [
+        "When processing takes time or data is not readily available",
+        "Only when data is immediately available",
+        "Only when using XML",
+        "Only for local version control"
+      ],
+      "correctAnswer": "When processing takes time or data is not readily available",
+      "explanation": "The module gives these conditions for asynchronous APIs.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 10
+      }
+    },
+    {
+      "id": "q067",
+      "type": "true-false",
+      "topic": "API Design Styles",
+      "question": "An asynchronous API can allow an application to continue execution without waiting for the server to finish processing the request.",
+      "correctAnswer": true,
+      "explanation": "This is the stated performance benefit of asynchronous design.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 10
+      }
+    },
+    {
+      "id": "q068",
+      "type": "multiple-answer",
+      "topic": "API Architecture",
+      "question": "(Choose 3) Select all three popular API architectural styles listed in the module.",
+      "choices": [
+        "RPC",
+        "SOAP",
+        "REST",
+        "MVC"
+      ],
+      "correctAnswers": [
+        "RPC",
+        "SOAP",
+        "REST"
+      ],
+      "explanation": "The module lists RPC, SOAP, and REST.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 12
+      }
+    },
+    {
+      "id": "q069",
+      "type": "multiple-choice",
+      "topic": "RPC",
+      "question": "What model does Remote Procedure Call use?",
+      "choices": [
+        "Request-response",
+        "Publish-only",
+        "File-locking",
+        "Branch-only"
+      ],
+      "correctAnswer": "Request-response",
+      "explanation": "RPC is defined as a request-response model.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 13
+      }
+    },
+    {
+      "id": "q070",
+      "type": "multiple-choice",
+      "topic": "SOAP",
+      "question": "What type of messaging protocol is SOAP?",
+      "choices": [
+        "XML-based",
+        "YAML-only",
+        "Git-based",
+        "Binary-only"
+      ],
+      "correctAnswer": "XML-based",
+      "explanation": "The module describes SOAP as an XML-based messaging protocol.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 14
+      }
+    },
+    {
+      "id": "q071",
+      "type": "multiple-answer",
+      "topic": "SOAP",
+      "question": "(Choose 4) Select all elements that a SOAP message may contain.",
+      "choices": [
+        "Envelope",
+        "Header",
+        "Body",
+        "Fault",
+        "Branch"
+      ],
+      "correctAnswers": [
+        "Envelope",
+        "Header",
+        "Body",
+        "Fault"
+      ],
+      "explanation": "The module lists Envelope, Header, Body, and Fault.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 14
+      }
+    },
+    {
+      "id": "q072",
+      "type": "multiple-choice",
+      "topic": "REST Constraints",
+      "question": "Which REST constraint requires the client and server to be independent?",
+      "choices": [
+        "Client-server",
+        "Cache",
+        "Code-on-demand",
+        "Layered system"
+      ],
+      "correctAnswer": "Client-server",
+      "explanation": "The client-server constraint states that client and server should be independent.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 17
+      }
+    },
+    {
+      "id": "q073",
+      "type": "multiple-choice",
+      "topic": "REST Constraints",
+      "question": "Under the stateless constraint, where must information needed to make the request be supplied?",
+      "choices": [
+        "In the client request",
+        "In a server session state",
+        "Only in a Git repository",
+        "Only in a webhook"
+      ],
+      "correctAnswer": "In the client request",
+      "explanation": "The module says client requests must contain all information the server needs.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 17
+      }
+    },
+    {
+      "id": "q074",
+      "type": "true-false",
+      "topic": "REST Constraints",
+      "question": "The REST code-on-demand constraint is optional in the module.",
+      "correctAnswer": true,
+      "explanation": "The module explicitly calls code-on-demand optional.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 19
+      }
+    },
+    {
+      "id": "q075",
+      "type": "multiple-choice",
+      "topic": "REST APIs",
+      "question": "A REST Web service API communicates over which protocol?",
+      "choices": [
+        "HTTP",
+        "Git",
+        "SMTP only",
+        "SSH only"
+      ],
+      "correctAnswer": "HTTP",
+      "explanation": "The module defines a REST API as a programming interface that communicates over HTTP.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 21
+      }
+    },
+    {
+      "id": "q076",
+      "type": "multiple-answer",
+      "topic": "REST Requests",
+      "question": "(Choose 4) Select all four major components of a REST API request.",
+      "choices": [
+        "URI",
+        "HTTP Method",
+        "Header",
+        "Body",
+        "Commit history"
+      ],
+      "correctAnswers": [
+        "URI",
+        "HTTP Method",
+        "Header",
+        "Body"
+      ],
+      "explanation": "The module lists URI, HTTP Method, Header, and Body.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 22
+      }
+    },
+    {
+      "id": "q077",
+      "type": "fill-blank",
+      "topic": "URI",
+      "question": "The URI component that specifies whether http or https should be used is the _____.",
+      "acceptedAnswers": [
+        "scheme",
+        "Scheme"
+      ],
+      "explanation": "The scheme specifies the HTTP protocol, http or https.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 23
+      }
+    },
+    {
+      "id": "q078",
+      "type": "multiple-choice",
+      "topic": "URI",
+      "question": "Which URI component provides additional details for scope, filtering, or clarification?",
+      "choices": [
+        "Query",
+        "Path",
+        "Scheme",
+        "Authority"
+      ],
+      "correctAnswer": "Query",
+      "explanation": "The Query component provides additional details for scope, filtering, or clarification.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 23
+      }
+    },
+    {
+      "id": "q079",
+      "type": "multiple-choice",
+      "topic": "HTTP Methods",
+      "question": "Which HTTP method is mapped to retrieving resource details?",
+      "choices": [
+        "GET",
+        "POST",
+        "DELETE",
+        "PATCH"
+      ],
+      "correctAnswer": "GET",
+      "explanation": "The module maps GET to Read/retrieve resource details.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 24
+      }
+    },
+    {
+      "id": "q080",
+      "type": "multiple-choice",
+      "topic": "HTTP Methods",
+      "question": "Which HTTP method is mapped to partial update?",
+      "choices": [
+        "PATCH",
+        "GET",
+        "POST",
+        "DELETE"
+      ],
+      "correctAnswer": "PATCH",
+      "explanation": "The module maps PATCH to Partial Update.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 24
+      }
+    },
+    {
+      "id": "q081",
+      "type": "multiple-answer",
+      "topic": "HTTP Methods",
+      "question": "(Choose 3) Select all HTTP methods that typically include a request body according to the module.",
+      "choices": [
+        "POST",
+        "PUT",
+        "PATCH",
+        "GET"
+      ],
+      "correctAnswers": [
+        "POST",
+        "PUT",
+        "PATCH"
+      ],
+      "explanation": "The module says POST, PUT, and PATCH requests typically include a body.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 26
+      }
+    },
+    {
+      "id": "q082",
+      "type": "multiple-choice",
+      "topic": "HTTP Headers",
+      "question": "Which header key specifies the format of data in the body?",
+      "choices": [
+        "Content-Type",
+        "Authorization",
+        "Set-Cookie",
+        "X-Rate Limit-Reset"
+      ],
+      "correctAnswer": "Content-Type",
+      "explanation": "Content-Type is identified as the entity header specifying body data format.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 25
+      }
+    },
+    {
+      "id": "q083",
+      "type": "multiple-choice",
+      "topic": "REST Responses",
+      "question": "What are the three major components of a REST API response?",
+      "choices": [
+        "HTTP Status, Header, and Body",
+        "URI, Branch, and Commit",
+        "Scheme, Authority, and Query",
+        "Token, Bucket, and Window"
+      ],
+      "correctAnswer": "HTTP Status, Header, and Body",
+      "explanation": "The module lists HTTP Status, Header, and Body.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 27
+      }
+    },
+    {
+      "id": "q084",
+      "type": "multiple-choice",
+      "topic": "HTTP Status Codes",
+      "question": "Which category represents client errors?",
+      "choices": [
+        "4xx",
+        "1xx",
+        "2xx",
+        "5xx"
+      ],
+      "correctAnswer": "4xx",
+      "explanation": "The module identifies 4xx as Client Error.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 28
+      }
+    },
+    {
+      "id": "q085",
+      "type": "multiple-choice",
+      "topic": "HTTP Status Codes",
+      "question": "Which status code means the requested resource was created?",
+      "choices": [
+        "201 Created",
+        "200 OK",
+        "400 Bad Request",
+        "503 Service Unavailable"
+      ],
+      "correctAnswer": "201 Created",
+      "explanation": "The common status table defines 201 as Created.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 29
+      }
+    },
+    {
+      "id": "q086",
+      "type": "multiple-choice",
+      "topic": "HTTP Status Codes",
+      "question": "Which status code indicates valid authentication credentials are missing?",
+      "choices": [
+        "401 Unauthorized",
+        "403 Forbidden",
+        "404 Not Found",
+        "202 Accepted"
+      ],
+      "correctAnswer": "401 Unauthorized",
+      "explanation": "The module defines 401 as lacking valid authentication credentials.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 29
+      }
+    },
+    {
+      "id": "q087",
+      "type": "true-false",
+      "topic": "HTTP Status Codes",
+      "question": "A 503 Service Unavailable response means the server currently cannot handle the request.",
+      "correctAnswer": true,
+      "explanation": "This is the module's description of 503.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 29
+      }
+    },
+    {
+      "id": "q088",
+      "type": "fill-blank",
+      "topic": "REST Responses",
+      "question": "Breaking response data into chunks is called response _____.",
+      "acceptedAnswers": [
+        "pagination",
+        "Pagination"
+      ],
+      "explanation": "The module states that response pagination breaks data into chunks.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 31
+      }
+    },
+    {
+      "id": "q089",
+      "type": "multiple-choice",
+      "topic": "Authentication",
+      "question": "What does authentication prove?",
+      "choices": [
+        "The user's identity",
+        "The user's Git branch",
+        "The response cacheability",
+        "The server's rate limit"
+      ],
+      "correctAnswer": "The user's identity",
+      "explanation": "The module states that authentication proves user identity.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 35
+      }
+    },
+    {
+      "id": "q090",
+      "type": "multiple-choice",
+      "topic": "Authorization",
+      "question": "What does authorization define?",
+      "choices": [
+        "User access and permission to perform an action",
+        "The user's identity only",
+        "The URI scheme",
+        "The Git working directory"
+      ],
+      "correctAnswer": "User access and permission to perform an action",
+      "explanation": "Authorization defines user access and permissions for requested actions.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 35
+      }
+    },
+    {
+      "id": "q091",
+      "type": "multiple-answer",
+      "topic": "Authentication",
+      "question": "(Choose 3) Select all common authentication mechanisms listed in the module.",
+      "choices": [
+        "Basic authentication",
+        "Bearer authentication",
+        "API Key",
+        "Git commit"
+      ],
+      "correctAnswers": [
+        "Basic authentication",
+        "Bearer authentication",
+        "API Key"
+      ],
+      "explanation": "The module lists Basic, Bearer, and API Key authentication.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 36
+      }
+    },
+    {
+      "id": "q092",
+      "type": "multiple-choice",
+      "topic": "OAuth",
+      "question": "What does OAuth 2.0 enable a third-party application to obtain?",
+      "choices": [
+        "Limited access to an HTTP service",
+        "Unlimited access to every server",
+        "A Git staging area",
+        "A SOAP fault"
+      ],
+      "correctAnswer": "Limited access to an HTTP service",
+      "explanation": "The module states that OAuth 2.0 enables limited access to an HTTP service.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 37
+      }
+    },
+    {
+      "id": "q093",
+      "type": "multiple-choice",
+      "topic": "API Rate Limits",
+      "question": "What is an API rate limit?",
+      "choices": [
+        "A control on requests per defined unit of time",
+        "A Git branch limit",
+        "A SOAP element limit",
+        "A VM memory setting"
+      ],
+      "correctAnswer": "A control on requests per defined unit of time",
+      "explanation": "The module defines rate limiting in terms of request count per unit of time.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 40
+      }
+    },
+    {
+      "id": "q094",
+      "type": "multiple-answer",
+      "topic": "API Rate Limits",
+      "question": "(Choose 3) Select all purposes of rate limiting listed in the module.",
+      "choices": [
+        "Avoid server overload",
+        "Provide better service and response time",
+        "Protect against DoS attacks",
+        "Guarantee every request succeeds"
+      ],
+      "correctAnswers": [
+        "Avoid server overload",
+        "Provide better service and response time",
+        "Protect against DoS attacks"
+      ],
+      "explanation": "These three purposes are explicitly listed.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 40
+      }
+    },
+    {
+      "id": "q095",
+      "type": "multiple-choice",
+      "topic": "Rate Limit Algorithms",
+      "question": "Which algorithm queues incoming requests in arrival order and processes them at a fixed rate?",
+      "choices": [
+        "Leaky bucket",
+        "Token bucket",
+        "Fixed window counter",
+        "Sliding window counter"
+      ],
+      "correctAnswer": "Leaky bucket",
+      "explanation": "The leaky bucket algorithm queues requests and processes them at a fixed rate.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 41
+      }
+    },
+    {
+      "id": "q096",
+      "type": "multiple-choice",
+      "topic": "Rate Limit Algorithms",
+      "question": "Which algorithm assigns users tokens that are removed as requests are processed?",
+      "choices": [
+        "Token bucket",
+        "Leaky bucket",
+        "SOAP envelope",
+        "Response pagination"
+      ],
+      "correctAnswer": "Token bucket",
+      "explanation": "The token bucket algorithm uses a defined number of tokens and removes one per processed request.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 42
+      }
+    },
+    {
+      "id": "q097",
+      "type": "fill-blank",
+      "topic": "API Rate Limits",
+      "question": "The rate-limit header key that indicates when the current window will reset is _____.",
+      "acceptedAnswers": [
+        "X-Rate Limit-Reset"
+      ],
+      "explanation": "The module identifies X-Rate Limit-Reset as the reset-time key.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 45
+      }
+    },
+    {
+      "id": "q098",
+      "type": "multiple-choice",
+      "topic": "Webhooks",
+      "question": "What is a webhook?",
+      "choices": [
+        "An HTTP callback or POST to a specified URL when an event occurs",
+        "A Git merge algorithm",
+        "A SOAP-only authentication method",
+        "A local version-control database"
+      ],
+      "correctAnswer": "An HTTP callback or POST to a specified URL when an event occurs",
+      "explanation": "The module defines a webhook as an HTTP callback/POST used for event notification.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 48
+      }
+    },
+    {
+      "id": "q099",
+      "type": "multiple-answer",
+      "topic": "Webhooks",
+      "question": "(Choose 3) Select all requirements listed for an application consuming a webhook.",
+      "choices": [
+        "Run at all times to receive POST requests",
+        "Register a URI with the webhook provider",
+        "Handle incoming notifications",
+        "Poll the provider continuously"
+      ],
+      "correctAnswers": [
+        "Run at all times to receive POST requests",
+        "Register a URI with the webhook provider",
+        "Handle incoming notifications"
+      ],
+      "explanation": "These are the requirements listed for receiving webhook notifications.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 49
+      }
+    },
+    {
+      "id": "q100",
+      "type": "multiple-choice",
+      "topic": "API Troubleshooting",
+      "question": "Which materials should be kept handy while troubleshooting REST API issues?",
+      "choices": [
+        "API reference guide and API authentication information",
+        "Only a Git commit message",
+        "Only an SRS document",
+        "Only a webhook URL"
+      ],
+      "correctAnswer": "API reference guide and API authentication information",
+      "explanation": "The troubleshooting section explicitly recommends both.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 51
+      }
+    },
+    {
+      "id": "q101",
+      "type": "multiple-choice",
+      "topic": "Course Overview",
+      "question": "Which module covers APIs, their benefits, and troubleshooting?",
+      "choices": [
+        "Understanding and Using APIs",
+        "Network Fundamentals",
+        "Infrastructure and Automation",
+        "Cisco Platforms and Development"
+      ],
+      "correctAnswer": "Understanding and Using APIs",
+      "explanation": "The module states that Understanding and Using APIs.",
+      "source": {
+        "module": "Module 1: Course Introduction",
+        "page": 2
+      }
+    },
+    {
+      "id": "q102",
+      "type": "multiple-choice",
+      "topic": "Course Overview",
+      "question": "Which module focuses on managing infrastructure with automation rather than manual setup?",
+      "choices": [
+        "Infrastructure and Automation",
+        "Network Fundamentals",
+        "Software Development and Design",
+        "Course Introduction"
+      ],
+      "correctAnswer": "Infrastructure and Automation",
+      "explanation": "The module states that Infrastructure and Automation.",
+      "source": {
+        "module": "Module 1: Course Introduction",
+        "page": 2
+      }
+    },
+    {
+      "id": "q103",
+      "type": "multiple-choice",
+      "topic": "Course Overview",
+      "question": "Which module covers network devices, protocols, and connectivity troubleshooting?",
+      "choices": [
+        "Network Fundamentals",
+        "Understanding and Using APIs",
+        "Infrastructure and Automation",
+        "Course Introduction"
+      ],
+      "correctAnswer": "Network Fundamentals",
+      "explanation": "The module states that Network Fundamentals.",
+      "source": {
+        "module": "Module 1: Course Introduction",
+        "page": 2
+      }
+    },
+    {
+      "id": "q104",
+      "type": "multiple-choice",
+      "topic": "Course Overview",
+      "question": "Which module is intended to equip learners with tools to write quality code?",
+      "choices": [
+        "Software Development and Design",
+        "Network Fundamentals",
+        "Infrastructure and Automation",
+        "Cisco Platforms and Development"
+      ],
+      "correctAnswer": "Software Development and Design",
+      "explanation": "The module states that Software Development and Design.",
+      "source": {
+        "module": "Module 1: Course Introduction",
+        "page": 2
+      }
+    },
+    {
+      "id": "q105",
+      "type": "multiple-choice",
+      "topic": "Course Overview",
+      "question": "Which module includes data centers, networking, data models, and security?",
+      "choices": [
+        "Cisco Platforms and Development",
+        "Network Fundamentals",
+        "Course Introduction",
+        "Understanding and Using APIs"
+      ],
+      "correctAnswer": "Cisco Platforms and Development",
+      "explanation": "The module states that Cisco Platforms and Development.",
+      "source": {
+        "module": "Module 1: Course Introduction",
+        "page": 2
+      }
+    },
+    {
+      "id": "q106",
+      "type": "multiple-choice",
+      "topic": "Module Objectives",
+      "question": "What is the Course Introduction module objective?",
+      "choices": [
+        "Use basic Python programming and Linux skills",
+        "Implement Git version control",
+        "Create REST requests over HTTPS",
+        "Compare API architecture styles"
+      ],
+      "correctAnswer": "Use basic Python programming and Linux skills",
+      "explanation": "The module states that Use basic Python programming and Linux skills.",
+      "source": {
+        "module": "Module 1: Course Introduction",
+        "page": 3
+      }
+    },
+    {
+      "id": "q107",
+      "type": "multiple-choice",
+      "topic": "Module Objectives",
+      "question": "What is the Linux topic objective?",
+      "choices": [
+        "Manage the Linux file system and permissions",
+        "Install a virtual lab environment",
+        "Create REST requests",
+        "Use Git branches"
+      ],
+      "correctAnswer": "Manage the Linux file system and permissions",
+      "explanation": "The module states that Manage the Linux file system and permissions.",
+      "source": {
+        "module": "Module 1: Course Introduction",
+        "page": 3
+      }
+    },
+    {
+      "id": "q108",
+      "type": "multiple-choice",
+      "topic": "Module Objectives",
+      "question": "What is the Your Lab Environment topic objective?",
+      "choices": [
+        "Install a virtual lab environment",
+        "Manage Linux permissions",
+        "Create webhooks",
+        "Parse JSON"
+      ],
+      "correctAnswer": "Install a virtual lab environment",
+      "explanation": "The module states that Install a virtual lab environment.",
+      "source": {
+        "module": "Module 1: Course Introduction",
+        "page": 3
+      }
+    },
+    {
+      "id": "q109",
+      "type": "multiple-choice",
+      "topic": "Virtualization",
+      "question": "What can anyone with a modern computer and operating system run according to the module?",
+      "choices": [
+        "Virtual machines",
+        "Only physical hosts",
+        "Only sandboxes",
+        "Only centralized repositories"
+      ],
+      "correctAnswer": "Virtual machines",
+      "explanation": "The module states that Virtual machines.",
+      "source": {
+        "module": "Module 1: Course Introduction",
+        "page": 5
+      }
+    },
+    {
+      "id": "q110",
+      "type": "multiple-choice",
+      "topic": "Virtual Lab",
+      "question": "Which lab part explores the DEVASC VM GUI?",
+      "choices": [
+        "Part 2",
+        "Part 1",
+        "Part 3",
+        "Part 4"
+      ],
+      "correctAnswer": "Part 2",
+      "explanation": "The module states that Part 2.",
+      "source": {
+        "module": "Module 1: Course Introduction",
+        "page": 6
+      }
+    },
+    {
+      "id": "q111",
+      "type": "multiple-choice",
+      "topic": "Linux Review",
+      "question": "What is Part 2 of the Linux Review lab?",
+      "choices": [
+        "Review Command Syntax Navigation",
+        "Review File Management",
+        "Review Regular Expressions",
+        "Review System Administration"
+      ],
+      "correctAnswer": "Review Command Syntax Navigation",
+      "explanation": "The module states that Review Command Syntax Navigation.",
+      "source": {
+        "module": "Module 1: Course Introduction",
+        "page": 9
+      }
+    },
+    {
+      "id": "q112",
+      "type": "multiple-choice",
+      "topic": "Linux Review",
+      "question": "Which course is recommended if there is an issue with the Linux Review lab?",
+      "choices": [
+        "Linux Unhatched",
+        "Python Essentials",
+        "Code Exchange",
+        "Automation Exchange"
+      ],
+      "correctAnswer": "Linux Unhatched",
+      "explanation": "The module states that Linux Unhatched.",
+      "source": {
+        "module": "Module 1: Course Introduction",
+        "page": 10
+      }
+    },
+    {
+      "id": "q113",
+      "type": "multiple-choice",
+      "topic": "Python",
+      "question": "Why is Python described as easy to use for writing new software?",
+      "choices": [
+        "It is possible to write code faster when using Python",
+        "It requires a proprietary platform",
+        "It removes the need for testing",
+        "It only runs on one operating system"
+      ],
+      "correctAnswer": "It is possible to write code faster when using Python",
+      "explanation": "The module states that It is possible to write code faster when using Python.",
+      "source": {
+        "module": "Module 1: Course Introduction",
+        "page": 13
+      }
+    },
+    {
+      "id": "q114",
+      "type": "multiple-choice",
+      "topic": "Python Review",
+      "question": "Which part reviews the Input Function?",
+      "choices": [
+        "Part 5",
+        "Part 3",
+        "Part 6",
+        "Part 7"
+      ],
+      "correctAnswer": "Part 5",
+      "explanation": "The module states that Part 5.",
+      "source": {
+        "module": "Module 1: Course Introduction",
+        "page": 14
+      }
+    },
+    {
+      "id": "q115",
+      "type": "multiple-choice",
+      "topic": "Python Review",
+      "question": "Which course is recommended if there is an issue with the Python Programming lab?",
+      "choices": [
+        "Python Essentials",
+        "Linux Unhatched",
+        "Learning Labs",
+        "Automation Exchange"
+      ],
+      "correctAnswer": "Python Essentials",
+      "explanation": "The module states that Python Essentials.",
+      "source": {
+        "module": "Module 1: Course Introduction",
+        "page": 15
+      }
+    },
+    {
+      "id": "q116",
+      "type": "multiple-answer",
+      "topic": "Course Overview",
+      "question": "(Choose 3) Select all broad areas the DevNet Associate course says it covers.",
+      "choices": [
+        "Software development",
+        "Networking fundamentals",
+        "Automation",
+        "Desktop publishing"
+      ],
+      "correctAnswers": [
+        "Software development",
+        "Networking fundamentals",
+        "Automation"
+      ],
+      "explanation": "All selected options are explicitly listed on the cited module page.",
+      "source": {
+        "module": "Module 1: Course Introduction",
+        "page": 2
+      }
+    },
+    {
+      "id": "q117",
+      "type": "multiple-answer",
+      "topic": "Module Objectives",
+      "question": "(Choose 3) Select all topic titles in the Course Introduction objective table.",
+      "choices": [
+        "Your Lab Environment",
+        "Linux",
+        "Python",
+        "REST APIs"
+      ],
+      "correctAnswers": [
+        "Your Lab Environment",
+        "Linux",
+        "Python"
+      ],
+      "explanation": "All selected options are explicitly listed on the cited module page.",
+      "source": {
+        "module": "Module 1: Course Introduction",
+        "page": 3
+      }
+    },
+    {
+      "id": "q118",
+      "type": "true-false",
+      "topic": "Virtualization",
+      "question": "Virtualization allows virtual computers to operate and run within physical computers.",
+      "correctAnswer": true,
+      "explanation": "This follows directly from the cited module page.",
+      "source": {
+        "module": "Module 1: Course Introduction",
+        "page": 5
+      }
+    },
+    {
+      "id": "q119",
+      "type": "fill-blank",
+      "topic": "Virtualization",
+      "question": "Virtual computers that run within physical computers are called Virtual _____.",
+      "acceptedAnswers": [
+        "Machines",
+        "machines",
+        "VMs",
+        "VM"
+      ],
+      "explanation": "The blank is completed by the term stated on the cited module page.",
+      "source": {
+        "module": "Module 1: Course Introduction",
+        "page": 5
+      }
+    },
+    {
+      "id": "q120",
+      "type": "multiple-answer",
+      "topic": "Virtual Lab",
+      "question": "(Choose 4) Select all objectives of the Install the Virtual Lab Environment lab.",
+      "choices": [
+        "Prepare a Computer for Virtualization",
+        "Explore the DEVASC VM GUI",
+        "Create Lab Environment Accounts",
+        "Install Webex Teams on your Device",
+        "Configure Git branches"
+      ],
+      "correctAnswers": [
+        "Prepare a Computer for Virtualization",
+        "Explore the DEVASC VM GUI",
+        "Create Lab Environment Accounts",
+        "Install Webex Teams on your Device"
+      ],
+      "explanation": "All selected options are explicitly listed on the cited module page.",
+      "source": {
+        "module": "Module 1: Course Introduction",
+        "page": 6
+      }
+    },
+    {
+      "id": "q121",
+      "type": "true-false",
+      "topic": "Linux",
+      "question": "Linux is described as being used in servers, IoT devices, networking equipment, and smartphones.",
+      "correctAnswer": true,
+      "explanation": "This follows directly from the cited module page.",
+      "source": {
+        "module": "Module 1: Course Introduction",
+        "page": 8
+      }
+    },
+    {
+      "id": "q122",
+      "type": "fill-blank",
+      "topic": "Linux Review",
+      "question": "Part 4 of the Linux Review lab reviews Regular _____.",
+      "acceptedAnswers": [
+        "Expressions",
+        "expressions"
+      ],
+      "explanation": "The blank is completed by the term stated on the cited module page.",
+      "source": {
+        "module": "Module 1: Course Introduction",
+        "page": 9
+      }
+    },
+    {
+      "id": "q123",
+      "type": "multiple-answer",
+      "topic": "Linux Review",
+      "question": "(Choose 3) Select all descriptions given for the Linux Unhatched course.",
+      "choices": [
+        "Free",
+        "Online",
+        "Self-paced",
+        "Mandatory in-person"
+      ],
+      "correctAnswers": [
+        "Free",
+        "Online",
+        "Self-paced"
+      ],
+      "explanation": "All selected options are explicitly listed on the cited module page.",
+      "source": {
+        "module": "Module 1: Course Introduction",
+        "page": 10
+      }
+    },
+    {
+      "id": "q124",
+      "type": "multiple-choice",
+      "topic": "Module Objectives",
+      "question": "What is the module objective?",
+      "choices": [
+        "Implement a development environment using DevNet resources",
+        "Create REST requests over HTTPS",
+        "Use Linux permissions only",
+        "Implement Git branching only"
+      ],
+      "correctAnswer": "Implement a development environment using DevNet resources",
+      "explanation": "The module states that Implement a development environment using DevNet resources.",
+      "source": {
+        "module": "Module 2: The DevNet Developer Environment",
+        "page": 2
+      }
+    },
+    {
+      "id": "q125",
+      "type": "multiple-choice",
+      "topic": "Module Objectives",
+      "question": "What is the objective of DevNet Overview?",
+      "choices": [
+        "Explain how DevNet encourages communities of network programmers",
+        "Parse XML with Python",
+        "Manage Linux permissions",
+        "Compare REST constraints"
+      ],
+      "correctAnswer": "Explain how DevNet encourages communities of network programmers",
+      "explanation": "The module states that Explain how DevNet encourages communities of network programmers.",
+      "source": {
+        "module": "Module 2: The DevNet Developer Environment",
+        "page": 2
+      }
+    },
+    {
+      "id": "q126",
+      "type": "multiple-choice",
+      "topic": "DevNet Overview",
+      "question": "Which feature provides self-paced tutorials from basic coding to REST APIs?",
+      "choices": [
+        "Learning Labs",
+        "Developer support",
+        "Code Exchange",
+        "Developer documentation"
+      ],
+      "correctAnswer": "Learning Labs",
+      "explanation": "The module states that Learning Labs.",
+      "source": {
+        "module": "Module 2: The DevNet Developer Environment",
+        "page": 4
+      }
+    },
+    {
+      "id": "q127",
+      "type": "multiple-choice",
+      "topic": "DevNet Overview",
+      "question": "Which feature is the central location for product developer API documentation?",
+      "choices": [
+        "Developer documentation",
+        "Automation Exchange",
+        "Sandbox",
+        "Support Case"
+      ],
+      "correctAnswer": "Developer documentation",
+      "explanation": "The module states that Developer documentation.",
+      "source": {
+        "module": "Module 2: The DevNet Developer Environment",
+        "page": 4
+      }
+    },
+    {
+      "id": "q128",
+      "type": "multiple-choice",
+      "topic": "DevNet Resources",
+      "question": "Which site is given for an overview of DevNet?",
+      "choices": [
+        "developer.cisco.com",
+        "devnetsupport.cisco.com",
+        "localhost:8080",
+        "github.com"
+      ],
+      "correctAnswer": "developer.cisco.com",
+      "explanation": "The module states that developer.cisco.com.",
+      "source": {
+        "module": "Module 2: The DevNet Developer Environment",
+        "page": 6
+      }
+    },
+    {
+      "id": "q129",
+      "type": "multiple-choice",
+      "topic": "Learning Labs",
+      "question": "What can Learning Labs help set up on a local computer?",
+      "choices": [
+        "A development environment for practicing tasks",
+        "A production-only data center",
+        "A physical server farm",
+        "A mandatory centralized repository"
+      ],
+      "correctAnswer": "A development environment for practicing tasks",
+      "explanation": "The module states that A development environment for practicing tasks.",
+      "source": {
+        "module": "Module 2: The DevNet Developer Environment",
+        "page": 7
+      }
+    },
+    {
+      "id": "q130",
+      "type": "multiple-choice",
+      "topic": "DevNet Exchanges",
+      "question": "Which exchange contains over 1,500 solutions across technologies, industries, and geographies?",
+      "choices": [
+        "Ecosystem Exchange",
+        "Automation Exchange",
+        "Code Exchange",
+        "Learning Labs"
+      ],
+      "correctAnswer": "Ecosystem Exchange",
+      "explanation": "The module states that Ecosystem Exchange.",
+      "source": {
+        "module": "Module 2: The DevNet Developer Environment",
+        "page": 9
+      }
+    },
+    {
+      "id": "q131",
+      "type": "multiple-choice",
+      "topic": "Developer Support",
+      "question": "What response time is stated for a Support Case?",
+      "choices": [
+        "One business day",
+        "One hour",
+        "One week",
+        "No response time"
+      ],
+      "correctAnswer": "One business day",
+      "explanation": "The module states that One business day.",
+      "source": {
+        "module": "Module 2: The DevNet Developer Environment",
+        "page": 12
+      }
+    },
+    {
+      "id": "q132",
+      "type": "multiple-choice",
+      "topic": "Developer Support",
+      "question": "What should a user click after visiting devnetsupport.cisco.com to view community forums?",
+      "choices": [
+        "Community",
+        "Sandbox",
+        "Code Exchange",
+        "Start Now"
+      ],
+      "correctAnswer": "Community",
+      "explanation": "The module states that Community.",
+      "source": {
+        "module": "Module 2: The DevNet Developer Environment",
+        "page": 12
+      }
+    },
+    {
+      "id": "q133",
+      "type": "true-false",
+      "topic": "DevNet Overview",
+      "question": "DevNet is described as a fully integrated developer program.",
+      "correctAnswer": true,
+      "explanation": "This follows directly from the cited module page.",
+      "source": {
+        "module": "Module 2: The DevNet Developer Environment",
+        "page": 4
+      }
+    },
+    {
+      "id": "q134",
+      "type": "multiple-answer",
+      "topic": "DevNet Overview",
+      "question": "(Choose 5) Select all elements explicitly included in the DevNet program description.",
+      "choices": [
+        "Website",
+        "Interactive developer community",
+        "Coordinated developer tools",
+        "Integrated discussion forums",
+        "Sandboxes",
+        "Physical router shipment service"
+      ],
+      "correctAnswers": [
+        "Website",
+        "Interactive developer community",
+        "Coordinated developer tools",
+        "Integrated discussion forums",
+        "Sandboxes"
+      ],
+      "explanation": "All selected options are explicitly listed on the cited module page.",
+      "source": {
+        "module": "Module 2: The DevNet Developer Environment",
+        "page": 4
+      }
+    },
+    {
+      "id": "q135",
+      "type": "multiple-answer",
+      "topic": "DevNet Home",
+      "question": "(Choose 6) Select all offerings listed on the DevNet Home page.",
+      "choices": [
+        "Start Now",
+        "Learning Tracks",
+        "Video Course",
+        "Sandbox",
+        "Code Exchange",
+        "Ecosystem Exchange",
+        "Local Version Control"
+      ],
+      "correctAnswers": [
+        "Start Now",
+        "Learning Tracks",
+        "Video Course",
+        "Sandbox",
+        "Code Exchange",
+        "Ecosystem Exchange"
+      ],
+      "explanation": "All selected options are explicitly listed on the cited module page.",
+      "source": {
+        "module": "Module 2: The DevNet Developer Environment",
+        "page": 6
+      }
+    },
+    {
+      "id": "q136",
+      "type": "multiple-answer",
+      "topic": "Learning Labs",
+      "question": "(Choose 4) Select all tutorial areas explicitly mentioned for DevNet Learning Labs.",
+      "choices": [
+        "Model-driven programmability",
+        "REST APIs",
+        "Python",
+        "JavaScript",
+        "Centralized file locking"
+      ],
+      "correctAnswers": [
+        "Model-driven programmability",
+        "REST APIs",
+        "Python",
+        "JavaScript"
+      ],
+      "explanation": "All selected options are explicitly listed on the cited module page.",
+      "source": {
+        "module": "Module 2: The DevNet Developer Environment",
+        "page": 7
+      }
+    },
+    {
+      "id": "q137",
+      "type": "true-false",
+      "topic": "DevNet Sandbox",
+      "question": "DevNet Sandbox enables hands-on exploration of software and APIs.",
+      "correctAnswer": true,
+      "explanation": "This follows directly from the cited module page.",
+      "source": {
+        "module": "Module 2: The DevNet Developer Environment",
+        "page": 8
+      }
+    },
+    {
+      "id": "q138",
+      "type": "multiple-answer",
+      "topic": "Automation Exchange",
+      "question": "(Choose 3) Select all example network-automation use cases listed.",
+      "choices": [
+        "Listing of data",
+        "Adding configurations",
+        "Activating policies across domains, users, or devices",
+        "Creating Python syntax"
+      ],
+      "correctAnswers": [
+        "Listing of data",
+        "Adding configurations",
+        "Activating policies across domains, users, or devices"
+      ],
+      "explanation": "All selected options are explicitly listed on the cited module page.",
+      "source": {
+        "module": "Module 2: The DevNet Developer Environment",
+        "page": 10
+      }
+    },
+    {
+      "id": "q139",
+      "type": "multiple-answer",
+      "topic": "Automation Exchange",
+      "question": "(Choose 2) Select all tool sets explicitly given as examples.",
+      "choices": [
+        "Ansible",
+        "Puppet",
+        "SOAP",
+        "MVC"
+      ],
+      "correctAnswers": [
+        "Ansible",
+        "Puppet"
+      ],
+      "explanation": "All selected options are explicitly listed on the cited module page.",
+      "source": {
+        "module": "Module 2: The DevNet Developer Environment",
+        "page": 10
+      }
+    },
+    {
+      "id": "q140",
+      "type": "multiple-choice",
+      "topic": "Developer Support",
+      "question": "What can DevNet developer support help troubleshoot?",
+      "choices": [
+        "Integrations, API connections, and specialty developer-use questions",
+        "Only Linux permissions",
+        "Only physical cabling",
+        "Only Git commit messages"
+      ],
+      "correctAnswer": "Integrations, API connections, and specialty developer-use questions",
+      "explanation": "The module states that Integrations, API connections, and specialty developer-use questions.",
+      "source": {
+        "module": "Module 2: The DevNet Developer Environment",
+        "page": 11
+      }
+    },
+    {
+      "id": "q141",
+      "type": "multiple-answer",
+      "topic": "Developer Support",
+      "question": "(Choose 3) Select all support methods listed.",
+      "choices": [
+        "Logging a ticket",
+        "Posting to a community forum",
+        "Accessing a WebEx Teams space",
+        "Creating a Git branch"
+      ],
+      "correctAnswers": [
+        "Logging a ticket",
+        "Posting to a community forum",
+        "Accessing a WebEx Teams space"
+      ],
+      "explanation": "All selected options are explicitly listed on the cited module page.",
+      "source": {
+        "module": "Module 2: The DevNet Developer Environment",
+        "page": 11
+      }
+    },
+    {
+      "id": "q142",
+      "type": "multiple-answer",
+      "topic": "Explore DevNet Lab",
+      "question": "(Choose 2) Select all objectives of the Explore DevNet Resources lab.",
+      "choices": [
+        "Find and Navigate a Learning Lab",
+        "Explore More Resources",
+        "Build an SRS",
+        "Configure a Git remote"
+      ],
+      "correctAnswers": [
+        "Find and Navigate a Learning Lab",
+        "Explore More Resources"
+      ],
+      "explanation": "All selected options are explicitly listed on the cited module page.",
+      "source": {
+        "module": "Module 2: The DevNet Developer Environment",
+        "page": 13
+      }
+    },
+    {
+      "id": "q143",
+      "type": "true-false",
+      "topic": "Module Summary",
+      "question": "The summary includes Learning Labs, video courses, Sandbox, Exchanges, and DevNet Support as online resources.",
+      "correctAnswer": true,
+      "explanation": "This follows directly from the cited module page.",
+      "source": {
+        "module": "Module 2: The DevNet Developer Environment",
+        "page": 15
+      }
+    },
+    {
+      "id": "q144",
+      "type": "multiple-choice",
+      "topic": "Requirements and Analysis",
+      "question": "Which feasibility question is considered after gathering requirements?",
+      "choices": [
+        "Can the software be developed according to the requirements and on budget?",
+        "Which webhook URL should be registered?",
+        "Which rate-limit algorithm is mandatory?",
+        "Which Git branch is remote?"
+      ],
+      "correctAnswer": "Can the software be developed according to the requirements and on budget?",
+      "explanation": "The module states that Can the software be developed according to the requirements and on budget?.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 6
+      }
+    },
+    {
+      "id": "q145",
+      "type": "multiple-choice",
+      "topic": "Design",
+      "question": "Which documents are produced at the end of Design?",
+      "choices": [
+        "High-Level Design (HLD) and Low-Level Design (LLD)",
+        "SRS and API key",
+        "Backlog and webhook",
+        "Commit and pull request"
+      ],
+      "correctAnswer": "High-Level Design (HLD) and Low-Level Design (LLD)",
+      "explanation": "The module states that High-Level Design (HLD) and Low-Level Design (LLD).",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 7
+      }
+    },
+    {
+      "id": "q146",
+      "type": "multiple-choice",
+      "topic": "Testing",
+      "question": "Which environment receives code during Testing?",
+      "choices": [
+        "The test environment",
+        "The production environment",
+        "A webhook server",
+        "A repository hosting service"
+      ],
+      "correctAnswer": "The test environment",
+      "explanation": "The module states that The test environment.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 8
+      }
+    },
+    {
+      "id": "q147",
+      "type": "multiple-choice",
+      "topic": "Waterfall",
+      "question": "Who created the original waterfall model?",
+      "choices": [
+        "Winston W. Royce",
+        "Roy Thomas Fielding",
+        "Erich Gamma",
+        "John Vlissides"
+      ],
+      "correctAnswer": "Winston W. Royce",
+      "explanation": "The module states that Winston W. Royce.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 10
+      }
+    },
+    {
+      "id": "q148",
+      "type": "multiple-choice",
+      "topic": "Agile Methods",
+      "question": "Which method uses small self-organizing teams, daily meetings, and iterative sprints?",
+      "choices": [
+        "Agile Scrum",
+        "Lean",
+        "FDD",
+        "Waterfall"
+      ],
+      "correctAnswer": "Agile Scrum",
+      "explanation": "The module states that Agile Scrum.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 12
+      }
+    },
+    {
+      "id": "q149",
+      "type": "multiple-choice",
+      "topic": "Agile Methods",
+      "question": "Which method emphasizes eliminating wasted effort and reducing programmer cognitive load?",
+      "choices": [
+        "Lean",
+        "Scrum",
+        "FDD",
+        "Waterfall"
+      ],
+      "correctAnswer": "Lean",
+      "explanation": "The module states that Lean.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 12
+      }
+    },
+    {
+      "id": "q150",
+      "type": "multiple-choice",
+      "topic": "Agile Methods",
+      "question": "Which method develops software from an overall model feature by feature?",
+      "choices": [
+        "Feature-Driven Development (FDD)",
+        "Extreme Programming (XP)",
+        "Scrum",
+        "Waterfall"
+      ],
+      "correctAnswer": "Feature-Driven Development (FDD)",
+      "explanation": "The module states that Feature-Driven Development (FDD).",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 12
+      }
+    },
+    {
+      "id": "q151",
+      "type": "multiple-choice",
+      "topic": "Lean",
+      "question": "Which Lean principle is identified as the most fundamental?",
+      "choices": [
+        "Eliminate waste",
+        "Optimize the whole",
+        "Build integrity in",
+        "Empower the team"
+      ],
+      "correctAnswer": "Eliminate waste",
+      "explanation": "The module states that Eliminate waste.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 16
+      }
+    },
+    {
+      "id": "q152",
+      "type": "multiple-choice",
+      "topic": "Lean",
+      "question": "What can customers do sooner when working software is delivered in frequent short iterations?",
+      "choices": [
+        "Give feedback",
+        "Lock files",
+        "Disable testing",
+        "Create server sessions"
+      ],
+      "correctAnswer": "Give feedback",
+      "explanation": "The module states that Give feedback.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 17
+      }
+    },
+    {
+      "id": "q153",
+      "type": "multiple-choice",
+      "topic": "Design Patterns",
+      "question": "How many design patterns did the Gang of Four list?",
+      "choices": [
+        "23",
+        "12",
+        "7",
+        "6"
+      ],
+      "correctAnswer": "23",
+      "explanation": "The module states that 23.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 22
+      }
+    },
+    {
+      "id": "q154",
+      "type": "multiple-choice",
+      "topic": "Observer Pattern",
+      "question": "What must the subject store?",
+      "choices": [
+        "A list of all its observers",
+        "Only one controller",
+        "A Git staging area",
+        "A SOAP fault"
+      ],
+      "correctAnswer": "A list of all its observers",
+      "explanation": "The module states that A list of all its observers.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 23
+      }
+    },
+    {
+      "id": "q155",
+      "type": "multiple-choice",
+      "topic": "LVCS",
+      "question": "What does an LVCS commonly store between two versions of a file?",
+      "choices": [
+        "The delta",
+        "A bearer token",
+        "A SOAP envelope",
+        "A webhook callback"
+      ],
+      "correctAnswer": "The delta",
+      "explanation": "The module states that The delta.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 27
+      }
+    },
+    {
+      "id": "q156",
+      "type": "multiple-choice",
+      "topic": "CVCS",
+      "question": "What must a user do to a file before making changes in the described CVCS?",
+      "choices": [
+        "Check out the file to lock it",
+        "Create a webhook",
+        "Issue git push first",
+        "Generate an API key"
+      ],
+      "correctAnswer": "Check out the file to lock it",
+      "explanation": "The module states that Check out the file to lock it.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 28
+      }
+    },
+    {
+      "id": "q157",
+      "type": "multiple-choice",
+      "topic": "DVCS",
+      "question": "What does the version control system do after changes are pushed to the main repository?",
+      "choices": [
+        "Detects conflicts between file changes",
+        "Locks every file",
+        "Deletes the local repository",
+        "Turns the staging area into a server"
+      ],
+      "correctAnswer": "Detects conflicts between file changes",
+      "explanation": "The module states that Detects conflicts between file changes.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 29
+      }
+    },
+    {
+      "id": "q158",
+      "type": "multiple-choice",
+      "topic": "Git Repositories",
+      "question": "Where is a local Git repository stored?",
+      "choices": [
+        "On the file system of the client machine",
+        "Only on a remote server",
+        "Inside an HTTP header",
+        "Inside a webhook provider"
+      ],
+      "correctAnswer": "On the file system of the client machine",
+      "explanation": "The module states that On the file system of the client machine.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 32
+      }
+    },
+    {
+      "id": "q159",
+      "type": "multiple-choice",
+      "topic": "Git Repositories",
+      "question": "What does a client receive when it clones a remote Git repository?",
+      "choices": [
+        "The full repository",
+        "Only the newest file",
+        "Only the staging area",
+        "Only commit messages"
+      ],
+      "correctAnswer": "The full repository",
+      "explanation": "The module states that The full repository.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 32
+      }
+    },
+    {
+      "id": "q160",
+      "type": "multiple-choice",
+      "topic": "Git Commands",
+      "question": "Which command compares changes between files?",
+      "choices": [
+        "git diff",
+        "git status",
+        "git init",
+        "git push"
+      ],
+      "correctAnswer": "git diff",
+      "explanation": "The module states that git diff.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 37
+      }
+    },
+    {
+      "id": "q161",
+      "type": "multiple-choice",
+      "topic": "Git Commands",
+      "question": "Which command updates the local copy from the remote repository?",
+      "choices": [
+        "git pull",
+        "git push",
+        "git add",
+        "git rm"
+      ],
+      "correctAnswer": "git pull",
+      "explanation": "The module states that git pull.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 43
+      }
+    },
+    {
+      "id": "q162",
+      "type": "multiple-answer",
+      "topic": "Requirements and Analysis",
+      "question": "(Choose 4) Select all questions analyzed after requirements are gathered.",
+      "choices": [
+        "Are there schedule risks?",
+        "How will the software be tested?",
+        "When and how will it be delivered?",
+        "Can it be developed on budget?",
+        "Which rate-limit algorithm must every project use?"
+      ],
+      "correctAnswers": [
+        "Are there schedule risks?",
+        "How will the software be tested?",
+        "When and how will it be delivered?",
+        "Can it be developed on budget?"
+      ],
+      "explanation": "All selected options are explicitly listed on the cited module page.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 6
+      }
+    },
+    {
+      "id": "q163",
+      "type": "multiple-answer",
+      "topic": "Testing",
+      "question": "(Choose 4) Select all testing types explicitly listed.",
+      "choices": [
+        "Functional testing",
+        "Integration testing",
+        "Performance testing",
+        "Security testing",
+        "Usability testing"
+      ],
+      "correctAnswers": [
+        "Functional testing",
+        "Integration testing",
+        "Performance testing",
+        "Security testing"
+      ],
+      "explanation": "All selected options are explicitly listed on the cited module page.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 8
+      }
+    },
+    {
+      "id": "q164",
+      "type": "multiple-answer",
+      "topic": "Agile Values",
+      "question": "(Choose 4) Select all Agile Manifesto values presented.",
+      "choices": [
+        "Individuals and interactions over processes and tools",
+        "Working software over comprehensive documentation",
+        "Customer collaboration over contract negotiation",
+        "Responding to change over following a plan",
+        "Following a plan over responding to change"
+      ],
+      "correctAnswers": [
+        "Individuals and interactions over processes and tools",
+        "Working software over comprehensive documentation",
+        "Customer collaboration over contract negotiation",
+        "Responding to change over following a plan"
+      ],
+      "explanation": "All selected options are explicitly listed on the cited module page.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 11
+      }
+    },
+    {
+      "id": "q165",
+      "type": "fill-blank",
+      "topic": "User Stories",
+      "question": "Complete the template: As a <user|role>, I would like to <action>, so that <_____>.",
+      "acceptedAnswers": [
+        "value|benefit",
+        "value",
+        "benefit"
+      ],
+      "explanation": "The blank is completed by the term stated on the cited module page.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 13
+      }
+    },
+    {
+      "id": "q166",
+      "type": "true-false",
+      "topic": "Scrum",
+      "question": "Scrum teams should not be larger than 10 individuals according to the module.",
+      "correctAnswer": true,
+      "explanation": "This follows directly from the cited module page.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 14
+      }
+    },
+    {
+      "id": "q167",
+      "type": "multiple-answer",
+      "topic": "Lean Waste",
+      "question": "(Choose 5) Select all items listed as wastes of software development.",
+      "choices": [
+        "Partially done work",
+        "Extra processes",
+        "Extra features",
+        "Waiting",
+        "Defects",
+        "Frequent customer feedback"
+      ],
+      "correctAnswers": [
+        "Partially done work",
+        "Extra processes",
+        "Extra features",
+        "Waiting",
+        "Defects"
+      ],
+      "explanation": "All selected options are explicitly listed on the cited module page.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 16
+      }
+    },
+    {
+      "id": "q168",
+      "type": "true-false",
+      "topic": "Lean",
+      "question": "Each person should be allowed to make decisions in the area of their own expertise.",
+      "correctAnswer": true,
+      "explanation": "This follows directly from the cited module page.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 18
+      }
+    },
+    {
+      "id": "q169",
+      "type": "multiple-answer",
+      "topic": "Observer Pattern",
+      "question": "(Choose 3) Select all capabilities required of the subject.",
+      "choices": [
+        "Store a list of observers",
+        "Add observers",
+        "Remove observers",
+        "Create Git commits"
+      ],
+      "correctAnswers": [
+        "Store a list of observers",
+        "Add observers",
+        "Remove observers"
+      ],
+      "explanation": "All selected options are explicitly listed on the cited module page.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 23
+      }
+    },
+    {
+      "id": "q170",
+      "type": "true-false",
+      "topic": "MVC",
+      "question": "MVC allows its components to be built in parallel.",
+      "correctAnswer": true,
+      "explanation": "This follows directly from the cited module page.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 24
+      }
+    },
+    {
+      "id": "q171",
+      "type": "multiple-answer",
+      "topic": "Version Control Benefits",
+      "question": "(Choose 5) Select all listed benefits of version control.",
+      "choices": [
+        "Collaboration",
+        "Accountability and visibility",
+        "Work in isolation",
+        "Safety",
+        "Work anywhere",
+        "Guaranteed bug-free code"
+      ],
+      "correctAnswers": [
+        "Collaboration",
+        "Accountability and visibility",
+        "Work in isolation",
+        "Safety",
+        "Work anywhere"
+      ],
+      "explanation": "All selected options are explicitly listed on the cited module page.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 26
+      }
+    },
+    {
+      "id": "q172",
+      "type": "true-false",
+      "topic": "Git",
+      "question": "If a file has not changed, Git uses a reference link to the last snapshot rather than taking an identical new snapshot.",
+      "correctAnswer": true,
+      "explanation": "This follows directly from the cited module page.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 30
+      }
+    },
+    {
+      "id": "q173",
+      "type": "multiple-answer",
+      "topic": "Git States",
+      "question": "(Choose 3) Select all three Git states.",
+      "choices": [
+        "Committed",
+        "Modified",
+        "Staged",
+        "Cached"
+      ],
+      "correctAnswers": [
+        "Committed",
+        "Modified",
+        "Staged"
+      ],
+      "explanation": "All selected options are explicitly listed on the cited module page.",
+      "source": {
+        "module": "Module 3: Software Development and Design",
+        "page": 31
+      }
+    },
+    {
+      "id": "q174",
+      "type": "multiple-choice",
+      "topic": "API Fundamentals",
+      "question": "What does an API determine about an application?",
+      "choices": [
+        "What data, services, and functionality it exposes to third parties",
+        "Which Git branch is master",
+        "Which VM is a host",
+        "Which Linux course is required"
+      ],
+      "correctAnswer": "What data, services, and functionality it exposes to third parties",
+      "explanation": "The module states that What data, services, and functionality it exposes to third parties.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 4
+      }
+    },
+    {
+      "id": "q175",
+      "type": "multiple-choice",
+      "topic": "API Use Cases",
+      "question": "A script that performs manual tasks automatically illustrates which use case?",
+      "choices": [
+        "Automation tasks",
+        "Data integration",
+        "Version control",
+        "Virtualization"
+      ],
+      "correctAnswer": "Automation tasks",
+      "explanation": "The module states that Automation tasks.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 5
+      }
+    },
+    {
+      "id": "q176",
+      "type": "multiple-choice",
+      "topic": "API Use Cases",
+      "question": "An application reacting to data provided by another application illustrates which use case?",
+      "choices": [
+        "Data integration",
+        "Automation tasks",
+        "Version control",
+        "Virtualization"
+      ],
+      "correctAnswer": "Data integration",
+      "explanation": "The module states that Data integration.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 5
+      }
+    },
+    {
+      "id": "q177",
+      "type": "multiple-choice",
+      "topic": "Synchronous APIs",
+      "question": "What is a stated benefit of synchronous design?",
+      "choices": [
+        "The application can receive data immediately",
+        "The server never returns data",
+        "The client never waits",
+        "HTTP is eliminated"
+      ],
+      "correctAnswer": "The application can receive data immediately",
+      "explanation": "The module states that The application can receive data immediately.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 9
+      }
+    },
+    {
+      "id": "q178",
+      "type": "multiple-choice",
+      "topic": "Asynchronous APIs",
+      "question": "What does the initial no-data response signify?",
+      "choices": [
+        "The request has been received",
+        "All requested data is complete",
+        "The client must terminate",
+        "A Git branch was created"
+      ],
+      "correctAnswer": "The request has been received",
+      "explanation": "The module states that The request has been received.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 10
+      }
+    },
+    {
+      "id": "q179",
+      "type": "multiple-choice",
+      "topic": "SOAP",
+      "question": "Which SOAP element contains data transported to the recipient?",
+      "choices": [
+        "Body",
+        "Envelope",
+        "Header",
+        "Fault"
+      ],
+      "correctAnswer": "Body",
+      "explanation": "The module states that Body.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 14
+      }
+    },
+    {
+      "id": "q180",
+      "type": "multiple-choice",
+      "topic": "SOAP",
+      "question": "Which SOAP element provides error and/or status information?",
+      "choices": [
+        "Fault",
+        "Body",
+        "Envelope",
+        "Header"
+      ],
+      "correctAnswer": "Fault",
+      "explanation": "The module states that Fault.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 14
+      }
+    },
+    {
+      "id": "q181",
+      "type": "multiple-choice",
+      "topic": "REST Constraints",
+      "question": "What must a server response state under the cache constraint?",
+      "choices": [
+        "Whether the response is cacheable or non-cacheable",
+        "Which Git branch it uses",
+        "Which user story is active",
+        "Which VM is host"
+      ],
+      "correctAnswer": "Whether the response is cacheable or non-cacheable",
+      "explanation": "The module states that Whether the response is cacheable or non-cacheable.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 18
+      }
+    },
+    {
+      "id": "q182",
+      "type": "multiple-choice",
+      "topic": "REST Constraints",
+      "question": "In a layered system, each layer provides services to which layer?",
+      "choices": [
+        "The layer above it",
+        "Only the bottom layer",
+        "Every layer simultaneously",
+        "No other layer"
+      ],
+      "correctAnswer": "The layer above it",
+      "explanation": "The module states that The layer above it.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 19
+      }
+    },
+    {
+      "id": "q183",
+      "type": "multiple-choice",
+      "topic": "REST Requests",
+      "question": "Which URI component consists of host and port?",
+      "choices": [
+        "Authority",
+        "Scheme",
+        "Path",
+        "Query"
+      ],
+      "correctAnswer": "Authority",
+      "explanation": "The module states that Authority.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 23
+      }
+    },
+    {
+      "id": "q184",
+      "type": "multiple-choice",
+      "topic": "REST Requests",
+      "question": "Which URI component represents the resource location on the server?",
+      "choices": [
+        "Path",
+        "Query",
+        "Scheme",
+        "Authority"
+      ],
+      "correctAnswer": "Path",
+      "explanation": "The module states that Path.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 23
+      }
+    },
+    {
+      "id": "q185",
+      "type": "multiple-choice",
+      "topic": "HTTP Methods",
+      "question": "Which HTTP method creates a new resource?",
+      "choices": [
+        "POST",
+        "GET",
+        "PATCH",
+        "DELETE"
+      ],
+      "correctAnswer": "POST",
+      "explanation": "The module states that POST.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 24
+      }
+    },
+    {
+      "id": "q186",
+      "type": "multiple-choice",
+      "topic": "HTTP Methods",
+      "question": "Which HTTP method removes a resource?",
+      "choices": [
+        "DELETE",
+        "GET",
+        "POST",
+        "PUT"
+      ],
+      "correctAnswer": "DELETE",
+      "explanation": "The module states that DELETE.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 24
+      }
+    },
+    {
+      "id": "q187",
+      "type": "multiple-choice",
+      "topic": "HTTP Status Codes",
+      "question": "Which code means a request was accepted for processing and is in process?",
+      "choices": [
+        "202 Accepted",
+        "201 Created",
+        "404 Not Found",
+        "500 Internal Server Error"
+      ],
+      "correctAnswer": "202 Accepted",
+      "explanation": "The module states that 202 Accepted.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 29
+      }
+    },
+    {
+      "id": "q188",
+      "type": "multiple-choice",
+      "topic": "HTTP Status Codes",
+      "question": "Which code means the server understood the request but rejected it?",
+      "choices": [
+        "403 Forbidden",
+        "401 Unauthorized",
+        "400 Bad Request",
+        "503 Service Unavailable"
+      ],
+      "correctAnswer": "403 Forbidden",
+      "explanation": "The module states that 403 Forbidden.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 29
+      }
+    },
+    {
+      "id": "q189",
+      "type": "multiple-choice",
+      "topic": "HTTP Status Codes",
+      "question": "Which code indicates the resource path was not found?",
+      "choices": [
+        "404 Not Found",
+        "400 Bad Request",
+        "202 Accepted",
+        "500 Internal Server Error"
+      ],
+      "correctAnswer": "404 Not Found",
+      "explanation": "The module states that 404 Not Found.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 29
+      }
+    },
+    {
+      "id": "q190",
+      "type": "multiple-choice",
+      "topic": "Authentication",
+      "question": "How are credentials handled in Basic authentication?",
+      "choices": [
+        "Username/password pairs are separated by a colon and Base64 encoded",
+        "Stored as a Git snapshot",
+        "Sent only by webhook",
+        "Converted to a SOAP Fault"
+      ],
+      "correctAnswer": "Username/password pairs are separated by a colon and Base64 encoded",
+      "explanation": "The module states that Username/password pairs are separated by a colon and Base64 encoded.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 36
+      }
+    },
+    {
+      "id": "q191",
+      "type": "multiple-choice",
+      "topic": "Authentication",
+      "question": "What does Bearer authentication use?",
+      "choices": [
+        "A bearer token generated by an authentication server",
+        "A Git branch",
+        "A VM guest name",
+        "A fixed-window counter"
+      ],
+      "correctAnswer": "A bearer token generated by an authentication server",
+      "explanation": "The module states that A bearer token generated by an authentication server.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 36
+      }
+    },
+    {
+      "id": "q192",
+      "type": "multiple-choice",
+      "topic": "Rate Limits",
+      "question": "What happens in leaky bucket when the request queue is full?",
+      "choices": [
+        "The request is rejected",
+        "The queue becomes unlimited",
+        "The server disables HTTP",
+        "The client receives a Git commit"
+      ],
+      "correctAnswer": "The request is rejected",
+      "explanation": "The module states that The request is rejected.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 41
+      }
+    },
+    {
+      "id": "q193",
+      "type": "multiple-choice",
+      "topic": "Rate Limits",
+      "question": "Which key indicates requests remaining in the current window?",
+      "choices": [
+        "X-Rate Limit-Remaining",
+        "X-Rate Limit-Reset",
+        "Content-Type",
+        "Set-Cookie"
+      ],
+      "correctAnswer": "X-Rate Limit-Remaining",
+      "explanation": "The module states that X-Rate Limit-Remaining.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 45
+      }
+    },
+    {
+      "id": "q194",
+      "type": "true-false",
+      "topic": "API Fundamentals",
+      "question": "Providing APIs can let applications control what they expose in a secure way.",
+      "correctAnswer": true,
+      "explanation": "This follows directly from the cited module page.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 4
+      }
+    },
+    {
+      "id": "q195",
+      "type": "multiple-answer",
+      "topic": "RPC",
+      "question": "(Choose 4) Select all examples listed for RPC.",
+      "choices": [
+        "XML-RPC",
+        "JSON-RPC",
+        "NFS",
+        "SOAP",
+        "MVC"
+      ],
+      "correctAnswers": [
+        "XML-RPC",
+        "JSON-RPC",
+        "NFS",
+        "SOAP"
+      ],
+      "explanation": "All selected options are explicitly listed on the cited module page.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 13
+      }
+    },
+    {
+      "id": "q196",
+      "type": "multiple-answer",
+      "topic": "SOAP",
+      "question": "(Choose 3) Select all characteristics attributed to SOAP.",
+      "choices": [
+        "Independent",
+        "Extensible",
+        "Neutral",
+        "Git-specific"
+      ],
+      "correctAnswers": [
+        "Independent",
+        "Extensible",
+        "Neutral"
+      ],
+      "explanation": "All selected options are explicitly listed on the cited module page.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 14
+      }
+    },
+    {
+      "id": "q197",
+      "type": "multiple-answer",
+      "topic": "REST Uniform Interface",
+      "question": "(Choose 4) Select all listed uniform-interface principles.",
+      "choices": [
+        "Identification of resources",
+        "Manipulation of resources through representations",
+        "Self-descriptive messages",
+        "Hypermedia as the engine of application state",
+        "Mandatory server sessions"
+      ],
+      "correctAnswers": [
+        "Identification of resources",
+        "Manipulation of resources through representations",
+        "Self-descriptive messages",
+        "Hypermedia as the engine of application state"
+      ],
+      "explanation": "All selected options are explicitly listed on the cited module page.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 18
+      }
+    },
+    {
+      "id": "q198",
+      "type": "true-false",
+      "topic": "REST Request Body",
+      "question": "When request-body data is provided, its data type must be specified using Content-Type.",
+      "correctAnswer": true,
+      "explanation": "This follows directly from the cited module page.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 26
+      }
+    },
+    {
+      "id": "q199",
+      "type": "multiple-answer",
+      "topic": "HTTP Status Categories",
+      "question": "(Choose 5) Select all correctly matched status categories.",
+      "choices": [
+        "1xx — Informational",
+        "2xx — Success",
+        "3xx — Redirection",
+        "4xx — Client Error",
+        "5xx — Server Error",
+        "6xx — Authentication"
+      ],
+      "correctAnswers": [
+        "1xx — Informational",
+        "2xx — Success",
+        "3xx — Redirection",
+        "4xx — Client Error",
+        "5xx — Server Error"
+      ],
+      "explanation": "All selected options are explicitly listed on the cited module page.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 28
+      }
+    },
+    {
+      "id": "q200",
+      "type": "multiple-answer",
+      "topic": "Compressed Responses",
+      "question": "(Choose 6) Select all accepted Accept-Encoding values listed.",
+      "choices": [
+        "gzip",
+        "compress",
+        "deflate",
+        "br",
+        "identity",
+        "*",
+        "yaml"
+      ],
+      "correctAnswers": [
+        "gzip",
+        "compress",
+        "deflate",
+        "br",
+        "identity",
+        "*"
+      ],
+      "explanation": "All selected options are explicitly listed on the cited module page.",
+      "source": {
+        "module": "Module 4: Understanding and Using APIs",
+        "page": 31
+      }
+    }
+  ]
+}
