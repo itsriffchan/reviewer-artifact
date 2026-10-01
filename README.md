@@ -84,12 +84,10 @@ src/tests/       Unit and behavior tests
 | --- | --- |
 | [`CONTRIBUTING.md`](./CONTRIBUTING.md) | Code and content contribution workflow |
 | [`REVIEWER_TEMPLATE.md`](./REVIEWER_TEMPLATE.md) | Reviewer JSON authoring guide and template |
+| [`PROMPT.md`](./PROMPT.md) | Standard question-bank generator prompt |
 | [`SPEC.md`](./SPEC.md) | Authoritative product requirements |
 | [`DESIGN.md`](./DESIGN.md) | Visual and accessibility direction |
 | [`IMPLEMENTATION_PLAN.md`](./IMPLEMENTATION_PLAN.md) | Technical architecture |
 | [`TASKS.md`](./TASKS.md) | Implementation checklist and status |
 | [`AGENTS.md`](./AGENTS.md) | Instructions for coding agents |
 
-## Design principles
-
-The interface uses a focused purple/green connected-learning theme with opaque surfaces, clear borders, restrained depth, and no glassmorphism. Quiz content and accessibility take priority over decoration.
