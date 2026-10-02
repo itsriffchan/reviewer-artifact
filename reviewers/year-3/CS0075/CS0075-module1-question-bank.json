@@ -1,0 +1,4805 @@
+{
+  "schemaVersion": 1,
+  "id": "CS0075-module1",
+  "subject": {
+    "code": "CS0075",
+    "name": "Machine Learning Algorithms",
+    "yearLevel": 3
+  },
+  "reviewer": {
+    "title": "Module 1 – Introduction to Machine Learning",
+    "description": "Comprehensive third-year reviewer covering Module 1: machine learning fundamentals, workflow, Python tools, preprocessing and EDA, feature scaling, model deployment, and data ethics/privacy.",
+    "coverage": [
+      "Machine Learning Fundamentals",
+      "ML Types, Workflow, and Applications",
+      "Python Tools and Libraries",
+      "Data Preprocessing and Data Quality",
+      "Exploratory Data Analysis",
+      "Feature Scaling: StandardScaler and MinMaxScaler",
+      "Model Deployment",
+      "Data Ethics, Privacy, and Governance"
+    ],
+    "shuffleQuestions": true,
+    "shuffleChoices": true
+  },
+  "questions": [
+    {
+      "id": "q001",
+      "type": "multiple-choice",
+      "topic": "Machine Learning Fundamentals",
+      "question": "Which module-supported answer best completes this concept check? Machine learning is about extracting knowledge from data: _____",
+      "choices": [
+        "extracting knowledge from data",
+        "fatigue or inattention",
+        "performance measure",
+        "self-driving cars"
+      ],
+      "correctAnswer": "extracting knowledge from data",
+      "explanation": "Machine learning is about extracting knowledge from data.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 5
+      }
+    },
+    {
+      "id": "q002",
+      "type": "fill-blank",
+      "topic": "Machine Learning Fundamentals",
+      "question": "Complete the module concept: Machine learning is about _____.",
+      "acceptedAnswers": [
+        "extracting knowledge from data"
+      ],
+      "explanation": "Machine learning is about extracting knowledge from data.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 5
+      }
+    },
+    {
+      "id": "q003",
+      "type": "multiple-choice",
+      "topic": "Machine Learning Fundamentals",
+      "question": "Which module-supported answer best completes this concept check? Machine learning sits at the intersection of statistics, artificial intelligence, and computer science: _____",
+      "choices": [
+        "statistics, artificial intelligence, and computer science",
+        "extracting knowledge from data",
+        "predictive analytics or statistical learning",
+        "performance measure"
+      ],
+      "correctAnswer": "statistics, artificial intelligence, and computer science",
+      "explanation": "Machine learning sits at the intersection of statistics, artificial intelligence, and computer science.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 5
+      }
+    },
+    {
+      "id": "q004",
+      "type": "fill-blank",
+      "topic": "Machine Learning Fundamentals",
+      "question": "Complete the module concept: Machine learning sits at the intersection of _____.",
+      "acceptedAnswers": [
+        "statistics, artificial intelligence, and computer science"
+      ],
+      "explanation": "Machine learning sits at the intersection of statistics, artificial intelligence, and computer science.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 5
+      }
+    },
+    {
+      "id": "q005",
+      "type": "multiple-choice",
+      "topic": "Machine Learning Fundamentals",
+      "question": "Which module-supported answer best completes this concept check? Machine learning is also known as predictive analytics or statistical learning: _____",
+      "choices": [
+        "predictive analytics or statistical learning",
+        "performance measure",
+        "experience E",
+        "tasks"
+      ],
+      "correctAnswer": "predictive analytics or statistical learning",
+      "explanation": "Machine learning is also known as predictive analytics or statistical learning.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 5
+      }
+    },
+    {
+      "id": "q006",
+      "type": "fill-blank",
+      "topic": "Machine Learning Fundamentals",
+      "question": "Complete the module concept: Machine learning is also known as _____.",
+      "acceptedAnswers": [
+        "predictive analytics or statistical learning"
+      ],
+      "explanation": "Machine learning is also known as predictive analytics or statistical learning.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 5
+      }
+    },
+    {
+      "id": "q007",
+      "type": "multiple-choice",
+      "topic": "Machine Learning Fundamentals",
+      "question": "Which module-supported answer best completes this concept check? Arthur Samuel described machine learning as giving computers the ability to learn without being explicitly programmed: _____",
+      "choices": [
+        "learn without being explicitly programmed",
+        "self-driving cars",
+        "robotic arms",
+        "extracting knowledge from data"
+      ],
+      "correctAnswer": "learn without being explicitly programmed",
+      "explanation": "Arthur Samuel described machine learning as giving computers the ability to learn without being explicitly programmed.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 5
+      }
+    },
+    {
+      "id": "q008",
+      "type": "fill-blank",
+      "topic": "Machine Learning Fundamentals",
+      "question": "Complete the module concept: Arthur Samuel described machine learning as giving computers the ability to _____.",
+      "acceptedAnswers": [
+        "learn without being explicitly programmed"
+      ],
+      "explanation": "Arthur Samuel described machine learning as giving computers the ability to learn without being explicitly programmed.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 5
+      }
+    },
+    {
+      "id": "q009",
+      "type": "multiple-choice",
+      "topic": "Machine Learning Fundamentals",
+      "question": "Which module-supported answer best completes this concept check? ML can automatically learn from data and past experiences while identifying patterns to make predictions with minimal human intervention: _____",
+      "choices": [
+        "data and past experiences",
+        "explicit programming",
+        "learn without being explicitly programmed",
+        "automatically learned"
+      ],
+      "correctAnswer": "data and past experiences",
+      "explanation": "ML can automatically learn from data and past experiences while identifying patterns to make predictions with minimal human intervention.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 5
+      }
+    },
+    {
+      "id": "q010",
+      "type": "fill-blank",
+      "topic": "Machine Learning Fundamentals",
+      "question": "Complete the module concept: ML can automatically learn from _____ while identifying patterns to make predictions with minimal human intervention.",
+      "acceptedAnswers": [
+        "data and past experiences"
+      ],
+      "explanation": "ML can automatically learn from data and past experiences while identifying patterns to make predictions with minimal human intervention.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 5
+      }
+    },
+    {
+      "id": "q011",
+      "type": "multiple-choice",
+      "topic": "Machine Learning Fundamentals",
+      "question": "Which module-supported answer best completes this concept check? A program learns from experience E with respect to tasks T and performance measure P when performance on T, measured by P, improves with E: _____",
+      "choices": [
+        "experience E",
+        "fatigue or inattention",
+        "self-driving cars",
+        "autonomously"
+      ],
+      "correctAnswer": "experience E",
+      "explanation": "A program learns from experience E with respect to tasks T and performance measure P when performance on T, measured by P, improves with E.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 6
+      }
+    },
+    {
+      "id": "q012",
+      "type": "fill-blank",
+      "topic": "Machine Learning Fundamentals",
+      "question": "Complete the module concept: A program learns from _____ with respect to tasks T and performance measure P when performance on T, measured by P, improves with E.",
+      "acceptedAnswers": [
+        "experience E"
+      ],
+      "explanation": "A program learns from experience E with respect to tasks T and performance measure P when performance on T, measured by P, improves with E.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 6
+      }
+    },
+    {
+      "id": "q013",
+      "type": "multiple-choice",
+      "topic": "Machine Learning Fundamentals",
+      "question": "Which module-supported answer best completes this concept check? In the learning definition, T represents a class of tasks: _____",
+      "choices": [
+        "tasks",
+        "data and past experiences",
+        "performance measure",
+        "robotic arms"
+      ],
+      "correctAnswer": "tasks",
+      "explanation": "In the learning definition, T represents a class of tasks.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 6
+      }
+    },
+    {
+      "id": "q014",
+      "type": "fill-blank",
+      "topic": "Machine Learning Fundamentals",
+      "question": "Complete the module concept: In the learning definition, T represents a class of _____.",
+      "acceptedAnswers": [
+        "tasks"
+      ],
+      "explanation": "In the learning definition, T represents a class of tasks.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 6
+      }
+    },
+    {
+      "id": "q015",
+      "type": "multiple-choice",
+      "topic": "Machine Learning Fundamentals",
+      "question": "Which module-supported answer best completes this concept check? In the learning definition, P represents a performance measure: _____",
+      "choices": [
+        "performance measure",
+        "explicit programming",
+        "fatigue or inattention",
+        "tasks"
+      ],
+      "correctAnswer": "performance measure",
+      "explanation": "In the learning definition, P represents a performance measure.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 6
+      }
+    },
+    {
+      "id": "q016",
+      "type": "fill-blank",
+      "topic": "Machine Learning Fundamentals",
+      "question": "Complete the module concept: In the learning definition, P represents a _____.",
+      "acceptedAnswers": [
+        "performance measure"
+      ],
+      "explanation": "In the learning definition, P represents a performance measure.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 6
+      }
+    },
+    {
+      "id": "q017",
+      "type": "multiple-choice",
+      "topic": "Machine Learning Fundamentals",
+      "question": "Which module-supported answer best completes this concept check? Rule-based algorithms use explicit programming and manually specified rules: _____",
+      "choices": [
+        "explicit programming",
+        "performance measure",
+        "robotic arms",
+        "autonomously"
+      ],
+      "correctAnswer": "explicit programming",
+      "explanation": "Rule-based algorithms use explicit programming and manually specified rules.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 9
+      }
+    },
+    {
+      "id": "q018",
+      "type": "fill-blank",
+      "topic": "Machine Learning Fundamentals",
+      "question": "Complete the module concept: Rule-based algorithms use _____ and manually specified rules.",
+      "acceptedAnswers": [
+        "explicit programming"
+      ],
+      "explanation": "Rule-based algorithms use explicit programming and manually specified rules.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 9
+      }
+    },
+    {
+      "id": "q019",
+      "type": "multiple-choice",
+      "topic": "Machine Learning Fundamentals",
+      "question": "Which module-supported answer best completes this concept check? Machine-learning rules are automatically learned by machines from training samples: _____",
+      "choices": [
+        "automatically learned",
+        "statistics, artificial intelligence, and computer science",
+        "self-driving cars",
+        "learn without being explicitly programmed"
+      ],
+      "correctAnswer": "automatically learned",
+      "explanation": "Machine-learning rules are automatically learned by machines from training samples.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 9
+      }
+    },
+    {
+      "id": "q020",
+      "type": "fill-blank",
+      "topic": "Machine Learning Fundamentals",
+      "question": "Complete the module concept: Machine-learning rules are _____ by machines from training samples.",
+      "acceptedAnswers": [
+        "automatically learned"
+      ],
+      "explanation": "Machine-learning rules are automatically learned by machines from training samples.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 9
+      }
+    },
+    {
+      "id": "q021",
+      "type": "multiple-choice",
+      "topic": "Machine Learning Fundamentals",
+      "question": "Which module-supported answer best completes this concept check? ML methods enable computers to operate autonomously without explicit programming: _____",
+      "choices": [
+        "autonomously",
+        "explicit programming",
+        "data and past experiences",
+        "self-driving cars"
+      ],
+      "correctAnswer": "autonomously",
+      "explanation": "ML methods enable computers to operate autonomously without explicit programming.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 11
+      }
+    },
+    {
+      "id": "q022",
+      "type": "fill-blank",
+      "topic": "Machine Learning Fundamentals",
+      "question": "Complete the module concept: ML methods enable computers to operate _____ without explicit programming.",
+      "acceptedAnswers": [
+        "autonomously"
+      ],
+      "explanation": "ML methods enable computers to operate autonomously without explicit programming.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 11
+      }
+    },
+    {
+      "id": "q023",
+      "type": "multiple-choice",
+      "topic": "Machine Learning Fundamentals",
+      "question": "Which module-supported answer best completes this concept check? ML performance can adaptively improve as the number of available learning samples increases: _____",
+      "choices": [
+        "available samples",
+        "automatically learned",
+        "explicit programming",
+        "statistics, artificial intelligence, and computer science"
+      ],
+      "correctAnswer": "available samples",
+      "explanation": "ML performance can adaptively improve as the number of available learning samples increases.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 11
+      }
+    },
+    {
+      "id": "q024",
+      "type": "fill-blank",
+      "topic": "Machine Learning Fundamentals",
+      "question": "Complete the module concept: ML performance can adaptively improve as the number of available learning samples increases. Key term: _____",
+      "acceptedAnswers": [
+        "available samples"
+      ],
+      "explanation": "ML performance can adaptively improve as the number of available learning samples increases.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 11
+      }
+    },
+    {
+      "id": "q025",
+      "type": "multiple-choice",
+      "topic": "Machine Learning Fundamentals",
+      "question": "Which module-supported answer best completes this concept check? Learning machines are suited to routine, repetitive, or tedious tasks: _____",
+      "choices": [
+        "routine, repetitive, or tedious",
+        "statistics, artificial intelligence, and computer science",
+        "self-driving cars",
+        "automatically learned"
+      ],
+      "correctAnswer": "routine, repetitive, or tedious",
+      "explanation": "Learning machines are suited to routine, repetitive, or tedious tasks.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 12
+      }
+    },
+    {
+      "id": "q026",
+      "type": "fill-blank",
+      "topic": "Machine Learning Fundamentals",
+      "question": "Complete the module concept: Learning machines are suited to _____ tasks.",
+      "acceptedAnswers": [
+        "routine, repetitive, or tedious"
+      ],
+      "explanation": "Learning machines are suited to routine, repetitive, or tedious tasks.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 12
+      }
+    },
+    {
+      "id": "q027",
+      "type": "multiple-choice",
+      "topic": "Machine Learning Fundamentals",
+      "question": "Which module-supported answer best completes this concept check? ML automation can mitigate risks caused by fatigue or inattention: _____",
+      "choices": [
+        "fatigue or inattention",
+        "automatically learned",
+        "performance measure",
+        "statistics, artificial intelligence, and computer science"
+      ],
+      "correctAnswer": "fatigue or inattention",
+      "explanation": "ML automation can mitigate risks caused by fatigue or inattention.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 12
+      }
+    },
+    {
+      "id": "q028",
+      "type": "fill-blank",
+      "topic": "Machine Learning Fundamentals",
+      "question": "Complete the module concept: ML automation can mitigate risks caused by _____.",
+      "acceptedAnswers": [
+        "fatigue or inattention"
+      ],
+      "explanation": "ML automation can mitigate risks caused by fatigue or inattention.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 12
+      }
+    },
+    {
+      "id": "q029",
+      "type": "multiple-choice",
+      "topic": "Machine Learning Fundamentals",
+      "question": "Which module-supported answer best completes this concept check? Self-driving cars are presented as vehicles that navigate by sensing their environment and making decisions without human input: _____",
+      "choices": [
+        "self-driving cars",
+        "extracting knowledge from data",
+        "statistics, artificial intelligence, and computer science",
+        "available samples"
+      ],
+      "correctAnswer": "self-driving cars",
+      "explanation": "Self-driving cars are presented as vehicles that navigate by sensing their environment and making decisions without human input.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 13
+      }
+    },
+    {
+      "id": "q030",
+      "type": "fill-blank",
+      "topic": "Machine Learning Fundamentals",
+      "question": "Complete the module concept: Self-driving cars are presented as vehicles that navigate by sensing their environment and making decisions without human input. Key term: _____",
+      "acceptedAnswers": [
+        "self-driving cars"
+      ],
+      "explanation": "Self-driving cars are presented as vehicles that navigate by sensing their environment and making decisions without human input.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 13
+      }
+    },
+    {
+      "id": "q031",
+      "type": "multiple-choice",
+      "topic": "Machine Learning Fundamentals",
+      "question": "Which module-supported answer best completes this concept check? Robotic arms in production lines are presented as capable of reducing injuries and costs: _____",
+      "choices": [
+        "robotic arms",
+        "experience E",
+        "learn without being explicitly programmed",
+        "statistics, artificial intelligence, and computer science"
+      ],
+      "correctAnswer": "robotic arms",
+      "explanation": "Robotic arms in production lines are presented as capable of reducing injuries and costs.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 14
+      }
+    },
+    {
+      "id": "q032",
+      "type": "fill-blank",
+      "topic": "Machine Learning Fundamentals",
+      "question": "Complete the module concept: Robotic arms in production lines are presented as capable of reducing injuries and costs. Key term: _____",
+      "acceptedAnswers": [
+        "robotic arms"
+      ],
+      "explanation": "Robotic arms in production lines are presented as capable of reducing injuries and costs.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 14
+      }
+    },
+    {
+      "id": "q033",
+      "type": "multiple-choice",
+      "topic": "ML Types, Workflow, and Applications",
+      "question": "Which module-supported answer best completes this concept check? The module lists supervised, unsupervised, semi-supervised, and reinforcement learning as types of machine learning: _____",
+      "choices": [
+        "supervised, unsupervised, semi-supervised, and reinforcement learning",
+        "predictive maintenance",
+        "healthcare, automobile, transportation, manufacturing, e-commerce, and insurance",
+        "new data"
+      ],
+      "correctAnswer": "supervised, unsupervised, semi-supervised, and reinforcement learning",
+      "explanation": "The module lists supervised, unsupervised, semi-supervised, and reinforcement learning as types of machine learning.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 15
+      }
+    },
+    {
+      "id": "q034",
+      "type": "fill-blank",
+      "topic": "ML Types, Workflow, and Applications",
+      "question": "Complete the module concept: The module lists _____ as types of machine learning.",
+      "acceptedAnswers": [
+        "supervised, unsupervised, semi-supervised, and reinforcement learning"
+      ],
+      "explanation": "The module lists supervised, unsupervised, semi-supervised, and reinforcement learning as types of machine learning.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 15
+      }
+    },
+    {
+      "id": "q035",
+      "type": "multiple-choice",
+      "topic": "ML Types, Workflow, and Applications",
+      "question": "Which module-supported answer best completes this concept check? The learning phase includes training data, preprocessing, learning, and testing: _____",
+      "choices": [
+        "training data, preprocessing, learning, and testing",
+        "facial recognition, motion tracking, and object detection",
+        "project setup, data preparation, modeling, and deployment",
+        "DNA sequencing, brain tumor detection, and drug discovery"
+      ],
+      "correctAnswer": "training data, preprocessing, learning, and testing",
+      "explanation": "The learning phase includes training data, preprocessing, learning, and testing.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 18
+      }
+    },
+    {
+      "id": "q036",
+      "type": "fill-blank",
+      "topic": "ML Types, Workflow, and Applications",
+      "question": "Complete the module concept: The learning phase includes _____.",
+      "acceptedAnswers": [
+        "training data, preprocessing, learning, and testing"
+      ],
+      "explanation": "The learning phase includes training data, preprocessing, learning, and testing.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 18
+      }
+    },
+    {
+      "id": "q037",
+      "type": "multiple-choice",
+      "topic": "ML Types, Workflow, and Applications",
+      "question": "Which module-supported answer best completes this concept check? Preprocessing in the learning phase includes cleaning and formatting data: _____",
+      "choices": [
+        "cleaning and formatting data",
+        "DNA sequencing, brain tumor detection, and drug discovery",
+        "supervised, unsupervised, semi-supervised, and reinforcement learning",
+        "project setup, data preparation, modeling, and deployment"
+      ],
+      "correctAnswer": "cleaning and formatting data",
+      "explanation": "Preprocessing in the learning phase includes cleaning and formatting data.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 18
+      }
+    },
+    {
+      "id": "q038",
+      "type": "fill-blank",
+      "topic": "ML Types, Workflow, and Applications",
+      "question": "Complete the module concept: Preprocessing in the learning phase includes _____.",
+      "acceptedAnswers": [
+        "cleaning and formatting data"
+      ],
+      "explanation": "Preprocessing in the learning phase includes cleaning and formatting data.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 18
+      }
+    },
+    {
+      "id": "q039",
+      "type": "multiple-choice",
+      "topic": "ML Types, Workflow, and Applications",
+      "question": "Which module-supported answer best completes this concept check? Testing includes measuring performance and testing the algorithm: _____",
+      "choices": [
+        "measuring performance and testing the algorithm",
+        "credit scoring and algorithmic trading",
+        "voice recognition",
+        "recommendation engines"
+      ],
+      "correctAnswer": "measuring performance and testing the algorithm",
+      "explanation": "Testing includes measuring performance and testing the algorithm.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 18
+      }
+    },
+    {
+      "id": "q040",
+      "type": "fill-blank",
+      "topic": "ML Types, Workflow, and Applications",
+      "question": "Complete the module concept: Testing includes _____.",
+      "acceptedAnswers": [
+        "measuring performance and testing the algorithm"
+      ],
+      "explanation": "Testing includes measuring performance and testing the algorithm.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 18
+      }
+    },
+    {
+      "id": "q041",
+      "type": "multiple-choice",
+      "topic": "ML Types, Workflow, and Applications",
+      "question": "Which module-supported answer best completes this concept check? The prediction phase combines new data with a trained model to produce a prediction: _____",
+      "choices": [
+        "new data",
+        "predictive maintenance",
+        "recommendation engines",
+        "DNA sequencing, brain tumor detection, and drug discovery"
+      ],
+      "correctAnswer": "new data",
+      "explanation": "The prediction phase combines new data with a trained model to produce a prediction.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 18
+      }
+    },
+    {
+      "id": "q042",
+      "type": "fill-blank",
+      "topic": "ML Types, Workflow, and Applications",
+      "question": "Complete the module concept: The prediction phase combines _____ with a trained model to produce a prediction.",
+      "acceptedAnswers": [
+        "new data"
+      ],
+      "explanation": "The prediction phase combines new data with a trained model to produce a prediction.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 18
+      }
+    },
+    {
+      "id": "q043",
+      "type": "multiple-choice",
+      "topic": "ML Types, Workflow, and Applications",
+      "question": "Which module-supported answer best completes this concept check? The workflow graphic groups work into project setup, data preparation, modeling, and deployment: _____",
+      "choices": [
+        "project setup, data preparation, modeling, and deployment",
+        "fraud detection",
+        "facial recognition, motion tracking, and object detection",
+        "new data"
+      ],
+      "correctAnswer": "project setup, data preparation, modeling, and deployment",
+      "explanation": "The workflow graphic groups work into project setup, data preparation, modeling, and deployment.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 16
+      }
+    },
+    {
+      "id": "q044",
+      "type": "fill-blank",
+      "topic": "ML Types, Workflow, and Applications",
+      "question": "Complete the module concept: The workflow graphic groups work into _____.",
+      "acceptedAnswers": [
+        "project setup, data preparation, modeling, and deployment"
+      ],
+      "explanation": "The workflow graphic groups work into project setup, data preparation, modeling, and deployment.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 16
+      }
+    },
+    {
+      "id": "q045",
+      "type": "multiple-choice",
+      "topic": "ML Types, Workflow, and Applications",
+      "question": "Which module-supported answer best completes this concept check? The module lists healthcare, automobile, transportation, manufacturing, e-commerce, and insurance as ML application areas: _____",
+      "choices": [
+        "healthcare, automobile, transportation, manufacturing, e-commerce, and insurance",
+        "project setup, data preparation, modeling, and deployment",
+        "DNA sequencing, brain tumor detection, and drug discovery",
+        "training data, preprocessing, learning, and testing"
+      ],
+      "correctAnswer": "healthcare, automobile, transportation, manufacturing, e-commerce, and insurance",
+      "explanation": "The module lists healthcare, automobile, transportation, manufacturing, e-commerce, and insurance as ML application areas.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 24
+      }
+    },
+    {
+      "id": "q046",
+      "type": "fill-blank",
+      "topic": "ML Types, Workflow, and Applications",
+      "question": "Complete the module concept: The module lists _____ as ML application areas.",
+      "acceptedAnswers": [
+        "healthcare, automobile, transportation, manufacturing, e-commerce, and insurance"
+      ],
+      "explanation": "The module lists healthcare, automobile, transportation, manufacturing, e-commerce, and insurance as ML application areas.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 24
+      }
+    },
+    {
+      "id": "q047",
+      "type": "multiple-choice",
+      "topic": "ML Types, Workflow, and Applications",
+      "question": "Which module-supported answer best completes this concept check? Computational finance applications include credit scoring and algorithmic trading: _____",
+      "choices": [
+        "credit scoring and algorithmic trading",
+        "recommendation engines",
+        "facial recognition, motion tracking, and object detection",
+        "new data"
+      ],
+      "correctAnswer": "credit scoring and algorithmic trading",
+      "explanation": "Computational finance applications include credit scoring and algorithmic trading.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 25
+      }
+    },
+    {
+      "id": "q048",
+      "type": "fill-blank",
+      "topic": "ML Types, Workflow, and Applications",
+      "question": "Complete the module concept: Computational finance applications include _____.",
+      "acceptedAnswers": [
+        "credit scoring and algorithmic trading"
+      ],
+      "explanation": "Computational finance applications include credit scoring and algorithmic trading.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 25
+      }
+    },
+    {
+      "id": "q049",
+      "type": "multiple-choice",
+      "topic": "ML Types, Workflow, and Applications",
+      "question": "Which module-supported answer best completes this concept check? Computer vision applications include facial recognition, motion tracking, and object detection: _____",
+      "choices": [
+        "facial recognition, motion tracking, and object detection",
+        "predictive maintenance",
+        "supervised, unsupervised, semi-supervised, and reinforcement learning",
+        "DNA sequencing, brain tumor detection, and drug discovery"
+      ],
+      "correctAnswer": "facial recognition, motion tracking, and object detection",
+      "explanation": "Computer vision applications include facial recognition, motion tracking, and object detection.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 25
+      }
+    },
+    {
+      "id": "q050",
+      "type": "fill-blank",
+      "topic": "ML Types, Workflow, and Applications",
+      "question": "Complete the module concept: Computer vision applications include _____.",
+      "acceptedAnswers": [
+        "facial recognition, motion tracking, and object detection"
+      ],
+      "explanation": "Computer vision applications include facial recognition, motion tracking, and object detection.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 25
+      }
+    },
+    {
+      "id": "q051",
+      "type": "multiple-choice",
+      "topic": "ML Types, Workflow, and Applications",
+      "question": "Which module-supported answer best completes this concept check? Computational biology applications include DNA sequencing, brain tumor detection, and drug discovery: _____",
+      "choices": [
+        "DNA sequencing, brain tumor detection, and drug discovery",
+        "new data",
+        "measuring performance and testing the algorithm",
+        "supervised, unsupervised, semi-supervised, and reinforcement learning"
+      ],
+      "correctAnswer": "DNA sequencing, brain tumor detection, and drug discovery",
+      "explanation": "Computational biology applications include DNA sequencing, brain tumor detection, and drug discovery.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 25
+      }
+    },
+    {
+      "id": "q052",
+      "type": "fill-blank",
+      "topic": "ML Types, Workflow, and Applications",
+      "question": "Complete the module concept: Computational biology applications include _____.",
+      "acceptedAnswers": [
+        "DNA sequencing, brain tumor detection, and drug discovery"
+      ],
+      "explanation": "Computational biology applications include DNA sequencing, brain tumor detection, and drug discovery.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 25
+      }
+    },
+    {
+      "id": "q053",
+      "type": "multiple-choice",
+      "topic": "ML Types, Workflow, and Applications",
+      "question": "Which module-supported answer best completes this concept check? Automotive, aerospace, and manufacturing are associated with predictive maintenance: _____",
+      "choices": [
+        "predictive maintenance",
+        "project setup, data preparation, modeling, and deployment",
+        "new data",
+        "DNA sequencing, brain tumor detection, and drug discovery"
+      ],
+      "correctAnswer": "predictive maintenance",
+      "explanation": "Automotive, aerospace, and manufacturing are associated with predictive maintenance.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 25
+      }
+    },
+    {
+      "id": "q054",
+      "type": "fill-blank",
+      "topic": "ML Types, Workflow, and Applications",
+      "question": "Complete the module concept: Automotive, aerospace, and manufacturing are associated with _____.",
+      "acceptedAnswers": [
+        "predictive maintenance"
+      ],
+      "explanation": "Automotive, aerospace, and manufacturing are associated with predictive maintenance.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 25
+      }
+    },
+    {
+      "id": "q055",
+      "type": "multiple-choice",
+      "topic": "ML Types, Workflow, and Applications",
+      "question": "Which module-supported answer best completes this concept check? Natural language processing is associated with voice recognition: _____",
+      "choices": [
+        "voice recognition",
+        "credit scoring and algorithmic trading",
+        "training data, preprocessing, learning, and testing",
+        "new data"
+      ],
+      "correctAnswer": "voice recognition",
+      "explanation": "Natural language processing is associated with voice recognition.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 25
+      }
+    },
+    {
+      "id": "q056",
+      "type": "fill-blank",
+      "topic": "ML Types, Workflow, and Applications",
+      "question": "Complete the module concept: Natural language processing is associated with _____.",
+      "acceptedAnswers": [
+        "voice recognition"
+      ],
+      "explanation": "Natural language processing is associated with voice recognition.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 25
+      }
+    },
+    {
+      "id": "q057",
+      "type": "multiple-choice",
+      "topic": "ML Types, Workflow, and Applications",
+      "question": "Which module-supported answer best completes this concept check? Business ML examples shown include text parsing, recommendation engines, customer service chatbots, decision support, and image classification: _____",
+      "choices": [
+        "recommendation engines",
+        "cleaning and formatting data",
+        "new data",
+        "supervised, unsupervised, semi-supervised, and reinforcement learning"
+      ],
+      "correctAnswer": "recommendation engines",
+      "explanation": "Business ML examples shown include text parsing, recommendation engines, customer service chatbots, decision support, and image classification.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 26
+      }
+    },
+    {
+      "id": "q058",
+      "type": "fill-blank",
+      "topic": "ML Types, Workflow, and Applications",
+      "question": "Complete the module concept: Business ML examples shown include text parsing, _____, customer service chatbots, decision support, and image classification.",
+      "acceptedAnswers": [
+        "recommendation engines"
+      ],
+      "explanation": "Business ML examples shown include text parsing, recommendation engines, customer service chatbots, decision support, and image classification.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 26
+      }
+    },
+    {
+      "id": "q059",
+      "type": "multiple-choice",
+      "topic": "ML Types, Workflow, and Applications",
+      "question": "Which module-supported answer best completes this concept check? Business ML examples shown include content generation and moderation, fraud detection, customer segmentation, churn modeling, and lead conversion/revenue prediction: _____",
+      "choices": [
+        "fraud detection",
+        "new data",
+        "voice recognition",
+        "predictive maintenance"
+      ],
+      "correctAnswer": "fraud detection",
+      "explanation": "Business ML examples shown include content generation and moderation, fraud detection, customer segmentation, churn modeling, and lead conversion/revenue prediction.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 26
+      }
+    },
+    {
+      "id": "q060",
+      "type": "fill-blank",
+      "topic": "ML Types, Workflow, and Applications",
+      "question": "Complete the module concept: Business ML examples shown include content generation and moderation, _____, customer segmentation, churn modeling, and lead conversion/revenue prediction.",
+      "acceptedAnswers": [
+        "fraud detection"
+      ],
+      "explanation": "Business ML examples shown include content generation and moderation, fraud detection, customer segmentation, churn modeling, and lead conversion/revenue prediction.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 26
+      }
+    },
+    {
+      "id": "q061",
+      "type": "multiple-choice",
+      "topic": "Python Tools and Libraries",
+      "question": "Which module-supported answer best completes this concept check? Scikit-learn is described as a very popular tool and the most prominent Python library for ML: _____",
+      "choices": [
+        "Scikit-learn",
+        "SciPy",
+        "Anaconda",
+        "Jupyter Notebook"
+      ],
+      "correctAnswer": "Scikit-learn",
+      "explanation": "Scikit-learn is described as a very popular tool and the most prominent Python library for ML.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 23
+      }
+    },
+    {
+      "id": "q062",
+      "type": "fill-blank",
+      "topic": "Python Tools and Libraries",
+      "question": "Complete the module concept: _____ is described as a very popular tool and the most prominent Python library for ML.",
+      "acceptedAnswers": [
+        "Scikit-learn"
+      ],
+      "explanation": "Scikit-learn is described as a very popular tool and the most prominent Python library for ML.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 23
+      }
+    },
+    {
+      "id": "q063",
+      "type": "multiple-choice",
+      "topic": "Python Tools and Libraries",
+      "question": "Which module-supported answer best completes this concept check? NumPy is described as a fundamental package for scientific computing: _____",
+      "choices": [
+        "NumPy",
+        "Pandas",
+        "SciPy",
+        "Jupyter Notebook"
+      ],
+      "correctAnswer": "NumPy",
+      "explanation": "NumPy is described as a fundamental package for scientific computing.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 23
+      }
+    },
+    {
+      "id": "q064",
+      "type": "fill-blank",
+      "topic": "Python Tools and Libraries",
+      "question": "Complete the module concept: _____ is described as a fundamental package for scientific computing.",
+      "acceptedAnswers": [
+        "NumPy"
+      ],
+      "explanation": "NumPy is described as a fundamental package for scientific computing.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 23
+      }
+    },
+    {
+      "id": "q065",
+      "type": "multiple-choice",
+      "topic": "Python Tools and Libraries",
+      "question": "Which module-supported answer best completes this concept check? SciPy is described as a collection of functions for scientific computing: _____",
+      "choices": [
+        "SciPy",
+        "Matplotlib",
+        "Jupyter Notebook",
+        "NumPy"
+      ],
+      "correctAnswer": "SciPy",
+      "explanation": "SciPy is described as a collection of functions for scientific computing.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 23
+      }
+    },
+    {
+      "id": "q066",
+      "type": "fill-blank",
+      "topic": "Python Tools and Libraries",
+      "question": "Complete the module concept: _____ is described as a collection of functions for scientific computing.",
+      "acceptedAnswers": [
+        "SciPy"
+      ],
+      "explanation": "SciPy is described as a collection of functions for scientific computing.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 23
+      }
+    },
+    {
+      "id": "q067",
+      "type": "multiple-choice",
+      "topic": "Python Tools and Libraries",
+      "question": "Which module-supported answer best completes this concept check? Matplotlib is described as the primary scientific plotting library: _____",
+      "choices": [
+        "Matplotlib",
+        "Pandas",
+        "Jupyter Notebook",
+        "easy-to-read syntax"
+      ],
+      "correctAnswer": "Matplotlib",
+      "explanation": "Matplotlib is described as the primary scientific plotting library.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 23
+      }
+    },
+    {
+      "id": "q068",
+      "type": "fill-blank",
+      "topic": "Python Tools and Libraries",
+      "question": "Complete the module concept: _____ is described as the primary scientific plotting library.",
+      "acceptedAnswers": [
+        "Matplotlib"
+      ],
+      "explanation": "Matplotlib is described as the primary scientific plotting library.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 23
+      }
+    },
+    {
+      "id": "q069",
+      "type": "multiple-choice",
+      "topic": "Python Tools and Libraries",
+      "question": "Which module-supported answer best completes this concept check? Pandas is described as a library for data wrangling and analysis: _____",
+      "choices": [
+        "Pandas",
+        "NumPy",
+        "SciPy",
+        "Anaconda"
+      ],
+      "correctAnswer": "Pandas",
+      "explanation": "Pandas is described as a library for data wrangling and analysis.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 23
+      }
+    },
+    {
+      "id": "q070",
+      "type": "fill-blank",
+      "topic": "Python Tools and Libraries",
+      "question": "Complete the module concept: _____ is described as a library for data wrangling and analysis.",
+      "acceptedAnswers": [
+        "Pandas"
+      ],
+      "explanation": "Pandas is described as a library for data wrangling and analysis.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 23
+      }
+    },
+    {
+      "id": "q071",
+      "type": "multiple-choice",
+      "topic": "Python Tools and Libraries",
+      "question": "Which module-supported answer best completes this concept check? Anaconda is a Python distribution for large-scale data processing, predictive analysis, and scientific computing: _____",
+      "choices": [
+        "Anaconda",
+        "Matplotlib",
+        "easy-to-read syntax",
+        "Jupyter Notebook"
+      ],
+      "correctAnswer": "Anaconda",
+      "explanation": "Anaconda is a Python distribution for large-scale data processing, predictive analysis, and scientific computing.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 23
+      }
+    },
+    {
+      "id": "q072",
+      "type": "fill-blank",
+      "topic": "Python Tools and Libraries",
+      "question": "Complete the module concept: _____ is a Python distribution for large-scale data processing, predictive analysis, and scientific computing.",
+      "acceptedAnswers": [
+        "Anaconda"
+      ],
+      "explanation": "Anaconda is a Python distribution for large-scale data processing, predictive analysis, and scientific computing.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 23
+      }
+    },
+    {
+      "id": "q073",
+      "type": "multiple-choice",
+      "topic": "Python Tools and Libraries",
+      "question": "Which module-supported answer best completes this concept check? Jupyter Notebook is an interactive environment for running code in the browser: _____",
+      "choices": [
+        "Jupyter Notebook",
+        "SciPy",
+        "Matplotlib",
+        "Pandas"
+      ],
+      "correctAnswer": "Jupyter Notebook",
+      "explanation": "Jupyter Notebook is an interactive environment for running code in the browser.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 23
+      }
+    },
+    {
+      "id": "q074",
+      "type": "fill-blank",
+      "topic": "Python Tools and Libraries",
+      "question": "Complete the module concept: _____ is an interactive environment for running code in the browser.",
+      "acceptedAnswers": [
+        "Jupyter Notebook"
+      ],
+      "explanation": "Jupyter Notebook is an interactive environment for running code in the browser.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 23
+      }
+    },
+    {
+      "id": "q075",
+      "type": "multiple-choice",
+      "topic": "Python Tools and Libraries",
+      "question": "Which module-supported answer best completes this concept check? The module's Python infographic highlights easy-to-read syntax, extensive libraries/frameworks, community support, flexibility, compatibility, scalability, and performance: _____",
+      "choices": [
+        "easy-to-read syntax",
+        "SciPy",
+        "Jupyter Notebook",
+        "Matplotlib"
+      ],
+      "correctAnswer": "easy-to-read syntax",
+      "explanation": "The module's Python infographic highlights easy-to-read syntax, extensive libraries/frameworks, community support, flexibility, compatibility, scalability, and performance.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 21
+      }
+    },
+    {
+      "id": "q076",
+      "type": "fill-blank",
+      "topic": "Python Tools and Libraries",
+      "question": "Complete the module concept: The module's Python infographic highlights _____, extensive libraries/frameworks, community support, flexibility, compatibility, scalability, and performance.",
+      "acceptedAnswers": [
+        "easy-to-read syntax"
+      ],
+      "explanation": "The module's Python infographic highlights easy-to-read syntax, extensive libraries/frameworks, community support, flexibility, compatibility, scalability, and performance.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 21
+      }
+    },
+    {
+      "id": "q077",
+      "type": "multiple-choice",
+      "topic": "Data Preprocessing and Data Quality",
+      "question": "Which module-supported answer best completes this concept check? Incompleteness refers to missing values or data that lacks attributes: _____",
+      "choices": [
+        "incompleteness",
+        "data preparation",
+        "preprocessing",
+        "noise"
+      ],
+      "correctAnswer": "incompleteness",
+      "explanation": "Incompleteness refers to missing values or data that lacks attributes.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 27
+      }
+    },
+    {
+      "id": "q078",
+      "type": "fill-blank",
+      "topic": "Data Preprocessing and Data Quality",
+      "question": "Complete the module concept: Incompleteness refers to missing values or data that lacks attributes. Key term: _____",
+      "acceptedAnswers": [
+        "incompleteness"
+      ],
+      "explanation": "Incompleteness refers to missing values or data that lacks attributes.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 27
+      }
+    },
+    {
+      "id": "q079",
+      "type": "multiple-choice",
+      "topic": "Data Preprocessing and Data Quality",
+      "question": "Which module-supported answer best completes this concept check? Noise refers to incorrect records or exceptions: _____",
+      "choices": [
+        "noise",
+        "cleaning and transforming",
+        "good data",
+        "preprocessing"
+      ],
+      "correctAnswer": "noise",
+      "explanation": "Noise refers to incorrect records or exceptions.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 27
+      }
+    },
+    {
+      "id": "q080",
+      "type": "fill-blank",
+      "topic": "Data Preprocessing and Data Quality",
+      "question": "Complete the module concept: Noise refers to incorrect records or exceptions. Key term: _____",
+      "acceptedAnswers": [
+        "noise"
+      ],
+      "explanation": "Noise refers to incorrect records or exceptions.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 27
+      }
+    },
+    {
+      "id": "q081",
+      "type": "multiple-choice",
+      "topic": "Data Preprocessing and Data Quality",
+      "question": "Which module-supported answer best completes this concept check? Inconsistency refers to inconsistent records: _____",
+      "choices": [
+        "inconsistency",
+        "preprocessing",
+        "identifying missing data, reducing noisy data, and removing duplicates",
+        "good data"
+      ],
+      "correctAnswer": "inconsistency",
+      "explanation": "Inconsistency refers to inconsistent records.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 27
+      }
+    },
+    {
+      "id": "q082",
+      "type": "fill-blank",
+      "topic": "Data Preprocessing and Data Quality",
+      "question": "Complete the module concept: Inconsistency refers to inconsistent records. Key term: _____",
+      "acceptedAnswers": [
+        "inconsistency"
+      ],
+      "explanation": "Inconsistency refers to inconsistent records.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 27
+      }
+    },
+    {
+      "id": "q083",
+      "type": "multiple-choice",
+      "topic": "Data Preprocessing and Data Quality",
+      "question": "Which module-supported answer best completes this concept check? The module emphasizes: without good data, there is no good model: _____",
+      "choices": [
+        "good data",
+        "feature engineering",
+        "preprocessing",
+        "noise"
+      ],
+      "correctAnswer": "good data",
+      "explanation": "The module emphasizes: without good data, there is no good model.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 27
+      }
+    },
+    {
+      "id": "q084",
+      "type": "fill-blank",
+      "topic": "Data Preprocessing and Data Quality",
+      "question": "Complete the module concept: The module emphasizes: without _____, there is no good model.",
+      "acceptedAnswers": [
+        "good data"
+      ],
+      "explanation": "The module emphasizes: without good data, there is no good model.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 27
+      }
+    },
+    {
+      "id": "q085",
+      "type": "multiple-choice",
+      "topic": "Data Preprocessing and Data Quality",
+      "question": "Which module-supported answer best completes this concept check? The data-quality example illustrates missing values, invalid values, duplicate items, incorrect formats, attribute dependency, misspellings, and values in the wrong column: _____",
+      "choices": [
+        "missing values",
+        "incompleteness",
+        "inconsistency",
+        "outlier"
+      ],
+      "correctAnswer": "missing values",
+      "explanation": "The data-quality example illustrates missing values, invalid values, duplicate items, incorrect formats, attribute dependency, misspellings, and values in the wrong column.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 28
+      }
+    },
+    {
+      "id": "q086",
+      "type": "fill-blank",
+      "topic": "Data Preprocessing and Data Quality",
+      "question": "Complete the module concept: The data-quality example illustrates _____, invalid values, duplicate items, incorrect formats, attribute dependency, misspellings, and values in the wrong column.",
+      "acceptedAnswers": [
+        "missing values"
+      ],
+      "explanation": "The data-quality example illustrates missing values, invalid values, duplicate items, incorrect formats, attribute dependency, misspellings, and values in the wrong column.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 28
+      }
+    },
+    {
+      "id": "q087",
+      "type": "multiple-choice",
+      "topic": "Data Preprocessing and Data Quality",
+      "question": "Which module-supported answer best completes this concept check? An outlier is an observation that seems distant from other observations or follows a different logic or generative process: _____",
+      "choices": [
+        "outlier",
+        "missing values",
+        "feature scaling/normalization, data reduction, discretization, and feature encoding",
+        "preprocessing"
+      ],
+      "correctAnswer": "outlier",
+      "explanation": "An outlier is an observation that seems distant from other observations or follows a different logic or generative process.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 29
+      }
+    },
+    {
+      "id": "q088",
+      "type": "fill-blank",
+      "topic": "Data Preprocessing and Data Quality",
+      "question": "Complete the module concept: An _____ is an observation that seems distant from other observations or follows a different logic or generative process.",
+      "acceptedAnswers": [
+        "outlier"
+      ],
+      "explanation": "An outlier is an observation that seems distant from other observations or follows a different logic or generative process.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 29
+      }
+    },
+    {
+      "id": "q089",
+      "type": "multiple-choice",
+      "topic": "Data Preprocessing and Data Quality",
+      "question": "Which module-supported answer best completes this concept check? Preprocessing means cleaning, altering, and reorganizing raw data before processing and analysis: _____",
+      "choices": [
+        "preprocessing",
+        "data cleansing and feature engineering",
+        "incompleteness",
+        "feature scaling/normalization, data reduction, discretization, and feature encoding"
+      ],
+      "correctAnswer": "preprocessing",
+      "explanation": "Preprocessing means cleaning, altering, and reorganizing raw data before processing and analysis.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 30
+      }
+    },
+    {
+      "id": "q090",
+      "type": "fill-blank",
+      "topic": "Data Preprocessing and Data Quality",
+      "question": "Complete the module concept: Preprocessing means cleaning, altering, and reorganizing raw data before processing and analysis. Key term: _____",
+      "acceptedAnswers": [
+        "preprocessing"
+      ],
+      "explanation": "Preprocessing means cleaning, altering, and reorganizing raw data before processing and analysis.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 30
+      }
+    },
+    {
+      "id": "q091",
+      "type": "multiple-choice",
+      "topic": "Data Preprocessing and Data Quality",
+      "question": "Which module-supported answer best completes this concept check? Data preprocessing is also known as data preparation: _____",
+      "choices": [
+        "data preparation",
+        "data cleansing and feature engineering",
+        "cleaning and transforming",
+        "outlier"
+      ],
+      "correctAnswer": "data preparation",
+      "explanation": "Data preprocessing is also known as data preparation.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 30
+      }
+    },
+    {
+      "id": "q092",
+      "type": "fill-blank",
+      "topic": "Data Preprocessing and Data Quality",
+      "question": "Complete the module concept: Data preprocessing is also known as _____.",
+      "acceptedAnswers": [
+        "data preparation"
+      ],
+      "explanation": "Data preprocessing is also known as data preparation.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 30
+      }
+    },
+    {
+      "id": "q093",
+      "type": "multiple-choice",
+      "topic": "Data Preprocessing and Data Quality",
+      "question": "Which module-supported answer best completes this concept check? Preprocessing prepares data for analysis or modeling by cleaning and transforming it: _____",
+      "choices": [
+        "cleaning and transforming",
+        "feature engineering",
+        "data cleansing and feature engineering",
+        "feature scaling/normalization, data reduction, discretization, and feature encoding"
+      ],
+      "correctAnswer": "cleaning and transforming",
+      "explanation": "Preprocessing prepares data for analysis or modeling by cleaning and transforming it.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 30
+      }
+    },
+    {
+      "id": "q094",
+      "type": "fill-blank",
+      "topic": "Data Preprocessing and Data Quality",
+      "question": "Complete the module concept: Preprocessing prepares data for analysis or modeling by _____ it.",
+      "acceptedAnswers": [
+        "cleaning and transforming"
+      ],
+      "explanation": "Preprocessing prepares data for analysis or modeling by cleaning and transforming it.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 30
+      }
+    },
+    {
+      "id": "q095",
+      "type": "multiple-choice",
+      "topic": "Data Preprocessing and Data Quality",
+      "question": "Which module-supported answer best completes this concept check? The preprocessing steps graphic lists data profiling, data cleaning, data reduction, data transformation, data enrichment, and data validation: _____",
+      "choices": [
+        "data profiling, data cleaning, data reduction, data transformation, data enrichment, and data validation",
+        "feature engineering",
+        "preprocessing",
+        "good data"
+      ],
+      "correctAnswer": "data profiling, data cleaning, data reduction, data transformation, data enrichment, and data validation",
+      "explanation": "The preprocessing steps graphic lists data profiling, data cleaning, data reduction, data transformation, data enrichment, and data validation.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 31
+      }
+    },
+    {
+      "id": "q096",
+      "type": "fill-blank",
+      "topic": "Data Preprocessing and Data Quality",
+      "question": "Complete the module concept: The preprocessing steps graphic lists _____.",
+      "acceptedAnswers": [
+        "data profiling, data cleaning, data reduction, data transformation, data enrichment, and data validation"
+      ],
+      "explanation": "The preprocessing steps graphic lists data profiling, data cleaning, data reduction, data transformation, data enrichment, and data validation.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 31
+      }
+    },
+    {
+      "id": "q097",
+      "type": "multiple-choice",
+      "topic": "Data Preprocessing and Data Quality",
+      "question": "Which module-supported answer best completes this concept check? The module divides preprocessing techniques into data cleansing and feature engineering: _____",
+      "choices": [
+        "data cleansing and feature engineering",
+        "good data",
+        "noise",
+        "identifying missing data, reducing noisy data, and removing duplicates"
+      ],
+      "correctAnswer": "data cleansing and feature engineering",
+      "explanation": "The module divides preprocessing techniques into data cleansing and feature engineering.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 32
+      }
+    },
+    {
+      "id": "q098",
+      "type": "fill-blank",
+      "topic": "Data Preprocessing and Data Quality",
+      "question": "Complete the module concept: The module divides preprocessing techniques into _____.",
+      "acceptedAnswers": [
+        "data cleansing and feature engineering"
+      ],
+      "explanation": "The module divides preprocessing techniques into data cleansing and feature engineering.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 32
+      }
+    },
+    {
+      "id": "q099",
+      "type": "multiple-choice",
+      "topic": "Data Preprocessing and Data Quality",
+      "question": "Which module-supported answer best completes this concept check? Data cleansing includes identifying missing data, reducing noisy data, and identifying/removing duplicates: _____",
+      "choices": [
+        "identifying missing data, reducing noisy data, and removing duplicates",
+        "missing values",
+        "preprocessing",
+        "noise"
+      ],
+      "correctAnswer": "identifying missing data, reducing noisy data, and removing duplicates",
+      "explanation": "Data cleansing includes identifying missing data, reducing noisy data, and identifying/removing duplicates.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 32
+      }
+    },
+    {
+      "id": "q100",
+      "type": "fill-blank",
+      "topic": "Data Preprocessing and Data Quality",
+      "question": "Complete the module concept: Data cleansing includes identifying missing data, reducing noisy data, and identifying/removing duplicates. Key term: _____",
+      "acceptedAnswers": [
+        "identifying missing data, reducing noisy data, and removing duplicates"
+      ],
+      "explanation": "Data cleansing includes identifying missing data, reducing noisy data, and identifying/removing duplicates.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 32
+      }
+    },
+    {
+      "id": "q101",
+      "type": "multiple-choice",
+      "topic": "Data Preprocessing and Data Quality",
+      "question": "Which module-supported answer best completes this concept check? Feature engineering organizes data to make model training and inference more efficient: _____",
+      "choices": [
+        "feature engineering",
+        "inconsistency",
+        "data cleansing and feature engineering",
+        "feature scaling/normalization, data reduction, discretization, and feature encoding"
+      ],
+      "correctAnswer": "feature engineering",
+      "explanation": "Feature engineering organizes data to make model training and inference more efficient.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 32
+      }
+    },
+    {
+      "id": "q102",
+      "type": "fill-blank",
+      "topic": "Data Preprocessing and Data Quality",
+      "question": "Complete the module concept: Feature engineering organizes data to make model training and inference more efficient. Key term: _____",
+      "acceptedAnswers": [
+        "feature engineering"
+      ],
+      "explanation": "Feature engineering organizes data to make model training and inference more efficient.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 32
+      }
+    },
+    {
+      "id": "q103",
+      "type": "multiple-choice",
+      "topic": "Data Preprocessing and Data Quality",
+      "question": "Which module-supported answer best completes this concept check? Feature engineering examples include feature scaling/normalization, data reduction, discretization, and feature encoding: _____",
+      "choices": [
+        "feature scaling/normalization, data reduction, discretization, and feature encoding",
+        "data cleansing and feature engineering",
+        "feature engineering",
+        "incompleteness"
+      ],
+      "correctAnswer": "feature scaling/normalization, data reduction, discretization, and feature encoding",
+      "explanation": "Feature engineering examples include feature scaling/normalization, data reduction, discretization, and feature encoding.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 32
+      }
+    },
+    {
+      "id": "q104",
+      "type": "fill-blank",
+      "topic": "Data Preprocessing and Data Quality",
+      "question": "Complete the module concept: Feature engineering examples include _____.",
+      "acceptedAnswers": [
+        "feature scaling/normalization, data reduction, discretization, and feature encoding"
+      ],
+      "explanation": "Feature engineering examples include feature scaling/normalization, data reduction, discretization, and feature encoding.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 32
+      }
+    },
+    {
+      "id": "q105",
+      "type": "multiple-choice",
+      "topic": "Exploratory Data Analysis",
+      "question": "Which module-supported answer best completes this concept check? EDA is used to understand main data characteristics, discover patterns, spot anomalies, test hypotheses, and check assumptions: _____",
+      "choices": [
+        "Exploratory Data Analysis",
+        "mean imputation and most-frequent imputation",
+        "correlation analysis",
+        "median, iterative, and KNN imputers"
+      ],
+      "correctAnswer": "Exploratory Data Analysis",
+      "explanation": "EDA is used to understand main data characteristics, discover patterns, spot anomalies, test hypotheses, and check assumptions.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 33
+      }
+    },
+    {
+      "id": "q106",
+      "type": "fill-blank",
+      "topic": "Exploratory Data Analysis",
+      "question": "Complete the module concept: EDA is used to understand main data characteristics, discover patterns, spot anomalies, test hypotheses, and check assumptions. Key term: _____",
+      "acceptedAnswers": [
+        "Exploratory Data Analysis"
+      ],
+      "explanation": "EDA is used to understand main data characteristics, discover patterns, spot anomalies, test hypotheses, and check assumptions.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 33
+      }
+    },
+    {
+      "id": "q107",
+      "type": "multiple-choice",
+      "topic": "Exploratory Data Analysis",
+      "question": "Which module-supported answer best completes this concept check? EDA often employs data visualization methods: _____",
+      "choices": [
+        "data visualization",
+        "imputation",
+        "correlation analysis",
+        "Exploratory Data Analysis"
+      ],
+      "correctAnswer": "data visualization",
+      "explanation": "EDA often employs data visualization methods.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 33
+      }
+    },
+    {
+      "id": "q108",
+      "type": "fill-blank",
+      "topic": "Exploratory Data Analysis",
+      "question": "Complete the module concept: EDA often employs _____ methods.",
+      "acceptedAnswers": [
+        "data visualization"
+      ],
+      "explanation": "EDA often employs data visualization methods.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 33
+      }
+    },
+    {
+      "id": "q109",
+      "type": "multiple-choice",
+      "topic": "Exploratory Data Analysis",
+      "question": "Which module-supported answer best completes this concept check? EDA visualization creates plots and charts to show data distributions and relationships: _____",
+      "choices": [
+        "visualization",
+        "correlation analysis",
+        "median, iterative, and KNN imputers",
+        "bar plots and histograms"
+      ],
+      "correctAnswer": "visualization",
+      "explanation": "EDA visualization creates plots and charts to show data distributions and relationships.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 33
+      }
+    },
+    {
+      "id": "q110",
+      "type": "fill-blank",
+      "topic": "Exploratory Data Analysis",
+      "question": "Complete the module concept: EDA _____ creates plots and charts to show data distributions and relationships.",
+      "acceptedAnswers": [
+        "visualization"
+      ],
+      "explanation": "EDA visualization creates plots and charts to show data distributions and relationships.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 33
+      }
+    },
+    {
+      "id": "q111",
+      "type": "multiple-choice",
+      "topic": "Exploratory Data Analysis",
+      "question": "Which module-supported answer best completes this concept check? Summary statistics include measures such as mean, median, variance, and standard deviation: _____",
+      "choices": [
+        "mean, median, variance, and standard deviation",
+        "median, iterative, and KNN imputers",
+        "outlier detection",
+        "Pclass, Sex, and Embarked"
+      ],
+      "correctAnswer": "mean, median, variance, and standard deviation",
+      "explanation": "Summary statistics include measures such as mean, median, variance, and standard deviation.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 33
+      }
+    },
+    {
+      "id": "q112",
+      "type": "fill-blank",
+      "topic": "Exploratory Data Analysis",
+      "question": "Complete the module concept: Summary statistics include measures such as _____.",
+      "acceptedAnswers": [
+        "mean, median, variance, and standard deviation"
+      ],
+      "explanation": "Summary statistics include measures such as mean, median, variance, and standard deviation.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 33
+      }
+    },
+    {
+      "id": "q113",
+      "type": "multiple-choice",
+      "topic": "Exploratory Data Analysis",
+      "question": "Which module-supported answer best completes this concept check? Outlier detection identifies unusual data points: _____",
+      "choices": [
+        "outlier detection",
+        "remove rows or use imputation",
+        "correlation analysis",
+        "imputation"
+      ],
+      "correctAnswer": "outlier detection",
+      "explanation": "Outlier detection identifies unusual data points.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 33
+      }
+    },
+    {
+      "id": "q114",
+      "type": "fill-blank",
+      "topic": "Exploratory Data Analysis",
+      "question": "Complete the module concept: Outlier detection identifies unusual data points. Key term: _____",
+      "acceptedAnswers": [
+        "outlier detection"
+      ],
+      "explanation": "Outlier detection identifies unusual data points.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 33
+      }
+    },
+    {
+      "id": "q115",
+      "type": "multiple-choice",
+      "topic": "Exploratory Data Analysis",
+      "question": "Which module-supported answer best completes this concept check? Correlation analysis examines relationships between variables: _____",
+      "choices": [
+        "correlation analysis",
+        "Exploratory Data Analysis",
+        "outlier detection",
+        "visualization"
+      ],
+      "correctAnswer": "correlation analysis",
+      "explanation": "Correlation analysis examines relationships between variables.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 33
+      }
+    },
+    {
+      "id": "q116",
+      "type": "fill-blank",
+      "topic": "Exploratory Data Analysis",
+      "question": "Complete the module concept: Correlation analysis examines relationships between variables. Key term: _____",
+      "acceptedAnswers": [
+        "correlation analysis"
+      ],
+      "explanation": "Correlation analysis examines relationships between variables.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 33
+      }
+    },
+    {
+      "id": "q117",
+      "type": "multiple-choice",
+      "topic": "Exploratory Data Analysis",
+      "question": "Which module-supported answer best completes this concept check? Hypothesis testing tests initial assumptions about the data: _____",
+      "choices": [
+        "hypothesis testing",
+        "mean imputation and most-frequent imputation",
+        "visualization",
+        "correlation analysis"
+      ],
+      "correctAnswer": "hypothesis testing",
+      "explanation": "Hypothesis testing tests initial assumptions about the data.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 33
+      }
+    },
+    {
+      "id": "q118",
+      "type": "fill-blank",
+      "topic": "Exploratory Data Analysis",
+      "question": "Complete the module concept: Hypothesis testing tests initial assumptions about the data. Key term: _____",
+      "acceptedAnswers": [
+        "hypothesis testing"
+      ],
+      "explanation": "Hypothesis testing tests initial assumptions about the data.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 33
+      }
+    },
+    {
+      "id": "q119",
+      "type": "multiple-choice",
+      "topic": "Exploratory Data Analysis",
+      "question": "Which module-supported answer best completes this concept check? Bar plots and histograms are useful for visualizing the count of values in a dataset: _____",
+      "choices": [
+        "bar plots and histograms",
+        "median, iterative, and KNN imputers",
+        "Age and Fare",
+        "hypothesis testing"
+      ],
+      "correctAnswer": "bar plots and histograms",
+      "explanation": "Bar plots and histograms are useful for visualizing the count of values in a dataset.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 35
+      }
+    },
+    {
+      "id": "q120",
+      "type": "fill-blank",
+      "topic": "Exploratory Data Analysis",
+      "question": "Complete the module concept: Bar plots and histograms are useful for visualizing the count of values in a dataset. Key term: _____",
+      "acceptedAnswers": [
+        "bar plots and histograms"
+      ],
+      "explanation": "Bar plots and histograms are useful for visualizing the count of values in a dataset.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 35
+      }
+    },
+    {
+      "id": "q121",
+      "type": "multiple-choice",
+      "topic": "Exploratory Data Analysis",
+      "question": "Which module-supported answer best completes this concept check? The Titanic example labels Survived as the label and shows a feature-selection step: _____",
+      "choices": [
+        "feature selection",
+        "Exploratory Data Analysis",
+        "Age and Fare",
+        "remove rows or use imputation"
+      ],
+      "correctAnswer": "feature selection",
+      "explanation": "The Titanic example labels Survived as the label and shows a feature-selection step.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 36
+      }
+    },
+    {
+      "id": "q122",
+      "type": "fill-blank",
+      "topic": "Exploratory Data Analysis",
+      "question": "Complete the module concept: The Titanic example labels Survived as the label and shows a feature-selection step. Key term: _____",
+      "acceptedAnswers": [
+        "feature selection"
+      ],
+      "explanation": "The Titanic example labels Survived as the label and shows a feature-selection step.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 36
+      }
+    },
+    {
+      "id": "q123",
+      "type": "multiple-choice",
+      "topic": "Exploratory Data Analysis",
+      "question": "Which module-supported answer best completes this concept check? For missing values, the module gives two broad options: remove rows with missing values or use imputation: _____",
+      "choices": [
+        "remove rows or use imputation",
+        "feature selection",
+        "visualization",
+        "Exploratory Data Analysis"
+      ],
+      "correctAnswer": "remove rows or use imputation",
+      "explanation": "For missing values, the module gives two broad options: remove rows with missing values or use imputation.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 37
+      }
+    },
+    {
+      "id": "q124",
+      "type": "fill-blank",
+      "topic": "Exploratory Data Analysis",
+      "question": "Complete the module concept: For missing values, the module gives two broad options: remove rows with missing values or use imputation. Key term: _____",
+      "acceptedAnswers": [
+        "remove rows or use imputation"
+      ],
+      "explanation": "For missing values, the module gives two broad options: remove rows with missing values or use imputation.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 37
+      }
+    },
+    {
+      "id": "q125",
+      "type": "multiple-choice",
+      "topic": "Exploratory Data Analysis",
+      "question": "Which module-supported answer best completes this concept check? Imputation is the act of filling in missing values by estimating them: _____",
+      "choices": [
+        "imputation",
+        "bar plots and histograms",
+        "data visualization",
+        "Exploratory Data Analysis"
+      ],
+      "correctAnswer": "imputation",
+      "explanation": "Imputation is the act of filling in missing values by estimating them.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 37
+      }
+    },
+    {
+      "id": "q126",
+      "type": "fill-blank",
+      "topic": "Exploratory Data Analysis",
+      "question": "Complete the module concept: Imputation is the act of filling in missing values by estimating them. Key term: _____",
+      "acceptedAnswers": [
+        "imputation"
+      ],
+      "explanation": "Imputation is the act of filling in missing values by estimating them.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 37
+      }
+    },
+    {
+      "id": "q127",
+      "type": "multiple-choice",
+      "topic": "Exploratory Data Analysis",
+      "question": "Which module-supported answer best completes this concept check? The missing-value example shows mean imputation and most-frequent imputation: _____",
+      "choices": [
+        "mean imputation and most-frequent imputation",
+        "data visualization",
+        "Exploratory Data Analysis",
+        "correlation analysis"
+      ],
+      "correctAnswer": "mean imputation and most-frequent imputation",
+      "explanation": "The missing-value example shows mean imputation and most-frequent imputation.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 37
+      }
+    },
+    {
+      "id": "q128",
+      "type": "fill-blank",
+      "topic": "Exploratory Data Analysis",
+      "question": "Complete the module concept: The missing-value example shows _____.",
+      "acceptedAnswers": [
+        "mean imputation and most-frequent imputation"
+      ],
+      "explanation": "The missing-value example shows mean imputation and most-frequent imputation.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 37
+      }
+    },
+    {
+      "id": "q129",
+      "type": "multiple-choice",
+      "topic": "Exploratory Data Analysis",
+      "question": "Which module-supported answer best completes this concept check? The module also names median, iterative, and KNN imputers as other imputers: _____",
+      "choices": [
+        "median, iterative, and KNN imputers",
+        "outlier detection",
+        "mean imputation and most-frequent imputation",
+        "feature selection"
+      ],
+      "correctAnswer": "median, iterative, and KNN imputers",
+      "explanation": "The module also names median, iterative, and KNN imputers as other imputers.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 37
+      }
+    },
+    {
+      "id": "q130",
+      "type": "fill-blank",
+      "topic": "Exploratory Data Analysis",
+      "question": "Complete the module concept: The module also names _____ as other imputers.",
+      "acceptedAnswers": [
+        "median, iterative, and KNN imputers"
+      ],
+      "explanation": "The module also names median, iterative, and KNN imputers as other imputers.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 37
+      }
+    },
+    {
+      "id": "q131",
+      "type": "multiple-choice",
+      "topic": "Exploratory Data Analysis",
+      "question": "Which module-supported answer best completes this concept check? The column-transformation example applies standard scaling to numerical Age and Fare: _____",
+      "choices": [
+        "Age and Fare",
+        "median, iterative, and KNN imputers",
+        "outlier detection",
+        "bar plots and histograms"
+      ],
+      "correctAnswer": "Age and Fare",
+      "explanation": "The column-transformation example applies standard scaling to numerical Age and Fare.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 38
+      }
+    },
+    {
+      "id": "q132",
+      "type": "fill-blank",
+      "topic": "Exploratory Data Analysis",
+      "question": "Complete the module concept: The column-transformation example applies standard scaling to numerical _____.",
+      "acceptedAnswers": [
+        "Age and Fare"
+      ],
+      "explanation": "The column-transformation example applies standard scaling to numerical Age and Fare.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 38
+      }
+    },
+    {
+      "id": "q133",
+      "type": "multiple-choice",
+      "topic": "Exploratory Data Analysis",
+      "question": "Which module-supported answer best completes this concept check? The column-transformation example applies ordinal encoding to categorical Pclass, Sex, and Embarked: _____",
+      "choices": [
+        "Pclass, Sex, and Embarked",
+        "correlation analysis",
+        "mean, median, variance, and standard deviation",
+        "imputation"
+      ],
+      "correctAnswer": "Pclass, Sex, and Embarked",
+      "explanation": "The column-transformation example applies ordinal encoding to categorical Pclass, Sex, and Embarked.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 38
+      }
+    },
+    {
+      "id": "q134",
+      "type": "fill-blank",
+      "topic": "Exploratory Data Analysis",
+      "question": "Complete the module concept: The column-transformation example applies ordinal encoding to categorical _____.",
+      "acceptedAnswers": [
+        "Pclass, Sex, and Embarked"
+      ],
+      "explanation": "The column-transformation example applies ordinal encoding to categorical Pclass, Sex, and Embarked.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 38
+      }
+    },
+    {
+      "id": "q135",
+      "type": "multiple-choice",
+      "topic": "Feature Scaling: StandardScaler and MinMaxScaler",
+      "question": "Which module-supported answer best completes this concept check? StandardScaler makes the mean approximately 0: _____",
+      "choices": [
+        "mean approximately 0",
+        "StandardScaler",
+        "StandardScaler",
+        "MinMaxScaler"
+      ],
+      "correctAnswer": "mean approximately 0",
+      "explanation": "StandardScaler makes the mean approximately 0.",
+      "source": {
+        "module": "M1 - Scalers 1",
+        "page": 1
+      }
+    },
+    {
+      "id": "q136",
+      "type": "fill-blank",
+      "topic": "Feature Scaling: StandardScaler and MinMaxScaler",
+      "question": "Complete the module concept: StandardScaler makes the _____.",
+      "acceptedAnswers": [
+        "mean approximately 0"
+      ],
+      "explanation": "StandardScaler makes the mean approximately 0.",
+      "source": {
+        "module": "M1 - Scalers 1",
+        "page": 1
+      }
+    },
+    {
+      "id": "q137",
+      "type": "multiple-choice",
+      "topic": "Feature Scaling: StandardScaler and MinMaxScaler",
+      "question": "Which module-supported answer best completes this concept check? StandardScaler makes the standard deviation 1: _____",
+      "choices": [
+        "standard deviation 1",
+        "[-1.41, -0.71, 0.00, 0.71, 1.41]",
+        "0 to 1",
+        "easy to interpret"
+      ],
+      "correctAnswer": "standard deviation 1",
+      "explanation": "StandardScaler makes the standard deviation 1.",
+      "source": {
+        "module": "M1 - Scalers 1",
+        "page": 1
+      }
+    },
+    {
+      "id": "q138",
+      "type": "fill-blank",
+      "topic": "Feature Scaling: StandardScaler and MinMaxScaler",
+      "question": "Complete the module concept: StandardScaler makes the _____.",
+      "acceptedAnswers": [
+        "standard deviation 1"
+      ],
+      "explanation": "StandardScaler makes the standard deviation 1.",
+      "source": {
+        "module": "M1 - Scalers 1",
+        "page": 1
+      }
+    },
+    {
+      "id": "q139",
+      "type": "multiple-choice",
+      "topic": "Feature Scaling: StandardScaler and MinMaxScaler",
+      "question": "Which module-supported answer best completes this concept check? StandardScaler values are not restricted to a fixed range: _____",
+      "choices": [
+        "not restricted to a fixed range",
+        "easy to interpret",
+        "sensitive to outliers",
+        "MinMaxScaler"
+      ],
+      "correctAnswer": "not restricted to a fixed range",
+      "explanation": "StandardScaler values are not restricted to a fixed range.",
+      "source": {
+        "module": "M1 - Scalers 1",
+        "page": 1
+      }
+    },
+    {
+      "id": "q140",
+      "type": "fill-blank",
+      "topic": "Feature Scaling: StandardScaler and MinMaxScaler",
+      "question": "Complete the module concept: StandardScaler values are _____.",
+      "acceptedAnswers": [
+        "not restricted to a fixed range"
+      ],
+      "explanation": "StandardScaler values are not restricted to a fixed range.",
+      "source": {
+        "module": "M1 - Scalers 1",
+        "page": 1
+      }
+    },
+    {
+      "id": "q141",
+      "type": "multiple-choice",
+      "topic": "Feature Scaling: StandardScaler and MinMaxScaler",
+      "question": "Which module-supported answer best completes this concept check? StandardScaler can produce negative values: _____",
+      "choices": [
+        "negative values",
+        "MinMaxScaler",
+        "MinMaxScaler",
+        "StandardScaler"
+      ],
+      "correctAnswer": "negative values",
+      "explanation": "StandardScaler can produce negative values.",
+      "source": {
+        "module": "M1 - Scalers 1",
+        "page": 1
+      }
+    },
+    {
+      "id": "q142",
+      "type": "fill-blank",
+      "topic": "Feature Scaling: StandardScaler and MinMaxScaler",
+      "question": "Complete the module concept: StandardScaler can produce _____.",
+      "acceptedAnswers": [
+        "negative values"
+      ],
+      "explanation": "StandardScaler can produce negative values.",
+      "source": {
+        "module": "M1 - Scalers 1",
+        "page": 1
+      }
+    },
+    {
+      "id": "q143",
+      "type": "multiple-choice",
+      "topic": "Feature Scaling: StandardScaler and MinMaxScaler",
+      "question": "Which module-supported answer best completes this concept check? The example [10,20,30,40,50] becomes approximately [-1.41,-0.71,0.00,0.71,1.41] after StandardScaler: _____",
+      "choices": [
+        "[-1.41, -0.71, 0.00, 0.71, 1.41]",
+        "0 to 1",
+        "standard deviation 1",
+        "StandardScaler"
+      ],
+      "correctAnswer": "[-1.41, -0.71, 0.00, 0.71, 1.41]",
+      "explanation": "The example [10,20,30,40,50] becomes approximately [-1.41,-0.71,0.00,0.71,1.41] after StandardScaler.",
+      "source": {
+        "module": "M1 - Scalers 1",
+        "page": 1
+      }
+    },
+    {
+      "id": "q144",
+      "type": "fill-blank",
+      "topic": "Feature Scaling: StandardScaler and MinMaxScaler",
+      "question": "Complete the module concept: The example [10,20,30,40,50] becomes approximately [-1.41,-0.71,0.00,0.71,1.41] after StandardScaler. Key term: _____",
+      "acceptedAnswers": [
+        "[-1.41, -0.71, 0.00, 0.71, 1.41]"
+      ],
+      "explanation": "The example [10,20,30,40,50] becomes approximately [-1.41,-0.71,0.00,0.71,1.41] after StandardScaler.",
+      "source": {
+        "module": "M1 - Scalers 1",
+        "page": 1
+      }
+    },
+    {
+      "id": "q145",
+      "type": "multiple-choice",
+      "topic": "Feature Scaling: StandardScaler and MinMaxScaler",
+      "question": "Which module-supported answer best completes this concept check? MinMaxScaler transforms values into the range 0 to 1: _____",
+      "choices": [
+        "0 to 1",
+        "StandardScaler",
+        "sensitive to outliers",
+        "negative values"
+      ],
+      "correctAnswer": "0 to 1",
+      "explanation": "MinMaxScaler transforms values into the range 0 to 1.",
+      "source": {
+        "module": "M1 - Scalers 1",
+        "page": 1
+      }
+    },
+    {
+      "id": "q146",
+      "type": "fill-blank",
+      "topic": "Feature Scaling: StandardScaler and MinMaxScaler",
+      "question": "Complete the module concept: MinMaxScaler transforms values into the range _____.",
+      "acceptedAnswers": [
+        "0 to 1"
+      ],
+      "explanation": "MinMaxScaler transforms values into the range 0 to 1.",
+      "source": {
+        "module": "M1 - Scalers 1",
+        "page": 1
+      }
+    },
+    {
+      "id": "q147",
+      "type": "multiple-choice",
+      "topic": "Feature Scaling: StandardScaler and MinMaxScaler",
+      "question": "Which module-supported answer best completes this concept check? MinMaxScaler preserves relative distances: _____",
+      "choices": [
+        "relative distances",
+        "MinMaxScaler",
+        "sensitive to outliers",
+        "[-1.41, -0.71, 0.00, 0.71, 1.41]"
+      ],
+      "correctAnswer": "relative distances",
+      "explanation": "MinMaxScaler preserves relative distances.",
+      "source": {
+        "module": "M1 - Scalers 1",
+        "page": 1
+      }
+    },
+    {
+      "id": "q148",
+      "type": "fill-blank",
+      "topic": "Feature Scaling: StandardScaler and MinMaxScaler",
+      "question": "Complete the module concept: MinMaxScaler preserves _____.",
+      "acceptedAnswers": [
+        "relative distances"
+      ],
+      "explanation": "MinMaxScaler preserves relative distances.",
+      "source": {
+        "module": "M1 - Scalers 1",
+        "page": 1
+      }
+    },
+    {
+      "id": "q149",
+      "type": "multiple-choice",
+      "topic": "Feature Scaling: StandardScaler and MinMaxScaler",
+      "question": "Which module-supported answer best completes this concept check? MinMaxScaler is described as easy to interpret: _____",
+      "choices": [
+        "easy to interpret",
+        "standard deviation 1",
+        "MinMaxScaler",
+        "sensitive to outliers"
+      ],
+      "correctAnswer": "easy to interpret",
+      "explanation": "MinMaxScaler is described as easy to interpret.",
+      "source": {
+        "module": "M1 - Scalers 1",
+        "page": 1
+      }
+    },
+    {
+      "id": "q150",
+      "type": "fill-blank",
+      "topic": "Feature Scaling: StandardScaler and MinMaxScaler",
+      "question": "Complete the module concept: MinMaxScaler is described as _____.",
+      "acceptedAnswers": [
+        "easy to interpret"
+      ],
+      "explanation": "MinMaxScaler is described as easy to interpret.",
+      "source": {
+        "module": "M1 - Scalers 1",
+        "page": 1
+      }
+    },
+    {
+      "id": "q151",
+      "type": "multiple-choice",
+      "topic": "Feature Scaling: StandardScaler and MinMaxScaler",
+      "question": "Which module-supported answer best completes this concept check? MinMaxScaler is sensitive to outliers: _____",
+      "choices": [
+        "sensitive to outliers",
+        "mean approximately 0",
+        "StandardScaler",
+        "MinMaxScaler"
+      ],
+      "correctAnswer": "sensitive to outliers",
+      "explanation": "MinMaxScaler is sensitive to outliers.",
+      "source": {
+        "module": "M1 - Scalers 1",
+        "page": 1
+      }
+    },
+    {
+      "id": "q152",
+      "type": "fill-blank",
+      "topic": "Feature Scaling: StandardScaler and MinMaxScaler",
+      "question": "Complete the module concept: MinMaxScaler is _____.",
+      "acceptedAnswers": [
+        "sensitive to outliers"
+      ],
+      "explanation": "MinMaxScaler is sensitive to outliers.",
+      "source": {
+        "module": "M1 - Scalers 1",
+        "page": 1
+      }
+    },
+    {
+      "id": "q153",
+      "type": "multiple-choice",
+      "topic": "Feature Scaling: StandardScaler and MinMaxScaler",
+      "question": "Which module-supported answer best completes this concept check? The handout recommends StandardScaler for KNN: _____",
+      "choices": [
+        "StandardScaler",
+        "MinMaxScaler",
+        "sensitive to outliers",
+        "negative values"
+      ],
+      "correctAnswer": "StandardScaler",
+      "explanation": "The handout recommends StandardScaler for KNN.",
+      "source": {
+        "module": "M1 - Scalers 1",
+        "page": 2
+      }
+    },
+    {
+      "id": "q154",
+      "type": "fill-blank",
+      "topic": "Feature Scaling: StandardScaler and MinMaxScaler",
+      "question": "Complete the module concept: The handout recommends _____ for KNN.",
+      "acceptedAnswers": [
+        "StandardScaler"
+      ],
+      "explanation": "The handout recommends StandardScaler for KNN.",
+      "source": {
+        "module": "M1 - Scalers 1",
+        "page": 2
+      }
+    },
+    {
+      "id": "q155",
+      "type": "multiple-choice",
+      "topic": "Feature Scaling: StandardScaler and MinMaxScaler",
+      "question": "Which module-supported answer best completes this concept check? The handout recommends StandardScaler for Logistic Regression: _____",
+      "choices": [
+        "StandardScaler",
+        "MinMaxScaler",
+        "sensitive to outliers",
+        "negative values"
+      ],
+      "correctAnswer": "StandardScaler",
+      "explanation": "The handout recommends StandardScaler for Logistic Regression.",
+      "source": {
+        "module": "M1 - Scalers 1",
+        "page": 2
+      }
+    },
+    {
+      "id": "q156",
+      "type": "fill-blank",
+      "topic": "Feature Scaling: StandardScaler and MinMaxScaler",
+      "question": "Complete the module concept: The handout recommends _____ for Logistic Regression.",
+      "acceptedAnswers": [
+        "StandardScaler"
+      ],
+      "explanation": "The handout recommends StandardScaler for Logistic Regression.",
+      "source": {
+        "module": "M1 - Scalers 1",
+        "page": 2
+      }
+    },
+    {
+      "id": "q157",
+      "type": "multiple-choice",
+      "topic": "Feature Scaling: StandardScaler and MinMaxScaler",
+      "question": "Which module-supported answer best completes this concept check? The handout recommends StandardScaler for SVM: _____",
+      "choices": [
+        "StandardScaler",
+        "MinMaxScaler",
+        "sensitive to outliers",
+        "negative values"
+      ],
+      "correctAnswer": "StandardScaler",
+      "explanation": "The handout recommends StandardScaler for SVM.",
+      "source": {
+        "module": "M1 - Scalers 1",
+        "page": 2
+      }
+    },
+    {
+      "id": "q158",
+      "type": "fill-blank",
+      "topic": "Feature Scaling: StandardScaler and MinMaxScaler",
+      "question": "Complete the module concept: The handout recommends _____ for SVM.",
+      "acceptedAnswers": [
+        "StandardScaler"
+      ],
+      "explanation": "The handout recommends StandardScaler for SVM.",
+      "source": {
+        "module": "M1 - Scalers 1",
+        "page": 2
+      }
+    },
+    {
+      "id": "q159",
+      "type": "multiple-choice",
+      "topic": "Feature Scaling: StandardScaler and MinMaxScaler",
+      "question": "Which module-supported answer best completes this concept check? The handout recommends StandardScaler for PCA: _____",
+      "choices": [
+        "StandardScaler",
+        "MinMaxScaler",
+        "sensitive to outliers",
+        "negative values"
+      ],
+      "correctAnswer": "StandardScaler",
+      "explanation": "The handout recommends StandardScaler for PCA.",
+      "source": {
+        "module": "M1 - Scalers 1",
+        "page": 2
+      }
+    },
+    {
+      "id": "q160",
+      "type": "fill-blank",
+      "topic": "Feature Scaling: StandardScaler and MinMaxScaler",
+      "question": "Complete the module concept: The handout recommends _____ for PCA.",
+      "acceptedAnswers": [
+        "StandardScaler"
+      ],
+      "explanation": "The handout recommends StandardScaler for PCA.",
+      "source": {
+        "module": "M1 - Scalers 1",
+        "page": 2
+      }
+    },
+    {
+      "id": "q161",
+      "type": "multiple-choice",
+      "topic": "Feature Scaling: StandardScaler and MinMaxScaler",
+      "question": "Which module-supported answer best completes this concept check? The handout says StandardScaler is often beneficial for Linear Regression: _____",
+      "choices": [
+        "StandardScaler",
+        "MinMaxScaler",
+        "sensitive to outliers",
+        "negative values"
+      ],
+      "correctAnswer": "StandardScaler",
+      "explanation": "The handout says StandardScaler is often beneficial for Linear Regression.",
+      "source": {
+        "module": "M1 - Scalers 1",
+        "page": 2
+      }
+    },
+    {
+      "id": "q162",
+      "type": "fill-blank",
+      "topic": "Feature Scaling: StandardScaler and MinMaxScaler",
+      "question": "Complete the module concept: The handout says _____ is often beneficial for Linear Regression.",
+      "acceptedAnswers": [
+        "StandardScaler"
+      ],
+      "explanation": "The handout says StandardScaler is often beneficial for Linear Regression.",
+      "source": {
+        "module": "M1 - Scalers 1",
+        "page": 2
+      }
+    },
+    {
+      "id": "q163",
+      "type": "multiple-choice",
+      "topic": "Feature Scaling: StandardScaler and MinMaxScaler",
+      "question": "Which module-supported answer best completes this concept check? The handout recommends MinMaxScaler for neural networks or deep learning models: _____",
+      "choices": [
+        "MinMaxScaler",
+        "StandardScaler",
+        "easy to interpret",
+        "StandardScaler"
+      ],
+      "correctAnswer": "MinMaxScaler",
+      "explanation": "The handout recommends MinMaxScaler for neural networks or deep learning models.",
+      "source": {
+        "module": "M1 - Scalers 1",
+        "page": 2
+      }
+    },
+    {
+      "id": "q164",
+      "type": "fill-blank",
+      "topic": "Feature Scaling: StandardScaler and MinMaxScaler",
+      "question": "Complete the module concept: The handout recommends _____ for neural networks or deep learning models.",
+      "acceptedAnswers": [
+        "MinMaxScaler"
+      ],
+      "explanation": "The handout recommends MinMaxScaler for neural networks or deep learning models.",
+      "source": {
+        "module": "M1 - Scalers 1",
+        "page": 2
+      }
+    },
+    {
+      "id": "q165",
+      "type": "multiple-choice",
+      "topic": "Feature Scaling: StandardScaler and MinMaxScaler",
+      "question": "Which module-supported answer best completes this concept check? The handout recommends MinMaxScaler when data must be within a fixed range: _____",
+      "choices": [
+        "MinMaxScaler",
+        "StandardScaler",
+        "easy to interpret",
+        "StandardScaler"
+      ],
+      "correctAnswer": "MinMaxScaler",
+      "explanation": "The handout recommends MinMaxScaler when data must be within a fixed range.",
+      "source": {
+        "module": "M1 - Scalers 1",
+        "page": 2
+      }
+    },
+    {
+      "id": "q166",
+      "type": "fill-blank",
+      "topic": "Feature Scaling: StandardScaler and MinMaxScaler",
+      "question": "Complete the module concept: The handout recommends _____ when data must be within a fixed range.",
+      "acceptedAnswers": [
+        "MinMaxScaler"
+      ],
+      "explanation": "The handout recommends MinMaxScaler when data must be within a fixed range.",
+      "source": {
+        "module": "M1 - Scalers 1",
+        "page": 2
+      }
+    },
+    {
+      "id": "q167",
+      "type": "multiple-choice",
+      "topic": "Feature Scaling: StandardScaler and MinMaxScaler",
+      "question": "Which module-supported answer best completes this concept check? The handout recommends MinMaxScaler when features have different units and scales: _____",
+      "choices": [
+        "MinMaxScaler",
+        "StandardScaler",
+        "easy to interpret",
+        "StandardScaler"
+      ],
+      "correctAnswer": "MinMaxScaler",
+      "explanation": "The handout recommends MinMaxScaler when features have different units and scales.",
+      "source": {
+        "module": "M1 - Scalers 1",
+        "page": 2
+      }
+    },
+    {
+      "id": "q168",
+      "type": "fill-blank",
+      "topic": "Feature Scaling: StandardScaler and MinMaxScaler",
+      "question": "Complete the module concept: The handout recommends _____ when features have different units and scales.",
+      "acceptedAnswers": [
+        "MinMaxScaler"
+      ],
+      "explanation": "The handout recommends MinMaxScaler when features have different units and scales.",
+      "source": {
+        "module": "M1 - Scalers 1",
+        "page": 2
+      }
+    },
+    {
+      "id": "q169",
+      "type": "multiple-choice",
+      "topic": "Feature Scaling: StandardScaler and MinMaxScaler",
+      "question": "Which module-supported answer best completes this concept check? The handout recommends MinMaxScaler when inputs are expected to be between 0 and 1: _____",
+      "choices": [
+        "MinMaxScaler",
+        "StandardScaler",
+        "easy to interpret",
+        "StandardScaler"
+      ],
+      "correctAnswer": "MinMaxScaler",
+      "explanation": "The handout recommends MinMaxScaler when inputs are expected to be between 0 and 1.",
+      "source": {
+        "module": "M1 - Scalers 1",
+        "page": 2
+      }
+    },
+    {
+      "id": "q170",
+      "type": "fill-blank",
+      "topic": "Feature Scaling: StandardScaler and MinMaxScaler",
+      "question": "Complete the module concept: The handout recommends _____ when inputs are expected to be between 0 and 1.",
+      "acceptedAnswers": [
+        "MinMaxScaler"
+      ],
+      "explanation": "The handout recommends MinMaxScaler when inputs are expected to be between 0 and 1.",
+      "source": {
+        "module": "M1 - Scalers 1",
+        "page": 2
+      }
+    },
+    {
+      "id": "q171",
+      "type": "multiple-choice",
+      "topic": "Model Deployment",
+      "question": "Which module-supported answer best completes this concept check? Model deployment takes a trained ML model and makes it available for real-world applications: _____",
+      "choices": [
+        "model deployment",
+        "continuous monitoring",
+        "storage",
+        "preprocessing, feature engineering, and rigorous testing"
+      ],
+      "correctAnswer": "model deployment",
+      "explanation": "Model deployment takes a trained ML model and makes it available for real-world applications.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 40
+      }
+    },
+    {
+      "id": "q172",
+      "type": "fill-blank",
+      "topic": "Model Deployment",
+      "question": "Complete the module concept: Model deployment takes a trained ML model and makes it available for real-world applications. Key term: _____",
+      "acceptedAnswers": [
+        "model deployment"
+      ],
+      "explanation": "Model deployment takes a trained ML model and makes it available for real-world applications.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 40
+      }
+    },
+    {
+      "id": "q173",
+      "type": "multiple-choice",
+      "topic": "Model Deployment",
+      "question": "Which module-supported answer best completes this concept check? The deployment diagram presents training, validation, deployment, and monitoring: _____",
+      "choices": [
+        "training, validation, deployment, and monitoring",
+        "choosing infrastructure, versioning/tracking, testing/validation, and monitoring/alerting",
+        "real time",
+        "production environment"
+      ],
+      "correctAnswer": "training, validation, deployment, and monitoring",
+      "explanation": "The deployment diagram presents training, validation, deployment, and monitoring.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 40
+      }
+    },
+    {
+      "id": "q174",
+      "type": "fill-blank",
+      "topic": "Model Deployment",
+      "question": "Complete the module concept: The deployment diagram presents _____.",
+      "acceptedAnswers": [
+        "training, validation, deployment, and monitoring"
+      ],
+      "explanation": "The deployment diagram presents training, validation, deployment, and monitoring.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 40
+      }
+    },
+    {
+      "id": "q175",
+      "type": "multiple-choice",
+      "topic": "Model Deployment",
+      "question": "Which module-supported answer best completes this concept check? Before deployment, models should be thoroughly trained and evaluated: _____",
+      "choices": [
+        "trained and evaluated",
+        "storage",
+        "cloud or on-prem hardware",
+        "real time"
+      ],
+      "correctAnswer": "trained and evaluated",
+      "explanation": "Before deployment, models should be thoroughly trained and evaluated.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 41
+      }
+    },
+    {
+      "id": "q176",
+      "type": "fill-blank",
+      "topic": "Model Deployment",
+      "question": "Complete the module concept: Before deployment, models should be thoroughly _____.",
+      "acceptedAnswers": [
+        "trained and evaluated"
+      ],
+      "explanation": "Before deployment, models should be thoroughly trained and evaluated.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 41
+      }
+    },
+    {
+      "id": "q177",
+      "type": "multiple-choice",
+      "topic": "Model Deployment",
+      "question": "Which module-supported answer best completes this concept check? Pre-deployment training involves preprocessing, feature engineering, and rigorous testing: _____",
+      "choices": [
+        "preprocessing, feature engineering, and rigorous testing",
+        "storage",
+        "model deployment",
+        "real time"
+      ],
+      "correctAnswer": "preprocessing, feature engineering, and rigorous testing",
+      "explanation": "Pre-deployment training involves preprocessing, feature engineering, and rigorous testing.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 41
+      }
+    },
+    {
+      "id": "q178",
+      "type": "fill-blank",
+      "topic": "Model Deployment",
+      "question": "Complete the module concept: Pre-deployment training involves _____.",
+      "acceptedAnswers": [
+        "preprocessing, feature engineering, and rigorous testing"
+      ],
+      "explanation": "Pre-deployment training involves preprocessing, feature engineering, and rigorous testing.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 41
+      }
+    },
+    {
+      "id": "q179",
+      "type": "multiple-choice",
+      "topic": "Model Deployment",
+      "question": "Which module-supported answer best completes this concept check? Validation includes checking that models and infrastructure can handle increased loads and computational requirements efficiently: _____",
+      "choices": [
+        "scalability",
+        "continuous monitoring",
+        "continuous training and parameter tuning",
+        "cloud or on-prem hardware"
+      ],
+      "correctAnswer": "scalability",
+      "explanation": "Validation includes checking that models and infrastructure can handle increased loads and computational requirements efficiently.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 41
+      }
+    },
+    {
+      "id": "q180",
+      "type": "fill-blank",
+      "topic": "Model Deployment",
+      "question": "Complete the module concept: Validation includes checking that models and infrastructure can handle increased loads and computational requirements efficiently. Key term: _____",
+      "acceptedAnswers": [
+        "scalability"
+      ],
+      "explanation": "Validation includes checking that models and infrastructure can handle increased loads and computational requirements efficiently.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 41
+      }
+    },
+    {
+      "id": "q181",
+      "type": "multiple-choice",
+      "topic": "Model Deployment",
+      "question": "Which module-supported answer best completes this concept check? Deployment integrates an ML model into its production environment: _____",
+      "choices": [
+        "production environment",
+        "training, validation, deployment, and monitoring",
+        "model deployment",
+        "detect deviations"
+      ],
+      "correctAnswer": "production environment",
+      "explanation": "Deployment integrates an ML model into its production environment.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 42
+      }
+    },
+    {
+      "id": "q182",
+      "type": "fill-blank",
+      "topic": "Model Deployment",
+      "question": "Complete the module concept: Deployment integrates an ML model into its _____.",
+      "acceptedAnswers": [
+        "production environment"
+      ],
+      "explanation": "Deployment integrates an ML model into its production environment.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 42
+      }
+    },
+    {
+      "id": "q183",
+      "type": "multiple-choice",
+      "topic": "Model Deployment",
+      "question": "Which module-supported answer best completes this concept check? Deployment includes defining how data will be extracted or processed in real time: _____",
+      "choices": [
+        "real time",
+        "detect deviations",
+        "scalability",
+        "continuous monitoring"
+      ],
+      "correctAnswer": "real time",
+      "explanation": "Deployment includes defining how data will be extracted or processed in real time.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 42
+      }
+    },
+    {
+      "id": "q184",
+      "type": "fill-blank",
+      "topic": "Model Deployment",
+      "question": "Complete the module concept: Deployment includes defining how data will be extracted or processed in _____.",
+      "acceptedAnswers": [
+        "real time"
+      ],
+      "explanation": "Deployment includes defining how data will be extracted or processed in real time.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 42
+      }
+    },
+    {
+      "id": "q185",
+      "type": "multiple-choice",
+      "topic": "Model Deployment",
+      "question": "Which module-supported answer best completes this concept check? Deployment includes determining storage requirements: _____",
+      "choices": [
+        "storage",
+        "trained and evaluated",
+        "continuous training and parameter tuning",
+        "continuous monitoring"
+      ],
+      "correctAnswer": "storage",
+      "explanation": "Deployment includes determining storage requirements.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 42
+      }
+    },
+    {
+      "id": "q186",
+      "type": "fill-blank",
+      "topic": "Model Deployment",
+      "question": "Complete the module concept: Deployment includes determining _____ requirements.",
+      "acceptedAnswers": [
+        "storage"
+      ],
+      "explanation": "Deployment includes determining storage requirements.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 42
+      }
+    },
+    {
+      "id": "q187",
+      "type": "multiple-choice",
+      "topic": "Model Deployment",
+      "question": "Which module-supported answer best completes this concept check? Deployment includes setting up APIs, tools, and software environments to support and improve predictions: _____",
+      "choices": [
+        "APIs, tools, and software environments",
+        "production environment",
+        "choosing infrastructure, versioning/tracking, testing/validation, and monitoring/alerting",
+        "detect deviations"
+      ],
+      "correctAnswer": "APIs, tools, and software environments",
+      "explanation": "Deployment includes setting up APIs, tools, and software environments to support and improve predictions.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 42
+      }
+    },
+    {
+      "id": "q188",
+      "type": "fill-blank",
+      "topic": "Model Deployment",
+      "question": "Complete the module concept: Deployment includes setting up _____ to support and improve predictions.",
+      "acceptedAnswers": [
+        "APIs, tools, and software environments"
+      ],
+      "explanation": "Deployment includes setting up APIs, tools, and software environments to support and improve predictions.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 42
+      }
+    },
+    {
+      "id": "q189",
+      "type": "multiple-choice",
+      "topic": "Model Deployment",
+      "question": "Which module-supported answer best completes this concept check? Deployment includes configuring cloud or on-prem hardware to support the model: _____",
+      "choices": [
+        "cloud or on-prem hardware",
+        "scalability",
+        "preprocessing, feature engineering, and rigorous testing",
+        "storage"
+      ],
+      "correctAnswer": "cloud or on-prem hardware",
+      "explanation": "Deployment includes configuring cloud or on-prem hardware to support the model.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 42
+      }
+    },
+    {
+      "id": "q190",
+      "type": "fill-blank",
+      "topic": "Model Deployment",
+      "question": "Complete the module concept: Deployment includes configuring _____ to support the model.",
+      "acceptedAnswers": [
+        "cloud or on-prem hardware"
+      ],
+      "explanation": "Deployment includes configuring cloud or on-prem hardware to support the model.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 42
+      }
+    },
+    {
+      "id": "q191",
+      "type": "multiple-choice",
+      "topic": "Model Deployment",
+      "question": "Which module-supported answer best completes this concept check? Deployment includes creating a pipeline for continuous training and parameter tuning: _____",
+      "choices": [
+        "continuous training and parameter tuning",
+        "continuous monitoring",
+        "trained and evaluated",
+        "cloud or on-prem hardware"
+      ],
+      "correctAnswer": "continuous training and parameter tuning",
+      "explanation": "Deployment includes creating a pipeline for continuous training and parameter tuning.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 42
+      }
+    },
+    {
+      "id": "q192",
+      "type": "fill-blank",
+      "topic": "Model Deployment",
+      "question": "Complete the module concept: Deployment includes creating a pipeline for _____.",
+      "acceptedAnswers": [
+        "continuous training and parameter tuning"
+      ],
+      "explanation": "Deployment includes creating a pipeline for continuous training and parameter tuning.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 42
+      }
+    },
+    {
+      "id": "q193",
+      "type": "multiple-choice",
+      "topic": "Model Deployment",
+      "question": "Which module-supported answer best completes this concept check? Deployed models need continuous monitoring because real-world data can evolve and model performance can drift: _____",
+      "choices": [
+        "continuous monitoring",
+        "training, validation, deployment, and monitoring",
+        "detect deviations",
+        "APIs, tools, and software environments"
+      ],
+      "correctAnswer": "continuous monitoring",
+      "explanation": "Deployed models need continuous monitoring because real-world data can evolve and model performance can drift.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 43
+      }
+    },
+    {
+      "id": "q194",
+      "type": "fill-blank",
+      "topic": "Model Deployment",
+      "question": "Complete the module concept: Deployed models need _____ because real-world data can evolve and model performance can drift.",
+      "acceptedAnswers": [
+        "continuous monitoring"
+      ],
+      "explanation": "Deployed models need continuous monitoring because real-world data can evolve and model performance can drift.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 43
+      }
+    },
+    {
+      "id": "q195",
+      "type": "multiple-choice",
+      "topic": "Model Deployment",
+      "question": "Which module-supported answer best completes this concept check? Monitoring systems help detect deviations and support timely adjustments: _____",
+      "choices": [
+        "detect deviations",
+        "scalability",
+        "real time",
+        "training, validation, deployment, and monitoring"
+      ],
+      "correctAnswer": "detect deviations",
+      "explanation": "Monitoring systems help detect deviations and support timely adjustments.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 43
+      }
+    },
+    {
+      "id": "q196",
+      "type": "fill-blank",
+      "topic": "Model Deployment",
+      "question": "Complete the module concept: Monitoring systems help _____ and support timely adjustments.",
+      "acceptedAnswers": [
+        "detect deviations"
+      ],
+      "explanation": "Monitoring systems help detect deviations and support timely adjustments.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 43
+      }
+    },
+    {
+      "id": "q197",
+      "type": "multiple-choice",
+      "topic": "Model Deployment",
+      "question": "Which module-supported answer best completes this concept check? Best practices listed are choosing the right infrastructure, versioning/tracking, robust testing/validation, and monitoring/alerting: _____",
+      "choices": [
+        "choosing infrastructure, versioning/tracking, testing/validation, and monitoring/alerting",
+        "scalability",
+        "APIs, tools, and software environments",
+        "model deployment"
+      ],
+      "correctAnswer": "choosing infrastructure, versioning/tracking, testing/validation, and monitoring/alerting",
+      "explanation": "Best practices listed are choosing the right infrastructure, versioning/tracking, robust testing/validation, and monitoring/alerting.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 44
+      }
+    },
+    {
+      "id": "q198",
+      "type": "fill-blank",
+      "topic": "Model Deployment",
+      "question": "Complete the module concept: Best practices listed are choosing the right infrastructure, versioning/tracking, robust testing/validation, and monitoring/alerting. Key term: _____",
+      "acceptedAnswers": [
+        "choosing infrastructure, versioning/tracking, testing/validation, and monitoring/alerting"
+      ],
+      "explanation": "Best practices listed are choosing the right infrastructure, versioning/tracking, robust testing/validation, and monitoring/alerting.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 44
+      }
+    },
+    {
+      "id": "q199",
+      "type": "multiple-choice",
+      "topic": "Data Ethics, Privacy, and Governance",
+      "question": "Which module-supported answer best completes this concept check? Data ethics covers ethical and moral obligations in collecting, sharing, and using data, with a focus on fair use for good: _____",
+      "choices": [
+        "data ethics",
+        "ownership, transparency, privacy, intention, and outcomes",
+        "privacy",
+        "consent"
+      ],
+      "correctAnswer": "data ethics",
+      "explanation": "Data ethics covers ethical and moral obligations in collecting, sharing, and using data, with a focus on fair use for good.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 45
+      }
+    },
+    {
+      "id": "q200",
+      "type": "fill-blank",
+      "topic": "Data Ethics, Privacy, and Governance",
+      "question": "Complete the module concept: Data ethics covers ethical and moral obligations in collecting, sharing, and using data, with a focus on fair use for good. Key term: _____",
+      "acceptedAnswers": [
+        "data ethics"
+      ],
+      "explanation": "Data ethics covers ethical and moral obligations in collecting, sharing, and using data, with a focus on fair use for good.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 45
+      }
+    },
+    {
+      "id": "q201",
+      "type": "multiple-choice",
+      "topic": "Data Ethics, Privacy, and Governance",
+      "question": "Which module-supported answer best completes this concept check? The five principles of data ethics are ownership, transparency, privacy, intention, and outcomes: _____",
+      "choices": [
+        "ownership, transparency, privacy, intention, and outcomes",
+        "transparency",
+        "data governance framework",
+        "data governance"
+      ],
+      "correctAnswer": "ownership, transparency, privacy, intention, and outcomes",
+      "explanation": "The five principles of data ethics are ownership, transparency, privacy, intention, and outcomes.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 46
+      }
+    },
+    {
+      "id": "q202",
+      "type": "fill-blank",
+      "topic": "Data Ethics, Privacy, and Governance",
+      "question": "Complete the module concept: The five principles of data ethics are _____.",
+      "acceptedAnswers": [
+        "ownership, transparency, privacy, intention, and outcomes"
+      ],
+      "explanation": "The five principles of data ethics are ownership, transparency, privacy, intention, and outcomes.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 46
+      }
+    },
+    {
+      "id": "q203",
+      "type": "multiple-choice",
+      "topic": "Data Ethics, Privacy, and Governance",
+      "question": "Which module-supported answer best completes this concept check? Ownership means individuals have ownership over their personal information: _____",
+      "choices": [
+        "ownership",
+        "data subject rights",
+        "privacy",
+        "accurate, consistent, and available"
+      ],
+      "correctAnswer": "ownership",
+      "explanation": "Ownership means individuals have ownership over their personal information.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 46
+      }
+    },
+    {
+      "id": "q204",
+      "type": "fill-blank",
+      "topic": "Data Ethics, Privacy, and Governance",
+      "question": "Complete the module concept: Ownership means individuals have _____ over their personal information.",
+      "acceptedAnswers": [
+        "ownership"
+      ],
+      "explanation": "Ownership means individuals have ownership over their personal information.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 46
+      }
+    },
+    {
+      "id": "q205",
+      "type": "multiple-choice",
+      "topic": "Data Ethics, Privacy, and Governance",
+      "question": "Which module-supported answer best completes this concept check? The module states that collecting someone's personal data without consent is unlawful and unethical: _____",
+      "choices": [
+        "consent",
+        "transparency",
+        "data governance",
+        "personally identifiable information"
+      ],
+      "correctAnswer": "consent",
+      "explanation": "The module states that collecting someone's personal data without consent is unlawful and unethical.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 46
+      }
+    },
+    {
+      "id": "q206",
+      "type": "fill-blank",
+      "topic": "Data Ethics, Privacy, and Governance",
+      "question": "Complete the module concept: The module states that collecting someone's personal data without _____ is unlawful and unethical.",
+      "acceptedAnswers": [
+        "consent"
+      ],
+      "explanation": "The module states that collecting someone's personal data without consent is unlawful and unethical.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 46
+      }
+    },
+    {
+      "id": "q207",
+      "type": "multiple-choice",
+      "topic": "Data Ethics, Privacy, and Governance",
+      "question": "Which module-supported answer best completes this concept check? Transparency means data subjects have a right to know how data will be collected, stored, and used: _____",
+      "choices": [
+        "transparency",
+        "outcomes",
+        "privacy",
+        "ownership"
+      ],
+      "correctAnswer": "transparency",
+      "explanation": "Transparency means data subjects have a right to know how data will be collected, stored, and used.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 46
+      }
+    },
+    {
+      "id": "q208",
+      "type": "fill-blank",
+      "topic": "Data Ethics, Privacy, and Governance",
+      "question": "Complete the module concept: Transparency means data subjects have a right to know how data will be collected, stored, and used. Key term: _____",
+      "acceptedAnswers": [
+        "transparency"
+      ],
+      "explanation": "Transparency means data subjects have a right to know how data will be collected, stored, and used.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 46
+      }
+    },
+    {
+      "id": "q209",
+      "type": "multiple-choice",
+      "topic": "Data Ethics, Privacy, and Governance",
+      "question": "Which module-supported answer best completes this concept check? Privacy is an ethical responsibility when handling personally identifiable information: _____",
+      "choices": [
+        "privacy",
+        "ownership, transparency, privacy, intention, and outcomes",
+        "disparate impact",
+        "data governance framework"
+      ],
+      "correctAnswer": "privacy",
+      "explanation": "Privacy is an ethical responsibility when handling personally identifiable information.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 46
+      }
+    },
+    {
+      "id": "q210",
+      "type": "fill-blank",
+      "topic": "Data Ethics, Privacy, and Governance",
+      "question": "Complete the module concept: Privacy is an ethical responsibility when handling personally identifiable information. Key term: _____",
+      "acceptedAnswers": [
+        "privacy"
+      ],
+      "explanation": "Privacy is an ethical responsibility when handling personally identifiable information.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 46
+      }
+    },
+    {
+      "id": "q211",
+      "type": "multiple-choice",
+      "topic": "Data Ethics, Privacy, and Governance",
+      "question": "Which module-supported answer best completes this concept check? Examples of PII shown include full name, birthdate, phone number, bank account number, and street address: _____",
+      "choices": [
+        "personally identifiable information",
+        "data governance framework",
+        "ownership, transparency, privacy, intention, and outcomes",
+        "accurate, consistent, and available"
+      ],
+      "correctAnswer": "personally identifiable information",
+      "explanation": "Examples of PII shown include full name, birthdate, phone number, bank account number, and street address.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 46
+      }
+    },
+    {
+      "id": "q212",
+      "type": "fill-blank",
+      "topic": "Data Ethics, Privacy, and Governance",
+      "question": "Complete the module concept: Examples of PII shown include full name, birthdate, phone number, bank account number, and street address. Key term: _____",
+      "acceptedAnswers": [
+        "personally identifiable information"
+      ],
+      "explanation": "Examples of PII shown include full name, birthdate, phone number, bank account number, and street address.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 46
+      }
+    },
+    {
+      "id": "q213",
+      "type": "multiple-choice",
+      "topic": "Data Ethics, Privacy, and Governance",
+      "question": "Which module-supported answer best completes this concept check? The intention principle asks why data is needed, what will be gained, and what changes can follow analysis: _____",
+      "choices": [
+        "intention",
+        "consent",
+        "ownership, transparency, privacy, intention, and outcomes",
+        "outcomes"
+      ],
+      "correctAnswer": "intention",
+      "explanation": "The intention principle asks why data is needed, what will be gained, and what changes can follow analysis.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 47
+      }
+    },
+    {
+      "id": "q214",
+      "type": "fill-blank",
+      "topic": "Data Ethics, Privacy, and Governance",
+      "question": "Complete the module concept: The _____ principle asks why data is needed, what will be gained, and what changes can follow analysis.",
+      "acceptedAnswers": [
+        "intention"
+      ],
+      "explanation": "The intention principle asks why data is needed, what will be gained, and what changes can follow analysis.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 47
+      }
+    },
+    {
+      "id": "q215",
+      "type": "multiple-choice",
+      "topic": "Data Ethics, Privacy, and Governance",
+      "question": "Which module-supported answer best completes this concept check? The outcomes principle notes that even good intentions can lead to inadvertent harm: _____",
+      "choices": [
+        "outcomes",
+        "data subject rights",
+        "privacy",
+        "consent"
+      ],
+      "correctAnswer": "outcomes",
+      "explanation": "The outcomes principle notes that even good intentions can lead to inadvertent harm.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 47
+      }
+    },
+    {
+      "id": "q216",
+      "type": "fill-blank",
+      "topic": "Data Ethics, Privacy, and Governance",
+      "question": "Complete the module concept: The _____ principle notes that even good intentions can lead to inadvertent harm.",
+      "acceptedAnswers": [
+        "outcomes"
+      ],
+      "explanation": "The outcomes principle notes that even good intentions can lead to inadvertent harm.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 47
+      }
+    },
+    {
+      "id": "q217",
+      "type": "multiple-choice",
+      "topic": "Data Ethics, Privacy, and Governance",
+      "question": "Which module-supported answer best completes this concept check? The module calls inadvertent harm to individuals or groups from analysis a disparate impact: _____",
+      "choices": [
+        "disparate impact",
+        "intention",
+        "ownership, transparency, privacy, intention, and outcomes",
+        "privacy"
+      ],
+      "correctAnswer": "disparate impact",
+      "explanation": "The module calls inadvertent harm to individuals or groups from analysis a disparate impact.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 47
+      }
+    },
+    {
+      "id": "q218",
+      "type": "fill-blank",
+      "topic": "Data Ethics, Privacy, and Governance",
+      "question": "Complete the module concept: The module calls inadvertent harm to individuals or groups from analysis a _____.",
+      "acceptedAnswers": [
+        "disparate impact"
+      ],
+      "explanation": "The module calls inadvertent harm to individuals or groups from analysis a disparate impact.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 47
+      }
+    },
+    {
+      "id": "q219",
+      "type": "multiple-choice",
+      "topic": "Data Ethics, Privacy, and Governance",
+      "question": "Which module-supported answer best completes this concept check? The data subject rights graphic includes rights to be informed, damages, access, erasure/blocking, file a complaint, object, rectify, and data portability: _____",
+      "choices": [
+        "data subject rights",
+        "personally identifiable information",
+        "transparency",
+        "data ethics"
+      ],
+      "correctAnswer": "data subject rights",
+      "explanation": "The data subject rights graphic includes rights to be informed, damages, access, erasure/blocking, file a complaint, object, rectify, and data portability.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 50
+      }
+    },
+    {
+      "id": "q220",
+      "type": "fill-blank",
+      "topic": "Data Ethics, Privacy, and Governance",
+      "question": "Complete the module concept: The _____ graphic includes rights to be informed, damages, access, erasure/blocking, file a complaint, object, rectify, and data portability.",
+      "acceptedAnswers": [
+        "data subject rights"
+      ],
+      "explanation": "The data subject rights graphic includes rights to be informed, damages, access, erasure/blocking, file a complaint, object, rectify, and data portability.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 50
+      }
+    },
+    {
+      "id": "q221",
+      "type": "multiple-choice",
+      "topic": "Data Ethics, Privacy, and Governance",
+      "question": "Which module-supported answer best completes this concept check? Data governance is a set of principles and processes for data collection, management, and use: _____",
+      "choices": [
+        "data governance",
+        "data subject rights",
+        "ownership",
+        "data ethics"
+      ],
+      "correctAnswer": "data governance",
+      "explanation": "Data governance is a set of principles and processes for data collection, management, and use.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 51
+      }
+    },
+    {
+      "id": "q222",
+      "type": "fill-blank",
+      "topic": "Data Ethics, Privacy, and Governance",
+      "question": "Complete the module concept: Data governance is a set of principles and processes for data collection, management, and use. Key term: _____",
+      "acceptedAnswers": [
+        "data governance"
+      ],
+      "explanation": "Data governance is a set of principles and processes for data collection, management, and use.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 51
+      }
+    },
+    {
+      "id": "q223",
+      "type": "multiple-choice",
+      "topic": "Data Ethics, Privacy, and Governance",
+      "question": "Which module-supported answer best completes this concept check? Data governance aims for accurate, consistent, available data while protecting privacy and security: _____",
+      "choices": [
+        "accurate, consistent, and available",
+        "ownership, transparency, privacy, intention, and outcomes",
+        "transparency",
+        "outcomes"
+      ],
+      "correctAnswer": "accurate, consistent, and available",
+      "explanation": "Data governance aims for accurate, consistent, available data while protecting privacy and security.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 51
+      }
+    },
+    {
+      "id": "q224",
+      "type": "fill-blank",
+      "topic": "Data Ethics, Privacy, and Governance",
+      "question": "Complete the module concept: Data governance aims for accurate, consistent, available data while protecting privacy and security. Key term: _____",
+      "acceptedAnswers": [
+        "accurate, consistent, and available"
+      ],
+      "explanation": "Data governance aims for accurate, consistent, available data while protecting privacy and security.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 51
+      }
+    },
+    {
+      "id": "q225",
+      "type": "multiple-choice",
+      "topic": "Data Ethics, Privacy, and Governance",
+      "question": "Which module-supported answer best completes this concept check? A data governance framework is the policies, procedures, and standards that implement data governance for an organization: _____",
+      "choices": [
+        "data governance framework",
+        "ownership, transparency, privacy, intention, and outcomes",
+        "data subject rights",
+        "accurate, consistent, and available"
+      ],
+      "correctAnswer": "data governance framework",
+      "explanation": "A data governance framework is the policies, procedures, and standards that implement data governance for an organization.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 51
+      }
+    },
+    {
+      "id": "q226",
+      "type": "fill-blank",
+      "topic": "Data Ethics, Privacy, and Governance",
+      "question": "Complete the module concept: A _____ is the policies, procedures, and standards that implement data governance for an organization.",
+      "acceptedAnswers": [
+        "data governance framework"
+      ],
+      "explanation": "A data governance framework is the policies, procedures, and standards that implement data governance for an organization.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 51
+      }
+    },
+    {
+      "id": "q227",
+      "type": "multiple-choice",
+      "topic": "Data Ethics, Privacy, and Governance",
+      "question": "Which module-supported answer best completes this concept check? The governance pillars graphic includes ownership/accountability, data quality, data protection/security, data use/accessibility, and data management: _____",
+      "choices": [
+        "ownership/accountability, data quality, data protection/security, data use/accessibility, and data management",
+        "ownership",
+        "data ethics",
+        "data governance"
+      ],
+      "correctAnswer": "ownership/accountability, data quality, data protection/security, data use/accessibility, and data management",
+      "explanation": "The governance pillars graphic includes ownership/accountability, data quality, data protection/security, data use/accessibility, and data management.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 52
+      }
+    },
+    {
+      "id": "q228",
+      "type": "fill-blank",
+      "topic": "Data Ethics, Privacy, and Governance",
+      "question": "Complete the module concept: The governance pillars graphic includes _____.",
+      "acceptedAnswers": [
+        "ownership/accountability, data quality, data protection/security, data use/accessibility, and data management"
+      ],
+      "explanation": "The governance pillars graphic includes ownership/accountability, data quality, data protection/security, data use/accessibility, and data management.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 52
+      }
+    },
+    {
+      "id": "q229",
+      "type": "true-false",
+      "topic": "Machine Learning Fundamentals",
+      "question": "Machine learning is about extracting knowledge from data.",
+      "correctAnswer": true,
+      "explanation": "Machine learning is about extracting knowledge from data.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 5
+      }
+    },
+    {
+      "id": "q230",
+      "type": "true-false",
+      "topic": "Machine Learning Fundamentals",
+      "question": "Machine learning is also known as predictive analytics or statistical learning.",
+      "correctAnswer": true,
+      "explanation": "Machine learning is also known as predictive analytics or statistical learning.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 5
+      }
+    },
+    {
+      "id": "q231",
+      "type": "true-false",
+      "topic": "Machine Learning Fundamentals",
+      "question": "ML can automatically learn from data and past experiences while identifying patterns to make predictions with minimal human intervention.",
+      "correctAnswer": true,
+      "explanation": "ML can automatically learn from data and past experiences while identifying patterns to make predictions with minimal human intervention.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 5
+      }
+    },
+    {
+      "id": "q232",
+      "type": "true-false",
+      "topic": "Machine Learning Fundamentals",
+      "question": "In the learning definition, T represents a class of tasks.",
+      "correctAnswer": true,
+      "explanation": "In the learning definition, T represents a class of tasks.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 6
+      }
+    },
+    {
+      "id": "q233",
+      "type": "true-false",
+      "topic": "Machine Learning Fundamentals",
+      "question": "Rule-based algorithms use explicit programming and manually specified rules.",
+      "correctAnswer": true,
+      "explanation": "Rule-based algorithms use explicit programming and manually specified rules.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 9
+      }
+    },
+    {
+      "id": "q234",
+      "type": "true-false",
+      "topic": "Machine Learning Fundamentals",
+      "question": "ML methods enable computers to operate autonomously without explicit programming.",
+      "correctAnswer": true,
+      "explanation": "ML methods enable computers to operate autonomously without explicit programming.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 11
+      }
+    },
+    {
+      "id": "q235",
+      "type": "true-false",
+      "topic": "Machine Learning Fundamentals",
+      "question": "Learning machines are suited to routine, repetitive, or tedious tasks.",
+      "correctAnswer": true,
+      "explanation": "Learning machines are suited to routine, repetitive, or tedious tasks.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 12
+      }
+    },
+    {
+      "id": "q236",
+      "type": "true-false",
+      "topic": "Machine Learning Fundamentals",
+      "question": "Self-driving cars are presented as vehicles that navigate by sensing their environment and making decisions without human input.",
+      "correctAnswer": true,
+      "explanation": "Self-driving cars are presented as vehicles that navigate by sensing their environment and making decisions without human input.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 13
+      }
+    },
+    {
+      "id": "q237",
+      "type": "true-false",
+      "topic": "ML Types, Workflow, and Applications",
+      "question": "The module lists supervised, unsupervised, semi-supervised, and reinforcement learning as types of machine learning.",
+      "correctAnswer": true,
+      "explanation": "The module lists supervised, unsupervised, semi-supervised, and reinforcement learning as types of machine learning.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 15
+      }
+    },
+    {
+      "id": "q238",
+      "type": "true-false",
+      "topic": "ML Types, Workflow, and Applications",
+      "question": "Preprocessing in the learning phase includes cleaning and formatting data.",
+      "correctAnswer": true,
+      "explanation": "Preprocessing in the learning phase includes cleaning and formatting data.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 18
+      }
+    },
+    {
+      "id": "q239",
+      "type": "true-false",
+      "topic": "ML Types, Workflow, and Applications",
+      "question": "The prediction phase combines new data with a trained model to produce a prediction.",
+      "correctAnswer": true,
+      "explanation": "The prediction phase combines new data with a trained model to produce a prediction.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 18
+      }
+    },
+    {
+      "id": "q240",
+      "type": "true-false",
+      "topic": "ML Types, Workflow, and Applications",
+      "question": "The module lists healthcare, automobile, transportation, manufacturing, e-commerce, and insurance as ML application areas.",
+      "correctAnswer": true,
+      "explanation": "The module lists healthcare, automobile, transportation, manufacturing, e-commerce, and insurance as ML application areas.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 24
+      }
+    },
+    {
+      "id": "q241",
+      "type": "true-false",
+      "topic": "ML Types, Workflow, and Applications",
+      "question": "Computer vision applications include facial recognition, motion tracking, and object detection.",
+      "correctAnswer": true,
+      "explanation": "Computer vision applications include facial recognition, motion tracking, and object detection.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 25
+      }
+    },
+    {
+      "id": "q242",
+      "type": "true-false",
+      "topic": "ML Types, Workflow, and Applications",
+      "question": "Automotive, aerospace, and manufacturing are associated with predictive maintenance.",
+      "correctAnswer": true,
+      "explanation": "Automotive, aerospace, and manufacturing are associated with predictive maintenance.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 25
+      }
+    },
+    {
+      "id": "q243",
+      "type": "true-false",
+      "topic": "ML Types, Workflow, and Applications",
+      "question": "Business ML examples shown include text parsing, recommendation engines, customer service chatbots, decision support, and image classification.",
+      "correctAnswer": true,
+      "explanation": "Business ML examples shown include text parsing, recommendation engines, customer service chatbots, decision support, and image classification.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 26
+      }
+    },
+    {
+      "id": "q244",
+      "type": "true-false",
+      "topic": "Python Tools and Libraries",
+      "question": "Scikit-learn is described as a very popular tool and the most prominent Python library for ML.",
+      "correctAnswer": true,
+      "explanation": "Scikit-learn is described as a very popular tool and the most prominent Python library for ML.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 23
+      }
+    },
+    {
+      "id": "q245",
+      "type": "true-false",
+      "topic": "Python Tools and Libraries",
+      "question": "SciPy is described as a collection of functions for scientific computing.",
+      "correctAnswer": true,
+      "explanation": "SciPy is described as a collection of functions for scientific computing.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 23
+      }
+    },
+    {
+      "id": "q246",
+      "type": "true-false",
+      "topic": "Python Tools and Libraries",
+      "question": "Pandas is described as a library for data wrangling and analysis.",
+      "correctAnswer": true,
+      "explanation": "Pandas is described as a library for data wrangling and analysis.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 23
+      }
+    },
+    {
+      "id": "q247",
+      "type": "true-false",
+      "topic": "Python Tools and Libraries",
+      "question": "Jupyter Notebook is an interactive environment for running code in the browser.",
+      "correctAnswer": true,
+      "explanation": "Jupyter Notebook is an interactive environment for running code in the browser.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 23
+      }
+    },
+    {
+      "id": "q248",
+      "type": "true-false",
+      "topic": "Data Preprocessing and Data Quality",
+      "question": "Incompleteness refers to missing values or data that lacks attributes.",
+      "correctAnswer": true,
+      "explanation": "Incompleteness refers to missing values or data that lacks attributes.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 27
+      }
+    },
+    {
+      "id": "q249",
+      "type": "true-false",
+      "topic": "Data Preprocessing and Data Quality",
+      "question": "Inconsistency refers to inconsistent records.",
+      "correctAnswer": true,
+      "explanation": "Inconsistency refers to inconsistent records.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 27
+      }
+    },
+    {
+      "id": "q250",
+      "type": "true-false",
+      "topic": "Data Preprocessing and Data Quality",
+      "question": "The data-quality example illustrates missing values, invalid values, duplicate items, incorrect formats, attribute dependency, misspellings, and values in the wrong column.",
+      "correctAnswer": true,
+      "explanation": "The data-quality example illustrates missing values, invalid values, duplicate items, incorrect formats, attribute dependency, misspellings, and values in the wrong column.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 28
+      }
+    },
+    {
+      "id": "q251",
+      "type": "true-false",
+      "topic": "Data Preprocessing and Data Quality",
+      "question": "Preprocessing means cleaning, altering, and reorganizing raw data before processing and analysis.",
+      "correctAnswer": true,
+      "explanation": "Preprocessing means cleaning, altering, and reorganizing raw data before processing and analysis.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 30
+      }
+    },
+    {
+      "id": "q252",
+      "type": "true-false",
+      "topic": "Data Preprocessing and Data Quality",
+      "question": "Preprocessing prepares data for analysis or modeling by cleaning and transforming it.",
+      "correctAnswer": true,
+      "explanation": "Preprocessing prepares data for analysis or modeling by cleaning and transforming it.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 30
+      }
+    },
+    {
+      "id": "q253",
+      "type": "true-false",
+      "topic": "Data Preprocessing and Data Quality",
+      "question": "The module divides preprocessing techniques into data cleansing and feature engineering.",
+      "correctAnswer": true,
+      "explanation": "The module divides preprocessing techniques into data cleansing and feature engineering.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 32
+      }
+    },
+    {
+      "id": "q254",
+      "type": "true-false",
+      "topic": "Data Preprocessing and Data Quality",
+      "question": "Feature engineering organizes data to make model training and inference more efficient.",
+      "correctAnswer": true,
+      "explanation": "Feature engineering organizes data to make model training and inference more efficient.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 32
+      }
+    },
+    {
+      "id": "q255",
+      "type": "true-false",
+      "topic": "Exploratory Data Analysis",
+      "question": "EDA is used to understand main data characteristics, discover patterns, spot anomalies, test hypotheses, and check assumptions.",
+      "correctAnswer": true,
+      "explanation": "EDA is used to understand main data characteristics, discover patterns, spot anomalies, test hypotheses, and check assumptions.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 33
+      }
+    },
+    {
+      "id": "q256",
+      "type": "true-false",
+      "topic": "Exploratory Data Analysis",
+      "question": "EDA visualization creates plots and charts to show data distributions and relationships.",
+      "correctAnswer": true,
+      "explanation": "EDA visualization creates plots and charts to show data distributions and relationships.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 33
+      }
+    },
+    {
+      "id": "q257",
+      "type": "true-false",
+      "topic": "Exploratory Data Analysis",
+      "question": "Outlier detection identifies unusual data points.",
+      "correctAnswer": true,
+      "explanation": "Outlier detection identifies unusual data points.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 33
+      }
+    },
+    {
+      "id": "q258",
+      "type": "true-false",
+      "topic": "Exploratory Data Analysis",
+      "question": "Hypothesis testing tests initial assumptions about the data.",
+      "correctAnswer": true,
+      "explanation": "Hypothesis testing tests initial assumptions about the data.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 33
+      }
+    },
+    {
+      "id": "q259",
+      "type": "true-false",
+      "topic": "Exploratory Data Analysis",
+      "question": "The Titanic example labels Survived as the label and shows a feature-selection step.",
+      "correctAnswer": true,
+      "explanation": "The Titanic example labels Survived as the label and shows a feature-selection step.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 36
+      }
+    },
+    {
+      "id": "q260",
+      "type": "true-false",
+      "topic": "Exploratory Data Analysis",
+      "question": "Imputation is the act of filling in missing values by estimating them.",
+      "correctAnswer": true,
+      "explanation": "Imputation is the act of filling in missing values by estimating them.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 37
+      }
+    },
+    {
+      "id": "q261",
+      "type": "true-false",
+      "topic": "Exploratory Data Analysis",
+      "question": "The module also names median, iterative, and KNN imputers as other imputers.",
+      "correctAnswer": true,
+      "explanation": "The module also names median, iterative, and KNN imputers as other imputers.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 37
+      }
+    },
+    {
+      "id": "q262",
+      "type": "true-false",
+      "topic": "Exploratory Data Analysis",
+      "question": "The column-transformation example applies ordinal encoding to categorical Pclass, Sex, and Embarked.",
+      "correctAnswer": true,
+      "explanation": "The column-transformation example applies ordinal encoding to categorical Pclass, Sex, and Embarked.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 38
+      }
+    },
+    {
+      "id": "q263",
+      "type": "true-false",
+      "topic": "Feature Scaling: StandardScaler and MinMaxScaler",
+      "question": "StandardScaler makes the standard deviation 1.",
+      "correctAnswer": true,
+      "explanation": "StandardScaler makes the standard deviation 1.",
+      "source": {
+        "module": "M1 - Scalers 1",
+        "page": 1
+      }
+    },
+    {
+      "id": "q264",
+      "type": "true-false",
+      "topic": "Feature Scaling: StandardScaler and MinMaxScaler",
+      "question": "StandardScaler can produce negative values.",
+      "correctAnswer": true,
+      "explanation": "StandardScaler can produce negative values.",
+      "source": {
+        "module": "M1 - Scalers 1",
+        "page": 1
+      }
+    },
+    {
+      "id": "q265",
+      "type": "true-false",
+      "topic": "Feature Scaling: StandardScaler and MinMaxScaler",
+      "question": "MinMaxScaler transforms values into the range 0 to 1.",
+      "correctAnswer": true,
+      "explanation": "MinMaxScaler transforms values into the range 0 to 1.",
+      "source": {
+        "module": "M1 - Scalers 1",
+        "page": 1
+      }
+    },
+    {
+      "id": "q266",
+      "type": "true-false",
+      "topic": "Feature Scaling: StandardScaler and MinMaxScaler",
+      "question": "MinMaxScaler is described as easy to interpret.",
+      "correctAnswer": true,
+      "explanation": "MinMaxScaler is described as easy to interpret.",
+      "source": {
+        "module": "M1 - Scalers 1",
+        "page": 1
+      }
+    },
+    {
+      "id": "q267",
+      "type": "true-false",
+      "topic": "Feature Scaling: StandardScaler and MinMaxScaler",
+      "question": "The handout recommends StandardScaler for KNN.",
+      "correctAnswer": true,
+      "explanation": "The handout recommends StandardScaler for KNN.",
+      "source": {
+        "module": "M1 - Scalers 1",
+        "page": 2
+      }
+    },
+    {
+      "id": "q268",
+      "type": "true-false",
+      "topic": "Feature Scaling: StandardScaler and MinMaxScaler",
+      "question": "The handout recommends StandardScaler for SVM.",
+      "correctAnswer": true,
+      "explanation": "The handout recommends StandardScaler for SVM.",
+      "source": {
+        "module": "M1 - Scalers 1",
+        "page": 2
+      }
+    },
+    {
+      "id": "q269",
+      "type": "true-false",
+      "topic": "Feature Scaling: StandardScaler and MinMaxScaler",
+      "question": "The handout says StandardScaler is often beneficial for Linear Regression.",
+      "correctAnswer": true,
+      "explanation": "The handout says StandardScaler is often beneficial for Linear Regression.",
+      "source": {
+        "module": "M1 - Scalers 1",
+        "page": 2
+      }
+    },
+    {
+      "id": "q270",
+      "type": "true-false",
+      "topic": "Feature Scaling: StandardScaler and MinMaxScaler",
+      "question": "The handout recommends MinMaxScaler when data must be within a fixed range.",
+      "correctAnswer": true,
+      "explanation": "The handout recommends MinMaxScaler when data must be within a fixed range.",
+      "source": {
+        "module": "M1 - Scalers 1",
+        "page": 2
+      }
+    },
+    {
+      "id": "q271",
+      "type": "multiple-answer",
+      "topic": "ML Types, Workflow, and Applications",
+      "question": "Which FOUR learning types are explicitly shown in the module? Select 4.",
+      "choices": [
+        "Supervised learning",
+        "Unsupervised learning",
+        "Semi-supervised learning",
+        "Reinforcement learning",
+        "Rule-based learning",
+        "Manual learning"
+      ],
+      "correctAnswers": [
+        "Supervised learning",
+        "Unsupervised learning",
+        "Semi-supervised learning",
+        "Reinforcement learning"
+      ],
+      "explanation": "The module shows supervised, unsupervised, semi-supervised, and reinforcement learning.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 15
+      }
+    },
+    {
+      "id": "q272",
+      "type": "multiple-answer",
+      "topic": "Python Tools and Libraries",
+      "question": "Which THREE tools/libraries match functions explicitly stated on the module's Python table? Select 3.",
+      "choices": [
+        "Pandas — data wrangling and analysis",
+        "Matplotlib — scientific plotting",
+        "NumPy — scientific computing",
+        "Pandas — model deployment",
+        "Matplotlib — data governance"
+      ],
+      "correctAnswers": [
+        "Pandas — data wrangling and analysis",
+        "Matplotlib — scientific plotting",
+        "NumPy — scientific computing"
+      ],
+      "explanation": "The table identifies Pandas for data wrangling/analysis, Matplotlib for plotting, and NumPy for scientific computing.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 23
+      }
+    },
+    {
+      "id": "q273",
+      "type": "multiple-answer",
+      "topic": "Data Preprocessing and Data Quality",
+      "question": "Which THREE are data-quality problems explicitly listed in the module? Select 3.",
+      "choices": [
+        "Incompleteness",
+        "Noise",
+        "Inconsistency",
+        "Deployment",
+        "Monitoring"
+      ],
+      "correctAnswers": [
+        "Incompleteness",
+        "Noise",
+        "Inconsistency"
+      ],
+      "explanation": "The module lists incompleteness, noise, and inconsistency as real-data quality problems.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 27
+      }
+    },
+    {
+      "id": "q274",
+      "type": "multiple-answer",
+      "topic": "Data Preprocessing and Data Quality",
+      "question": "Which THREE activities are listed under data cleansing? Select 3.",
+      "choices": [
+        "Identify and sort out missing data",
+        "Reduce noisy data",
+        "Identify and remove duplicates",
+        "Configure cloud hardware",
+        "Create deployment APIs"
+      ],
+      "correctAnswers": [
+        "Identify and sort out missing data",
+        "Reduce noisy data",
+        "Identify and remove duplicates"
+      ],
+      "explanation": "The data-cleansing list covers missing data, noisy data, and duplicates.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 32
+      }
+    },
+    {
+      "id": "q275",
+      "type": "multiple-answer",
+      "topic": "Data Preprocessing and Data Quality",
+      "question": "Which FOUR techniques are listed under feature engineering? Select 4.",
+      "choices": [
+        "Feature scaling/normalization",
+        "Data reduction",
+        "Discretization",
+        "Feature encoding",
+        "Monitoring and alerting",
+        "Model deployment"
+      ],
+      "correctAnswers": [
+        "Feature scaling/normalization",
+        "Data reduction",
+        "Discretization",
+        "Feature encoding"
+      ],
+      "explanation": "The feature-engineering list contains scaling/normalization, reduction, discretization, and encoding.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 32
+      }
+    },
+    {
+      "id": "q276",
+      "type": "multiple-answer",
+      "topic": "Exploratory Data Analysis",
+      "question": "Which FOUR measures are given as examples of summary statistics? Select 4.",
+      "choices": [
+        "Mean",
+        "Median",
+        "Variance",
+        "Standard deviation",
+        "Data portability",
+        "Parameter tuning"
+      ],
+      "correctAnswers": [
+        "Mean",
+        "Median",
+        "Variance",
+        "Standard deviation"
+      ],
+      "explanation": "The EDA slide names mean, median, variance, and standard deviation.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 33
+      }
+    },
+    {
+      "id": "q277",
+      "type": "multiple-answer",
+      "topic": "Exploratory Data Analysis",
+      "question": "Which TWO broad responses to missing values are shown? Select 2.",
+      "choices": [
+        "Remove rows with missing values",
+        "Use imputation",
+        "Deploy the model",
+        "Increase the load"
+      ],
+      "correctAnswers": [
+        "Remove rows with missing values",
+        "Use imputation"
+      ],
+      "explanation": "The module presents row removal and imputation as the two broad options.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 37
+      }
+    },
+    {
+      "id": "q278",
+      "type": "multiple-answer",
+      "topic": "Feature Scaling: StandardScaler and MinMaxScaler",
+      "question": "Which FOUR characteristics are stated for StandardScaler? Select 4.",
+      "choices": [
+        "Mean becomes approximately 0",
+        "Standard deviation becomes 1",
+        "Values are not restricted to a fixed range",
+        "Can result in negative values",
+        "Always restricted to 0 to 1",
+        "Cannot produce negative values"
+      ],
+      "correctAnswers": [
+        "Mean becomes approximately 0",
+        "Standard deviation becomes 1",
+        "Values are not restricted to a fixed range",
+        "Can result in negative values"
+      ],
+      "explanation": "The scaler handout states all four StandardScaler characteristics.",
+      "source": {
+        "module": "M1 - Scalers 1",
+        "page": 1
+      }
+    },
+    {
+      "id": "q279",
+      "type": "multiple-answer",
+      "topic": "Feature Scaling: StandardScaler and MinMaxScaler",
+      "question": "Which FOUR characteristics/use conditions are stated for MinMaxScaler? Select 4.",
+      "choices": [
+        "Transforms values to 0–1",
+        "Preserves relative distances",
+        "Easy to interpret",
+        "Sensitive to outliers",
+        "Forces mean to 0",
+        "Forces standard deviation to 1"
+      ],
+      "correctAnswers": [
+        "Transforms values to 0–1",
+        "Preserves relative distances",
+        "Easy to interpret",
+        "Sensitive to outliers"
+      ],
+      "explanation": "The handout states that MinMaxScaler maps to 0–1, preserves relative distances, is easy to interpret, and is sensitive to outliers.",
+      "source": {
+        "module": "M1 - Scalers 1",
+        "page": 1
+      }
+    },
+    {
+      "id": "q280",
+      "type": "multiple-answer",
+      "topic": "Feature Scaling: StandardScaler and MinMaxScaler",
+      "question": "For which FOUR methods does the handout explicitly recommend StandardScaler? Select 4.",
+      "choices": [
+        "KNN",
+        "Logistic Regression",
+        "SVM",
+        "PCA",
+        "Neural Networks",
+        "Deep Learning Models"
+      ],
+      "correctAnswers": [
+        "KNN",
+        "Logistic Regression",
+        "SVM",
+        "PCA"
+      ],
+      "explanation": "The handout explicitly recommends StandardScaler for KNN, Logistic Regression, SVM, and PCA.",
+      "source": {
+        "module": "M1 - Scalers 1",
+        "page": 2
+      }
+    },
+    {
+      "id": "q281",
+      "type": "multiple-answer",
+      "topic": "Model Deployment",
+      "question": "Which FOUR best practices for successful ML deployment are listed? Select 4.",
+      "choices": [
+        "Choosing the right infrastructure",
+        "Effective versioning and tracking",
+        "Robust testing and validation",
+        "Implementing monitoring and alerting",
+        "Ignoring model drift",
+        "Removing validation"
+      ],
+      "correctAnswers": [
+        "Choosing the right infrastructure",
+        "Effective versioning and tracking",
+        "Robust testing and validation",
+        "Implementing monitoring and alerting"
+      ],
+      "explanation": "The module lists infrastructure, versioning/tracking, testing/validation, and monitoring/alerting.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 44
+      }
+    },
+    {
+      "id": "q282",
+      "type": "multiple-answer",
+      "topic": "Data Ethics, Privacy, and Governance",
+      "question": "Which FIVE principles of data ethics are presented? Select 5.",
+      "choices": [
+        "Ownership",
+        "Transparency",
+        "Privacy",
+        "Intention",
+        "Outcomes",
+        "Deployment",
+        "Scaling"
+      ],
+      "correctAnswers": [
+        "Ownership",
+        "Transparency",
+        "Privacy",
+        "Intention",
+        "Outcomes"
+      ],
+      "explanation": "The module's five principles are ownership, transparency, privacy, intention, and outcomes.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 46
+      }
+    },
+    {
+      "id": "q283",
+      "type": "multiple-answer",
+      "topic": "Data Ethics, Privacy, and Governance",
+      "question": "Which FIVE examples are shown as personally identifiable information? Select 5.",
+      "choices": [
+        "Full name",
+        "Birthdate",
+        "Phone number",
+        "Bank account number",
+        "Street address",
+        "Model accuracy",
+        "Feature scaling"
+      ],
+      "correctAnswers": [
+        "Full name",
+        "Birthdate",
+        "Phone number",
+        "Bank account number",
+        "Street address"
+      ],
+      "explanation": "The privacy section lists these five examples of PII.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 46
+      }
+    },
+    {
+      "id": "q284",
+      "type": "multiple-answer",
+      "topic": "Data Ethics, Privacy, and Governance",
+      "question": "Which FOUR data-subject rights are shown in the module graphic? Select 4.",
+      "choices": [
+        "Right to be informed",
+        "Right to access",
+        "Right to object",
+        "Right to data portability",
+        "Right to model scaling",
+        "Right to parameter tuning"
+      ],
+      "correctAnswers": [
+        "Right to be informed",
+        "Right to access",
+        "Right to object",
+        "Right to data portability"
+      ],
+      "explanation": "The graphic includes the rights to be informed, access, object, and data portability.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 50
+      }
+    },
+    {
+      "id": "q285",
+      "type": "multiple-choice",
+      "topic": "Data Preprocessing and Data Quality",
+      "question": "A dataset contains blank fields for some records. Which quality issue from the module best describes this?",
+      "choices": [
+        "incompleteness",
+        "data preparation",
+        "preprocessing",
+        "noise"
+      ],
+      "correctAnswer": "incompleteness",
+      "explanation": "Incompleteness refers to missing values or data that lacks attributes.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 27
+      }
+    },
+    {
+      "id": "q286",
+      "type": "multiple-choice",
+      "topic": "Data Preprocessing and Data Quality",
+      "question": "A dataset contains records that are simply incorrect. Which quality issue best fits?",
+      "choices": [
+        "noise",
+        "cleaning and transforming",
+        "good data",
+        "preprocessing"
+      ],
+      "correctAnswer": "noise",
+      "explanation": "Noise refers to incorrect records or exceptions.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 27
+      }
+    },
+    {
+      "id": "q287",
+      "type": "multiple-choice",
+      "topic": "Data Preprocessing and Data Quality",
+      "question": "Two records represent the same item and one should be removed. Which preprocessing category directly includes this task?",
+      "choices": [
+        "data cleansing and feature engineering",
+        "good data",
+        "noise",
+        "identifying missing data, reducing noisy data, and removing duplicates"
+      ],
+      "correctAnswer": "data cleansing and feature engineering",
+      "explanation": "The module divides preprocessing techniques into data cleansing and feature engineering.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 32
+      }
+    },
+    {
+      "id": "q288",
+      "type": "multiple-choice",
+      "topic": "Exploratory Data Analysis",
+      "question": "You want to examine relationships between variables during EDA. Which listed activity fits?",
+      "choices": [
+        "correlation analysis",
+        "Exploratory Data Analysis",
+        "outlier detection",
+        "visualization"
+      ],
+      "correctAnswer": "correlation analysis",
+      "explanation": "Correlation analysis examines relationships between variables.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 33
+      }
+    },
+    {
+      "id": "q289",
+      "type": "multiple-choice",
+      "topic": "Exploratory Data Analysis",
+      "question": "You want to identify unusual data points during EDA. Which activity fits?",
+      "choices": [
+        "outlier detection",
+        "remove rows or use imputation",
+        "correlation analysis",
+        "imputation"
+      ],
+      "correctAnswer": "outlier detection",
+      "explanation": "Outlier detection identifies unusual data points.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 33
+      }
+    },
+    {
+      "id": "q290",
+      "type": "multiple-choice",
+      "topic": "Exploratory Data Analysis",
+      "question": "A missing numeric value will be filled by estimating it rather than dropping the row. What process is being used?",
+      "choices": [
+        "imputation",
+        "bar plots and histograms",
+        "data visualization",
+        "Exploratory Data Analysis"
+      ],
+      "correctAnswer": "imputation",
+      "explanation": "Imputation is the act of filling in missing values by estimating them.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 37
+      }
+    },
+    {
+      "id": "q291",
+      "type": "multiple-choice",
+      "topic": "Feature Scaling: StandardScaler and MinMaxScaler",
+      "question": "Your inputs are expected to remain between 0 and 1. Which scaler does the handout recommend?",
+      "choices": [
+        "MinMaxScaler",
+        "StandardScaler",
+        "easy to interpret",
+        "StandardScaler"
+      ],
+      "correctAnswer": "MinMaxScaler",
+      "explanation": "The handout recommends MinMaxScaler for neural networks or deep learning models.",
+      "source": {
+        "module": "M1 - Scalers 1",
+        "page": 2
+      }
+    },
+    {
+      "id": "q292",
+      "type": "multiple-choice",
+      "topic": "Feature Scaling: StandardScaler and MinMaxScaler",
+      "question": "You are following the handout's recommendation for PCA. Which scaler should you use?",
+      "choices": [
+        "StandardScaler",
+        "MinMaxScaler",
+        "sensitive to outliers",
+        "negative values"
+      ],
+      "correctAnswer": "StandardScaler",
+      "explanation": "The handout recommends StandardScaler for KNN.",
+      "source": {
+        "module": "M1 - Scalers 1",
+        "page": 2
+      }
+    },
+    {
+      "id": "q293",
+      "type": "multiple-choice",
+      "topic": "Feature Scaling: StandardScaler and MinMaxScaler",
+      "question": "You need scaling whose transformed values are not confined to a fixed range. Which scaler has that stated characteristic?",
+      "choices": [
+        "StandardScaler",
+        "MinMaxScaler",
+        "sensitive to outliers",
+        "negative values"
+      ],
+      "correctAnswer": "StandardScaler",
+      "explanation": "The handout recommends StandardScaler for KNN.",
+      "source": {
+        "module": "M1 - Scalers 1",
+        "page": 1
+      }
+    },
+    {
+      "id": "q294",
+      "type": "multiple-choice",
+      "topic": "Model Deployment",
+      "question": "A deployed model's performance changes as real-world data evolves. Which stage is intended to detect deviations?",
+      "choices": [
+        "continuous monitoring",
+        "training, validation, deployment, and monitoring",
+        "detect deviations",
+        "APIs, tools, and software environments"
+      ],
+      "correctAnswer": "continuous monitoring",
+      "explanation": "Deployed models need continuous monitoring because real-world data can evolve and model performance can drift.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 43
+      }
+    },
+    {
+      "id": "q295",
+      "type": "multiple-choice",
+      "topic": "Model Deployment",
+      "question": "A team is checking whether infrastructure can handle increased computational loads before release. Which concern from the validation section are they testing?",
+      "choices": [
+        "scalability",
+        "continuous monitoring",
+        "continuous training and parameter tuning",
+        "cloud or on-prem hardware"
+      ],
+      "correctAnswer": "scalability",
+      "explanation": "Validation includes checking that models and infrastructure can handle increased loads and computational requirements efficiently.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 41
+      }
+    },
+    {
+      "id": "q296",
+      "type": "multiple-choice",
+      "topic": "Data Ethics, Privacy, and Governance",
+      "question": "A data subject is not told how collected information will be stored or used. Which principle is most directly implicated?",
+      "choices": [
+        "transparency",
+        "outcomes",
+        "privacy",
+        "ownership"
+      ],
+      "correctAnswer": "transparency",
+      "explanation": "Transparency means data subjects have a right to know how data will be collected, stored, and used.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 46
+      }
+    },
+    {
+      "id": "q297",
+      "type": "multiple-choice",
+      "topic": "Data Ethics, Privacy, and Governance",
+      "question": "A project has good intentions but its analysis inadvertently harms a group. What term does the module use for this effect?",
+      "choices": [
+        "disparate impact",
+        "intention",
+        "ownership, transparency, privacy, intention, and outcomes",
+        "privacy"
+      ],
+      "correctAnswer": "disparate impact",
+      "explanation": "The module calls inadvertent harm to individuals or groups from analysis a disparate impact.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 47
+      }
+    },
+    {
+      "id": "q298",
+      "type": "multiple-choice",
+      "topic": "Python Tools and Libraries",
+      "question": "A student needs the module's library for data wrangling and analysis. Which tool fits?",
+      "choices": [
+        "Pandas",
+        "NumPy",
+        "SciPy",
+        "Anaconda"
+      ],
+      "correctAnswer": "Pandas",
+      "explanation": "Pandas is described as a library for data wrangling and analysis.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 23
+      }
+    },
+    {
+      "id": "q299",
+      "type": "multiple-choice",
+      "topic": "Python Tools and Libraries",
+      "question": "A student needs the module's primary scientific plotting library. Which tool fits?",
+      "choices": [
+        "Matplotlib",
+        "Pandas",
+        "Jupyter Notebook",
+        "easy-to-read syntax"
+      ],
+      "correctAnswer": "Matplotlib",
+      "explanation": "Matplotlib is described as the primary scientific plotting library.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 23
+      }
+    },
+    {
+      "id": "q300",
+      "type": "true-false",
+      "topic": "Machine Learning Fundamentals",
+      "question": "Machine learning sits at the intersection of statistics, artificial intelligence, and computer science.",
+      "correctAnswer": true,
+      "explanation": "Machine learning sits at the intersection of statistics, artificial intelligence, and computer science.",
+      "source": {
+        "module": "[M1-MAIN] Introduction to Machine Learning",
+        "page": 5
+      }
+    }
+  ]
+}
