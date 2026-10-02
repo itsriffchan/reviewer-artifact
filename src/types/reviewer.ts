@@ -53,6 +53,11 @@ export type Question =
   | TrueFalseQuestion
   | FillBlankQuestion;
 
+export interface QuestionTypeCount {
+  type: QuestionType;
+  count: number;
+}
+
 export interface SubjectMetadata {
   code: string;
   name: string;
@@ -101,6 +106,7 @@ export interface ReviewerSummary {
   yearLevel: number;
   questionCount: number;
   questionTypes: QuestionType[];
+  questionTypeCounts: QuestionTypeCount[];
   topics: string[];
   shuffleQuestions: boolean;
   shuffleChoices: boolean;

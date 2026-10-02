@@ -4,6 +4,8 @@ A content-driven Next.js app for browsing and completing academic reviewer quest
 
 Students choose a year level, open a subject, complete a reviewer, and receive deterministic results. Reviewer questions are supplied as JSON files; this app delivers, validates, scores, and saves them locally in the browser.
 
+Reviewer overviews and subject listings derive a question-format breakdown from each JSON file, so students can see the exam composition (for example, the number of multiple-choice and fill-in-the-blank questions) before starting.
+
 ## Quick start
 
 Requirements: Node.js 20+.

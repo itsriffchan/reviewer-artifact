@@ -157,6 +157,7 @@ This phase must be completed before the external Question Bank Generator is fina
 - [x] Display coverage.
 - [x] Display total questions.
 - [x] Display included question types.
+- [x] Display the question count for each included question type.
 - [x] Add Start Reviewer action.
 
 ## Search
@@ -472,7 +473,7 @@ Perform the complete intended workflow:
 - [x] Add "Clear selection" option for `MultipleChoice` and `MultipleAnswer` questions (along with toggle unselect on single choice).
 - [x] Remove the "Hub" pill in `Navbar.tsx`.
 - [x] Declutter redundant/unnecessary pills across the app (Verified Reviewer in reviewer details, redundant Year pill in year page, decorative badges on year cards, char counter in FillBlank).
-- [x] Verify all 16 test suites pass with new test cases covering `getNextUnansweredIndex` and clearing selections (128 tests passing).
+- [x] Verify all 17 test suites pass with new test cases covering `getNextUnansweredIndex`, clearing selections, and question-format counts (139 tests passing).
 
 ---
 
@@ -524,6 +525,7 @@ Do not implement these unless explicitly requested.
 - Added dedicated accessible "Clear selection" buttons for multiple-choice and multiple-answer questions, allowing students to easily reset their answer choices.
 - Removed decorative and redundant pills across Navbar, Year pages, Reviewer detail headers, and input fields to maintain an uncluttered aesthetic.
 - Refined the purple/green connected-learning treatment into solid, focused surfaces without changing functional quiz behavior or the reviewer JSON contract.
+- Reviewer and subject views now derive and display per-format question counts (for example, "30 MCQ" and "2 Fill in the blank") from the reviewer questions.
 
 
 

@@ -20,6 +20,12 @@ describe('Content Discovery & Catalog Engine (Phase 2)', () => {
     expect(itMidterm?.questionTypes).toContain('multiple-answer');
     expect(itMidterm?.questionTypes).toContain('true-false');
     expect(itMidterm?.questionTypes).toContain('fill-blank');
+    expect(itMidterm?.questionTypeCounts).toEqual([
+      { type: 'multiple-choice', count: 3 },
+      { type: 'multiple-answer', count: 2 },
+      { type: 'true-false', count: 3 },
+      { type: 'fill-blank', count: 2 },
+    ]);
   });
 
   it('groups discovered reviewers accurately by year level', () => {

@@ -38,6 +38,12 @@ export default async function SubjectPage({ params }: SubjectPageProps) {
   }
 
   const totalQuestions = subject.reviewers.reduce((acc, r) => acc + r.questionCount, 0);
+  const formatLabels: Record<string, string> = {
+    'multiple-choice': 'MCQ',
+    'multiple-answer': 'Multiple answer',
+    'true-false': 'True / false',
+    'fill-blank': 'Fill in the blank',
+  };
 
   return (
     <div className="py-10 sm:py-14">
@@ -141,12 +147,12 @@ export default async function SubjectPage({ params }: SubjectPageProps) {
                   {/* Included Question Types */}
                   <div className="flex flex-wrap items-center gap-2 text-xs text-[#C4B5FD]/70">
                     <span className="font-semibold text-[#A78BFA]/80">Formats:</span>
-                    {reviewer.questionTypes.map((type) => (
+                    {reviewer.questionTypeCounts.map(({ type, count }) => (
                       <span
                         key={type}
                         className="inline-flex items-center rounded-md bg-[#12101D] px-2 py-0.5 text-[11px] text-[#C4B5FD] border border-[#2A2440]"
                       >
-                        {type}
+                        {count} {formatLabels[type] || type}
                       </span>
                     ))}
                   </div>

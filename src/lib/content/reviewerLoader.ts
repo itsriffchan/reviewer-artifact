@@ -7,6 +7,7 @@ import {
   ReviewerValidationError,
 } from '@/schemas/reviewerSchema';
 import { ReviewerData, ReviewerSummary } from '@/types/reviewer';
+import { getQuestionTypeCounts } from './questionStats';
 
 export interface LoadedReviewerResult {
   success: boolean;
@@ -111,7 +112,8 @@ export function loadReviewerFile(filePath: string): LoadedReviewerResult {
     }
 
     const data = validation.data;
-    const questionTypes = Array.from(new Set(data.questions.map((q) => q.type)));
+    const questionTypeCounts = getQuestionTypeCounts(data.questions);
+    const questionTypes = questionTypeCounts.map(({ type }) => type);
 
     const summary: ReviewerSummary = {
       id: data.id,
@@ -123,6 +125,7 @@ export function loadReviewerFile(filePath: string): LoadedReviewerResult {
       yearLevel: data.subject.yearLevel,
       questionCount: data.questions.length,
       questionTypes,
+      questionTypeCounts,
       topics: Array.from(new Set(data.questions.map((q) => q.topic))),
       shuffleQuestions: data.reviewer.shuffleQuestions,
       shuffleChoices: data.reviewer.shuffleChoices,

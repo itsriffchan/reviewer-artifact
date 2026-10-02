@@ -11,6 +11,7 @@ import {
   Play,
 } from 'lucide-react';
 import { ReviewerSessionConfig } from '@/components/reviewer/ReviewerSessionConfig';
+import { getQuestionTypeCounts } from '@/lib/content/questionStats';
 
 interface ReviewerPageProps {
   params: Promise<{
@@ -39,7 +40,7 @@ export default async function ReviewerOverviewPage({ params }: ReviewerPageProps
   }
 
   const { reviewer, subject, questions } = data;
-  const questionTypes = Array.from(new Set(questions.map((q) => q.type)));
+  const questionTypeCounts = getQuestionTypeCounts(questions);
 
   const typeLabels: Record<string, string> = {
     'multiple-choice': 'Single-Answer Multiple Choice',
@@ -99,7 +100,7 @@ export default async function ReviewerOverviewPage({ params }: ReviewerPageProps
 
             <div className="rounded-2xl border border-[#2A2440] bg-[#12101D] p-4 text-center">
               <span className="block text-2xl font-extrabold text-[#A78BFA] mb-1">
-                {questionTypes.length}
+                {questionTypeCounts.length}
               </span>
               <span className="text-xs font-semibold text-[#C4B5FD]/70">Question Formats</span>
             </div>
@@ -142,13 +143,18 @@ export default async function ReviewerOverviewPage({ params }: ReviewerPageProps
               <span>Included Question Formats</span>
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
-              {questionTypes.map((type) => (
+              {questionTypeCounts.map(({ type, count }) => (
                 <div
                   key={type}
-                  className="flex items-center gap-2 rounded-xl bg-[#181526] border border-[#2A2440] px-3.5 py-2 text-xs text-[#F3F0FA]"
+                  className="flex items-center justify-between gap-3 rounded-xl bg-[#181526] border border-[#2A2440] px-3.5 py-2 text-xs text-[#F3F0FA]"
                 >
-                  <CheckCircle2 className="h-3.5 w-3.5 text-[#34D399] shrink-0" />
-                  <span>{typeLabels[type] || type}</span>
+                  <span className="flex min-w-0 items-center gap-2">
+                    <CheckCircle2 className="h-3.5 w-3.5 text-[#34D399] shrink-0" />
+                    <span>{typeLabels[type] || type}</span>
+                  </span>
+                  <span className="shrink-0 font-bold text-[#34D399]">
+                    {count} {count === 1 ? 'question' : 'questions'}
+                  </span>
                 </div>
               ))}
             </div>
