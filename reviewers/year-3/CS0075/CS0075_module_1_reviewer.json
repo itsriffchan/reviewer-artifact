@@ -1,0 +1,3369 @@
+{
+  "schemaVersion": 1,
+  "id": "CS0075-midterm",
+  "subject": {
+    "code": "CS0075",
+    "name": "Machine Learning Algorithms",
+    "yearLevel": 3
+  },
+  "reviewer": {
+    "title": "Module 1 Reviewer",
+    "description": "Comprehensive reviewer covering Module 1 concepts, preprocessing, exploratory data analysis, scaling, deployment, ethics, governance, and Python-related tools presented in the supplied course materials.",
+    "coverage": [
+      "ML Foundations",
+      "ML Approaches and Applications",
+      "ML Types and Workflow",
+      "Python Tools and Libraries",
+      "Data Quality and Preprocessing",
+      "Exploratory Data Analysis",
+      "Feature Scaling",
+      "Model Deployment and Monitoring",
+      "Data Ethics and Privacy",
+      "Data Rights and Governance"
+    ],
+    "shuffleQuestions": true,
+    "shuffleChoices": true
+  },
+  "questions": [
+    {
+      "id": "q001",
+      "type": "multiple-choice",
+      "topic": "ML Foundations",
+      "question": "Which description best captures the central purpose of machine learning as presented in the module?",
+      "explanation": "The module describes machine learning as extracting knowledge from data and learning patterns that support predictions with minimal human intervention.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 5
+      },
+      "choices": [
+        "Extracting knowledge and patterns from data",
+        "Writing every decision rule explicitly",
+        "Replacing data with manually specified conditions",
+        "Limiting computers to fixed instructions"
+      ],
+      "correctAnswer": "Extracting knowledge and patterns from data"
+    },
+    {
+      "id": "q002",
+      "type": "multiple-choice",
+      "topic": "ML Foundations",
+      "question": "A system improves its task performance after receiving more experience. Which idea from the module does this demonstrate?",
+      "explanation": "A program is said to learn when its performance on tasks, measured by a performance measure, improves with experience.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 6
+      },
+      "choices": [
+        "Learning from experience",
+        "Manual rule specification",
+        "Data inconsistency",
+        "Model deployment"
+      ],
+      "correctAnswer": "Learning from experience"
+    },
+    {
+      "id": "q003",
+      "type": "multiple-choice",
+      "topic": "ML Foundations",
+      "question": "In the E-T-P description of learning, what does E represent?",
+      "explanation": "The module labels E as experience, represented by data.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 6
+      },
+      "choices": [
+        "Experience",
+        "Evaluation",
+        "Encoding",
+        "Environment"
+      ],
+      "correctAnswer": "Experience"
+    },
+    {
+      "id": "q004",
+      "type": "multiple-choice",
+      "topic": "ML Foundations",
+      "question": "In the E-T-P description of learning, what does T represent?",
+      "explanation": "T represents the class of tasks for which the program's performance is considered.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 6
+      },
+      "choices": [
+        "Tasks",
+        "Training",
+        "Testing",
+        "Transformation"
+      ],
+      "correctAnswer": "Tasks"
+    },
+    {
+      "id": "q005",
+      "type": "multiple-choice",
+      "topic": "ML Foundations",
+      "question": "In the E-T-P description of learning, what does P represent?",
+      "explanation": "P is the performance measure used to determine whether performance improves with experience.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 6
+      },
+      "choices": [
+        "Performance measure",
+        "Prediction phase",
+        "Preprocessing",
+        "Programming language"
+      ],
+      "correctAnswer": "Performance measure"
+    },
+    {
+      "id": "q006",
+      "type": "true-false",
+      "topic": "ML Foundations",
+      "question": "Machine learning requires every decision rule to be explicitly programmed by a human.",
+      "explanation": "The module contrasts ML with explicit rule-based programming and describes ML as learning from data.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 5
+      },
+      "correctAnswer": false
+    },
+    {
+      "id": "q007",
+      "type": "true-false",
+      "topic": "ML Foundations",
+      "question": "The module places machine learning at the intersection of statistics, artificial intelligence, and computer science.",
+      "explanation": "This relationship is stated directly in the module's definition of machine learning.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 5
+      },
+      "correctAnswer": true
+    },
+    {
+      "id": "q008",
+      "type": "fill-blank",
+      "topic": "ML Foundations",
+      "question": "Machine learning is about extracting _____ from data.",
+      "explanation": "The module states that machine learning is about extracting knowledge from data.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 5
+      },
+      "acceptedAnswers": [
+        "knowledge"
+      ]
+    },
+    {
+      "id": "q009",
+      "type": "fill-blank",
+      "topic": "ML Foundations",
+      "question": "In the learning definition, the symbol E stands for _____.",
+      "explanation": "E denotes experience.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 6
+      },
+      "acceptedAnswers": [
+        "experience"
+      ]
+    },
+    {
+      "id": "q010",
+      "type": "fill-blank",
+      "topic": "ML Foundations",
+      "question": "In the learning definition, the symbol T stands for _____.",
+      "explanation": "T denotes tasks.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 6
+      },
+      "acceptedAnswers": [
+        "tasks"
+      ]
+    },
+    {
+      "id": "q011",
+      "type": "multiple-answer",
+      "topic": "ML Foundations",
+      "question": "Which THREE fields are explicitly identified as intersecting in the module's description of machine learning? Select 3.",
+      "explanation": "The module identifies statistics, artificial intelligence, and computer science.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 5
+      },
+      "choices": [
+        "Statistics",
+        "Artificial intelligence",
+        "Computer science",
+        "Data governance",
+        "Model deployment"
+      ],
+      "correctAnswers": [
+        "Statistics",
+        "Artificial intelligence",
+        "Computer science"
+      ]
+    },
+    {
+      "id": "q012",
+      "type": "multiple-choice",
+      "topic": "ML Approaches and Applications",
+      "question": "A problem has complex decision-making rules that are difficult to describe manually. According to the module's comparison, which approach is suited to this situation?",
+      "explanation": "The module indicates that ML is useful when decision-making rules are complex or difficult to describe.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 9
+      },
+      "choices": [
+        "Machine learning",
+        "Manually specified rule-based logic",
+        "Data deletion",
+        "Static plotting"
+      ],
+      "correctAnswer": "Machine learning"
+    },
+    {
+      "id": "q013",
+      "type": "multiple-choice",
+      "topic": "ML Approaches and Applications",
+      "question": "What is a key difference between rule-based algorithms and machine learning in the module?",
+      "explanation": "Rule-based systems use manually specified rules, whereas machine learning automatically learns rules from samples.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 9
+      },
+      "choices": [
+        "ML learns rules from training samples",
+        "Rule-based systems always require predictions",
+        "ML avoids using data",
+        "Rule-based systems automatically learn rules"
+      ],
+      "correctAnswer": "ML learns rules from training samples"
+    },
+    {
+      "id": "q014",
+      "type": "multiple-choice",
+      "topic": "ML Approaches and Applications",
+      "question": "According to the application-scenario chart, which combination most strongly points toward machine learning algorithms?",
+      "explanation": "The chart places machine learning algorithms where problem scale is large and rule complexity is complex.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 10
+      },
+      "choices": [
+        "Large scale and complex rules",
+        "Small scale and simple rules",
+        "Small scale and complex rules only",
+        "Large scale and simple rules only"
+      ],
+      "correctAnswer": "Large scale and complex rules"
+    },
+    {
+      "id": "q015",
+      "type": "multiple-choice",
+      "topic": "ML Approaches and Applications",
+      "question": "Why can increasing the number of available learning samples be useful according to the module?",
+      "explanation": "The module states that ML algorithm performance can adaptively improve as the number of available samples increases during learning.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 11
+      },
+      "choices": [
+        "Performance can adaptively improve",
+        "Rules become manually specified",
+        "Data stops changing",
+        "Deployment becomes unnecessary"
+      ],
+      "correctAnswer": "Performance can adaptively improve"
+    },
+    {
+      "id": "q016",
+      "type": "multiple-choice",
+      "topic": "ML Approaches and Applications",
+      "question": "Which example in the module illustrates a system navigating by sensing its environment and deciding without human input?",
+      "explanation": "The module gives self-driving cars as this example.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 13
+      },
+      "choices": [
+        "Self-driving car",
+        "Jupyter Notebook",
+        "Data governance framework",
+        "Histogram"
+      ],
+      "correctAnswer": "Self-driving car"
+    },
+    {
+      "id": "q017",
+      "type": "multiple-choice",
+      "topic": "ML Approaches and Applications",
+      "question": "The module uses robotic arms in production lines to illustrate what potential benefit?",
+      "explanation": "The example states that robotic arms can significantly reduce injuries and costs.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 14
+      },
+      "choices": [
+        "Reduction in injuries and costs",
+        "Increase in missing values",
+        "Creation of categorical variables",
+        "Elimination of model monitoring"
+      ],
+      "correctAnswer": "Reduction in injuries and costs"
+    },
+    {
+      "id": "q018",
+      "type": "multiple-answer",
+      "topic": "ML Approaches and Applications",
+      "question": "Which THREE statements are given as reasons for using machine learning or machine-driven automation? Select 3.",
+      "explanation": "The module notes continuous operation, suitability for repetitive tasks, and mitigation of risks from fatigue or inattention.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 12
+      },
+      "choices": [
+        "Machines can work continuously",
+        "Machines suit routine or repetitive tasks",
+        "Automation can mitigate fatigue-related risks",
+        "Machines require every latent rule to be manually entered",
+        "Machines eliminate the need for data"
+      ],
+      "correctAnswers": [
+        "Machines can work continuously",
+        "Machines suit routine or repetitive tasks",
+        "Automation can mitigate fatigue-related risks"
+      ]
+    },
+    {
+      "id": "q019",
+      "type": "fill-blank",
+      "topic": "ML Approaches and Applications",
+      "question": "Rules that are automatically learned by machines can reveal inherent _____.",
+      "explanation": "The module says machines can learn latent rules and inherent patterns.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 12
+      },
+      "acceptedAnswers": [
+        "patterns"
+      ]
+    },
+    {
+      "id": "q020",
+      "type": "multiple-choice",
+      "topic": "ML Types and Workflow",
+      "question": "Which set matches the four types of machine learning shown in the module?",
+      "explanation": "The module shows supervised, unsupervised, semi-supervised, and reinforcement learning.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 15
+      },
+      "choices": [
+        "Supervised, unsupervised, semi-supervised, reinforcement",
+        "Supervised, deployment, preprocessing, reinforcement",
+        "Classification, regression, governance, visualization",
+        "Training, validation, deployment, monitoring"
+      ],
+      "correctAnswer": "Supervised, unsupervised, semi-supervised, reinforcement"
+    },
+    {
+      "id": "q021",
+      "type": "multiple-choice",
+      "topic": "ML Types and Workflow",
+      "question": "In the two-phase ML diagram, what happens before learning?",
+      "explanation": "Training data first goes through preprocessing, including cleaning and formatting.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 18
+      },
+      "choices": [
+        "Preprocessing",
+        "Deployment",
+        "Monitoring",
+        "Prediction"
+      ],
+      "correctAnswer": "Preprocessing"
+    },
+    {
+      "id": "q022",
+      "type": "multiple-choice",
+      "topic": "ML Types and Workflow",
+      "question": "Which activity belongs to the testing portion of the learning phase?",
+      "explanation": "Testing includes measuring performance and testing the algorithm.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 18
+      },
+      "choices": [
+        "Measure performance",
+        "Collect a data subject's consent",
+        "Configure production hardware",
+        "Create a governance framework"
+      ],
+      "correctAnswer": "Measure performance"
+    },
+    {
+      "id": "q023",
+      "type": "multiple-choice",
+      "topic": "ML Types and Workflow",
+      "question": "During the prediction phase, what two inputs are shown feeding the prediction step?",
+      "explanation": "The diagram shows new data and a trained model feeding prediction.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 18
+      },
+      "choices": [
+        "New data and a trained model",
+        "Training data and a histogram",
+        "An API and a privacy rule",
+        "A scaler and a governance policy"
+      ],
+      "correctAnswer": "New data and a trained model"
+    },
+    {
+      "id": "q024",
+      "type": "true-false",
+      "topic": "ML Types and Workflow",
+      "question": "The module's learning phase includes preprocessing, learning, and testing.",
+      "explanation": "All three are shown under Phase 1: Learning.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 18
+      },
+      "correctAnswer": true
+    },
+    {
+      "id": "q025",
+      "type": "fill-blank",
+      "topic": "ML Types and Workflow",
+      "question": "The phase that cleans and formats training data is called _____.",
+      "explanation": "The learning-phase diagram labels this step preprocessing.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 18
+      },
+      "acceptedAnswers": [
+        "preprocessing"
+      ]
+    },
+    {
+      "id": "q026",
+      "type": "fill-blank",
+      "topic": "ML Types and Workflow",
+      "question": "After a model processes new data, the resulting step shown before predicted data is _____.",
+      "explanation": "The diagram labels the step prediction.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 18
+      },
+      "acceptedAnswers": [
+        "prediction"
+      ]
+    },
+    {
+      "id": "q027",
+      "type": "multiple-answer",
+      "topic": "ML Types and Workflow",
+      "question": "Which THREE learning approaches are explicitly listed inside the learning step on page 18? Select 3.",
+      "explanation": "The learning step lists supervised, unsupervised, and reinforcement.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 18
+      },
+      "choices": [
+        "Supervised",
+        "Unsupervised",
+        "Reinforcement",
+        "Deployment",
+        "Governance"
+      ],
+      "correctAnswers": [
+        "Supervised",
+        "Unsupervised",
+        "Reinforcement"
+      ]
+    },
+    {
+      "id": "q028",
+      "type": "multiple-choice",
+      "topic": "Python Tools and Libraries",
+      "question": "Which library does the module describe as a prominent Python library for machine learning?",
+      "explanation": "Scikit-learn is described as a very popular tool and the most prominent Python library for ML.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 23
+      },
+      "choices": [
+        "Scikit-learn",
+        "Matplotlib",
+        "Pandas",
+        "Jupyter Notebook"
+      ],
+      "correctAnswer": "Scikit-learn"
+    },
+    {
+      "id": "q029",
+      "type": "multiple-choice",
+      "topic": "Python Tools and Libraries",
+      "question": "Which package is identified as fundamental for scientific computing?",
+      "explanation": "The module identifies NumPy as one of the fundamental packages for scientific computing.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 23
+      },
+      "choices": [
+        "NumPy",
+        "Pandas",
+        "Matplotlib",
+        "Anaconda"
+      ],
+      "correctAnswer": "NumPy"
+    },
+    {
+      "id": "q030",
+      "type": "multiple-choice",
+      "topic": "Python Tools and Libraries",
+      "question": "Which library is described as a collection of functions for scientific computing?",
+      "explanation": "The module gives this description for SciPy.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 23
+      },
+      "choices": [
+        "SciPy",
+        "Pandas",
+        "Scikit-learn",
+        "Jupyter Notebook"
+      ],
+      "correctAnswer": "SciPy"
+    },
+    {
+      "id": "q031",
+      "type": "multiple-choice",
+      "topic": "Python Tools and Libraries",
+      "question": "A student needs the primary scientific plotting library listed in the module. Which should they use?",
+      "explanation": "Matplotlib is identified as the primary scientific plotting library.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 23
+      },
+      "choices": [
+        "Matplotlib",
+        "Pandas",
+        "Anaconda",
+        "SciPy"
+      ],
+      "correctAnswer": "Matplotlib"
+    },
+    {
+      "id": "q032",
+      "type": "multiple-choice",
+      "topic": "Python Tools and Libraries",
+      "question": "Which library is associated with data wrangling and analysis?",
+      "explanation": "Pandas is described as a library for data wrangling and analysis.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 23
+      },
+      "choices": [
+        "Pandas",
+        "Matplotlib",
+        "Jupyter Notebook",
+        "Anaconda"
+      ],
+      "correctAnswer": "Pandas"
+    },
+    {
+      "id": "q033",
+      "type": "multiple-choice",
+      "topic": "Python Tools and Libraries",
+      "question": "Which tool is a Python distribution for large-scale data processing, predictive analysis, and scientific computing?",
+      "explanation": "The module gives this description for Anaconda.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 23
+      },
+      "choices": [
+        "Anaconda",
+        "Pandas",
+        "SciPy",
+        "Matplotlib"
+      ],
+      "correctAnswer": "Anaconda"
+    },
+    {
+      "id": "q034",
+      "type": "multiple-choice",
+      "topic": "Python Tools and Libraries",
+      "question": "Which tool provides an interactive environment for running code in a browser?",
+      "explanation": "Jupyter Notebook is described as an interactive environment for running code in the browser.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 23
+      },
+      "choices": [
+        "Jupyter Notebook",
+        "Scikit-learn",
+        "NumPy",
+        "Matplotlib"
+      ],
+      "correctAnswer": "Jupyter Notebook"
+    },
+    {
+      "id": "q035",
+      "type": "multiple-answer",
+      "topic": "Python Tools and Libraries",
+      "question": "Which THREE are associated with scientific computing or plotting in the module? Select 3.",
+      "explanation": "NumPy and SciPy are tied to scientific computing, while Matplotlib is the primary scientific plotting library.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 23
+      },
+      "choices": [
+        "NumPy",
+        "SciPy",
+        "Matplotlib",
+        "Jupyter Notebook",
+        "Pandas"
+      ],
+      "correctAnswers": [
+        "NumPy",
+        "SciPy",
+        "Matplotlib"
+      ]
+    },
+    {
+      "id": "q036",
+      "type": "fill-blank",
+      "topic": "Python Tools and Libraries",
+      "question": "The library used for data wrangling and analysis is _____.",
+      "explanation": "The module identifies Pandas for data wrangling and analysis.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 23
+      },
+      "acceptedAnswers": [
+        "Pandas"
+      ]
+    },
+    {
+      "id": "q037",
+      "type": "fill-blank",
+      "topic": "Python Tools and Libraries",
+      "question": "The primary scientific plotting library listed is _____.",
+      "explanation": "The module identifies Matplotlib as the primary scientific plotting library.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 23
+      },
+      "acceptedAnswers": [
+        "Matplotlib"
+      ]
+    },
+    {
+      "id": "q038",
+      "type": "fill-blank",
+      "topic": "Python Tools and Libraries",
+      "question": "The Python distribution intended for large-scale data processing is _____.",
+      "explanation": "The module identifies Anaconda for large-scale data processing, predictive analysis, and scientific computing.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 23
+      },
+      "acceptedAnswers": [
+        "Anaconda"
+      ]
+    },
+    {
+      "id": "q039",
+      "type": "fill-blank",
+      "topic": "Python Tools and Libraries",
+      "question": "The fundamental package for scientific computing identified in the module is _____.",
+      "explanation": "The module identifies NumPy as a fundamental scientific-computing package.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 23
+      },
+      "acceptedAnswers": [
+        "NumPy"
+      ]
+    },
+    {
+      "id": "q040",
+      "type": "multiple-choice",
+      "topic": "Data Quality and Preprocessing",
+      "question": "A dataset contains blank entries and lacks some attributes. Which quality problem does this illustrate?",
+      "explanation": "The module defines incompleteness as missing values or data lacking attributes.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 27
+      },
+      "choices": [
+        "Incompleteness",
+        "Noise",
+        "Inconsistency",
+        "Deployment"
+      ],
+      "correctAnswer": "Incompleteness"
+    },
+    {
+      "id": "q041",
+      "type": "multiple-choice",
+      "topic": "Data Quality and Preprocessing",
+      "question": "A dataset contains incorrect records and exceptions. Which quality problem best matches the module?",
+      "explanation": "Noise is described as incorrect records or exceptions.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 27
+      },
+      "choices": [
+        "Noise",
+        "Incompleteness",
+        "Governance",
+        "Transparency"
+      ],
+      "correctAnswer": "Noise"
+    },
+    {
+      "id": "q042",
+      "type": "multiple-choice",
+      "topic": "Data Quality and Preprocessing",
+      "question": "Two records contradict each other for the same kind of information. Which quality problem does this most directly represent?",
+      "explanation": "The module defines inconsistency as the presence of inconsistent records.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 27
+      },
+      "choices": [
+        "Inconsistency",
+        "Incompleteness",
+        "Scaling",
+        "Deployment"
+      ],
+      "correctAnswer": "Inconsistency"
+    },
+    {
+      "id": "q043",
+      "type": "multiple-choice",
+      "topic": "Data Quality and Preprocessing",
+      "question": "What is preprocessing primarily intended to do before analysis or modeling?",
+      "explanation": "Preprocessing cleans, alters, reorganizes, and transforms raw data to prepare it for analysis or modeling.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 30
+      },
+      "choices": [
+        "Prepare raw data through cleaning and transformation",
+        "Deploy a trained model into production",
+        "Define data ownership rights",
+        "Replace all features with predictions"
+      ],
+      "correctAnswer": "Prepare raw data through cleaning and transformation"
+    },
+    {
+      "id": "q044",
+      "type": "multiple-choice",
+      "topic": "Data Quality and Preprocessing",
+      "question": "Which preprocessing category includes identifying missing data, reducing noisy data, and removing duplicates?",
+      "explanation": "These tasks are listed under data cleansing.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 32
+      },
+      "choices": [
+        "Data cleansing",
+        "Feature engineering",
+        "Monitoring",
+        "Validation"
+      ],
+      "correctAnswer": "Data cleansing"
+    },
+    {
+      "id": "q045",
+      "type": "multiple-choice",
+      "topic": "Data Quality and Preprocessing",
+      "question": "Which preprocessing category includes feature scaling, data reduction, discretization, and feature encoding?",
+      "explanation": "These techniques are listed under feature engineering.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 32
+      },
+      "choices": [
+        "Feature engineering",
+        "Data cleansing",
+        "Model monitoring",
+        "Data ownership"
+      ],
+      "correctAnswer": "Feature engineering"
+    },
+    {
+      "id": "q046",
+      "type": "multiple-choice",
+      "topic": "Data Quality and Preprocessing",
+      "question": "A preprocessing step reorganizes features to make model training and inference more efficient. Which category is this?",
+      "explanation": "Feature engineering organizes data to make training and inference more efficient.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 32
+      },
+      "choices": [
+        "Feature engineering",
+        "Data cleansing",
+        "Model deployment",
+        "Privacy"
+      ],
+      "correctAnswer": "Feature engineering"
+    },
+    {
+      "id": "q047",
+      "type": "true-false",
+      "topic": "Data Quality and Preprocessing",
+      "question": "The module treats preprocessing as an important step before analysis or modeling.",
+      "explanation": "Preprocessing is explicitly presented as an important preparatory step.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 30
+      },
+      "correctAnswer": true
+    },
+    {
+      "id": "q048",
+      "type": "true-false",
+      "topic": "Data Quality and Preprocessing",
+      "question": "Removing duplicate records is listed as a feature-engineering task.",
+      "explanation": "The module lists duplicate removal under data cleansing, not feature engineering.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 32
+      },
+      "correctAnswer": false
+    },
+    {
+      "id": "q049",
+      "type": "multiple-answer",
+      "topic": "Data Quality and Preprocessing",
+      "question": "Which THREE are identified as common real-data quality problems? Select 3.",
+      "explanation": "The module lists incompleteness, noise, and inconsistency.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 27
+      },
+      "choices": [
+        "Incompleteness",
+        "Noise",
+        "Inconsistency",
+        "Deployment",
+        "Transparency"
+      ],
+      "correctAnswers": [
+        "Incompleteness",
+        "Noise",
+        "Inconsistency"
+      ]
+    },
+    {
+      "id": "q050",
+      "type": "multiple-answer",
+      "topic": "Data Quality and Preprocessing",
+      "question": "Which THREE tasks belong to data cleansing according to the module? Select 3.",
+      "explanation": "Data cleansing includes handling missing data, reducing noise, and removing duplicates.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 32
+      },
+      "choices": [
+        "Identify missing data",
+        "Reduce noisy data",
+        "Remove duplicates",
+        "Feature scaling",
+        "Discretization"
+      ],
+      "correctAnswers": [
+        "Identify missing data",
+        "Reduce noisy data",
+        "Remove duplicates"
+      ]
+    },
+    {
+      "id": "q051",
+      "type": "multiple-answer",
+      "topic": "Data Quality and Preprocessing",
+      "question": "Which FOUR techniques are listed under feature engineering? Select 4.",
+      "explanation": "The module lists feature scaling/normalization, data reduction, discretization, and feature encoding.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 32
+      },
+      "choices": [
+        "Feature scaling",
+        "Data reduction",
+        "Discretization",
+        "Feature encoding",
+        "Duplicate removal",
+        "Noise reduction"
+      ],
+      "correctAnswers": [
+        "Feature scaling",
+        "Data reduction",
+        "Discretization",
+        "Feature encoding"
+      ]
+    },
+    {
+      "id": "q052",
+      "type": "fill-blank",
+      "topic": "Data Quality and Preprocessing",
+      "question": "Missing values or absent attributes indicate data _____.",
+      "explanation": "The module calls this quality problem incompleteness.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 27
+      },
+      "acceptedAnswers": [
+        "incompleteness"
+      ]
+    },
+    {
+      "id": "q053",
+      "type": "fill-blank",
+      "topic": "Data Quality and Preprocessing",
+      "question": "Incorrect records or exceptions are described as _____.",
+      "explanation": "The module uses noise for incorrect records or exceptions.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 27
+      },
+      "acceptedAnswers": [
+        "noise"
+      ]
+    },
+    {
+      "id": "q054",
+      "type": "fill-blank",
+      "topic": "Data Quality and Preprocessing",
+      "question": "Cleaning, altering, and reorganizing raw data before analysis is called _____.",
+      "explanation": "The module calls this preprocessing.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 30
+      },
+      "acceptedAnswers": [
+        "preprocessing"
+      ]
+    },
+    {
+      "id": "q055",
+      "type": "fill-blank",
+      "topic": "Data Quality and Preprocessing",
+      "question": "Turning continuous information into discrete groupings is called _____.",
+      "explanation": "Discretization is listed as a feature-engineering technique.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 32
+      },
+      "acceptedAnswers": [
+        "discretization"
+      ]
+    },
+    {
+      "id": "q056",
+      "type": "fill-blank",
+      "topic": "Data Quality and Preprocessing",
+      "question": "Converting features into a usable representation is listed as feature _____.",
+      "explanation": "Feature encoding is listed under feature engineering.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 32
+      },
+      "acceptedAnswers": [
+        "encoding"
+      ]
+    },
+    {
+      "id": "q057",
+      "type": "multiple-choice",
+      "topic": "Exploratory Data Analysis",
+      "question": "What is the main role of EDA according to the module?",
+      "explanation": "EDA is used to understand data characteristics, identify patterns, spot anomalies, test hypotheses, and check assumptions.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 33
+      },
+      "choices": [
+        "Explore characteristics, patterns, and anomalies",
+        "Deploy models to production",
+        "Define personal-data ownership",
+        "Configure cloud hardware"
+      ],
+      "correctAnswer": "Explore characteristics, patterns, and anomalies"
+    },
+    {
+      "id": "q058",
+      "type": "multiple-choice",
+      "topic": "Exploratory Data Analysis",
+      "question": "Which EDA activity calculates mean, median, variance, and standard deviation?",
+      "explanation": "These calculations are listed under summary statistics.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 33
+      },
+      "choices": [
+        "Summary statistics",
+        "Correlation analysis",
+        "Outlier detection",
+        "Hypothesis testing"
+      ],
+      "correctAnswer": "Summary statistics"
+    },
+    {
+      "id": "q059",
+      "type": "multiple-choice",
+      "topic": "Exploratory Data Analysis",
+      "question": "Which EDA activity examines relationships between variables?",
+      "explanation": "Correlation analysis is defined as examining relationships between variables.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 33
+      },
+      "choices": [
+        "Correlation analysis",
+        "Outlier detection",
+        "Data deployment",
+        "Imputation"
+      ],
+      "correctAnswer": "Correlation analysis"
+    },
+    {
+      "id": "q060",
+      "type": "multiple-choice",
+      "topic": "Exploratory Data Analysis",
+      "question": "Which EDA activity focuses on unusual data points?",
+      "explanation": "Outlier detection is described as identifying unusual data points.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 33
+      },
+      "choices": [
+        "Outlier detection",
+        "Summary statistics",
+        "Deployment",
+        "Feature encoding"
+      ],
+      "correctAnswer": "Outlier detection"
+    },
+    {
+      "id": "q061",
+      "type": "multiple-choice",
+      "topic": "Exploratory Data Analysis",
+      "question": "Which EDA activity tests initial assumptions about data?",
+      "explanation": "Hypothesis testing is described as testing initial assumptions about the data.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 33
+      },
+      "choices": [
+        "Hypothesis testing",
+        "Visualization",
+        "Scaling",
+        "Monitoring"
+      ],
+      "correctAnswer": "Hypothesis testing"
+    },
+    {
+      "id": "q062",
+      "type": "multiple-choice",
+      "topic": "Exploratory Data Analysis",
+      "question": "What are bar plots and histograms used to visualize in the module's example?",
+      "explanation": "The module states that bar plots and histograms are useful for visualizing the count of values in the dataset.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 35
+      },
+      "choices": [
+        "Counts of values",
+        "Deployment loads",
+        "API configurations",
+        "Privacy rights"
+      ],
+      "correctAnswer": "Counts of values"
+    },
+    {
+      "id": "q063",
+      "type": "multiple-choice",
+      "topic": "Exploratory Data Analysis",
+      "question": "The Titanic example reduces the table to selected columns before modeling. What does the module call this?",
+      "explanation": "The page labels the process feature selection.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 36
+      },
+      "choices": [
+        "Feature selection",
+        "Model drift",
+        "Data ownership",
+        "Monitoring"
+      ],
+      "correctAnswer": "Feature selection"
+    },
+    {
+      "id": "q064",
+      "type": "multiple-choice",
+      "topic": "Exploratory Data Analysis",
+      "question": "According to the missing-value example, what is one option besides removing rows with missing values?",
+      "explanation": "The module gives imputation as the alternative and defines it as filling missing values by estimating them.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 37
+      },
+      "choices": [
+        "Imputation",
+        "Deployment",
+        "Discretization",
+        "Versioning"
+      ],
+      "correctAnswer": "Imputation"
+    },
+    {
+      "id": "q065",
+      "type": "multiple-choice",
+      "topic": "Exploratory Data Analysis",
+      "question": "Which imputation method is illustrated for a numerical feature such as Age?",
+      "explanation": "The example illustrates mean imputation for the numerical Age feature.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 37
+      },
+      "choices": [
+        "Mean imputation",
+        "Most-frequent imputation",
+        "Ordinal encoding",
+        "Feature selection"
+      ],
+      "correctAnswer": "Mean imputation"
+    },
+    {
+      "id": "q066",
+      "type": "multiple-choice",
+      "topic": "Exploratory Data Analysis",
+      "question": "Which imputation method is illustrated for a categorical feature such as Embarked?",
+      "explanation": "The example illustrates most-frequent imputation for Embarked.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 37
+      },
+      "choices": [
+        "Most-frequent imputation",
+        "Mean imputation",
+        "Standard scaling",
+        "Data reduction"
+      ],
+      "correctAnswer": "Most-frequent imputation"
+    },
+    {
+      "id": "q067",
+      "type": "multiple-choice",
+      "topic": "Exploratory Data Analysis",
+      "question": "In the column-transformation example, what is applied to numerical Age and Fare?",
+      "explanation": "The page specifies Standard Scaling for Age and Fare.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 38
+      },
+      "choices": [
+        "Standard Scaling",
+        "Ordinal Encoding",
+        "Most-frequent imputation",
+        "Data deletion"
+      ],
+      "correctAnswer": "Standard Scaling"
+    },
+    {
+      "id": "q068",
+      "type": "multiple-choice",
+      "topic": "Exploratory Data Analysis",
+      "question": "In the column-transformation example, what is applied to categorical Pclass, Sex, and Embarked?",
+      "explanation": "The page specifies Ordinal Encoding for these categorical features.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 38
+      },
+      "choices": [
+        "Ordinal Encoding",
+        "Standard Scaling",
+        "Mean imputation",
+        "Outlier detection"
+      ],
+      "correctAnswer": "Ordinal Encoding"
+    },
+    {
+      "id": "q069",
+      "type": "multiple-answer",
+      "topic": "Exploratory Data Analysis",
+      "question": "Which FIVE activities are explicitly listed under EDA? Select 5.",
+      "explanation": "The module lists visualization, summary statistics, outlier detection, correlation analysis, and hypothesis testing.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 33
+      },
+      "choices": [
+        "Visualization",
+        "Summary statistics",
+        "Outlier detection",
+        "Correlation analysis",
+        "Hypothesis testing",
+        "Deployment",
+        "Monitoring"
+      ],
+      "correctAnswers": [
+        "Visualization",
+        "Summary statistics",
+        "Outlier detection",
+        "Correlation analysis",
+        "Hypothesis testing"
+      ]
+    },
+    {
+      "id": "q070",
+      "type": "true-false",
+      "topic": "Exploratory Data Analysis",
+      "question": "EDA often employs data visualization methods.",
+      "explanation": "The module explicitly states that EDA often uses data visualization.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 33
+      },
+      "correctAnswer": true
+    },
+    {
+      "id": "q071",
+      "type": "fill-blank",
+      "topic": "Exploratory Data Analysis",
+      "question": "An unusual observation that appears distant from other observations is an _____.",
+      "explanation": "The module describes an outlier as an observation that seems distant from others.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 29
+      },
+      "acceptedAnswers": [
+        "outlier"
+      ]
+    },
+    {
+      "id": "q072",
+      "type": "fill-blank",
+      "topic": "Exploratory Data Analysis",
+      "question": "Filling missing values by estimating them is called _____.",
+      "explanation": "The module defines this process as imputation.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 37
+      },
+      "acceptedAnswers": [
+        "imputation"
+      ]
+    },
+    {
+      "id": "q073",
+      "type": "fill-blank",
+      "topic": "Exploratory Data Analysis",
+      "question": "Examining relationships between variables is _____ analysis.",
+      "explanation": "The module names this activity correlation analysis.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 33
+      },
+      "acceptedAnswers": [
+        "correlation"
+      ]
+    },
+    {
+      "id": "q074",
+      "type": "fill-blank",
+      "topic": "Exploratory Data Analysis",
+      "question": "Choosing a subset of relevant columns is called feature _____.",
+      "explanation": "The module labels the demonstrated operation feature selection.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 36
+      },
+      "acceptedAnswers": [
+        "selection"
+      ]
+    },
+    {
+      "id": "q075",
+      "type": "multiple-choice",
+      "topic": "Feature Scaling",
+      "question": "After StandardScaler is applied, what happens to the mean according to the scaler handout?",
+      "explanation": "The handout states that the mean becomes approximately 0.",
+      "source": {
+        "module": "M1 - Scalers 1",
+        "page": 1
+      },
+      "choices": [
+        "It becomes approximately 0",
+        "It becomes exactly 1",
+        "It is restricted to 0.5",
+        "It becomes the maximum value"
+      ],
+      "correctAnswer": "It becomes approximately 0"
+    },
+    {
+      "id": "q076",
+      "type": "multiple-choice",
+      "topic": "Feature Scaling",
+      "question": "After StandardScaler is applied, what happens to the standard deviation?",
+      "explanation": "The handout states that the standard deviation becomes 1.",
+      "source": {
+        "module": "M1 - Scalers 1",
+        "page": 1
+      },
+      "choices": [
+        "It becomes 1",
+        "It becomes 0",
+        "It becomes the original mean",
+        "It is restricted to negative values"
+      ],
+      "correctAnswer": "It becomes 1"
+    },
+    {
+      "id": "q077",
+      "type": "multiple-choice",
+      "topic": "Feature Scaling",
+      "question": "Which scaler transforms values into the range 0 to 1?",
+      "explanation": "The handout states that MinMaxScaler transforms values into the range 0 to 1.",
+      "source": {
+        "module": "M1 - Scalers 1",
+        "page": 1
+      },
+      "choices": [
+        "MinMaxScaler",
+        "StandardScaler",
+        "Ordinal Encoding",
+        "Mean imputation"
+      ],
+      "correctAnswer": "MinMaxScaler"
+    },
+    {
+      "id": "q078",
+      "type": "multiple-choice",
+      "topic": "Feature Scaling",
+      "question": "Which scaler can produce negative values and does not restrict output to a fixed range?",
+      "explanation": "These are listed characteristics of StandardScaler.",
+      "source": {
+        "module": "M1 - Scalers 1",
+        "page": 1
+      },
+      "choices": [
+        "StandardScaler",
+        "MinMaxScaler",
+        "Feature selection",
+        "Most-frequent imputation"
+      ],
+      "correctAnswer": "StandardScaler"
+    },
+    {
+      "id": "q079",
+      "type": "multiple-choice",
+      "topic": "Feature Scaling",
+      "question": "Which scaler is described as sensitive to outliers?",
+      "explanation": "Sensitivity to outliers is listed as a MinMaxScaler characteristic.",
+      "source": {
+        "module": "M1 - Scalers 1",
+        "page": 1
+      },
+      "choices": [
+        "MinMaxScaler",
+        "StandardScaler",
+        "Ordinal Encoding",
+        "Data reduction"
+      ],
+      "correctAnswer": "MinMaxScaler"
+    },
+    {
+      "id": "q080",
+      "type": "multiple-choice",
+      "topic": "Feature Scaling",
+      "question": "A model requires inputs between 0 and 1. Which scaler does the handout recommend?",
+      "explanation": "MinMaxScaler is recommended when inputs are expected to be between 0 and 1.",
+      "source": {
+        "module": "M1 - Scalers 1",
+        "page": 2
+      },
+      "choices": [
+        "MinMaxScaler",
+        "StandardScaler",
+        "Mean imputation",
+        "Feature encoding"
+      ],
+      "correctAnswer": "MinMaxScaler"
+    },
+    {
+      "id": "q081",
+      "type": "multiple-choice",
+      "topic": "Feature Scaling",
+      "question": "Which scaler does the handout recommend when using KNN?",
+      "explanation": "KNN is listed under cases for StandardScaler.",
+      "source": {
+        "module": "M1 - Scalers 1",
+        "page": 2
+      },
+      "choices": [
+        "StandardScaler",
+        "MinMaxScaler",
+        "No scaling method is listed",
+        "Ordinal Encoding"
+      ],
+      "correctAnswer": "StandardScaler"
+    },
+    {
+      "id": "q082",
+      "type": "multiple-choice",
+      "topic": "Feature Scaling",
+      "question": "Which scaler does the handout recommend for neural networks or deep learning models?",
+      "explanation": "Neural networks and deep learning models are listed under MinMaxScaler.",
+      "source": {
+        "module": "M1 - Scalers 1",
+        "page": 2
+      },
+      "choices": [
+        "MinMaxScaler",
+        "StandardScaler",
+        "Mean imputation",
+        "Data cleansing"
+      ],
+      "correctAnswer": "MinMaxScaler"
+    },
+    {
+      "id": "q083",
+      "type": "multiple-answer",
+      "topic": "Feature Scaling",
+      "question": "Which FOUR algorithms or methods are explicitly listed as cases for StandardScaler? Select 4.",
+      "explanation": "The handout lists KNN, Logistic Regression, SVM, PCA, and also notes Linear Regression as often beneficial; this question asks for four of the explicitly listed core entries shown here.",
+      "source": {
+        "module": "M1 - Scalers 1",
+        "page": 2
+      },
+      "choices": [
+        "KNN",
+        "Logistic Regression",
+        "SVM",
+        "PCA",
+        "Neural Networks",
+        "Deep Learning Models"
+      ],
+      "correctAnswers": [
+        "KNN",
+        "Logistic Regression",
+        "SVM",
+        "PCA"
+      ]
+    },
+    {
+      "id": "q084",
+      "type": "multiple-answer",
+      "topic": "Feature Scaling",
+      "question": "Which THREE conditions are listed as reasons to use MinMaxScaler? Select 3.",
+      "explanation": "The handout recommends MinMaxScaler for neural/deep learning, fixed-range requirements, differing feature units/scales, and inputs expected between 0 and 1; three of these are represented as correct choices.",
+      "source": {
+        "module": "M1 - Scalers 1",
+        "page": 2
+      },
+      "choices": [
+        "Neural or deep learning models",
+        "Data must be within a fixed range",
+        "Inputs are expected between 0 and 1",
+        "Using PCA",
+        "Using SVM"
+      ],
+      "correctAnswers": [
+        "Neural or deep learning models",
+        "Data must be within a fixed range",
+        "Inputs are expected between 0 and 1"
+      ]
+    },
+    {
+      "id": "q085",
+      "type": "true-false",
+      "topic": "Feature Scaling",
+      "question": "StandardScaler restricts every transformed value to the interval from 0 to 1.",
+      "explanation": "The handout says StandardScaler values are not restricted to a fixed range.",
+      "source": {
+        "module": "M1 - Scalers 1",
+        "page": 1
+      },
+      "correctAnswer": false
+    },
+    {
+      "id": "q086",
+      "type": "true-false",
+      "topic": "Feature Scaling",
+      "question": "MinMaxScaler preserves relative distances according to the handout.",
+      "explanation": "Preserving relative distances is listed as a MinMaxScaler characteristic.",
+      "source": {
+        "module": "M1 - Scalers 1",
+        "page": 1
+      },
+      "correctAnswer": true
+    },
+    {
+      "id": "q087",
+      "type": "fill-blank",
+      "topic": "Feature Scaling",
+      "question": "The scaler that produces a mean of approximately zero is _____.",
+      "explanation": "StandardScaler produces data with mean approximately 0.",
+      "source": {
+        "module": "M1 - Scalers 1",
+        "page": 1
+      },
+      "acceptedAnswers": [
+        "StandardScaler"
+      ]
+    },
+    {
+      "id": "q088",
+      "type": "fill-blank",
+      "topic": "Feature Scaling",
+      "question": "The scaler that maps values to 0 through 1 is _____.",
+      "explanation": "MinMaxScaler transforms values into the range 0 to 1.",
+      "source": {
+        "module": "M1 - Scalers 1",
+        "page": 1
+      },
+      "acceptedAnswers": [
+        "MinMaxScaler"
+      ]
+    },
+    {
+      "id": "q089",
+      "type": "multiple-choice",
+      "topic": "Model Deployment and Monitoring",
+      "question": "What does model deployment mean in the module?",
+      "explanation": "Deployment is taking a trained ML model and making it available for use in real-world applications.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 40
+      },
+      "choices": [
+        "Making a trained model available for real-world use",
+        "Only collecting raw training data",
+        "Only plotting feature distributions",
+        "Replacing validation with preprocessing"
+      ],
+      "correctAnswer": "Making a trained model available for real-world use"
+    },
+    {
+      "id": "q090",
+      "type": "multiple-choice",
+      "topic": "Model Deployment and Monitoring",
+      "question": "Which sequence is shown in the deployment diagram?",
+      "explanation": "The diagram shows Training, Validation, Deployment, then Monitoring.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 40
+      },
+      "choices": [
+        "Training → Validation → Deployment → Monitoring",
+        "Monitoring → Training → Deployment → Validation",
+        "Validation → Monitoring → Training → Deployment",
+        "Deployment → Training → Monitoring → Validation"
+      ],
+      "correctAnswer": "Training → Validation → Deployment → Monitoring"
+    },
+    {
+      "id": "q091",
+      "type": "multiple-choice",
+      "topic": "Model Deployment and Monitoring",
+      "question": "Why is rigorous testing performed before deployment?",
+      "explanation": "The module says preprocessing, feature engineering, and rigorous testing help ensure a model is robust and ready for real-world scenarios.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 41
+      },
+      "choices": [
+        "To ensure robustness and real-world readiness",
+        "To eliminate all future monitoring",
+        "To avoid feature engineering",
+        "To replace the training process"
+      ],
+      "correctAnswer": "To ensure robustness and real-world readiness"
+    },
+    {
+      "id": "q092",
+      "type": "multiple-choice",
+      "topic": "Model Deployment and Monitoring",
+      "question": "What deployment concern is addressed by checking whether infrastructure can handle increased loads?",
+      "explanation": "Validation and testing for scalability are required so the model can handle increased loads efficiently.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 41
+      },
+      "choices": [
+        "Scalability",
+        "Imputation",
+        "Ownership",
+        "Discretization"
+      ],
+      "correctAnswer": "Scalability"
+    },
+    {
+      "id": "q093",
+      "type": "multiple-choice",
+      "topic": "Model Deployment and Monitoring",
+      "question": "Which deployment task supports model access and improved predictions through software interfaces?",
+      "explanation": "The deployment list includes setting up APIs, tools, and software environments.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 42
+      },
+      "choices": [
+        "Setting up APIs and software environments",
+        "Removing every categorical feature",
+        "Replacing monitoring with EDA",
+        "Collecting data without consent"
+      ],
+      "correctAnswer": "Setting up APIs and software environments"
+    },
+    {
+      "id": "q094",
+      "type": "multiple-choice",
+      "topic": "Model Deployment and Monitoring",
+      "question": "Why does the module recommend a pipeline for continuous training?",
+      "explanation": "The deployment process includes creating a pipeline for continuous training and parameter tuning.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 42
+      },
+      "choices": [
+        "To support continuous training and parameter tuning",
+        "To avoid using model parameters",
+        "To remove all production data",
+        "To eliminate prediction"
+      ],
+      "correctAnswer": "To support continuous training and parameter tuning"
+    },
+    {
+      "id": "q095",
+      "type": "multiple-choice",
+      "topic": "Model Deployment and Monitoring",
+      "question": "Why must a deployed model be continuously monitored?",
+      "explanation": "Real-world data can evolve and model performance can drift, so monitoring detects deviations and supports timely adjustments.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 43
+      },
+      "choices": [
+        "Data can evolve and performance can drift",
+        "Training data can never change",
+        "Monitoring replaces deployment",
+        "Models cannot make predictions after deployment"
+      ],
+      "correctAnswer": "Data can evolve and performance can drift"
+    },
+    {
+      "id": "q096",
+      "type": "multiple-answer",
+      "topic": "Model Deployment and Monitoring",
+      "question": "Which FOUR practices are listed for successful ML model deployment? Select 4.",
+      "explanation": "The module lists infrastructure choice, versioning/tracking, robust testing/validation, and monitoring/alerting.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 44
+      },
+      "choices": [
+        "Choosing the right infrastructure",
+        "Effective versioning and tracking",
+        "Robust testing and validation",
+        "Monitoring and alerting",
+        "Removing all validation",
+        "Avoiding model monitoring"
+      ],
+      "correctAnswers": [
+        "Choosing the right infrastructure",
+        "Effective versioning and tracking",
+        "Robust testing and validation",
+        "Monitoring and alerting"
+      ]
+    },
+    {
+      "id": "q097",
+      "type": "true-false",
+      "topic": "Model Deployment and Monitoring",
+      "question": "Monitoring ends once a model has been deployed successfully.",
+      "explanation": "The module says deployed models need continuous monitoring.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 43
+      },
+      "correctAnswer": false
+    },
+    {
+      "id": "q098",
+      "type": "fill-blank",
+      "topic": "Model Deployment and Monitoring",
+      "question": "Testing whether infrastructure can handle increased loads evaluates _____.",
+      "explanation": "The module discusses testing for scalability before deployment.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 41
+      },
+      "acceptedAnswers": [
+        "scalability"
+      ]
+    },
+    {
+      "id": "q099",
+      "type": "fill-blank",
+      "topic": "Model Deployment and Monitoring",
+      "question": "A change in a deployed model's performance over time is described as model _____.",
+      "explanation": "The module states that models may drift in their performance.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 43
+      },
+      "acceptedAnswers": [
+        "drift"
+      ]
+    },
+    {
+      "id": "q100",
+      "type": "fill-blank",
+      "topic": "Model Deployment and Monitoring",
+      "question": "Software interfaces specifically mentioned as part of deployment are _____.",
+      "explanation": "The deployment list explicitly mentions setting up APIs.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 42
+      },
+      "acceptedAnswers": [
+        "APIs"
+      ]
+    },
+    {
+      "id": "q101",
+      "type": "multiple-choice",
+      "topic": "Data Ethics and Privacy",
+      "question": "What is the focus of data ethics as defined in the module?",
+      "explanation": "Data ethics covers ethical and moral obligations in collecting, sharing, and using data, with a focus on fair use for good.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 45
+      },
+      "choices": [
+        "Ethical obligations in collecting, sharing, and using data",
+        "Only maximizing model speed",
+        "Only selecting numerical features",
+        "Eliminating the need for consent"
+      ],
+      "correctAnswer": "Ethical obligations in collecting, sharing, and using data"
+    },
+    {
+      "id": "q102",
+      "type": "multiple-choice",
+      "topic": "Data Ethics and Privacy",
+      "question": "Which principle says individuals have ownership over their personal information?",
+      "explanation": "Ownership is the first listed principle and states that individuals own their personal information.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 46
+      },
+      "choices": [
+        "Ownership",
+        "Transparency",
+        "Intention",
+        "Outcomes"
+      ],
+      "correctAnswer": "Ownership"
+    },
+    {
+      "id": "q103",
+      "type": "multiple-choice",
+      "topic": "Data Ethics and Privacy",
+      "question": "Which principle gives data subjects the right to know how their data will be collected, stored, and used?",
+      "explanation": "The module associates this right with transparency.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 46
+      },
+      "choices": [
+        "Transparency",
+        "Ownership",
+        "Outcomes",
+        "Feature engineering"
+      ],
+      "correctAnswer": "Transparency"
+    },
+    {
+      "id": "q104",
+      "type": "multiple-choice",
+      "topic": "Data Ethics and Privacy",
+      "question": "Which principle concerns protecting data subjects even when they have consented to collection and analysis of PII?",
+      "explanation": "The privacy principle emphasizes protecting data subjects' personally identifiable information.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 46
+      },
+      "choices": [
+        "Privacy",
+        "Intention",
+        "Outcomes",
+        "Scaling"
+      ],
+      "correctAnswer": "Privacy"
+    },
+    {
+      "id": "q105",
+      "type": "multiple-choice",
+      "topic": "Data Ethics and Privacy",
+      "question": "Before collecting data, a team asks why it needs the data and what it plans to gain from analysis. Which principle is it applying?",
+      "explanation": "The intention principle asks why data is needed, what will be gained, and what changes can follow analysis.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 47
+      },
+      "choices": [
+        "Intention",
+        "Ownership",
+        "Monitoring",
+        "Validation"
+      ],
+      "correctAnswer": "Intention"
+    },
+    {
+      "id": "q106",
+      "type": "multiple-choice",
+      "topic": "Data Ethics and Privacy",
+      "question": "Good intentions lead to an analysis that unintentionally harms a group. What term does the module use for this kind of outcome?",
+      "explanation": "The module calls inadvertent harm to individuals or groups a disparate impact.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 47
+      },
+      "choices": [
+        "Disparate impact",
+        "Feature scaling",
+        "Model deployment",
+        "Data reduction"
+      ],
+      "correctAnswer": "Disparate impact"
+    },
+    {
+      "id": "q107",
+      "type": "multiple-answer",
+      "topic": "Data Ethics and Privacy",
+      "question": "Which FIVE principles of data ethics are presented across pages 46–47? Select 5.",
+      "explanation": "The five principles are ownership, transparency, privacy, intention, and outcomes.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 47
+      },
+      "choices": [
+        "Ownership",
+        "Transparency",
+        "Privacy",
+        "Intention",
+        "Outcomes",
+        "Scaling",
+        "Deployment"
+      ],
+      "correctAnswers": [
+        "Ownership",
+        "Transparency",
+        "Privacy",
+        "Intention",
+        "Outcomes"
+      ]
+    },
+    {
+      "id": "q108",
+      "type": "multiple-answer",
+      "topic": "Data Ethics and Privacy",
+      "question": "Which FOUR examples are explicitly shown as personally identifiable information? Select 4.",
+      "explanation": "The module gives full name, birthdate, phone number, bank account number, and street address as examples; four are selected here.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 46
+      },
+      "choices": [
+        "Full name",
+        "Birthdate",
+        "Phone number",
+        "Bank account number",
+        "Histogram",
+        "Standard deviation"
+      ],
+      "correctAnswers": [
+        "Full name",
+        "Birthdate",
+        "Phone number",
+        "Bank account number"
+      ]
+    },
+    {
+      "id": "q109",
+      "type": "true-false",
+      "topic": "Data Ethics and Privacy",
+      "question": "According to the ownership principle, collecting someone's personal data without consent is presented as unethical.",
+      "explanation": "The module states that collecting personal data without consent is unlawful and unethical.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 46
+      },
+      "correctAnswer": true
+    },
+    {
+      "id": "q110",
+      "type": "true-false",
+      "topic": "Data Ethics and Privacy",
+      "question": "Good intentions guarantee that data analysis cannot harm individuals or groups.",
+      "explanation": "The outcomes principle explicitly notes that inadvertent harm can occur even when intentions are good.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 47
+      },
+      "correctAnswer": false
+    },
+    {
+      "id": "q111",
+      "type": "fill-blank",
+      "topic": "Data Ethics and Privacy",
+      "question": "The principle requiring openness about how data will be collected, stored, and used is _____.",
+      "explanation": "The module calls this principle transparency.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 46
+      },
+      "acceptedAnswers": [
+        "transparency"
+      ]
+    },
+    {
+      "id": "q112",
+      "type": "fill-blank",
+      "topic": "Data Ethics and Privacy",
+      "question": "The principle concerning why data is being collected is _____.",
+      "explanation": "The module calls this principle intention.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 47
+      },
+      "acceptedAnswers": [
+        "intention"
+      ]
+    },
+    {
+      "id": "q113",
+      "type": "fill-blank",
+      "topic": "Data Ethics and Privacy",
+      "question": "Unintended harm to individuals or groups from analysis is called a disparate _____.",
+      "explanation": "The module uses the term disparate impact.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 47
+      },
+      "acceptedAnswers": [
+        "impact"
+      ]
+    },
+    {
+      "id": "q114",
+      "type": "multiple-choice",
+      "topic": "Data Rights and Governance",
+      "question": "Which of the following is shown as a data subject right?",
+      "explanation": "The module's rights diagram includes the right to access.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 50
+      },
+      "choices": [
+        "Right to access",
+        "Right to bypass validation",
+        "Right to remove monitoring",
+        "Right to avoid preprocessing"
+      ],
+      "correctAnswer": "Right to access"
+    },
+    {
+      "id": "q115",
+      "type": "multiple-choice",
+      "topic": "Data Rights and Governance",
+      "question": "Which right allows a data subject to challenge or oppose certain handling of their data?",
+      "explanation": "The diagram includes the right to object.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 50
+      },
+      "choices": [
+        "Right to object",
+        "Right to scaling",
+        "Right to deployment",
+        "Right to feature engineering"
+      ],
+      "correctAnswer": "Right to object"
+    },
+    {
+      "id": "q116",
+      "type": "multiple-choice",
+      "topic": "Data Rights and Governance",
+      "question": "What is data governance according to the module?",
+      "explanation": "Data governance is a set of principles and processes for data collection, management, and use.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 51
+      },
+      "choices": [
+        "Principles and processes for data collection, management, and use",
+        "A scaler that maps values to 0 and 1",
+        "A plotting method for distributions",
+        "A type of missing-value imputation"
+      ],
+      "correctAnswer": "Principles and processes for data collection, management, and use"
+    },
+    {
+      "id": "q117",
+      "type": "multiple-choice",
+      "topic": "Data Rights and Governance",
+      "question": "What is the goal of data governance described on page 51?",
+      "explanation": "The goal is accurate, consistent, available data for use while protecting privacy and security.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 51
+      },
+      "choices": [
+        "Accurate, consistent, available data with privacy and security protection",
+        "Maximum model complexity regardless of data quality",
+        "Removal of all organizational standards",
+        "Elimination of data management"
+      ],
+      "correctAnswer": "Accurate, consistent, available data with privacy and security protection"
+    },
+    {
+      "id": "q118",
+      "type": "multiple-choice",
+      "topic": "Data Rights and Governance",
+      "question": "How does a data governance framework differ from data governance itself?",
+      "explanation": "Governance describes what the organization needs to do; the framework describes how to do it through policies, procedures, and standards.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 51
+      },
+      "choices": [
+        "The framework describes how governance is implemented",
+        "The framework replaces all governance goals",
+        "Governance only applies to model scaling",
+        "There is no distinction in the module"
+      ],
+      "correctAnswer": "The framework describes how governance is implemented"
+    },
+    {
+      "id": "q119",
+      "type": "multiple-answer",
+      "topic": "Data Rights and Governance",
+      "question": "Which FOUR data subject rights appear in the module's rights diagram? Select 4.",
+      "explanation": "The diagram includes rights such as being informed, access, object, and data portability.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 50
+      },
+      "choices": [
+        "Right to be informed",
+        "Right to access",
+        "Right to object",
+        "Right to data portability",
+        "Right to skip preprocessing",
+        "Right to disable validation"
+      ],
+      "correctAnswers": [
+        "Right to be informed",
+        "Right to access",
+        "Right to object",
+        "Right to data portability"
+      ]
+    },
+    {
+      "id": "q120",
+      "type": "multiple-answer",
+      "topic": "Data Rights and Governance",
+      "question": "Which FOUR additional rights are shown in the same data-subject-rights diagram? Select 4.",
+      "explanation": "The diagram also shows rights to damages, erasure or blocking, file a complaint, and rectify.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 50
+      },
+      "choices": [
+        "Right to damages",
+        "Right to erasure or blocking",
+        "Right to file a complaint",
+        "Right to rectify",
+        "Right to model drift",
+        "Right to normalization"
+      ],
+      "correctAnswers": [
+        "Right to damages",
+        "Right to erasure or blocking",
+        "Right to file a complaint",
+        "Right to rectify"
+      ]
+    },
+    {
+      "id": "q121",
+      "type": "true-false",
+      "topic": "Data Rights and Governance",
+      "question": "The module says data governance should protect data privacy and security while supporting accurate, consistent, and available data.",
+      "explanation": "These are stated goals of data governance.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 51
+      },
+      "correctAnswer": true
+    },
+    {
+      "id": "q122",
+      "type": "fill-blank",
+      "topic": "Data Rights and Governance",
+      "question": "The organizational system of principles and processes for managing data is data _____.",
+      "explanation": "The module defines data governance in these terms.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 51
+      },
+      "acceptedAnswers": [
+        "governance"
+      ]
+    },
+    {
+      "id": "q123",
+      "type": "fill-blank",
+      "topic": "Data Rights and Governance",
+      "question": "The right allowing correction of data is the right to _____.",
+      "explanation": "The data subject rights diagram includes the right to rectify.",
+      "source": {
+        "module": "Module 1 - Introduction to Machine Learning",
+        "page": 50
+      },
+      "acceptedAnswers": [
+        "rectify"
+      ]
+    },
+    {
+      "id": "q124",
+      "type": "multiple-choice",
+      "topic": "Notebook - Data Loading",
+      "question": "What object is created to hold the table loaded by `pd.read_csv('diabetes 7.csv')` in the notebook?",
+      "explanation": "The notebook assigns the result of `pd.read_csv(...)` to `df`.",
+      "source": {
+        "module": "Diabetes.ipynb",
+        "page": 0
+      },
+      "choices": [
+        "df",
+        "shape",
+        "diabetes",
+        "data"
+      ],
+      "correctAnswer": "df"
+    },
+    {
+      "id": "q125",
+      "type": "multiple-choice",
+      "topic": "Notebook - Data Loading",
+      "question": "Which expression in the notebook is used to inspect the dimensions of the loaded DataFrame?",
+      "explanation": "The notebook assigns `df.shape` to the variable `shape`.",
+      "source": {
+        "module": "Diabetes.ipynb",
+        "page": 0
+      },
+      "choices": [
+        "df.shape",
+        "df.isna()",
+        "df.mode()",
+        "df.unique()"
+      ],
+      "correctAnswer": "df.shape"
+    },
+    {
+      "id": "q126",
+      "type": "multiple-choice",
+      "topic": "Notebook - Missing Values",
+      "question": "What does `df.isna()` produce in the notebook?",
+      "explanation": "The notebook prints `df.isna()`, which checks the DataFrame for missing values.",
+      "source": {
+        "module": "Diabetes.ipynb",
+        "page": 0
+      },
+      "choices": [
+        "A missing-value indicator",
+        "A list of unique categories",
+        "A scaled DataFrame",
+        "A list of invalid integers"
+      ],
+      "correctAnswer": "A missing-value indicator"
+    },
+    {
+      "id": "q127",
+      "type": "multiple-choice",
+      "topic": "Notebook - Missing Values",
+      "question": "What is stored in `missing_values_summary`?",
+      "explanation": "The notebook assigns `df.isna().sum()` to `missing_values_summary`, summarizing missing values by column.",
+      "source": {
+        "module": "Diabetes.ipynb",
+        "page": 0
+      },
+      "choices": [
+        "Column-wise missing-value counts",
+        "The DataFrame shape",
+        "The most frequent Outcome value",
+        "Scaled numeric values"
+      ],
+      "correctAnswer": "Column-wise missing-value counts"
+    },
+    {
+      "id": "q128",
+      "type": "multiple-choice",
+      "topic": "Notebook - Missing Values",
+      "question": "Which expression calculates the mean of the `Age` column?",
+      "explanation": "The notebook uses `df['Age'].mean()` and stores the result in `age_mean`.",
+      "source": {
+        "module": "Diabetes.ipynb",
+        "page": 0
+      },
+      "choices": [
+        "df['Age'].mean()",
+        "df['Age'].mode()",
+        "df['Age'].sum()",
+        "df['Age'].shape"
+      ],
+      "correctAnswer": "df['Age'].mean()"
+    },
+    {
+      "id": "q129",
+      "type": "multiple-choice",
+      "topic": "Notebook - Missing Values",
+      "question": "How does the notebook obtain the most frequent value in `Outcome`?",
+      "explanation": "It calls `mode()` on the Outcome column and then selects the first result with `.iloc[0]`.",
+      "source": {
+        "module": "Diabetes.ipynb",
+        "page": 0
+      },
+      "choices": [
+        "df['Outcome'].mode().iloc[0]",
+        "df['Outcome'].mean()",
+        "df['Outcome'].isna().sum()",
+        "df['Outcome'].unique()[0]"
+      ],
+      "correctAnswer": "df['Outcome'].mode().iloc[0]"
+    },
+    {
+      "id": "q130",
+      "type": "multiple-choice",
+      "topic": "Notebook - Imputation",
+      "question": "Which scikit-learn class is imported for the notebook's imputation examples?",
+      "explanation": "The notebook imports `SimpleImputer` from `sklearn.impute`.",
+      "source": {
+        "module": "Diabetes.ipynb",
+        "page": 0
+      },
+      "choices": [
+        "SimpleImputer",
+        "StandardScaler",
+        "MinMaxScaler",
+        "DataFrame"
+      ],
+      "correctAnswer": "SimpleImputer"
+    },
+    {
+      "id": "q131",
+      "type": "multiple-choice",
+      "topic": "Notebook - Imputation",
+      "question": "What strategy is assigned to `imputerMode`?",
+      "explanation": "The notebook constructs `SimpleImputer(strategy='most_frequent', missing_values=np.nan)`.",
+      "source": {
+        "module": "Diabetes.ipynb",
+        "page": 0
+      },
+      "choices": [
+        "most_frequent",
+        "mean",
+        "median",
+        "ordinal"
+      ],
+      "correctAnswer": "most_frequent"
+    },
+    {
+      "id": "q132",
+      "type": "multiple-choice",
+      "topic": "Notebook - Imputation",
+      "question": "What strategy is assigned to `imputerMean`?",
+      "explanation": "The notebook constructs `SimpleImputer(strategy='mean', missing_values=np.nan)`.",
+      "source": {
+        "module": "Diabetes.ipynb",
+        "page": 0
+      },
+      "choices": [
+        "mean",
+        "most_frequent",
+        "median",
+        "standard"
+      ],
+      "correctAnswer": "mean"
+    },
+    {
+      "id": "q133",
+      "type": "multiple-choice",
+      "topic": "Notebook - Imputation",
+      "question": "Which column is used when fitting `imputerMean` in the first mean-imputation example?",
+      "explanation": "The code calls `imputerMean.fit(df[['Age']])`.",
+      "source": {
+        "module": "Diabetes.ipynb",
+        "page": 0
+      },
+      "choices": [
+        "Age",
+        "Outcome",
+        "Income",
+        "DiabetesPedigreeFunction"
+      ],
+      "correctAnswer": "Age"
+    },
+    {
+      "id": "q134",
+      "type": "multiple-choice",
+      "topic": "Notebook - Imputation",
+      "question": "What does `imputerMean.transform(df[['Age']])` do in the first imputer example?",
+      "explanation": "The notebook uses `transform` to produce the imputed Age values, which are then assigned back to the Age column.",
+      "source": {
+        "module": "Diabetes.ipynb",
+        "page": 0
+      },
+      "choices": [
+        "Transforms the Age values using the fitted mean imputer",
+        "Counts missing Age values",
+        "Finds the most frequent Outcome",
+        "Scales every numeric column"
+      ],
+      "correctAnswer": "Transforms the Age values using the fitted mean imputer"
+    },
+    {
+      "id": "q135",
+      "type": "multiple-choice",
+      "topic": "Notebook - Imputation",
+      "question": "In the mode-imputation example, which column is passed to `fit()`?",
+      "explanation": "The code fits `imputerMode` using `df[['Outcome']]`.",
+      "source": {
+        "module": "Diabetes.ipynb",
+        "page": 0
+      },
+      "choices": [
+        "Outcome",
+        "Age",
+        "Income",
+        "MaritalStatus"
+      ],
+      "correctAnswer": "Outcome"
+    },
+    {
+      "id": "q136",
+      "type": "multiple-choice",
+      "topic": "Notebook - Validation Function",
+      "question": "What is the main purpose of `validate_integer_values(df, column_name)`?",
+      "explanation": "The function checks whether values in the specified column can be converted to integers and records invalid positions.",
+      "source": {
+        "module": "Diabetes.ipynb",
+        "page": 0
+      },
+      "choices": [
+        "Find positions containing invalid integer values",
+        "Fill all missing values with a mean",
+        "Scale a numeric column",
+        "Plot category means"
+      ],
+      "correctAnswer": "Find positions containing invalid integer values"
+    },
+    {
+      "id": "q137",
+      "type": "multiple-choice",
+      "topic": "Notebook - Validation Function",
+      "question": "Why does the validation function use `enumerate(df[column_name])`?",
+      "explanation": "The loop needs both the position (`idx`) and the corresponding value.",
+      "source": {
+        "module": "Diabetes.ipynb",
+        "page": 0
+      },
+      "choices": [
+        "To get both index and value",
+        "To sort the column automatically",
+        "To scale each value",
+        "To calculate the column mean"
+      ],
+      "correctAnswer": "To get both index and value"
+    },
+    {
+      "id": "q138",
+      "type": "multiple-choice",
+      "topic": "Notebook - Validation Function",
+      "question": "What happens inside the `try` block of `validate_integer_values`?",
+      "explanation": "The code attempts `int(value)` and stores the result in `int_value`.",
+      "source": {
+        "module": "Diabetes.ipynb",
+        "page": 0
+      },
+      "choices": [
+        "The value is converted to an integer",
+        "The value is converted to a float",
+        "The value is replaced with the mean",
+        "The value is plotted"
+      ],
+      "correctAnswer": "The value is converted to an integer"
+    },
+    {
+      "id": "q139",
+      "type": "multiple-choice",
+      "topic": "Notebook - Validation Function",
+      "question": "Which exceptions are caught when integer conversion fails?",
+      "explanation": "The function catches `ValueError` and `TypeError`.",
+      "source": {
+        "module": "Diabetes.ipynb",
+        "page": 0
+      },
+      "choices": [
+        "ValueError and TypeError",
+        "KeyError and IndexError",
+        "NameError and SyntaxError",
+        "ZeroDivisionError and OverflowError"
+      ],
+      "correctAnswer": "ValueError and TypeError"
+    },
+    {
+      "id": "q140",
+      "type": "multiple-choice",
+      "topic": "Notebook - Validation Function",
+      "question": "What is appended to `invalid_indices` when an invalid value is found?",
+      "explanation": "The function creates `noise_loc = idx` and appends `noise_loc+2`.",
+      "source": {
+        "module": "Diabetes.ipynb",
+        "page": 0
+      },
+      "choices": [
+        "idx + 2",
+        "idx",
+        "idx + 1",
+        "value"
+      ],
+      "correctAnswer": "idx + 2"
+    },
+    {
+      "id": "q141",
+      "type": "multiple-choice",
+      "topic": "Notebook - Missing Check Function",
+      "question": "What does `check_missing_values(df, column_name)` return when missing values are found?",
+      "explanation": "The function returns a list of positions where `pd.isnull(value)` is true.",
+      "source": {
+        "module": "Diabetes.ipynb",
+        "page": 0
+      },
+      "choices": [
+        "A list of missing-value indices",
+        "The missing-value count only",
+        "The mean value",
+        "A scaled column"
+      ],
+      "correctAnswer": "A list of missing-value indices"
+    },
+    {
+      "id": "q142",
+      "type": "multiple-choice",
+      "topic": "Notebook - Missing Check Function",
+      "question": "Which function is used to test whether a value is missing inside `check_missing_values`?",
+      "explanation": "The notebook uses `pd.isnull(value)` in the conditional.",
+      "source": {
+        "module": "Diabetes.ipynb",
+        "page": 0
+      },
+      "choices": [
+        "pd.isnull",
+        "pd.unique",
+        "pd.mean",
+        "pd.shape"
+      ],
+      "correctAnswer": "pd.isnull"
+    },
+    {
+      "id": "q143",
+      "type": "multiple-choice",
+      "topic": "Notebook - Missing Check Function",
+      "question": "What is appended to `missing_indices` when a missing value is detected?",
+      "explanation": "The code appends `idx+2`.",
+      "source": {
+        "module": "Diabetes.ipynb",
+        "page": 0
+      },
+      "choices": [
+        "idx + 2",
+        "idx",
+        "idx + 1",
+        "value"
+      ],
+      "correctAnswer": "idx + 2"
+    },
+    {
+      "id": "q144",
+      "type": "multiple-choice",
+      "topic": "Notebook - Manual Imputation",
+      "question": "In method 1 of the missing-age example, what value is assigned to `age_mean`?",
+      "explanation": "The notebook computes `df['Age'].mean()` and stores it in `age_mean`.",
+      "source": {
+        "module": "Diabetes.ipynb",
+        "page": 0
+      },
+      "choices": [
+        "The mean of Age",
+        "The most frequent Outcome",
+        "The first Age value",
+        "The maximum Age"
+      ],
+      "correctAnswer": "The mean of Age"
+    },
+    {
+      "id": "q145",
+      "type": "multiple-choice",
+      "topic": "Notebook - Manual Imputation",
+      "question": "Which rows are directly assigned `age_mean` in method 1?",
+      "explanation": "The code uses `df.loc[[0, 2], 'Age'] = age_mean`.",
+      "source": {
+        "module": "Diabetes.ipynb",
+        "page": 0
+      },
+      "choices": [
+        "Rows 0 and 2",
+        "Rows 1 and 2",
+        "Rows 0 and 1",
+        "Rows 2 and 3"
+      ],
+      "correctAnswer": "Rows 0 and 2"
+    },
+    {
+      "id": "q146",
+      "type": "multiple-choice",
+      "topic": "Notebook - Imputation Methods",
+      "question": "What distinguishes method 2 from method 3 in the notebook?",
+      "explanation": "Method 2 transforms all Age values after fitting, while method 3 selects only positions 0 and 2 from the transformed results.",
+      "source": {
+        "module": "Diabetes.ipynb",
+        "page": 0
+      },
+      "choices": [
+        "Method 2 assigns the full transformed column; method 3 assigns only selected positions",
+        "Method 2 uses mode; method 3 uses median",
+        "Method 2 scales data; method 3 imputes Outcome",
+        "There is no difference"
+      ],
+      "correctAnswer": "Method 2 assigns the full transformed column; method 3 assigns only selected positions"
+    },
+    {
+      "id": "q147",
+      "type": "multiple-choice",
+      "topic": "Notebook - DataFrame Selection",
+      "question": "What does `df[['Age']]` return in these notebook examples?",
+      "explanation": "The double-bracket selection is used when passing the Age column as a one-column DataFrame to the imputer.",
+      "source": {
+        "module": "Diabetes.ipynb",
+        "page": 0
+      },
+      "choices": [
+        "A one-column DataFrame",
+        "A scalar mean",
+        "A list of row indices",
+        "A boolean mask"
+      ],
+      "correctAnswer": "A one-column DataFrame"
+    },
+    {
+      "id": "q148",
+      "type": "multiple-choice",
+      "topic": "Notebook - Cardio Analysis",
+      "question": "Which dataset is loaded before the notebook computes mean income by marital status?",
+      "explanation": "The code calls `pd.read_csv('CardioGoodFitness 4.csv')`.",
+      "source": {
+        "module": "Diabetes.ipynb",
+        "page": 0
+      },
+      "choices": [
+        "CardioGoodFitness 4.csv",
+        "diabetes 7.csv",
+        "diabetes_noise 5.csv",
+        "diabetes_NaN_age 2.csv"
+      ],
+      "correctAnswer": "CardioGoodFitness 4.csv"
+    },
+    {
+      "id": "q149",
+      "type": "multiple-choice",
+      "topic": "Notebook - Cardio Analysis",
+      "question": "Which two marital-status categories are used to calculate separate mean incomes?",
+      "explanation": "The notebook initializes `categories = ['Single','Partnered']` and filters on those two values.",
+      "source": {
+        "module": "Diabetes.ipynb",
+        "page": 0
+      },
+      "choices": [
+        "Single and Partnered",
+        "Married and Divorced",
+        "Single and Married",
+        "Partnered and Widowed"
+      ],
+      "correctAnswer": "Single and Partnered"
+    },
+    {
+      "id": "q150",
+      "type": "multiple-choice",
+      "topic": "Notebook - Cardio Analysis",
+      "question": "Which expression computes the mean income for Single records?",
+      "explanation": "The code filters rows whose MaritalStatus equals Single, selects Income, and calls mean().",
+      "source": {
+        "module": "Diabetes.ipynb",
+        "page": 0
+      },
+      "choices": [
+        "df_cardio.loc[df_cardio['MaritalStatus'] == 'Single', 'Income'].mean()",
+        "df_cardio['Income'].mean()",
+        "df_cardio['MaritalStatus'].mean()",
+        "df_cardio.loc['Single','Income'].sum()"
+      ],
+      "correctAnswer": "df_cardio.loc[df_cardio['MaritalStatus'] == 'Single', 'Income'].mean()"
+    },
+    {
+      "id": "q151",
+      "type": "multiple-choice",
+      "topic": "Notebook - Cardio Visualization",
+      "question": "Why is `round(mean_income_single,2)` used?",
+      "explanation": "The notebook rounds the mean income to two decimal places before converting it to float and storing it in `values`.",
+      "source": {
+        "module": "Diabetes.ipynb",
+        "page": 0
+      },
+      "choices": [
+        "To round the mean to two decimal places",
+        "To find two missing rows",
+        "To select two categories",
+        "To scale values between 0 and 1"
+      ],
+      "correctAnswer": "To round the mean to two decimal places"
+    },
+    {
+      "id": "q152",
+      "type": "multiple-choice",
+      "topic": "Notebook - Cardio Visualization",
+      "question": "Which plotting function is used to create the marital-status income chart?",
+      "explanation": "The notebook uses `plt.bar(...)`.",
+      "source": {
+        "module": "Diabetes.ipynb",
+        "page": 0
+      },
+      "choices": [
+        "plt.bar",
+        "plt.hist",
+        "plt.scatter",
+        "plt.pie"
+      ],
+      "correctAnswer": "plt.bar"
+    },
+    {
+      "id": "q153",
+      "type": "multiple-choice",
+      "topic": "Notebook - Cardio Visualization",
+      "question": "What is placed on the x-axis of the chart?",
+      "explanation": "The notebook labels the x-axis `Marital Status`.",
+      "source": {
+        "module": "Diabetes.ipynb",
+        "page": 0
+      },
+      "choices": [
+        "Marital Status",
+        "Income",
+        "Age",
+        "Outcome"
+      ],
+      "correctAnswer": "Marital Status"
+    },
+    {
+      "id": "q154",
+      "type": "multiple-choice",
+      "topic": "Notebook - StandardScaler",
+      "question": "Which column is selected for the notebook's StandardScaler example?",
+      "explanation": "The notebook sets `column_to_scale = df[['DiabetesPedigreeFunction']]`.",
+      "source": {
+        "module": "Diabetes.ipynb",
+        "page": 0
+      },
+      "choices": [
+        "DiabetesPedigreeFunction",
+        "Age",
+        "Outcome",
+        "Income"
+      ],
+      "correctAnswer": "DiabetesPedigreeFunction"
+    },
+    {
+      "id": "q155",
+      "type": "multiple-choice",
+      "topic": "Notebook - StandardScaler",
+      "question": "Which object is instantiated before scaling the selected column?",
+      "explanation": "The code creates `scaler = StandardScaler()`.",
+      "source": {
+        "module": "Diabetes.ipynb",
+        "page": 0
+      },
+      "choices": [
+        "StandardScaler",
+        "SimpleImputer",
+        "MinMaxScaler",
+        "DataFrame"
+      ],
+      "correctAnswer": "StandardScaler"
+    },
+    {
+      "id": "q156",
+      "type": "multiple-choice",
+      "topic": "Notebook - StandardScaler",
+      "question": "Which method both fits the StandardScaler and transforms the selected column in one statement?",
+      "explanation": "The notebook uses `scaler.fit_transform(column_to_scale)`.",
+      "source": {
+        "module": "Diabetes.ipynb",
+        "page": 0
+      },
+      "choices": [
+        "fit_transform",
+        "transform_fit",
+        "fit",
+        "scale"
+      ],
+      "correctAnswer": "fit_transform"
+    },
+    {
+      "id": "q157",
+      "type": "multiple-choice",
+      "topic": "Notebook - StandardScaler",
+      "question": "Where are the standardized values stored after transformation?",
+      "explanation": "The notebook assigns the result to `scaled_column`.",
+      "source": {
+        "module": "Diabetes.ipynb",
+        "page": 0
+      },
+      "choices": [
+        "scaled_column",
+        "column_to_scale",
+        "numeric_cols",
+        "shape"
+      ],
+      "correctAnswer": "scaled_column"
+    },
+    {
+      "id": "q158",
+      "type": "multiple-choice",
+      "topic": "Notebook - StandardScaler",
+      "question": "What new DataFrame column is created to store the standardized DiabetesPedigreeFunction?",
+      "explanation": "The notebook assigns `scaled_column` to `df['Scaled_DPF']`.",
+      "source": {
+        "module": "Diabetes.ipynb",
+        "page": 0
+      },
+      "choices": [
+        "Scaled_DPF",
+        "Scaled_Age",
+        "DPF_Scale",
+        "Standard_DPF"
+      ],
+      "correctAnswer": "Scaled_DPF"
+    },
+    {
+      "id": "q159",
+      "type": "multiple-choice",
+      "topic": "Notebook - MinMaxScaler",
+      "question": "What does `df.select_dtypes(include='number').columns` identify in the notebook?",
+      "explanation": "It identifies the columns whose data types are numeric.",
+      "source": {
+        "module": "Diabetes.ipynb",
+        "page": 0
+      },
+      "choices": [
+        "Numeric columns",
+        "Only categorical columns",
+        "Only missing-value columns",
+        "Rows containing invalid values"
+      ],
+      "correctAnswer": "Numeric columns"
+    },
+    {
+      "id": "q160",
+      "type": "multiple-choice",
+      "topic": "Notebook - MinMaxScaler",
+      "question": "Which scaler is instantiated in the final scaling example?",
+      "explanation": "The notebook imports and creates `MinMaxScaler()`.",
+      "source": {
+        "module": "Diabetes.ipynb",
+        "page": 0
+      },
+      "choices": [
+        "MinMaxScaler",
+        "StandardScaler",
+        "SimpleImputer",
+        "OrdinalEncoder"
+      ],
+      "correctAnswer": "MinMaxScaler"
+    },
+    {
+      "id": "q161",
+      "type": "multiple-choice",
+      "topic": "Notebook - MinMaxScaler",
+      "question": "What subset of the DataFrame is transformed in the final scaling example?",
+      "explanation": "The code selects numeric columns and assigns the transformed values back to those columns.",
+      "source": {
+        "module": "Diabetes.ipynb",
+        "page": 0
+      },
+      "choices": [
+        "All numeric columns",
+        "Only DiabetesPedigreeFunction",
+        "Only Age",
+        "Only categorical columns"
+      ],
+      "correctAnswer": "All numeric columns"
+    },
+    {
+      "id": "q162",
+      "type": "multiple-choice",
+      "topic": "Notebook - MinMaxScaler",
+      "question": "What happens to the numeric columns after the final `fit_transform` call?",
+      "explanation": "The notebook assigns the transformed numeric values back into `df[numeric_cols]`.",
+      "source": {
+        "module": "Diabetes.ipynb",
+        "page": 0
+      },
+      "choices": [
+        "They are replaced by their MinMax-scaled values",
+        "They are deleted",
+        "They become strings",
+        "They are replaced by means"
+      ],
+      "correctAnswer": "They are replaced by their MinMax-scaled values"
+    },
+    {
+      "id": "q163",
+      "type": "multiple-answer",
+      "topic": "Notebook - Imports",
+      "question": "Which FOUR libraries or modules are explicitly imported in the notebook for data/ML work? Select 4.",
+      "explanation": "The notebook imports mglearn, matplotlib.pyplot, numpy, and pandas, among others; these four are directly visible in the early setup cell.",
+      "source": {
+        "module": "Diabetes.ipynb",
+        "page": 0
+      },
+      "choices": [
+        "mglearn",
+        "matplotlib.pyplot",
+        "numpy",
+        "pandas",
+        "seaborn",
+        "tensorflow"
+      ],
+      "correctAnswers": [
+        "mglearn",
+        "matplotlib.pyplot",
+        "numpy",
+        "pandas"
+      ]
+    },
+    {
+      "id": "q164",
+      "type": "multiple-answer",
+      "topic": "Notebook - Missing Values",
+      "question": "Which THREE operations are explicitly used to inspect or summarize missing values? Select 3.",
+      "explanation": "The notebook uses `df.isna()`, `df.isna().sum()`, and `pd.isnull(value)` in its missing-value checks.",
+      "source": {
+        "module": "Diabetes.ipynb",
+        "page": 0
+      },
+      "choices": [
+        "df.isna()",
+        "df.isna().sum()",
+        "pd.isnull(value)",
+        "plt.bar(...)",
+        "StandardScaler()",
+        "df.shape"
+      ],
+      "correctAnswers": [
+        "df.isna()",
+        "df.isna().sum()",
+        "pd.isnull(value)"
+      ]
+    },
+    {
+      "id": "q165",
+      "type": "multiple-answer",
+      "topic": "Notebook - Imputation",
+      "question": "Which THREE objects/operations are part of the notebook's `SimpleImputer` workflow? Select 3.",
+      "explanation": "The notebook creates `SimpleImputer` instances, calls `fit`, and calls `transform`.",
+      "source": {
+        "module": "Diabetes.ipynb",
+        "page": 0
+      },
+      "choices": [
+        "SimpleImputer(...)",
+        "fit(...)",
+        "transform(...)",
+        "plt.xlabel(...)",
+        "select_dtypes(...)"
+      ],
+      "correctAnswers": [
+        "SimpleImputer(...)",
+        "fit(...)",
+        "transform(...)"
+      ]
+    },
+    {
+      "id": "q166",
+      "type": "multiple-answer",
+      "topic": "Notebook - Validation Function",
+      "question": "Which THREE pieces of logic are part of `validate_integer_values`? Select 3.",
+      "explanation": "The function uses enumerate to obtain index/value pairs, attempts integer conversion, and catches ValueError or TypeError.",
+      "source": {
+        "module": "Diabetes.ipynb",
+        "page": 0
+      },
+      "choices": [
+        "enumerate(...)",
+        "int(value)",
+        "except (ValueError, TypeError)",
+        "plt.bar(...)",
+        "df.shape"
+      ],
+      "correctAnswers": [
+        "enumerate(...)",
+        "int(value)",
+        "except (ValueError, TypeError)"
+      ]
+    },
+    {
+      "id": "q167",
+      "type": "multiple-answer",
+      "topic": "Notebook - Imputation Methods",
+      "question": "Which THREE approaches are demonstrated for filling missing Age values? Select 3.",
+      "explanation": "The notebook shows direct mean assignment, a SimpleImputer mean transform for the whole column, and a SimpleImputer mean transform used only for selected positions.",
+      "source": {
+        "module": "Diabetes.ipynb",
+        "page": 0
+      },
+      "choices": [
+        "Direct assignment from age_mean",
+        "SimpleImputer applied to the full Age column",
+        "SimpleImputer results assigned to selected positions",
+        "Mode imputation on Income",
+        "MinMax scaling of Age"
+      ],
+      "correctAnswers": [
+        "Direct assignment from age_mean",
+        "SimpleImputer applied to the full Age column",
+        "SimpleImputer results assigned to selected positions"
+      ]
+    },
+    {
+      "id": "q168",
+      "type": "multiple-answer",
+      "topic": "Notebook - Visualization",
+      "question": "Which THREE plotting customizations are explicitly set in the notebook's mean-income chart? Select 3.",
+      "explanation": "The chart explicitly sets the x-axis label, y-axis label, and title.",
+      "source": {
+        "module": "Diabetes.ipynb",
+        "page": 0
+      },
+      "choices": [
+        "xlabel('Marital Status')",
+        "ylabel('Income')",
+        "title('Mean Income')",
+        "legend('Income')",
+        "xscale('log')"
+      ],
+      "correctAnswers": [
+        "xlabel('Marital Status')",
+        "ylabel('Income')",
+        "title('Mean Income')"
+      ]
+    },
+    {
+      "id": "q169",
+      "type": "multiple-answer",
+      "topic": "Notebook - Scaling",
+      "question": "Which TWO scaler classes are explicitly used in the notebook? Select 2.",
+      "explanation": "The notebook contains a StandardScaler example and a MinMaxScaler example.",
+      "source": {
+        "module": "Diabetes.ipynb",
+        "page": 0
+      },
+      "choices": [
+        "StandardScaler",
+        "MinMaxScaler",
+        "SimpleImputer",
+        "OrdinalEncoder"
+      ],
+      "correctAnswers": [
+        "StandardScaler",
+        "MinMaxScaler"
+      ]
+    },
+    {
+      "id": "q170",
+      "type": "multiple-answer",
+      "topic": "Notebook - Scaling",
+      "question": "Which TWO statements describe the two scaling examples as written? Select 2.",
+      "explanation": "The first scales one selected numeric feature; the final example scales all numeric columns selected through `select_dtypes`.",
+      "source": {
+        "module": "Diabetes.ipynb",
+        "page": 0
+      },
+      "choices": [
+        "StandardScaler is applied to DiabetesPedigreeFunction",
+        "MinMaxScaler is applied to all selected numeric columns",
+        "StandardScaler is applied to all categorical columns",
+        "MinMaxScaler is applied only to Outcome"
+      ],
+      "correctAnswers": [
+        "StandardScaler is applied to DiabetesPedigreeFunction",
+        "MinMaxScaler is applied to all selected numeric columns"
+      ]
+    },
+    {
+      "id": "q171",
+      "type": "true-false",
+      "topic": "Notebook - Data Loading",
+      "question": "The notebook uses `pd.read_csv` to load the Diabetes dataset into `df`.",
+      "explanation": "The notebook contains `df = pd.read_csv('diabetes 7.csv')`.",
+      "source": {
+        "module": "Diabetes.ipynb",
+        "page": 0
+      },
+      "correctAnswer": true
+    },
+    {
+      "id": "q172",
+      "type": "true-false",
+      "topic": "Notebook - Missing Values",
+      "question": "`df.isna().sum()` is stored in `missing_values_summary`.",
+      "explanation": "This exact assignment appears in the notebook.",
+      "source": {
+        "module": "Diabetes.ipynb",
+        "page": 0
+      },
+      "correctAnswer": true
+    },
+    {
+      "id": "q173",
+      "type": "true-false",
+      "topic": "Notebook - Imputation",
+      "question": "The notebook uses `most_frequent` as the strategy for `imputerMean`.",
+      "explanation": "The notebook uses `strategy='mean'` for `imputerMean`; `most_frequent` is used for `imputerMode`.",
+      "source": {
+        "module": "Diabetes.ipynb",
+        "page": 0
+      },
+      "correctAnswer": false
+    },
+    {
+      "id": "q174",
+      "type": "true-false",
+      "topic": "Notebook - Validation Function",
+      "question": "The validation function appends the original `idx` without modification when it finds an invalid value.",
+      "explanation": "The code appends `noise_loc+2`, where `noise_loc = idx`.",
+      "source": {
+        "module": "Diabetes.ipynb",
+        "page": 0
+      },
+      "correctAnswer": false
+    },
+    {
+      "id": "q175",
+      "type": "true-false",
+      "topic": "Notebook - Missing Check Function",
+      "question": "`pd.isnull(value)` is used as the condition for detecting a missing value.",
+      "explanation": "The function contains `if pd.isnull(value):`.",
+      "source": {
+        "module": "Diabetes.ipynb",
+        "page": 0
+      },
+      "correctAnswer": true
+    },
+    {
+      "id": "q176",
+      "type": "true-false",
+      "topic": "Notebook - Cardio Analysis",
+      "question": "The notebook converts the rounded income means back to float before building `values`.",
+      "explanation": "It constructs `values = [float(truncate_mean_single), float(truncate_mean_partnered)]`.",
+      "source": {
+        "module": "Diabetes.ipynb",
+        "page": 0
+      },
+      "correctAnswer": true
+    },
+    {
+      "id": "q177",
+      "type": "true-false",
+      "topic": "Notebook - StandardScaler",
+      "question": "The StandardScaler example creates a new column named `Scaled_DPF`.",
+      "explanation": "The notebook assigns the scaled values to `df['Scaled_DPF']`.",
+      "source": {
+        "module": "Diabetes.ipynb",
+        "page": 0
+      },
+      "correctAnswer": true
+    },
+    {
+      "id": "q178",
+      "type": "true-false",
+      "topic": "Notebook - MinMaxScaler",
+      "question": "The final scaling example selects numeric columns using `select_dtypes(include='number')`.",
+      "explanation": "That exact selection is used to define `numeric_cols`.",
+      "source": {
+        "module": "Diabetes.ipynb",
+        "page": 0
+      },
+      "correctAnswer": true
+    },
+    {
+      "id": "q179",
+      "type": "fill-blank",
+      "topic": "Notebook - Data Loading",
+      "question": "The notebook loads a CSV into the DataFrame named _____.",
+      "explanation": "The code assigns the CSV result to `df`.",
+      "source": {
+        "module": "Diabetes.ipynb",
+        "page": 0
+      },
+      "acceptedAnswers": [
+        "df"
+      ]
+    },
+    {
+      "id": "q180",
+      "type": "fill-blank",
+      "topic": "Notebook - Missing Values",
+      "question": "The expression used to summarize missing values by column is `df.isna()._____`.",
+      "explanation": "The notebook uses `df.isna().sum()`.",
+      "source": {
+        "module": "Diabetes.ipynb",
+        "page": 0
+      },
+      "acceptedAnswers": [
+        "sum"
+      ]
+    },
+    {
+      "id": "q181",
+      "type": "fill-blank",
+      "topic": "Notebook - Missing Values",
+      "question": "The notebook stores the average age in the variable `age_____`.",
+      "explanation": "The variable is named `age_mean`.",
+      "source": {
+        "module": "Diabetes.ipynb",
+        "page": 0
+      },
+      "acceptedAnswers": [
+        "mean"
+      ]
+    },
+    {
+      "id": "q182",
+      "type": "fill-blank",
+      "topic": "Notebook - Imputation",
+      "question": "The notebook imports `Simple_____` for missing-value imputation.",
+      "explanation": "The imported class is `SimpleImputer`.",
+      "source": {
+        "module": "Diabetes.ipynb",
+        "page": 0
+      },
+      "acceptedAnswers": [
+        "Imputer"
+      ]
+    },
+    {
+      "id": "q183",
+      "type": "fill-blank",
+      "topic": "Notebook - Imputation",
+      "question": "The `imputerMode` object uses the strategy `most_____`.",
+      "explanation": "The strategy string is `most_frequent`.",
+      "source": {
+        "module": "Diabetes.ipynb",
+        "page": 0
+      },
+      "acceptedAnswers": [
+        "frequent"
+      ]
+    },
+    {
+      "id": "q184",
+      "type": "fill-blank",
+      "topic": "Notebook - Imputation",
+      "question": "The `imputerMean` object uses the strategy `_____`.",
+      "explanation": "The strategy string is `mean`.",
+      "source": {
+        "module": "Diabetes.ipynb",
+        "page": 0
+      },
+      "acceptedAnswers": [
+        "mean"
+      ]
+    },
+    {
+      "id": "q185",
+      "type": "fill-blank",
+      "topic": "Notebook - Validation Function",
+      "question": "The loop obtains both an index and a value with `_____`.",
+      "explanation": "The notebook uses `enumerate(df[column_name])`.",
+      "source": {
+        "module": "Diabetes.ipynb",
+        "page": 0
+      },
+      "acceptedAnswers": [
+        "enumerate"
+      ]
+    },
+    {
+      "id": "q186",
+      "type": "fill-blank",
+      "topic": "Notebook - Validation Function",
+      "question": "The function attempts to convert each value with `_____ (value)`.",
+      "explanation": "The code calls the built-in `int(value)`.",
+      "source": {
+        "module": "Diabetes.ipynb",
+        "page": 0
+      },
+      "acceptedAnswers": [
+        "int"
+      ]
+    },
+    {
+      "id": "q187",
+      "type": "fill-blank",
+      "topic": "Notebook - Missing Check Function",
+      "question": "The notebook tests for a missing value with `pd._____ (value)`.",
+      "explanation": "The missing-value check is `pd.isnull(value)`.",
+      "source": {
+        "module": "Diabetes.ipynb",
+        "page": 0
+      },
+      "acceptedAnswers": [
+        "isnull"
+      ]
+    },
+    {
+      "id": "q188",
+      "type": "fill-blank",
+      "topic": "Notebook - Cardio Analysis",
+      "question": "The notebook rounds each mean income using the built-in `_____` function.",
+      "explanation": "The code calls `round(mean_income_single,2)` and the corresponding partnered calculation.",
+      "source": {
+        "module": "Diabetes.ipynb",
+        "page": 0
+      },
+      "acceptedAnswers": [
+        "round"
+      ]
+    },
+    {
+      "id": "q189",
+      "type": "fill-blank",
+      "topic": "Notebook - Cardio Visualization",
+      "question": "The chart is created with `plt._____(['Single','Partnered'], values, ...)`.",
+      "explanation": "The notebook uses `plt.bar(...)`.",
+      "source": {
+        "module": "Diabetes.ipynb",
+        "page": 0
+      },
+      "acceptedAnswers": [
+        "bar"
+      ]
+    },
+    {
+      "id": "q190",
+      "type": "fill-blank",
+      "topic": "Notebook - StandardScaler",
+      "question": "The notebook imports `Standard_____` from `sklearn.preprocessing`.",
+      "explanation": "The scaler class is `StandardScaler`.",
+      "source": {
+        "module": "Diabetes.ipynb",
+        "page": 0
+      },
+      "acceptedAnswers": [
+        "Scaler"
+      ]
+    },
+    {
+      "id": "q191",
+      "type": "fill-blank",
+      "topic": "Notebook - StandardScaler",
+      "question": "The combined scaler operation is written as `scaler._____ (column_to_scale)`.",
+      "explanation": "The notebook uses `fit_transform` to fit and transform the selected column.",
+      "source": {
+        "module": "Diabetes.ipynb",
+        "page": 0
+      },
+      "acceptedAnswers": [
+        "fit_transform"
+      ]
+    },
+    {
+      "id": "q192",
+      "type": "fill-blank",
+      "topic": "Notebook - StandardScaler",
+      "question": "The standardized feature is saved in the DataFrame column `_____`.",
+      "explanation": "The code assigns the scaled column to `df['Scaled_DPF']`.",
+      "source": {
+        "module": "Diabetes.ipynb",
+        "page": 0
+      },
+      "acceptedAnswers": [
+        "Scaled_DPF"
+      ]
+    },
+    {
+      "id": "q193",
+      "type": "fill-blank",
+      "topic": "Notebook - MinMaxScaler",
+      "question": "The final example instantiates a `MinMax_____` object.",
+      "explanation": "The scaler class is `MinMaxScaler`.",
+      "source": {
+        "module": "Diabetes.ipynb",
+        "page": 0
+      },
+      "acceptedAnswers": [
+        "Scaler"
+      ]
+    },
+    {
+      "id": "q194",
+      "type": "fill-blank",
+      "topic": "Notebook - MinMaxScaler",
+      "question": "The notebook identifies numeric columns with `select_dtypes(include='_____')`.",
+      "explanation": "The code uses `include='number'`.",
+      "source": {
+        "module": "Diabetes.ipynb",
+        "page": 0
+      },
+      "acceptedAnswers": [
+        "number"
+      ]
+    },
+    {
+      "id": "q195",
+      "type": "fill-blank",
+      "topic": "Notebook - MinMaxScaler",
+      "question": "The transformed numeric values are assigned back to `df[_____ ]`.",
+      "explanation": "The assignment is `df[numeric_cols] = scaler.fit_transform(df[numeric_cols])`.",
+      "source": {
+        "module": "Diabetes.ipynb",
+        "page": 0
+      },
+      "acceptedAnswers": [
+        "numeric_cols"
+      ]
+    }
+  ]
+}
