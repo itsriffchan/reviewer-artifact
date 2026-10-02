@@ -2175,7 +2175,7 @@
       "choices": [
         "mean approximately 0",
         "StandardScaler",
-        "StandardScaler",
+        "sensitive to outliers",
         "MinMaxScaler"
       ],
       "correctAnswer": "mean approximately 0",
@@ -2271,7 +2271,7 @@
       "choices": [
         "negative values",
         "MinMaxScaler",
-        "MinMaxScaler",
+        "sensitive to outliers",
         "StandardScaler"
       ],
       "correctAnswer": "negative values",
@@ -2624,7 +2624,7 @@
         "MinMaxScaler",
         "StandardScaler",
         "easy to interpret",
-        "StandardScaler"
+        "sensitive to outliers"
       ],
       "correctAnswer": "MinMaxScaler",
       "explanation": "The handout recommends MinMaxScaler for neural networks or deep learning models.",
@@ -2656,7 +2656,7 @@
         "MinMaxScaler",
         "StandardScaler",
         "easy to interpret",
-        "StandardScaler"
+        "sensitive to outliers"
       ],
       "correctAnswer": "MinMaxScaler",
       "explanation": "The handout recommends MinMaxScaler when data must be within a fixed range.",
@@ -2688,7 +2688,7 @@
         "MinMaxScaler",
         "StandardScaler",
         "easy to interpret",
-        "StandardScaler"
+        "sensitive to outliers"
       ],
       "correctAnswer": "MinMaxScaler",
       "explanation": "The handout recommends MinMaxScaler when features have different units and scales.",
@@ -2720,7 +2720,7 @@
         "MinMaxScaler",
         "StandardScaler",
         "easy to interpret",
-        "StandardScaler"
+        "sensitive to outliers"
       ],
       "correctAnswer": "MinMaxScaler",
       "explanation": "The handout recommends MinMaxScaler when inputs are expected to be between 0 and 1.",
@@ -4636,7 +4636,7 @@
         "MinMaxScaler",
         "StandardScaler",
         "easy to interpret",
-        "StandardScaler"
+        "sensitive to outliers"
       ],
       "correctAnswer": "MinMaxScaler",
       "explanation": "The handout recommends MinMaxScaler for neural networks or deep learning models.",
